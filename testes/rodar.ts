@@ -3043,6 +3043,24 @@ for (const mat of MATERIAIS.filter((x) => x.tipo === 'Borracha')) {
   );
 }
 
+/* ───── lamina sem construcao tem que dizer por que ─────
+   Construcao e' pra lamina o que dureza e' pra borracha: o dado estrutural que
+   o resto da ficha nao substitui. Em 2026-08-23 havia 32 laminas sem ele — e 21
+   eram Butterfly, com a composicao publicada na MESMA pagina que a ficha ja
+   citava como fonte. Dado invisivel de novo.
+
+   Sobraram 2, as duas com motivo apurado e escrito. A regra e' essa: ou a ficha
+   traz a construcao, ou a nota diz por que nao traz. */
+for (const mat of MATERIAIS.filter((x) => x.tipo === 'Lâmina')) {
+  const entrada = fabricantePorId(mat.id);
+  const temConstru = (entrada?.ficha ?? []).some((l) => /constru/i.test(l.rotulo));
+  const explica = /construção não foi confirmada|construcao nao foi confirmada/i.test(entrada?.nota ?? '');
+  afirma(
+    temConstru || explica,
+    `${mat.id}: lamina sem construcao na ficha e sem explicacao na nota — o leitor nao fica sabendo nem o que e', nem por que falta`,
+  );
+}
+
 console.log(`\n✔ ${ok} asserções passaram`);
 if (falhas.length) {
   console.error(`✘ ${falhas.length} falharam:`);

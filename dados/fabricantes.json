@@ -728,9 +728,21 @@
         {
           "rotulo": "Tipo de lâmina",
           "valor": "Lâmina avulsa. O cabo (FL/CS/ST/AN) se escolhe na loja"
+        },
+        {
+          "rotulo": "Construção",
+          "valor": "5 lâminas de madeira + 2 de Super Arylate-Carbon (Super ALC)"
+        },
+        {
+          "rotulo": "Espessura",
+          "valor": "5,7 mm"
+        },
+        {
+          "rotulo": "Cabeça",
+          "valor": "157 × 150 mm"
         }
       ],
-      "nota": "A Butterfly publica índices de Velocidade e Controle para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
+      "nota": "CONSTRUÇÃO, ESPESSURA E CABEÇA colhidas em 2026-08-23 da ficha oficial da Butterfly, que já era a fonte desta entrada — o dado estava na mesma página e não tinha sido colhido. A Butterfly publica a composição no formato dela (\"5 ply wood + 2 de Super Arylate-Carbon\"); aqui ela vai em português, com a sigla entre parênteses porque é assim que a lâmina é vendida e procurada no Brasil. A Butterfly publica índices de Velocidade e Controle para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
     },
     "timo-boll-alc": {
       "confianca": "oficial",
@@ -740,9 +752,21 @@
         {
           "rotulo": "Tipo de lâmina",
           "valor": "Lâmina avulsa. O cabo (FL/CS/ST/AN) se escolhe na loja"
+        },
+        {
+          "rotulo": "Construção",
+          "valor": "5 lâminas de madeira + 2 de Arylate-Carbon (ALC)"
+        },
+        {
+          "rotulo": "Espessura",
+          "valor": "5,8 mm"
+        },
+        {
+          "rotulo": "Cabeça",
+          "valor": "157 × 150 mm"
         }
       ],
-      "nota": "A Butterfly publica índices de Velocidade e Controle para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
+      "nota": "CONSTRUÇÃO, ESPESSURA E CABEÇA colhidas em 2026-08-23 da ficha oficial da Butterfly, que já era a fonte desta entrada — o dado estava na mesma página e não tinha sido colhido. A Butterfly publica a composição no formato dela (\"5 ply wood + 2 de Arylate-Carbon\"); aqui ela vai em português, com a sigla entre parênteses porque é assim que a lâmina é vendida e procurada no Brasil. A Butterfly publica índices de Velocidade e Controle para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
     },
     "timo-boll-spirit": {
       "confianca": "oficial",
@@ -752,9 +776,21 @@
         {
           "rotulo": "Tipo de lâmina",
           "valor": "Lâmina avulsa. O cabo (FL/CS/ST/AN) se escolhe na loja"
+        },
+        {
+          "rotulo": "Construção",
+          "valor": "5 lâminas de madeira + 2 de Arylate-Carbon (ALC)"
+        },
+        {
+          "rotulo": "Espessura",
+          "valor": "5,8 mm"
+        },
+        {
+          "rotulo": "Cabeça",
+          "valor": "157 × 150 mm"
         }
       ],
-      "nota": "A Butterfly publica índices de Velocidade e Controle para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
+      "nota": "CONSTRUÇÃO, ESPESSURA E CABEÇA colhidas em 2026-08-23 da ficha oficial da Butterfly, que já era a fonte desta entrada — o dado estava na mesma página e não tinha sido colhido. A Butterfly publica a composição no formato dela (\"5 ply wood + 2 de Arylate-Carbon\"); aqui ela vai em português, com a sigla entre parênteses porque é assim que a lâmina é vendida e procurada no Brasil. A Butterfly publica índices de Velocidade e Controle para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
     },
     "timo-boll-caf": {
       "confianca": "oficial",
@@ -764,9 +800,21 @@
         {
           "rotulo": "Tipo de lâmina",
           "valor": "Lâmina avulsa. O cabo (FL/CS/ST/AN) se escolhe na loja"
+        },
+        {
+          "rotulo": "Construção",
+          "valor": "3 lâminas de madeira + 2 de CA-Fiber (CAF)"
+        },
+        {
+          "rotulo": "Espessura",
+          "valor": "5,7 mm"
+        },
+        {
+          "rotulo": "Cabeça",
+          "valor": "157 × 150 mm"
         }
       ],
-      "nota": "A Butterfly publica índices de Velocidade e Controle para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
+      "nota": "CONSTRUÇÃO, ESPESSURA E CABEÇA colhidas em 2026-08-23 da ficha oficial da Butterfly, que já era a fonte desta entrada — o dado estava na mesma página e não tinha sido colhido. A Butterfly publica a composição no formato dela (\"3 ply wood + 2 de CA-Fiber\"); aqui ela vai em português, com a sigla entre parênteses porque é assim que a lâmina é vendida e procurada no Brasil. A Butterfly publica índices de Velocidade e Controle para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
     },
     "fzd-super-alc": {
       "confianca": "oficial",
@@ -776,9 +824,21 @@
         {
           "rotulo": "Tipo de lâmina",
           "valor": "Lâmina avulsa. O cabo (FL/CS/ST/AN) se escolhe na loja"
+        },
+        {
+          "rotulo": "Construção",
+          "valor": "5 lâminas de madeira + 2 de Super Arylate-Carbon (Super ALC)"
+        },
+        {
+          "rotulo": "Espessura",
+          "valor": "5,7 mm"
+        },
+        {
+          "rotulo": "Cabeça",
+          "valor": "157 × 150 mm"
         }
       ],
-      "nota": "A Butterfly publica índices de Velocidade e Controle para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
+      "nota": "CONSTRUÇÃO, ESPESSURA E CABEÇA colhidas em 2026-08-23 da ficha oficial da Butterfly, que já era a fonte desta entrada — o dado estava na mesma página e não tinha sido colhido. A Butterfly publica a composição no formato dela (\"5 ply wood + 2 de Super Arylate-Carbon\"); aqui ela vai em português, com a sigla entre parênteses porque é assim que a lâmina é vendida e procurada no Brasil. A Butterfly publica índices de Velocidade e Controle para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
     },
     "harimoto-innerforce-zlc": {
       "confianca": "oficial",
@@ -788,9 +848,21 @@
         {
           "rotulo": "Tipo de lâmina",
           "valor": "Lâmina avulsa. O cabo (FL/CS/ST/AN) se escolhe na loja"
+        },
+        {
+          "rotulo": "Construção",
+          "valor": "5 lâminas de madeira + 2 de ZL-Carbon (Innerfiber)"
+        },
+        {
+          "rotulo": "Espessura",
+          "valor": "5,7 mm"
+        },
+        {
+          "rotulo": "Cabeça",
+          "valor": "158 × 152 mm"
         }
       ],
-      "nota": "A Butterfly publica índices de Velocidade e Controle para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
+      "nota": "CONSTRUÇÃO, ESPESSURA E CABEÇA colhidas em 2026-08-23 da ficha oficial da Butterfly, que já era a fonte desta entrada — o dado estava na mesma página e não tinha sido colhido. A Butterfly publica a composição no formato dela (\"5 ply wood + 2 de ZL-Carbon\"); aqui ela vai em português, com a sigla entre parênteses porque é assim que a lâmina é vendida e procurada no Brasil. A Butterfly publica índices de Velocidade e Controle para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
     },
     "harimoto-innerforce-alc": {
       "confianca": "oficial",
@@ -800,9 +872,21 @@
         {
           "rotulo": "Tipo de lâmina",
           "valor": "Lâmina avulsa. O cabo (FL/CS/ST/AN) se escolhe na loja"
+        },
+        {
+          "rotulo": "Construção",
+          "valor": "5 lâminas de madeira + 2 de Arylate-Carbon (Innerfiber)"
+        },
+        {
+          "rotulo": "Espessura",
+          "valor": "6,0 mm"
+        },
+        {
+          "rotulo": "Cabeça",
+          "valor": "158 × 152 mm"
         }
       ],
-      "nota": "A Butterfly publica índices de Velocidade e Controle para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
+      "nota": "CONSTRUÇÃO, ESPESSURA E CABEÇA colhidas em 2026-08-23 da ficha oficial da Butterfly, que já era a fonte desta entrada — o dado estava na mesma página e não tinha sido colhido. A Butterfly publica a composição no formato dela (\"5 ply wood + 2 de Arylate-Carbon\"); aqui ela vai em português, com a sigla entre parênteses porque é assim que a lâmina é vendida e procurada no Brasil. A Butterfly publica índices de Velocidade e Controle para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
     },
     "mizutani-super-zlc": {
       "confianca": "oficial",
@@ -812,9 +896,21 @@
         {
           "rotulo": "Tipo de lâmina",
           "valor": "Lâmina avulsa. O cabo (FL/CS/ST/AN) se escolhe na loja"
+        },
+        {
+          "rotulo": "Construção",
+          "valor": "5 lâminas de madeira + 2 de Super ZL-Carbon (Super ZLC)"
+        },
+        {
+          "rotulo": "Espessura",
+          "valor": "5,8 mm"
+        },
+        {
+          "rotulo": "Cabeça",
+          "valor": "157 × 150 mm"
         }
       ],
-      "nota": "A Butterfly publica índices de Velocidade e Controle para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
+      "nota": "CONSTRUÇÃO, ESPESSURA E CABEÇA colhidas em 2026-08-23 da ficha oficial da Butterfly, que já era a fonte desta entrada — o dado estava na mesma página e não tinha sido colhido. A Butterfly publica a composição no formato dela (\"5 ply wood + 2 de Super ZL-Carbon\"); aqui ela vai em português, com a sigla entre parênteses porque é assim que a lâmina é vendida e procurada no Brasil. A Butterfly publica índices de Velocidade e Controle para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
     },
     "sk7-classic": {
       "confianca": "oficial",
@@ -824,9 +920,21 @@
         {
           "rotulo": "Tipo de lâmina",
           "valor": "Lâmina avulsa. O cabo (FL/CS/ST/AN) se escolhe na loja"
+        },
+        {
+          "rotulo": "Construção",
+          "valor": "7 lâminas de madeira (all-wood)"
+        },
+        {
+          "rotulo": "Espessura",
+          "valor": "6,8 mm"
+        },
+        {
+          "rotulo": "Cabeça",
+          "valor": "157 × 150 mm"
         }
       ],
-      "nota": "A Butterfly publica índices de Velocidade e Controle para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
+      "nota": "CONSTRUÇÃO, ESPESSURA E CABEÇA colhidas em 2026-08-23 da ficha oficial da Butterfly, que já era a fonte desta entrada — o dado estava na mesma página e não tinha sido colhido. A Butterfly publica a composição no formato dela (\"7 ply wood\"); aqui ela vai em português, com a sigla entre parênteses porque é assim que a lâmina é vendida e procurada no Brasil. A Butterfly publica índices de Velocidade e Controle para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
     },
     "korbel": {
       "confianca": "oficial",
@@ -836,9 +944,21 @@
         {
           "rotulo": "Tipo de lâmina",
           "valor": "Lâmina avulsa. O cabo (FL/CS/ST/AN) se escolhe na loja"
+        },
+        {
+          "rotulo": "Construção",
+          "valor": "5 lâminas de madeira (all-wood)"
+        },
+        {
+          "rotulo": "Espessura",
+          "valor": "5,9 mm"
+        },
+        {
+          "rotulo": "Cabeça",
+          "valor": "158 × 152 mm"
         }
       ],
-      "nota": "A Butterfly publica índices de Velocidade e Controle para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
+      "nota": "CONSTRUÇÃO, ESPESSURA E CABEÇA colhidas em 2026-08-23 da ficha oficial da Butterfly, que já era a fonte desta entrada — o dado estava na mesma página e não tinha sido colhido. A Butterfly publica a composição no formato dela (\"5 ply wood\"); aqui ela vai em português, com a sigla entre parênteses porque é assim que a lâmina é vendida e procurada no Brasil. A Butterfly publica índices de Velocidade e Controle para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
     },
     "primorac": {
       "confianca": "oficial",
@@ -848,9 +968,21 @@
         {
           "rotulo": "Tipo de lâmina",
           "valor": "Lâmina avulsa. O cabo (FL/CS/ST/AN) se escolhe na loja"
+        },
+        {
+          "rotulo": "Construção",
+          "valor": "5 lâminas de madeira (all-wood)"
+        },
+        {
+          "rotulo": "Espessura",
+          "valor": "5,5 mm"
+        },
+        {
+          "rotulo": "Cabeça",
+          "valor": "157 × 150 mm"
         }
       ],
-      "nota": "A Butterfly publica índices de Velocidade e Controle para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
+      "nota": "CONSTRUÇÃO, ESPESSURA E CABEÇA colhidas em 2026-08-23 da ficha oficial da Butterfly, que já era a fonte desta entrada — o dado estava na mesma página e não tinha sido colhido. A Butterfly publica a composição no formato dela (\"5 ply wood\"); aqui ela vai em português, com a sigla entre parênteses porque é assim que a lâmina é vendida e procurada no Brasil. A Butterfly publica índices de Velocidade e Controle para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
     },
     "innerforce-layer-zlc": {
       "confianca": "oficial",
@@ -860,9 +992,21 @@
         {
           "rotulo": "Tipo de lâmina",
           "valor": "Lâmina avulsa. O cabo (FL/CS/ST/AN) se escolhe na loja"
+        },
+        {
+          "rotulo": "Construção",
+          "valor": "5 lâminas de madeira + 2 de ZL-Carbon (Innerfiber)"
+        },
+        {
+          "rotulo": "Espessura",
+          "valor": "5,7 mm"
+        },
+        {
+          "rotulo": "Cabeça",
+          "valor": "157 × 150 mm"
         }
       ],
-      "nota": "A Butterfly publica índices de Velocidade e Controle para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
+      "nota": "CONSTRUÇÃO, ESPESSURA E CABEÇA colhidas em 2026-08-23 da ficha oficial da Butterfly, que já era a fonte desta entrada — o dado estava na mesma página e não tinha sido colhido. A Butterfly publica a composição no formato dela (\"5 ply wood + 2 de ZL-Carbon\"); aqui ela vai em português, com a sigla entre parênteses porque é assim que a lâmina é vendida e procurada no Brasil. A Butterfly publica índices de Velocidade e Controle para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
     },
     "diode-v": {
       "confianca": "oficial",
@@ -872,9 +1016,21 @@
         {
           "rotulo": "Tipo de lâmina",
           "valor": "Lâmina avulsa. O cabo (FL/CS/ST/AN) se escolhe na loja"
+        },
+        {
+          "rotulo": "Construção",
+          "valor": "5 lâminas de madeira (all-wood)"
+        },
+        {
+          "rotulo": "Espessura",
+          "valor": "5,7 mm"
+        },
+        {
+          "rotulo": "Cabeça",
+          "valor": "165 × 156 mm"
         }
       ],
-      "nota": "A Butterfly publica índices de Velocidade e Controle para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
+      "nota": "CONSTRUÇÃO, ESPESSURA E CABEÇA colhidas em 2026-08-23 da ficha oficial da Butterfly, que já era a fonte desta entrada — o dado estava na mesma página e não tinha sido colhido. A Butterfly publica a composição no formato dela (\"5 ply wood\"); aqui ela vai em português, com a sigla entre parênteses porque é assim que a lâmina é vendida e procurada no Brasil. A Butterfly publica índices de Velocidade e Controle para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
     },
     "harimoto-innerforce-super-alc": {
       "confianca": "oficial",
@@ -884,9 +1040,21 @@
         {
           "rotulo": "Tipo de lâmina",
           "valor": "Lâmina avulsa. O cabo (FL/CS/ST/AN) se escolhe na loja"
+        },
+        {
+          "rotulo": "Construção",
+          "valor": "5 lâminas de madeira + 2 de Super ALC (Innerfiber)"
+        },
+        {
+          "rotulo": "Espessura",
+          "valor": "5,9 mm"
+        },
+        {
+          "rotulo": "Cabeça",
+          "valor": "158 × 152 mm"
         }
       ],
-      "nota": "A Butterfly publica índices próprios para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
+      "nota": "CONSTRUÇÃO, ESPESSURA E CABEÇA colhidas em 2026-08-23 da ficha oficial da Butterfly, que já era a fonte desta entrada — o dado estava na mesma página e não tinha sido colhido. A Butterfly publica a composição no formato dela (\"5 ply wood + 2 de Super ALC\"); aqui ela vai em português, com a sigla entre parênteses porque é assim que a lâmina é vendida e procurada no Brasil. A Butterfly publica índices próprios para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
     },
     "harimoto-innerforce-super-zlc": {
       "confianca": "oficial",
@@ -896,9 +1064,21 @@
         {
           "rotulo": "Tipo de lâmina",
           "valor": "Lâmina avulsa. O cabo (FL/CS/ST/AN) se escolhe na loja"
+        },
+        {
+          "rotulo": "Construção",
+          "valor": "5 lâminas de madeira + 2 de Super ZLC (Innerfiber)"
+        },
+        {
+          "rotulo": "Espessura",
+          "valor": "6,2 mm"
+        },
+        {
+          "rotulo": "Cabeça",
+          "valor": "158 × 152 mm"
         }
       ],
-      "nota": "A Butterfly publica índices próprios para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
+      "nota": "CONSTRUÇÃO, ESPESSURA E CABEÇA colhidas em 2026-08-23 da ficha oficial da Butterfly, que já era a fonte desta entrada — o dado estava na mesma página e não tinha sido colhido. A Butterfly publica a composição no formato dela (\"5 ply wood + 2 de Super ZLC\"); aqui ela vai em português, com a sigla entre parênteses porque é assim que a lâmina é vendida e procurada no Brasil. A Butterfly publica índices próprios para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
     },
     "revoldia-cnf": {
       "confianca": "oficial",
@@ -908,9 +1088,21 @@
         {
           "rotulo": "Tipo de lâmina",
           "valor": "Lâmina avulsa. O cabo (FL/CS/ST/AN) se escolhe na loja"
+        },
+        {
+          "rotulo": "Construção",
+          "valor": "5 lâminas de madeira + 2 de Cellulose Nanofiber (CNF)"
+        },
+        {
+          "rotulo": "Espessura",
+          "valor": "5,7 mm"
+        },
+        {
+          "rotulo": "Cabeça",
+          "valor": "157 × 150 mm"
         }
       ],
-      "nota": "A Butterfly publica índices próprios para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
+      "nota": "CONSTRUÇÃO, ESPESSURA E CABEÇA colhidas em 2026-08-23 da ficha oficial da Butterfly, que já era a fonte desta entrada — o dado estava na mesma página e não tinha sido colhido. A Butterfly publica a composição no formato dela (\"5 ply wood + 2 de Cellulose Nanofiber\"); aqui ela vai em português, com a sigla entre parênteses porque é assim que a lâmina é vendida e procurada no Brasil. A Butterfly publica índices próprios para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
     },
     "primorac-carbon": {
       "confianca": "oficial",
@@ -920,9 +1112,21 @@
         {
           "rotulo": "Tipo de lâmina",
           "valor": "Lâmina avulsa. O cabo (FL/CS/ST/AN) se escolhe na loja"
+        },
+        {
+          "rotulo": "Construção",
+          "valor": "3 lâminas de madeira + 2 de T5000 (carbono)"
+        },
+        {
+          "rotulo": "Espessura",
+          "valor": "7,0 mm"
+        },
+        {
+          "rotulo": "Cabeça",
+          "valor": "157 × 150 mm"
         }
       ],
-      "nota": "A Butterfly publica índices próprios para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
+      "nota": "CONSTRUÇÃO, ESPESSURA E CABEÇA colhidas em 2026-08-23 da ficha oficial da Butterfly, que já era a fonte desta entrada — o dado estava na mesma página e não tinha sido colhido. A Butterfly publica a composição no formato dela (\"3 ply wood + 2 de T5000\"); aqui ela vai em português, com a sigla entre parênteses porque é assim que a lâmina é vendida e procurada no Brasil. A Butterfly publica índices próprios para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
     },
     "franziska-innerforce-zlc": {
       "confianca": "oficial",
@@ -932,9 +1136,21 @@
         {
           "rotulo": "Tipo de lâmina",
           "valor": "Lâmina avulsa. O cabo (FL/CS/ST/AN) se escolhe na loja"
+        },
+        {
+          "rotulo": "Construção",
+          "valor": "5 lâminas de madeira + 2 de ZL-Carbon (Innerfiber)"
+        },
+        {
+          "rotulo": "Espessura",
+          "valor": "5,7 mm"
+        },
+        {
+          "rotulo": "Cabeça",
+          "valor": "157 × 150 mm"
         }
       ],
-      "nota": "A Butterfly publica índices próprios para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
+      "nota": "CONSTRUÇÃO, ESPESSURA E CABEÇA colhidas em 2026-08-23 da ficha oficial da Butterfly, que já era a fonte desta entrada — o dado estava na mesma página e não tinha sido colhido. A Butterfly publica a composição no formato dela (\"5 ply wood + 2 de ZL-Carbon\"); aqui ela vai em português, com a sigla entre parênteses porque é assim que a lâmina é vendida e procurada no Brasil. A Butterfly publica índices próprios para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
     },
     "sk-carbon": {
       "confianca": "oficial",
@@ -944,9 +1160,21 @@
         {
           "rotulo": "Tipo de lâmina",
           "valor": "Lâmina avulsa. O cabo (FL/CS/ST/AN) se escolhe na loja"
+        },
+        {
+          "rotulo": "Construção",
+          "valor": "3 lâminas de madeira + 2 de T5000 (carbono)"
+        },
+        {
+          "rotulo": "Espessura",
+          "valor": "5,2 mm"
+        },
+        {
+          "rotulo": "Cabeça",
+          "valor": "157 × 150 mm"
         }
       ],
-      "nota": "A Butterfly publica índices próprios para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
+      "nota": "CONSTRUÇÃO, ESPESSURA E CABEÇA colhidas em 2026-08-23 da ficha oficial da Butterfly, que já era a fonte desta entrada — o dado estava na mesma página e não tinha sido colhido. A Butterfly publica a composição no formato dela (\"3 ply wood + 2 de T5000\"); aqui ela vai em português, com a sigla entre parênteses porque é assim que a lâmina é vendida e procurada no Brasil. A Butterfly publica índices próprios para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
     },
     "korbel-sk7": {
       "confianca": "oficial",
@@ -956,9 +1184,21 @@
         {
           "rotulo": "Tipo de lâmina",
           "valor": "Lâmina avulsa. O cabo (FL/CS/ST/AN) se escolhe na loja"
+        },
+        {
+          "rotulo": "Construção",
+          "valor": "7 lâminas de madeira (all-wood)"
+        },
+        {
+          "rotulo": "Espessura",
+          "valor": "6,8 mm"
+        },
+        {
+          "rotulo": "Cabeça",
+          "valor": "157 × 150 mm"
         }
       ],
-      "nota": "A Butterfly publica índices próprios para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
+      "nota": "CONSTRUÇÃO, ESPESSURA E CABEÇA colhidas em 2026-08-23 da ficha oficial da Butterfly, que já era a fonte desta entrada — o dado estava na mesma página e não tinha sido colhido. A Butterfly publica a composição no formato dela (\"7 ply wood\"); aqui ela vai em português, com a sigla entre parênteses porque é assim que a lâmina é vendida e procurada no Brasil. A Butterfly publica índices próprios para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
     },
     "falcima": {
       "confianca": "oficial",
@@ -968,9 +1208,21 @@
         {
           "rotulo": "Tipo de lâmina",
           "valor": "Lâmina avulsa. O cabo (FL/CS/ST/AN) se escolhe na loja"
+        },
+        {
+          "rotulo": "Construção",
+          "valor": "5 lâminas de madeira (all-wood)"
+        },
+        {
+          "rotulo": "Espessura",
+          "valor": "6,0 mm"
+        },
+        {
+          "rotulo": "Cabeça",
+          "valor": "157 × 150 mm"
         }
       ],
-      "nota": "A Butterfly publica índices próprios para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
+      "nota": "CONSTRUÇÃO, ESPESSURA E CABEÇA colhidas em 2026-08-23 da ficha oficial da Butterfly, que já era a fonte desta entrada — o dado estava na mesma página e não tinha sido colhido. A Butterfly publica a composição no formato dela (\"5 ply wood\"); aqui ela vai em português, com a sigla entre parênteses porque é assim que a lâmina é vendida e procurada no Brasil. A Butterfly publica índices próprios para lâminas, mas NÃO publica efeito, porque efeito é propriedade da borracha. Dureza de esponja não se aplica: a lâmina é de madeira."
     },
     "diode-pro": {
       "confianca": "oficial",
@@ -11792,9 +12044,13 @@
         {
           "rotulo": "Tipo de lâmina",
           "valor": "Lâmina avulsa"
+        },
+        {
+          "rotulo": "Construção",
+          "valor": "Camadas sintéticas AL-C sob capa externa de Koto"
         }
       ],
-      "nota": "Preço conferido na loja oficial da JOOLA no Brasil. A foto e a construção vêm da Megaspin, nos Estados Unidos. Velocidade, efeito e controle são a MÉDIA DE 13 JOGADORES no Revspin (https://revspin.net/blade/joola-vyzaryz-freeze-hrd.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
+      "nota": "A CONSTRUÇÃO foi colhida em 2026-08-23 (https://www.joola.com.br/products/raquete-vyzaryz-freeze-hrd) — a ficha entrava sem ela. A Joola descreve a composição sem dar o NÚMERO de lâminas (\"poderosas camadas sintéticas AL-C sob uma camada externa nítida de Koto\"). A linha copia o que ela afirma e não inventa a contagem. Preço conferido na loja oficial da JOOLA no Brasil. A foto e a construção vêm da Megaspin, nos Estados Unidos. Velocidade, efeito e controle são a MÉDIA DE 13 JOGADORES no Revspin (https://revspin.net/blade/joola-vyzaryz-freeze-hrd.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
     },
     "joola-vyzaryz-hybrid": {
       "confianca": "revendedor",
@@ -12092,9 +12348,13 @@
         {
           "rotulo": "Tipo de lâmina",
           "valor": "Lâmina avulsa"
+        },
+        {
+          "rotulo": "Construção",
+          "valor": "5 lâminas de madeira (all-wood) · capa externa de Koto, miolo de candlenut"
         }
       ],
-      "nota": "Preço e foto conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido, e converter daria um número que muda todo dia. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=j-classic-all), na régua dela — que não é a dos materiais mais antigos do catálogo. A Joola não publica esses números em formato legível no site próprio."
+      "nota": "A CONSTRUÇÃO foi colhida em 2026-08-23 (https://www.megaspin.net/store/default.asp?pid=j-classic-all) — a ficha entrava sem ela. A Megaspin publica \"Ply: 5\", \"Material: 100% Solid wood\" e nomeia as madeiras na descrição. Preço e foto conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido, e converter daria um número que muda todo dia. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=j-classic-all), na régua dela — que não é a dos materiais mais antigos do catálogo. A Joola não publica esses números em formato legível no site próprio."
     },
     "joola-rossi-jr": {
       "confianca": "revendedor",
@@ -12652,9 +12912,13 @@
         {
           "rotulo": "Tipo de lâmina",
           "valor": "Lâmina avulsa"
+        },
+        {
+          "rotulo": "Construção",
+          "valor": "5 lâminas de madeira"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=dhs-hurricane-hao-2), na régua dela — que não é a dos materiais mais antigos do catálogo. A DHS não publica esses números em formato legível no site próprio."
+      "nota": "A CONSTRUÇÃO foi colhida em 2026-08-23 (https://www.megaspin.net/store/default.asp?pid=dhs-hurricane-hao-2) — a ficha entrava sem ela. A Megaspin publica \"Ply: 5w\" — o \"w\" é de wood, madeira. Ela não diz se há alguma camada de fibra, e a DHS não publica a composição desta lâmina em página acessível; por isso a linha fica no que a fonte afirma. Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=dhs-hurricane-hao-2), na régua dela — que não é a dos materiais mais antigos do catálogo. A DHS não publica esses números em formato legível no site próprio."
     },
     "dhs-power-g5x": {
       "confianca": "revendedor",
@@ -12712,9 +12976,17 @@
         {
           "rotulo": "Tipo de lâmina",
           "valor": "Lâmina avulsa"
+        },
+        {
+          "rotulo": "Construção",
+          "valor": "7 lâminas de madeira (all-wood)"
+        },
+        {
+          "rotulo": "Espessura",
+          "valor": "6,3 mm"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=dhs-hurricane-long-3), na régua dela — que não é a dos materiais mais antigos do catálogo. A DHS não publica esses números em formato legível no site próprio."
+      "nota": "A CONSTRUÇÃO foi colhida em 2026-08-23 (https://www.megaspin.net/store/default.asp?pid=dhs-hurricane-long-3) — a ficha entrava sem ela. A Megaspin descreve como \"a 7-ply blade\" e a especificação não cita fibra nenhuma. Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=dhs-hurricane-long-3), na régua dela — que não é a dos materiais mais antigos do catálogo. A DHS não publica esses números em formato legível no site próprio."
     },
     "dhs-fang-bo-b2-x": {
       "confianca": "revendedor",
@@ -14442,7 +14714,7 @@
           "valor": "Lâmina avulsa"
         }
       ],
-      "nota": "Preço e foto conferidos na JJ Yamada, distribuidora no Brasil. ATENÇÃO À MARCA: a loja lista este produto no campo de marca como Tamasu Butterfly, mas a foto do próprio anúncio mostra a lâmina com a marca GEWO impressa, e é a GEWO que fabrica a ALLround Basic. Vale a foto, que é o produto; o campo de marca da loja distribui as duas e se confundiu. Os índices de velocidade e controle vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=gewo-allround-basic), na régua dela — que não é a dos materiais mais antigos do catálogo. A GEWO não publica número nenhum no site próprio: conferi busca, página de produto, tabela de propriedades e barras."
+      "nota": "A CONSTRUÇÃO NÃO FOI CONFIRMADA: a Allround Basic saiu do catálogo atual da GEWO (tt-gewo.com, consultado em 2026-08-23, 24 lâminas listadas e nenhuma é esta), e a página da JJ Yamada, que é a fonte desta ficha, não traz descrição nem especificação — só nome, código, marca e preço. Sem fonte, fica sem. Preço e foto conferidos na JJ Yamada, distribuidora no Brasil. ATENÇÃO À MARCA: a loja lista este produto no campo de marca como Tamasu Butterfly, mas a foto do próprio anúncio mostra a lâmina com a marca GEWO impressa, e é a GEWO que fabrica a ALLround Basic. Vale a foto, que é o produto; o campo de marca da loja distribui as duas e se confundiu. Os índices de velocidade e controle vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=gewo-allround-basic), na régua dela — que não é a dos materiais mais antigos do catálogo. CORREÇÃO DE 2026-08-23: esta nota dizia que \"a GEWO não publica número nenhum no site próprio\". É falso — o site oficial da marca (tt-gewo.com) publica peso, velocidade, controle, estilo de jogo e número de lâminas de cada modelo. O que não abre é a Allround Basic, que saiu do catálogo dela."
     },
     "gewo-nex-el-pro-50-ss": {
       "confianca": "revendedor",
@@ -15212,9 +15484,17 @@
         {
           "rotulo": "Tipo de lâmina",
           "valor": "Lâmina avulsa"
+        },
+        {
+          "rotulo": "Construção",
+          "valor": "5 lâminas de madeira"
+        },
+        {
+          "rotulo": "Peso",
+          "valor": "≈ 85 a 90 g"
         }
       ],
-      "nota": "Preço, foto, construção e os índices de desempenho conferidos na Megaspin, nos Estados Unidos. Os números estão NA RÉGUA DA MEGASPIN, que não é a mesma dos materiais mais antigos do catálogo — nela uma borracha passa de 100. Por isso o site não compara este material com os que estão em outra régua. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "A CONSTRUÇÃO foi colhida em 2026-08-23 (https://tt-gewo.com/en/table-tennis-blades) — a ficha entrava sem ela. Colhida do SITE OFICIAL da GEWO (\"Layers: 5\", e a descrição diz que as cinco são de madeira), e não da Megaspin, que dá só a contagem. Preço, foto, construção e os índices de desempenho conferidos na Megaspin, nos Estados Unidos. Os números estão NA RÉGUA DA MEGASPIN, que não é a mesma dos materiais mais antigos do catálogo — nela uma borracha passa de 100. Por isso o site não compara este material com os que estão em outra régua. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "gewo-xolo-off-carbon": {
       "confianca": "revendedor",
@@ -15432,9 +15712,17 @@
         {
           "rotulo": "Tipo de lâmina",
           "valor": "Lâmina avulsa"
+        },
+        {
+          "rotulo": "Construção",
+          "valor": "5 lâminas"
+        },
+        {
+          "rotulo": "Peso",
+          "valor": "≈ 80 g"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "A CONSTRUÇÃO foi colhida em 2026-08-23 (https://tt-gewo.com/en/table-tennis-blades) — a ficha entrava sem ela. Colhida do SITE OFICIAL da GEWO (\"Layers: 5\"). A página dá a contagem e não diz se todas são de madeira. Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "gewo-celexxis-all-class": {
       "confianca": "revendedor",
@@ -15524,9 +15812,17 @@
         {
           "rotulo": "Tipo de lâmina",
           "valor": "Lâmina avulsa"
+        },
+        {
+          "rotulo": "Construção",
+          "valor": "5 lâminas de madeira"
+        },
+        {
+          "rotulo": "Peso",
+          "valor": "≈ 85 a 90 g"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "A CONSTRUÇÃO foi colhida em 2026-08-23 (https://tt-gewo.com/en/table-tennis-blades) — a ficha entrava sem ela. Colhida do SITE OFICIAL da GEWO (\"Layers: 5\"; a descrição fala em cinco lâminas de madeira). Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "gewo-basic-off": {
       "confianca": "revendedor",
@@ -15536,9 +15832,17 @@
         {
           "rotulo": "Tipo de lâmina",
           "valor": "Lâmina avulsa"
+        },
+        {
+          "rotulo": "Construção",
+          "valor": "5 lâminas de madeira"
+        },
+        {
+          "rotulo": "Peso",
+          "valor": "≈ 88 g"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "A CONSTRUÇÃO foi colhida em 2026-08-23 (https://tt-gewo.com/en/table-tennis-blades) — a ficha entrava sem ela. Colhida do SITE OFICIAL da GEWO (\"Layers: 5\"; a descrição fala em five-ply). Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "gewo-velox-alpha-p-c": {
       "confianca": "revendedor",
@@ -15550,7 +15854,7 @@
           "valor": "Lâmina avulsa"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Velocidade, efeito e controle são a MÉDIA DE 8 JOGADORES no Revspin (https://revspin.net/blade/gewo-velox-alpha-power-control.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
+      "nota": "A CONSTRUÇÃO NÃO FOI CONFIRMADA, e o motivo é uma quase-coincidência que quase virou erro: o site oficial da GEWO (tt-gewo.com) tem uma \"Blade Gewo Power Control\" com 5 lâminas, peso 80 g e velocidade 86 — os dois primeiros batem com esta, e a velocidade também. Mas o NOME é outro (sem \"Velox Alpha\") e o CONTROLE diverge: 98 na fonte desta ficha, 89 na da GEWO. Dois produtos parecidos não são o mesmo produto, e copiar a construção de um para o outro seria inventar com cara de fonte. Fica sem, até a GEWO republicar a linha Velox ou a loja confirmar que são a mesma lâmina. Verificado em 2026-08-23. Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Velocidade, efeito e controle são a MÉDIA DE 8 JOGADORES no Revspin (https://revspin.net/blade/gewo-velox-alpha-power-control.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
     },
     "gewo-aruna-kids": {
       "confianca": "revendedor",
@@ -15592,9 +15896,17 @@
         {
           "rotulo": "Tipo de lâmina",
           "valor": "Lâmina avulsa"
+        },
+        {
+          "rotulo": "Construção",
+          "valor": "5 lâminas"
+        },
+        {
+          "rotulo": "Peso",
+          "valor": "≈ 80 g"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "A CONSTRUÇÃO foi colhida em 2026-08-23 (https://tt-gewo.com/en/table-tennis-blades) — a ficha entrava sem ela. Colhida do SITE OFICIAL da GEWO (\"Layers: 5\"). A página dá a contagem e NÃO diz se todas são de madeira, então a linha não afirma \"all-wood\" — diferente das irmãs Xolo e Offense Basic, cujas descrições dizem. Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "gewo-celexxis-all-cl-cs": {
       "confianca": "revendedor",
