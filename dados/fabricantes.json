@@ -2795,11 +2795,15 @@
       "consultadoEm": "2026-07-29",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "51° (escala ESN)"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente híbrida, esponja dura"
         }
       ],
-      "nota": "A Tibhar não lista mais esta borracha no catálogo internacional, e nenhuma fonte publica a dureza dela. Ela entra SEM a régua unificada, e por isso sem a leitura de dureza em português claro, em vez de herdar o grau de uma irmã parecida."
+      "nota": "A DUREZA (51°) veio da MESMA PÁGINA que já era a fonte desta ficha (https://www.tibhar.com.br/produtos/borracha-tibhar-mk-pro-hybrid-para-tenis-de-mesa/), reconferida em 2026-08-23, onde ela aparece como \"DUREZA DA ESPONJA 51°\" — o dado estava lá e não tinha sido colhido. A página não nomeia a régua. A atribuição vem da tabela de escalas deste site, que declara a ESN como a fábrica alemã que produz para a Tibhar — e das 16 fichas Tibhar com dureza que o site já publica, as 16 usam a ESN. Converter aqui mantém a marca com uma régua só. A Tibhar não lista mais esta borracha no catálogo internacional, e nenhuma fonte publica a dureza dela."
     },
     "tibhar-quantum-x-pro": {
       "confianca": "oficial",
@@ -7398,11 +7402,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "39° a 40°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente chinesa, tensionada"
         }
       ],
-      "nota": "A loja não declara a dureza desta borracha; ela entra sem a régua unificada. O Revspin tem cinco Big Dipper (comum, II, III, IV e 5). A loja vende só \"Big Dipper Tensionada\", sem número — atribuí a da versão comum, que é a que tem 61 avaliações. Se a loja estiver vendendo uma das numeradas, a nota muda."
+      "nota": "A DUREZA (39° a 40°) veio da MESMA PÁGINA que já era a fonte desta ficha (https://www.tenisdemesastore.com.br/borracha-chinesa-pegajosa-yinhe-big-dipper-tensionada), reconferida em 2026-08-23, onde ela aparece como \"Dureza Esponja: 40° graus Hard ou 39° Medium\" — o dado estava lá e não tinha sido colhido. A fonte não nomeia a régua, então o grau entra exatamente como ela o publica e NÃO vira dureza unificada. É o mesmo tratamento que as outras fichas desta marca neste site já recebem. O Revspin tem cinco Big Dipper (comum, II, III, IV e 5). A loja vende só \"Big Dipper Tensionada\", sem número — atribuí a da versão comum, que é a que tem 61 avaliações. Se a loja estiver vendendo uma das numeradas, a nota muda."
     },
     "yinhe-jupiter-3-euro": {
       "confianca": "revendedor",
@@ -7410,11 +7418,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "40°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente híbrida"
         }
       ],
-      "nota": "A loja não declara a dureza desta borracha; ela entra sem a régua unificada. O Revspin tem \"Jupiter III Euro\" com 4 avaliações e \"Jupiter 3 Asia\" com 30. São versões DIFERENTES — Euro e Asia mudam a esponja. Usar a nota da Asia aqui seria trocar um produto pelo outro, então esta entra sem nota. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
+      "nota": "A DUREZA (40°) veio da MESMA PÁGINA que já era a fonte desta ficha (https://www.tenisdemesastore.com.br/borracha-pegajosa-yinhe-jupiter-3-euro-tenis-de-mesa-hibrida), reconferida em 2026-08-23, onde ela aparece como \"Dureza Esponja: 40° graus\" — o dado estava lá e não tinha sido colhido. A fonte não nomeia a régua, então o grau entra exatamente como ela o publica e NÃO vira dureza unificada. É o mesmo tratamento que as outras fichas desta marca neste site já recebem. O Revspin tem \"Jupiter III Euro\" com 4 avaliações e \"Jupiter 3 Asia\" com 30. São versões DIFERENTES — Euro e Asia mudam a esponja. Usar a nota da Asia aqui seria trocar um produto pelo outro, então esta entra sem nota. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
     },
     "yinhe-big-dipper-pro": {
       "confianca": "revendedor",
@@ -11386,11 +11398,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "44°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "A loja não declara a dureza desta borracha; ela entra sem a régua unificada. Esta borracha aparecia como lacuna havia vários lotes, e não por erro do levantamento: a loja a tinha ESGOTADA, e por D-13 material sem preço real verificado não entra no catálogo. Ela entrou no dia em que foi reposta. Velocidade, efeito e controle são a MÉDIA DE 13 JOGADORES no Revspin (https://revspin.net/rubber/butterfly-zyre-03.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
+      "nota": "A DUREZA (44°) veio da MESMA PÁGINA que já era a fonte desta ficha (https://loja.jjyamada.com.br/borracha-para-tenis-de-mesa-modelo-zyre-03-2026-07-30-16-56-56), reconferida em 2026-08-23, onde ela aparece como \"Dureza da esponja : 44\" — o dado estava lá e não tinha sido colhido. A fonte não nomeia a régua, então o grau entra exatamente como ela o publica e NÃO vira dureza unificada. É o mesmo tratamento que as outras fichas desta marca neste site já recebem. Esta borracha aparecia como lacuna havia vários lotes, e não por erro do levantamento: a loja a tinha ESGOTADA, e por D-13 material sem preço real verificado não entra no catálogo. Ela entrou no dia em que foi reposta. Velocidade, efeito e controle são a MÉDIA DE 13 JOGADORES no Revspin (https://revspin.net/rubber/butterfly-zyre-03.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
     },
     "joola-calderano-ary-c": {
       "confianca": "oficial",
@@ -13838,11 +13854,15 @@
       "consultadoEm": "2026-08-06",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "48° a 50°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Velocidade, efeito e controle são a MÉDIA DE 31 JOGADORES no Revspin (https://revspin.net/rubber/palio-hk1997-gold.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
+      "nota": "A DUREZA (48° a 50°) veio da MESMA PÁGINA que já era a fonte desta ficha (https://chtt.se/en/varumarken/palio/paliogummi/palio-hk1997-gold), reconferida em 2026-08-23, onde ela aparece como \"48-50\" — o dado estava lá e não tinha sido colhido. A fonte não nomeia a régua, então o grau entra exatamente como ela o publica e NÃO vira dureza unificada. É o mesmo tratamento que as outras fichas desta marca neste site já recebem. Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Velocidade, efeito e controle são a MÉDIA DE 31 JOGADORES no Revspin (https://revspin.net/rubber/palio-hk1997-gold.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
     },
     "palio-ak47-red": {
       "confianca": "revendedor",
@@ -13850,11 +13870,15 @@
       "consultadoEm": "2026-08-06",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "45° a 47°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "A DUREZA (45° a 47°) veio da MESMA PÁGINA que já era a fonte desta ficha (https://chtt.se/en/varumarken/palio/paliogummi/palio-ak47-red), reconferida em 2026-08-23, onde ela aparece como \"45-47 degrees\" — o dado estava lá e não tinha sido colhido. A fonte não nomeia a régua, então o grau entra exatamente como ela o publica e NÃO vira dureza unificada. É o mesmo tratamento que as outras fichas desta marca neste site já recebem. Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "palio-ak47-blue": {
       "confianca": "revendedor",
@@ -13862,11 +13886,15 @@
       "consultadoEm": "2026-08-06",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "38° a 40°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "A DUREZA (38° a 40°) veio da MESMA PÁGINA que já era a fonte desta ficha (https://chtt.se/en/varumarken/palio/paliogummi/palio-ak47-blue), reconferida em 2026-08-23, onde ela aparece como \"38-40 (Soft)\" — o dado estava lá e não tinha sido colhido. A fonte não nomeia a régua, então o grau entra exatamente como ela o publica e NÃO vira dureza unificada. É o mesmo tratamento que as outras fichas desta marca neste site já recebem. Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "f729-blue-carbon-ad": {
       "confianca": "revendedor",
