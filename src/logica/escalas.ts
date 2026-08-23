@@ -177,6 +177,15 @@ export function escalaDoTexto(texto: string): Escala | null {
      inteiro (sem régua, um número de dureza não quer dizer nada — é a tese
      deste módulo). O mesmo vale para "alemã": a ESN é a fábrica alemã. */
   if (/europ|alem/.test(t)) return 'esn';
+  /* E "escala chinesa" é como a Sanwei escreve a mesma régua que este módulo
+     chama de "DHS (chinesa)" — o nome do arquivo é da marca que a popularizou,
+     não uma exclusividade dela. Sem isto, uma ficha que diz "35° (escala
+     chinesa)" perdia a régua e o grau inteiro junto, que é o oposto do que o
+     módulo existe pra fazer.
+
+     Conferido antes de entrar: nenhuma das linhas de dureza já publicadas muda
+     de leitura com esta regra — ela só abre caminho pra colheita nova. */
+  if (/chin/.test(t)) return 'dhs';
   return null;
 }
 

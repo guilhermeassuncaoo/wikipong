@@ -3525,6 +3525,10 @@
       "consultadoEm": "2026-07-29",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "≈ 40°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa tensionada (Hybrid Energy), esponja macia"
         }
@@ -3546,13 +3550,17 @@
           }
         ]
       },
-      "nota": "A Yasaka não publica a dureza desta variante em página própria, e nenhuma outra fonte a declara. Ela entra SEM a régua unificada, e por isso sem a leitura de dureza em português claro, em vez de herdar o grau da versão comum, que é outra esponja."
+      "nota": "A DUREZA (≈ 40°) veio da ficha oficial da Yasaka em 2026-08-23 (https://yasakatabletennis.com/product/rakza-7-soft), que a publica como \"~40\" — a fonte principal desta ficha não a trazia. A Yasaka NÃO NOMEIA A RÉGUA em ficha nenhuma, e o próprio til com que ela escreve o número já diz que é aproximado. Sem régua declarada não há conversão honesta: o grau aparece aqui como a marca o publica e NÃO entra na dureza unificada. É o mesmo tratamento que a Mark V comum já tinha nesta enciclopédia. A Yasaka não publica a dureza desta variante em página própria, e nenhuma outra fonte a declara."
     },
     "yasaka-rakza-7-hard": {
       "confianca": "oficial",
       "fonte": "https://yasakatabletennis.com/product/rakza-7-hard",
       "consultadoEm": "2026-07-29",
       "ficha": [
+        {
+          "rotulo": "Dureza da esponja",
+          "valor": "≈ 50°"
+        },
         {
           "rotulo": "Superfície",
           "valor": "Lisa tensionada (Hybrid Energy), esponja dura"
@@ -3575,7 +3583,7 @@
           }
         ]
       },
-      "nota": "A Yasaka não publica a dureza desta variante em página própria, e nenhuma outra fonte a declara. Ela entra SEM a régua unificada, e por isso sem a leitura de dureza em português claro, em vez de herdar o grau da versão comum, que é outra esponja. Esta borracha não tem amostra na comunidade (Revspin registra zero avaliações) para entrar na nossa escala de desempenho. Entra com ficha, preço real e foto. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=y-rakza-7-hard), na régua dela — que não é a dos materiais mais antigos do catálogo. A Yasaka não publica esses números em formato legível no site próprio."
+      "nota": "A DUREZA (≈ 50°) veio da ficha oficial da Yasaka em 2026-08-23 (https://yasakatabletennis.com/product/rakza-7-hard), que a publica como \"~50\" — a fonte principal desta ficha não a trazia. A Yasaka NÃO NOMEIA A RÉGUA em ficha nenhuma, e o próprio til com que ela escreve o número já diz que é aproximado. Sem régua declarada não há conversão honesta: o grau aparece aqui como a marca o publica e NÃO entra na dureza unificada. É o mesmo tratamento que a Mark V comum já tinha nesta enciclopédia. A Yasaka não publica a dureza desta variante em página própria, e nenhuma outra fonte a declara.Esta borracha não tem amostra na comunidade (Revspin registra zero avaliações) para entrar na nossa escala de desempenho. Entra com ficha, preço real e foto. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=y-rakza-7-hard), na régua dela — que não é a dos materiais mais antigos do catálogo. A Yasaka não publica esses números em formato legível no site próprio."
     },
     "yasaka-rakza-x": {
       "confianca": "oficial",
@@ -6770,11 +6778,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "52,5°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "A loja não declara a dureza desta borracha; ela entra sem a régua unificada. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
+      "nota": "A DUREZA (52,5°) veio da ficha oficial da Joola no site alemão em 2026-08-23 (https://joola.de/en/products/joola-rubber-trinity-hugo-calderano-dynamic) — a fonte principal desta ficha não a trazia. A Joola publica dureza em DOIS formatos diferentes: a página oficial de especificações dela e a loja brasileira classificam por PALAVRA (\"Medium+\", \"Hard+\"), e é por isso que este dado faltava; o grau só aparece no texto do site alemão. Nenhuma das páginas nomeia a régua, e a que traz o grau também não diz onde a borracha é feita — a Joola declara \"Made in Germany\" na Zack, mas a Zack não tem grau publicado, e este site não empresta a evidência de uma linha para outra nem dentro da mesma marca. A página não nomeia a régua, então o grau entra como está e NÃO vira dureza unificada. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
     },
     "joola-trinity-charged": {
       "confianca": "revendedor",
@@ -6782,11 +6794,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "57,5°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "A loja não declara a dureza desta borracha; ela entra sem a régua unificada. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
+      "nota": "A DUREZA (57,5°) veio da ficha oficial da Joola no site alemão em 2026-08-23 (https://joola.de/en/products/joola-rubber-trinity-hugo-calderano-charged) — a fonte principal desta ficha não a trazia. A Joola publica dureza em DOIS formatos diferentes: a página oficial de especificações dela e a loja brasileira classificam por PALAVRA (\"Medium+\", \"Hard+\"), e é por isso que este dado faltava; o grau só aparece no texto do site alemão. Nenhuma das páginas nomeia a régua, e a que traz o grau também não diz onde a borracha é feita — a Joola declara \"Made in Germany\" na Zack, mas a Zack não tem grau publicado, e este site não empresta a evidência de uma linha para outra nem dentro da mesma marca. A página não nomeia a régua, então o grau entra como está e NÃO vira dureza unificada. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
     },
     "joola-infinity-carbon": {
       "confianca": "revendedor",
@@ -6902,11 +6918,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "37° / 39°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente, esponja chinesa"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. DUAS DUREZAS, UM PRODUTO: a loja anuncia \"37/39\" e \"39/37\" como itens separados, com o MESMO preço e a MESMA foto. São opções de dureza de esponja da mesma borracha, e entram como um material só. Quem comprar escolhe a dureza na loja. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
+      "nota": "A DUREZA (37° / 39°) veio da MESMA PÁGINA que já era a fonte desta ficha (https://americatt.net/friendship-729-battle-taichi-37-39/), reconferida em 2026-08-23 — o dado estava lá e não tinha sido colhido. A loja publica o par no próprio nome do produto (\"37/39 graus\") e vende as duas ordens como produtos diferentes. O site copia o par como está e NÃO interpreta o que a ordem significa — não é dito em lugar nenhum, e chutar seria pior que copiar. A fonte não nomeia a régua, e a 729 também não: o site oficial da marca (en.729sports.com) responde com certificado inválido e não abre para consulta. Sem régua declarada não há conversão honesta, então o grau entra exatamente como a fonte o publica e NÃO vira dureza unificada. Os valores desta marca vão de 36° a 47°, o que atravessa a faixa típica chinesa E a europeia — mais um motivo para não supor qual é. DUAS DUREZAS, UM PRODUTO: a loja anuncia \"37/39\" e \"39/37\" como itens separados, com o MESMO preço e a MESMA foto. São opções de dureza de esponja da mesma borracha, e entram como um material só. Quem comprar escolhe a dureza na loja. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
     },
     "f729-battle-limitless-37-39": {
       "confianca": "revendedor",
@@ -6914,11 +6934,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "37° / 39°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente, esponja 37/39"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
+      "nota": "A DUREZA (37° / 39°) veio da MESMA PÁGINA que já era a fonte desta ficha (https://americatt.net/friendship-729-battle-limitless-37-39/), reconferida em 2026-08-23 — o dado estava lá e não tinha sido colhido. A loja publica o par no próprio nome do produto (\"37/39 graus\") e vende as duas ordens como produtos diferentes. O site copia o par como está e NÃO interpreta o que a ordem significa — não é dito em lugar nenhum, e chutar seria pior que copiar. A fonte não nomeia a régua, e a 729 também não: o site oficial da marca (en.729sports.com) responde com certificado inválido e não abre para consulta. Sem régua declarada não há conversão honesta, então o grau entra exatamente como a fonte o publica e NÃO vira dureza unificada. Os valores desta marca vão de 36° a 47°, o que atravessa a faixa típica chinesa E a europeia — mais um motivo para não supor qual é. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
     },
     "f729-battle-limitless-39-37": {
       "confianca": "revendedor",
@@ -6926,11 +6950,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "39° / 37°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente, esponja 39/37"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
+      "nota": "A DUREZA (39° / 37°) veio da MESMA PÁGINA que já era a fonte desta ficha (https://americatt.net/friendship-729-battle-limitless-39-37/), reconferida em 2026-08-23 — o dado estava lá e não tinha sido colhido. A loja publica o par no próprio nome do produto (\"39/37 graus\") e vende as duas ordens como produtos diferentes. O site copia o par como está e NÃO interpreta o que a ordem significa — não é dito em lugar nenhum, e chutar seria pior que copiar. A fonte não nomeia a régua, e a 729 também não: o site oficial da marca (en.729sports.com) responde com certificado inválido e não abre para consulta. Sem régua declarada não há conversão honesta, então o grau entra exatamente como a fonte o publica e NÃO vira dureza unificada. Os valores desta marca vão de 36° a 47°, o que atravessa a faixa típica chinesa E a europeia — mais um motivo para não supor qual é. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
     },
     "f729-higher-transcend": {
       "confianca": "revendedor",
@@ -7046,11 +7074,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "39° a 40° (escala chinesa)"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente"
         }
       ],
-      "nota": "A OperaTT não declara a dureza desta borracha; ela entra sem a régua unificada. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
+      "nota": "A DUREZA (39° a 40°) veio da ficha oficial da Sanwei em 2026-08-23 (https://sanweisport.com/en/product/rubber/target/target-3th-edition-chinese-table-tennis-rubber/) — a fonte principal desta ficha não a trazia. A Sanwei vende esta borracha em DUAS durezas (39° e 40°) e a ficha traz as duas — a linha guarda a faixa em vez de escolher uma, porque escolher seria inventar qual chegou ao catálogo. A página nomeia a régua chinesa, a mesma que este site converte. A Sanwei não publica grau em toda a linha: a Target National, a Ultra Spin e a Taiji Light saem da ficha oficial dela só com espessura e palavra, e por isso continuam sem dureza aqui em vez de herdar o número de uma irmã. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
     },
     "sanwei-taiji-plus-2023": {
       "confianca": "revendedor",
@@ -7058,11 +7090,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "35° (escala chinesa)"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente"
         }
       ],
-      "nota": "A OperaTT não declara a dureza desta borracha; ela entra sem a régua unificada. TRÊS NOMES PARECIDOS NO REVSPIN: \"Taiji Plus\" (6 avaliações), \"T88-TAIJI PLUS\" (1) e \"T88 TAIJI\" (3). A loja vende \"Taiji Plus 2023\", e o ano sugere revisão. Sem saber qual das três é, nenhuma nota foi atribuída. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
+      "nota": "A DUREZA (35°) veio da ficha oficial da Sanwei em 2026-08-23 (https://sanweisport.com/en/product/rubber/t88/t88-taiji-plus-2023/) — a fonte principal desta ficha não a trazia. A página nomeia a régua chinesa, a mesma que este site converte. A Sanwei não publica grau em toda a linha: a Target National, a Ultra Spin e a Taiji Light saem da ficha oficial dela só com espessura e palavra, e por isso continuam sem dureza aqui em vez de herdar o número de uma irmã. TRÊS NOMES PARECIDOS NO REVSPIN: \"Taiji Plus\" (6 avaliações), \"T88-TAIJI PLUS\" (1) e \"T88 TAIJI\" (3). A loja vende \"Taiji Plus 2023\", e o ano sugere revisão. Sem saber qual das três é, nenhuma nota foi atribuída. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
     },
     "sanwei-taiji-light": {
       "confianca": "revendedor",
@@ -7082,11 +7118,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "37° a 39°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "A OperaTT não declara a dureza desta borracha; ela entra sem a régua unificada. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=sanwei-gear-hyper), na régua dela — que não é a dos materiais mais antigos do catálogo. A Sanwei não publica esses números em formato legível no site próprio."
+      "nota": "A DUREZA (37° a 39°) veio da ficha oficial da Sanwei em 2026-08-23 (https://sanweisport.com/en/product/rubber/gear/best-table-tennis-rubber-sanwei-gear-hyper/) — a fonte principal desta ficha não a trazia. A Sanwei vende esta em TRÊS durezas (37°, 38° e 39°) e a linha guarda a faixa. Ao contrário da Target 3rd Edition e da Taiji Plus, esta página NÃO NOMEIA A RÉGUA — e o site não empresta a régua de uma ficha para outra, nem quando é a mesma marca. Por isso o grau entra cru, sem conversão. A Sanwei não publica grau em toda a linha: a Target National, a Ultra Spin e a Taiji Light saem da ficha oficial dela só com espessura e palavra, e por isso continuam sem dureza aqui em vez de herdar o número de uma irmã. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=sanwei-gear-hyper), na régua dela — que não é a dos materiais mais antigos do catálogo. A Sanwei não publica esses números em formato legível no site próprio."
     },
     "sanwei-ultra-spin": {
       "confianca": "revendedor",
@@ -7106,11 +7146,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "40°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente, esponja azul"
         }
       ],
-      "nota": "A OperaTT não declara a dureza desta borracha; ela entra sem a régua unificada. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
+      "nota": "A DUREZA (40°) veio da ficha oficial da Sanwei em 2026-08-23 (https://sanweisport.com/en/product/rubber/ultra-spin-blue-best-spin-rubber-table-tennis/) — a fonte principal desta ficha não a trazia. Esta página NÃO NOMEIA A RÉGUA — ao contrário da Target 3rd Edition e da Taiji Plus, que dizem \"escala chinesa\". O site não empresta a régua de uma ficha para outra, nem dentro da mesma marca, então o grau entra cru e não vira dureza unificada. A Sanwei não publica grau em toda a linha: a Target National, a Ultra Spin e a Taiji Light saem da ficha oficial dela só com espessura e palavra, e por isso continuam sem dureza aqui em vez de herdar o número de uma irmã. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
     },
     "sanwei-feather-carbon": {
       "confianca": "revendedor",
@@ -7842,11 +7886,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "47,5° (escala ESN)"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada, esponja Powergrip"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-hexer-pg), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
+      "nota": "A DUREZA (47,5°) veio da ficha oficial da andro em 2026-08-23 (https://andro.de/en/hexer-powergrip) — a fonte principal desta ficha não a trazia. A página não nomeia a régua, mas a tabela de escalas deste site declara a ESN como a fábrica alemã que produz para a andro, entre outras marcas: é dessa cadeia que sai a atribuição, a mesma já usada nas fichas andro que o site publica com grau. IMPORTANTE: a andro só publica grau em PARTE da linha — Hexer, Hexer Duro, Hexer+, Hexer Powersponge, Impuls Speed, Impuls Powersponge, GTT 45, Good! e BYPE SFX trazem só palavra (\"medium-hard\", \"soft\"), e por isso continuam sem dureza aqui em vez de receber número deduzido de uma irmã. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-hexer-pg), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
     },
     "andro-hexer-duro": {
       "confianca": "revendedor",
@@ -7866,11 +7914,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "40° (escala ESN)"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente, esponja macia (SFX)"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-hexer-g-sfx), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
+      "nota": "A DUREZA (40°) veio da ficha oficial da andro em 2026-08-23 (https://andro.de/en/hexer-grip-sfx) — a fonte principal desta ficha não a trazia. A página não nomeia a régua, mas a tabela de escalas deste site declara a ESN como a fábrica alemã que produz para a andro, entre outras marcas: é dessa cadeia que sai a atribuição, a mesma já usada nas fichas andro que o site publica com grau. IMPORTANTE: a andro só publica grau em PARTE da linha — Hexer, Hexer Duro, Hexer+, Hexer Powersponge, Impuls Speed, Impuls Powersponge, GTT 45, Good! e BYPE SFX trazem só palavra (\"medium-hard\", \"soft\"), e por isso continuam sem dureza aqui em vez de receber número deduzido de uma irmã. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-hexer-g-sfx), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
     },
     "andro-hexer-grip": {
       "confianca": "revendedor",
@@ -7878,11 +7930,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "45° (escala ESN)"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente, tensionada"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-hexer-g), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
+      "nota": "A DUREZA (45°) veio da ficha oficial da andro em 2026-08-23 (https://andro.de/en/hexer-grip) — a fonte principal desta ficha não a trazia. A página não nomeia a régua, mas a tabela de escalas deste site declara a ESN como a fábrica alemã que produz para a andro, entre outras marcas: é dessa cadeia que sai a atribuição, a mesma já usada nas fichas andro que o site publica com grau. IMPORTANTE: a andro só publica grau em PARTE da linha — Hexer, Hexer Duro, Hexer+, Hexer Powersponge, Impuls Speed, Impuls Powersponge, GTT 45, Good! e BYPE SFX trazem só palavra (\"medium-hard\", \"soft\"), e por isso continuam sem dureza aqui em vez de receber número deduzido de uma irmã. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-hexer-g), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
     },
     "andro-hexer-powergrip-sfx": {
       "confianca": "revendedor",
@@ -7890,11 +7946,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "42,5° (escala ESN)"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, esponja Powergrip macia"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-hexer-pg-sfx), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
+      "nota": "A DUREZA (42,5°) veio da ficha oficial da andro em 2026-08-23 (https://andro.de/en/hexer-powergrip-sfx) — a fonte principal desta ficha não a trazia. A página não nomeia a régua, mas a tabela de escalas deste site declara a ESN como a fábrica alemã que produz para a andro, entre outras marcas: é dessa cadeia que sai a atribuição, a mesma já usada nas fichas andro que o site publica com grau. IMPORTANTE: a andro só publica grau em PARTE da linha — Hexer, Hexer Duro, Hexer+, Hexer Powersponge, Impuls Speed, Impuls Powersponge, GTT 45, Good! e BYPE SFX trazem só palavra (\"medium-hard\", \"soft\"), e por isso continuam sem dureza aqui em vez de receber número deduzido de uma irmã. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-hexer-pg-sfx), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
     },
     "andro-hexer-powersponge": {
       "confianca": "revendedor",
@@ -7962,11 +8022,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "55° (escala ESN)"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada, dura"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-nuzn-55), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
+      "nota": "A DUREZA (55°) veio da ficha oficial da andro em 2026-08-23 (https://andro.de/en/nuzn-55) — a fonte principal desta ficha não a trazia. A página não nomeia a régua, mas a tabela de escalas deste site declara a ESN como a fábrica alemã que produz para a andro, entre outras marcas: é dessa cadeia que sai a atribuição, a mesma já usada nas fichas andro que o site publica com grau. IMPORTANTE: a andro só publica grau em PARTE da linha — Hexer, Hexer Duro, Hexer+, Hexer Powersponge, Impuls Speed, Impuls Powersponge, GTT 45, Good! e BYPE SFX trazem só palavra (\"medium-hard\", \"soft\"), e por isso continuam sem dureza aqui em vez de receber número deduzido de uma irmã. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-nuzn-55), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
     },
     "andro-good": {
       "confianca": "revendedor",
@@ -8018,11 +8082,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "45° (escala ESN)"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-bype), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
+      "nota": "A DUREZA (45°) veio da ficha oficial da andro em 2026-08-23 (https://andro.de/en/bype-0) — a fonte principal desta ficha não a trazia. A página não nomeia a régua, mas a tabela de escalas deste site declara a ESN como a fábrica alemã que produz para a andro, entre outras marcas: é dessa cadeia que sai a atribuição, a mesma já usada nas fichas andro que o site publica com grau. IMPORTANTE: a andro só publica grau em PARTE da linha — Hexer, Hexer Duro, Hexer+, Hexer Powersponge, Impuls Speed, Impuls Powersponge, GTT 45, Good! e BYPE SFX trazem só palavra (\"medium-hard\", \"soft\"), e por isso continuam sem dureza aqui em vez de receber número deduzido de uma irmã. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-bype), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
     },
     "andro-bype-sfx": {
       "confianca": "revendedor",
@@ -11362,11 +11430,15 @@
       "consultadoEm": "2026-08-05",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "50°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "Preço conferido na loja oficial da JOOLA no Brasil. A foto e a construção vêm da Megaspin, nos Estados Unidos. Estava esgotada na loja em 2026-08-05; o preço é o que a loja publica. Velocidade, efeito e controle são a MÉDIA DE 26 JOGADORES no Revspin (https://revspin.net/rubber/joola-dynaryz-agr.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
+      "nota": "A DUREZA (50°) veio da ficha oficial da Joola no site alemão em 2026-08-23 (https://joola.de/en/products/joola-rubber-dynaryz-agr) — a fonte principal desta ficha não a trazia. A Joola publica dureza em DOIS formatos diferentes: a página oficial de especificações dela e a loja brasileira classificam por PALAVRA (\"Medium+\", \"Hard+\"), e é por isso que este dado faltava; o grau só aparece no texto do site alemão. Nenhuma das páginas nomeia a régua, e a que traz o grau também não diz onde a borracha é feita — a Joola declara \"Made in Germany\" na Zack, mas a Zack não tem grau publicado, e este site não empresta a evidência de uma linha para outra nem dentro da mesma marca. A página não nomeia a régua, então o grau entra como está e NÃO vira dureza unificada. Preço conferido na loja oficial da JOOLA no Brasil. A foto e a construção vêm da Megaspin, nos Estados Unidos. Estava esgotada na loja em 2026-08-05; o preço é o que a loja publica. Velocidade, efeito e controle são a MÉDIA DE 26 JOGADORES no Revspin (https://revspin.net/rubber/joola-dynaryz-agr.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
     },
     "joola-dynaryz-acc": {
       "confianca": "revendedor",
@@ -11374,11 +11446,15 @@
       "consultadoEm": "2026-08-05",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "47,5°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "Preço conferido na loja oficial da JOOLA no Brasil. A foto e a construção vêm da Megaspin, nos Estados Unidos. Estava esgotada na loja em 2026-08-05; o preço é o que a loja publica. Velocidade, efeito e controle são a MÉDIA DE 30 JOGADORES no Revspin (https://revspin.net/rubber/joola-dynaryz-acc.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
+      "nota": "A DUREZA (47,5°) veio da ficha oficial da Joola no site alemão em 2026-08-23 (https://joola.de/en/products/joola-rubber-dynaryz-acc) — a fonte principal desta ficha não a trazia. A Joola publica dureza em DOIS formatos diferentes: a página oficial de especificações dela e a loja brasileira classificam por PALAVRA (\"Medium+\", \"Hard+\"), e é por isso que este dado faltava; o grau só aparece no texto do site alemão. Nenhuma das páginas nomeia a régua, e a que traz o grau também não diz onde a borracha é feita — a Joola declara \"Made in Germany\" na Zack, mas a Zack não tem grau publicado, e este site não empresta a evidência de uma linha para outra nem dentro da mesma marca. A página não nomeia a régua, então o grau entra como está e NÃO vira dureza unificada. Preço conferido na loja oficial da JOOLA no Brasil. A foto e a construção vêm da Megaspin, nos Estados Unidos. Estava esgotada na loja em 2026-08-05; o preço é o que a loja publica. Velocidade, efeito e controle são a MÉDIA DE 30 JOGADORES no Revspin (https://revspin.net/rubber/joola-dynaryz-acc.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
     },
     "joola-dynaryz-cmd": {
       "confianca": "revendedor",
@@ -11386,11 +11462,15 @@
       "consultadoEm": "2026-08-05",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "43°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "Preço conferido na loja oficial da JOOLA no Brasil. A foto e a construção vêm da Megaspin, nos Estados Unidos. Estava esgotada na loja em 2026-08-05; o preço é o que a loja publica. Velocidade, efeito e controle são a MÉDIA DE 7 JOGADORES no Revspin (https://revspin.net/rubber/joola-dynaryz-cmd.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
+      "nota": "A DUREZA (43°) veio da ficha oficial da Joola no site alemão em 2026-08-23 (https://joola.de/en/products/joola-rubber-dynaryz-cmd) — a fonte principal desta ficha não a trazia. A Joola publica dureza em DOIS formatos diferentes: a página oficial de especificações dela e a loja brasileira classificam por PALAVRA (\"Medium+\", \"Hard+\"), e é por isso que este dado faltava; o grau só aparece no texto do site alemão. Nenhuma das páginas nomeia a régua, e a que traz o grau também não diz onde a borracha é feita — a Joola declara \"Made in Germany\" na Zack, mas a Zack não tem grau publicado, e este site não empresta a evidência de uma linha para outra nem dentro da mesma marca. A página não nomeia a régua, então o grau entra como está e NÃO vira dureza unificada. Preço conferido na loja oficial da JOOLA no Brasil. A foto e a construção vêm da Megaspin, nos Estados Unidos. Estava esgotada na loja em 2026-08-05; o preço é o que a loja publica. Velocidade, efeito e controle são a MÉDIA DE 7 JOGADORES no Revspin (https://revspin.net/rubber/joola-dynaryz-cmd.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
     },
     "joola-dynaryz-zgr": {
       "confianca": "revendedor",
@@ -11398,11 +11478,15 @@
       "consultadoEm": "2026-08-05",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "56°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente, tensionada"
         }
       ],
-      "nota": "Preço conferido na loja oficial da JOOLA no Brasil. A foto e a construção vêm da Megaspin, nos Estados Unidos. Estava esgotada na loja em 2026-08-05; o preço é o que a loja publica. Velocidade, efeito e controle são a MÉDIA DE 18 JOGADORES no Revspin (https://revspin.net/rubber/joola-dynaryz-zgr.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
+      "nota": "A DUREZA (56°) veio da ficha oficial da Joola no site alemão em 2026-08-23 (https://joola.de/en/products/joola-rubber-dynaryz-zgr) — a fonte principal desta ficha não a trazia. A Joola publica dureza em DOIS formatos diferentes: a página oficial de especificações dela e a loja brasileira classificam por PALAVRA (\"Medium+\", \"Hard+\"), e é por isso que este dado faltava; o grau só aparece no texto do site alemão. Nenhuma das páginas nomeia a régua, e a que traz o grau também não diz onde a borracha é feita — a Joola declara \"Made in Germany\" na Zack, mas a Zack não tem grau publicado, e este site não empresta a evidência de uma linha para outra nem dentro da mesma marca. A página não nomeia a régua, então o grau entra como está e NÃO vira dureza unificada. Preço conferido na loja oficial da JOOLA no Brasil. A foto e a construção vêm da Megaspin, nos Estados Unidos. Estava esgotada na loja em 2026-08-05; o preço é o que a loja publica. Velocidade, efeito e controle são a MÉDIA DE 18 JOGADORES no Revspin (https://revspin.net/rubber/joola-dynaryz-zgr.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
     },
     "joola-dynaryz-zgx": {
       "confianca": "revendedor",
@@ -11410,11 +11494,15 @@
       "consultadoEm": "2026-08-05",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "52,5°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente, tensionada"
         }
       ],
-      "nota": "Preço conferido na loja oficial da JOOLA no Brasil. A foto e a construção vêm da Megaspin, nos Estados Unidos. Estava esgotada na loja em 2026-08-05; o preço é o que a loja publica. Velocidade, efeito e controle são a MÉDIA DE 10 JOGADORES no Revspin (https://revspin.net/rubber/joola-dynaryz-zgx.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
+      "nota": "A DUREZA (52,5°) veio da ficha oficial da Joola no site alemão em 2026-08-23 (https://joola.de/en/products/joola-rubber-dynaryz-zgx) — a fonte principal desta ficha não a trazia. A Joola publica dureza em DOIS formatos diferentes: a página oficial de especificações dela e a loja brasileira classificam por PALAVRA (\"Medium+\", \"Hard+\"), e é por isso que este dado faltava; o grau só aparece no texto do site alemão. Nenhuma das páginas nomeia a régua, e a que traz o grau também não diz onde a borracha é feita — a Joola declara \"Made in Germany\" na Zack, mas a Zack não tem grau publicado, e este site não empresta a evidência de uma linha para outra nem dentro da mesma marca. A página não nomeia a régua, então o grau entra como está e NÃO vira dureza unificada. Preço conferido na loja oficial da JOOLA no Brasil. A foto e a construção vêm da Megaspin, nos Estados Unidos. Estava esgotada na loja em 2026-08-05; o preço é o que a loja publica. Velocidade, efeito e controle são a MÉDIA DE 10 JOGADORES no Revspin (https://revspin.net/rubber/joola-dynaryz-zgx.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
     },
     "joola-dynaryz-inferno": {
       "confianca": "revendedor",
@@ -11422,11 +11510,15 @@
       "consultadoEm": "2026-08-05",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "50°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "Preço conferido na loja oficial da JOOLA no Brasil. A foto e a construção vêm da Megaspin, nos Estados Unidos. Estava esgotada na loja em 2026-08-05; o preço é o que a loja publica. Velocidade, efeito e controle são a MÉDIA DE 5 JOGADORES no Revspin (https://revspin.net/rubber/joola-dynaryz-inferno.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
+      "nota": "A DUREZA (50°) veio da ficha oficial da Joola no site alemão em 2026-08-23 (https://joola.de/en/products/joola-rubber-dynaryz-inferno) — a fonte principal desta ficha não a trazia. A Joola publica dureza em DOIS formatos diferentes: a página oficial de especificações dela e a loja brasileira classificam por PALAVRA (\"Medium+\", \"Hard+\"), e é por isso que este dado faltava; o grau só aparece no texto do site alemão. Nenhuma das páginas nomeia a régua, e a que traz o grau também não diz onde a borracha é feita — a Joola declara \"Made in Germany\" na Zack, mas a Zack não tem grau publicado, e este site não empresta a evidência de uma linha para outra nem dentro da mesma marca. A página não nomeia a régua, então o grau entra como está e NÃO vira dureza unificada. Preço conferido na loja oficial da JOOLA no Brasil. A foto e a construção vêm da Megaspin, nos Estados Unidos. Estava esgotada na loja em 2026-08-05; o preço é o que a loja publica. Velocidade, efeito e controle são a MÉDIA DE 5 JOGADORES no Revspin (https://revspin.net/rubber/joola-dynaryz-inferno.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
     },
     "joola-rhyzer-pro-45": {
       "confianca": "revendedor",
@@ -11434,11 +11526,15 @@
       "consultadoEm": "2026-08-04",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "45°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "Preço e foto conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido, e converter daria um número que muda todo dia. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Velocidade, efeito e controle são a MÉDIA DE 7 JOGADORES no Revspin (https://revspin.net/rubber/joola-rhyzer-pro-45.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
+      "nota": "A DUREZA (45°) veio da listagem da Megaspin (a linha Rhyzer saiu do site da Joola) em 2026-08-23 (https://www.megaspin.net/store/default.asp?pid=j-rhyzer-pro-45) — a fonte principal desta ficha não a trazia. A Joola publica dureza em DOIS formatos diferentes: a página oficial de especificações dela e a loja brasileira classificam por PALAVRA (\"Medium+\", \"Hard+\"), e é por isso que este dado faltava; o grau só aparece no texto do site alemão. Nenhuma das páginas nomeia a régua, e a que traz o grau também não diz onde a borracha é feita — a Joola declara \"Made in Germany\" na Zack, mas a Zack não tem grau publicado, e este site não empresta a evidência de uma linha para outra nem dentro da mesma marca. A página não nomeia a régua, então o grau entra como está e NÃO vira dureza unificada. Preço e foto conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido, e converter daria um número que muda todo dia. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Velocidade, efeito e controle são a MÉDIA DE 7 JOGADORES no Revspin (https://revspin.net/rubber/joola-rhyzer-pro-45.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
     },
     "joola-rhyzer-pro-50": {
       "confianca": "revendedor",
@@ -11446,11 +11542,15 @@
       "consultadoEm": "2026-08-04",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "50°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada, dura"
         }
       ],
-      "nota": "Preço e foto conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido, e converter daria um número que muda todo dia. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Velocidade, efeito e controle são a MÉDIA DE 12 JOGADORES no Revspin (https://revspin.net/rubber/joola-rhyzer-pro-50.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
+      "nota": "A DUREZA (50°) veio da listagem da Megaspin (a linha Rhyzer saiu do site da Joola) em 2026-08-23 (https://www.megaspin.net/store/default.asp?pid=j-rhyzer-pro-50) — a fonte principal desta ficha não a trazia. A Joola publica dureza em DOIS formatos diferentes: a página oficial de especificações dela e a loja brasileira classificam por PALAVRA (\"Medium+\", \"Hard+\"), e é por isso que este dado faltava; o grau só aparece no texto do site alemão. Nenhuma das páginas nomeia a régua, e a que traz o grau também não diz onde a borracha é feita — a Joola declara \"Made in Germany\" na Zack, mas a Zack não tem grau publicado, e este site não empresta a evidência de uma linha para outra nem dentro da mesma marca. A página não nomeia a régua, então o grau entra como está e NÃO vira dureza unificada. Preço e foto conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido, e converter daria um número que muda todo dia. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Velocidade, efeito e controle são a MÉDIA DE 12 JOGADORES no Revspin (https://revspin.net/rubber/joola-rhyzer-pro-50.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
     },
     "joola-rhyzer-43": {
       "confianca": "revendedor",
@@ -11458,11 +11558,15 @@
       "consultadoEm": "2026-08-04",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "43°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "Preço e foto conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido, e converter daria um número que muda todo dia. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Velocidade, efeito e controle são a MÉDIA DE 6 JOGADORES no Revspin (https://revspin.net/rubber/joola-rhyzer-43.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
+      "nota": "A DUREZA (43°) veio da listagem da Megaspin (a linha Rhyzer saiu do site da Joola) em 2026-08-23 (https://www.megaspin.net/store/default.asp?pid=j-rhyzer-43) — a fonte principal desta ficha não a trazia. A Joola publica dureza em DOIS formatos diferentes: a página oficial de especificações dela e a loja brasileira classificam por PALAVRA (\"Medium+\", \"Hard+\"), e é por isso que este dado faltava; o grau só aparece no texto do site alemão. Nenhuma das páginas nomeia a régua, e a que traz o grau também não diz onde a borracha é feita — a Joola declara \"Made in Germany\" na Zack, mas a Zack não tem grau publicado, e este site não empresta a evidência de uma linha para outra nem dentro da mesma marca. A página não nomeia a régua, então o grau entra como está e NÃO vira dureza unificada. Preço e foto conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido, e converter daria um número que muda todo dia. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Velocidade, efeito e controle são a MÉDIA DE 6 JOGADORES no Revspin (https://revspin.net/rubber/joola-rhyzer-43.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
     },
     "joola-rhyzen-cmd": {
       "confianca": "revendedor",
@@ -11470,11 +11574,15 @@
       "consultadoEm": "2026-08-04",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "45°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "Preço e foto conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido, e converter daria um número que muda todo dia. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "A DUREZA (45°) veio da ficha oficial da Joola no site alemão em 2026-08-23 (https://joola.de/en/products/joola-rhyzen-cmd-rubber) — a fonte principal desta ficha não a trazia. A Joola publica dureza em DOIS formatos diferentes: a página oficial de especificações dela e a loja brasileira classificam por PALAVRA (\"Medium+\", \"Hard+\"), e é por isso que este dado faltava; o grau só aparece no texto do site alemão. Nenhuma das páginas nomeia a régua, e a que traz o grau também não diz onde a borracha é feita — a Joola declara \"Made in Germany\" na Zack, mas a Zack não tem grau publicado, e este site não empresta a evidência de uma linha para outra nem dentro da mesma marca. A página não nomeia a régua, então o grau entra como está e NÃO vira dureza unificada. Preço e foto conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido, e converter daria um número que muda todo dia. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "joola-rhyzen-zgx": {
       "confianca": "revendedor",
@@ -11494,11 +11602,15 @@
       "consultadoEm": "2026-08-05",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "45°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "Preço conferido na loja oficial da JOOLA no Brasil. A foto e a construção vêm da Megaspin, nos Estados Unidos. Estava esgotada na loja em 2026-08-05; o preço é o que a loja publica."
+      "nota": "A DUREZA (45°) veio da ficha oficial da Joola no site alemão em 2026-08-23 (https://joola.de/en/products/joola-rhyzen-fire-rubber) — a fonte principal desta ficha não a trazia. A Joola publica dureza em DOIS formatos diferentes: a página oficial de especificações dela e a loja brasileira classificam por PALAVRA (\"Medium+\", \"Hard+\"), e é por isso que este dado faltava; o grau só aparece no texto do site alemão. Nenhuma das páginas nomeia a régua, e a que traz o grau também não diz onde a borracha é feita — a Joola declara \"Made in Germany\" na Zack, mas a Zack não tem grau publicado, e este site não empresta a evidência de uma linha para outra nem dentro da mesma marca. A página não nomeia a régua, então o grau entra como está e NÃO vira dureza unificada. Preço conferido na loja oficial da JOOLA no Brasil. A foto e a construção vêm da Megaspin, nos Estados Unidos. Estava esgotada na loja em 2026-08-05; o preço é o que a loja publica."
     },
     "joola-rhyzen-ice": {
       "confianca": "revendedor",
@@ -11506,11 +11618,15 @@
       "consultadoEm": "2026-08-05",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "40°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "Preço conferido na loja oficial da JOOLA no Brasil. A foto e a construção vêm da Megaspin, nos Estados Unidos. Estava esgotada na loja em 2026-08-05; o preço é o que a loja publica."
+      "nota": "A DUREZA (40°) veio da ficha oficial da Joola no site alemão em 2026-08-23 (https://joola.de/en/products/joola-rubber-rhyzen-ice) — a fonte principal desta ficha não a trazia. A Joola publica dureza em DOIS formatos diferentes: a página oficial de especificações dela e a loja brasileira classificam por PALAVRA (\"Medium+\", \"Hard+\"), e é por isso que este dado faltava; o grau só aparece no texto do site alemão. Nenhuma das páginas nomeia a régua, e a que traz o grau também não diz onde a borracha é feita — a Joola declara \"Made in Germany\" na Zack, mas a Zack não tem grau publicado, e este site não empresta a evidência de uma linha para outra nem dentro da mesma marca. A página não nomeia a régua, então o grau entra como está e NÃO vira dureza unificada. Preço conferido na loja oficial da JOOLA no Brasil. A foto e a construção vêm da Megaspin, nos Estados Unidos. Estava esgotada na loja em 2026-08-05; o preço é o que a loja publica."
     },
     "joola-tronix-cmd": {
       "confianca": "revendedor",
@@ -11518,11 +11634,15 @@
       "consultadoEm": "2026-08-05",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "43°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "Preço conferido na loja oficial da JOOLA no Brasil. A foto e a construção vêm da Megaspin, nos Estados Unidos. Estava esgotada na loja em 2026-08-05; o preço é o que a loja publica. Velocidade, efeito e controle são a MÉDIA DE 6 JOGADORES no Revspin (https://revspin.net/rubber/joola-tronix-cmd.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
+      "nota": "A DUREZA (43°) veio da ficha oficial da Joola no site alemão em 2026-08-23 (https://joola.de/en/products/joola-rubber-tronix-cmd) — a fonte principal desta ficha não a trazia. A Joola publica dureza em DOIS formatos diferentes: a página oficial de especificações dela e a loja brasileira classificam por PALAVRA (\"Medium+\", \"Hard+\"), e é por isso que este dado faltava; o grau só aparece no texto do site alemão. Nenhuma das páginas nomeia a régua, e a que traz o grau também não diz onde a borracha é feita — a Joola declara \"Made in Germany\" na Zack, mas a Zack não tem grau publicado, e este site não empresta a evidência de uma linha para outra nem dentro da mesma marca. A página não nomeia a régua, então o grau entra como está e NÃO vira dureza unificada. Preço conferido na loja oficial da JOOLA no Brasil. A foto e a construção vêm da Megaspin, nos Estados Unidos. Estava esgotada na loja em 2026-08-05; o preço é o que a loja publica. Velocidade, efeito e controle são a MÉDIA DE 6 JOGADORES no Revspin (https://revspin.net/rubber/joola-tronix-cmd.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
     },
     "joola-tronix-acc": {
       "confianca": "revendedor",
@@ -11590,11 +11710,15 @@
       "consultadoEm": "2026-08-04",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "38°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa"
         }
       ],
-      "nota": "Preço e foto conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido, e converter daria um número que muda todo dia. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=j-samba), na régua dela — que não é a dos materiais mais antigos do catálogo. A Joola não publica esses números em formato legível no site próprio."
+      "nota": "A DUREZA (38°) veio da ficha oficial da Joola no site alemão em 2026-08-23 (https://joola.de/en/products/joola-rubber-samba) — a fonte principal desta ficha não a trazia. A Joola publica dureza em DOIS formatos diferentes: a página oficial de especificações dela e a loja brasileira classificam por PALAVRA (\"Medium+\", \"Hard+\"), e é por isso que este dado faltava; o grau só aparece no texto do site alemão. Nenhuma das páginas nomeia a régua, e a que traz o grau também não diz onde a borracha é feita — a Joola declara \"Made in Germany\" na Zack, mas a Zack não tem grau publicado, e este site não empresta a evidência de uma linha para outra nem dentro da mesma marca. A página não nomeia a régua, então o grau entra como está e NÃO vira dureza unificada. Preço e foto conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido, e converter daria um número que muda todo dia. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=j-samba), na régua dela — que não é a dos materiais mais antigos do catálogo. A Joola não publica esses números em formato legível no site próprio."
     },
     "joola-vyzaryz-trinity": {
       "confianca": "revendedor",
@@ -12806,11 +12930,15 @@
       "consultadoEm": "2026-08-04",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "50°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente, tensionada"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=y-rakza-z), na régua dela — que não é a dos materiais mais antigos do catálogo. A Yasaka não publica esses números em formato legível no site próprio."
+      "nota": "A DUREZA (50°) veio da ficha oficial da Yasaka em 2026-08-23 (https://yasakatabletennis.com/product/rakza-z), que a publica como \"50\" — a fonte principal desta ficha não a trazia. A Yasaka NÃO NOMEIA A RÉGUA em ficha nenhuma, e o próprio til com que ela escreve o número já diz que é aproximado. Sem régua declarada não há conversão honesta: o grau aparece aqui como a marca o publica e NÃO entra na dureza unificada. É o mesmo tratamento que a Mark V comum já tinha nesta enciclopédia. Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=y-rakza-z), na régua dela — que não é a dos materiais mais antigos do catálogo. A Yasaka não publica esses números em formato legível no site próprio."
     },
     "yasaka-rakza-9": {
       "confianca": "revendedor",
@@ -12818,11 +12946,15 @@
       "consultadoEm": "2026-08-04",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "≈ 42,5°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=y-rakza-9), na régua dela — que não é a dos materiais mais antigos do catálogo. A Yasaka não publica esses números em formato legível no site próprio."
+      "nota": "A DUREZA (≈ 42,5°) veio da ficha oficial da Yasaka em 2026-08-23 (https://yasakatabletennis.com/product/rakza-9), que a publica como \"~42,5\" — a fonte principal desta ficha não a trazia. A Yasaka NÃO NOMEIA A RÉGUA em ficha nenhuma, e o próprio til com que ela escreve o número já diz que é aproximado. Sem régua declarada não há conversão honesta: o grau aparece aqui como a marca o publica e NÃO entra na dureza unificada. É o mesmo tratamento que a Mark V comum já tinha nesta enciclopédia. Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=y-rakza-9), na régua dela — que não é a dos materiais mais antigos do catálogo. A Yasaka não publica esses números em formato legível no site próprio."
     },
     "yasaka-rakza-x-soft": {
       "confianca": "revendedor",
@@ -12830,11 +12962,15 @@
       "consultadoEm": "2026-08-04",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "≈ 42,5°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada, macia"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=y-rakza-x-soft), na régua dela — que não é a dos materiais mais antigos do catálogo. A Yasaka não publica esses números em formato legível no site próprio."
+      "nota": "A DUREZA (≈ 42,5°) veio da ficha oficial da Yasaka em 2026-08-23 (https://yasakatabletennis.com/product/rakza-x-soft-2), que a publica como \"~42,5\" — a fonte principal desta ficha não a trazia. A Yasaka NÃO NOMEIA A RÉGUA em ficha nenhuma, e o próprio til com que ela escreve o número já diz que é aproximado. Sem régua declarada não há conversão honesta: o grau aparece aqui como a marca o publica e NÃO entra na dureza unificada. É o mesmo tratamento que a Mark V comum já tinha nesta enciclopédia. Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=y-rakza-x-soft), na régua dela — que não é a dos materiais mais antigos do catálogo. A Yasaka não publica esses números em formato legível no site próprio."
     },
     "yasaka-rigan": {
       "confianca": "revendedor",
@@ -12842,11 +12978,15 @@
       "consultadoEm": "2026-08-04",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "≈ 42,5°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=y-rigan), na régua dela — que não é a dos materiais mais antigos do catálogo. A Yasaka não publica esses números em formato legível no site próprio."
+      "nota": "A DUREZA (≈ 42,5°) veio da ficha oficial da Yasaka em 2026-08-23 (https://yasakatabletennis.com/product/rigan-2), que a publica como \"~42,5\" — a fonte principal desta ficha não a trazia. A Yasaka NÃO NOMEIA A RÉGUA em ficha nenhuma, e o próprio til com que ela escreve o número já diz que é aproximado. Sem régua declarada não há conversão honesta: o grau aparece aqui como a marca o publica e NÃO entra na dureza unificada. É o mesmo tratamento que a Mark V comum já tinha nesta enciclopédia. Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=y-rigan), na régua dela — que não é a dos materiais mais antigos do catálogo. A Yasaka não publica esses números em formato legível no site próprio."
     },
     "yasaka-rakza-xx": {
       "confianca": "revendedor",
@@ -12854,11 +12994,15 @@
       "consultadoEm": "2026-08-04",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "≈ 50°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=y-rakza-xx), na régua dela — que não é a dos materiais mais antigos do catálogo. A Yasaka não publica esses números em formato legível no site próprio."
+      "nota": "A DUREZA (≈ 50°) veio da ficha oficial da Yasaka em 2026-08-23 (https://yasakatabletennis.com/product/rakza-xx-2), que a publica como \"~50\" — a fonte principal desta ficha não a trazia. A Yasaka NÃO NOMEIA A RÉGUA em ficha nenhuma, e o próprio til com que ela escreve o número já diz que é aproximado. Sem régua declarada não há conversão honesta: o grau aparece aqui como a marca o publica e NÃO entra na dureza unificada. É o mesmo tratamento que a Mark V comum já tinha nesta enciclopédia. Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=y-rakza-xx), na régua dela — que não é a dos materiais mais antigos do catálogo. A Yasaka não publica esses números em formato legível no site próprio."
     },
     "yasaka-mark-v-hps-soft": {
       "confianca": "revendedor",
@@ -12866,11 +13010,15 @@
       "consultadoEm": "2026-08-04",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "≈ 37,5°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=y-mark-v-hps-soft), na régua dela — que não é a dos materiais mais antigos do catálogo. A Yasaka não publica esses números em formato legível no site próprio."
+      "nota": "A DUREZA (≈ 37,5°) veio da ficha oficial da Yasaka em 2026-08-23 (https://yasakatabletennis.com/product/mark-v-hps-soft), que a publica como \"~37,5\" — a fonte principal desta ficha não a trazia. A Yasaka NÃO NOMEIA A RÉGUA em ficha nenhuma, e o próprio til com que ela escreve o número já diz que é aproximado. Sem régua declarada não há conversão honesta: o grau aparece aqui como a marca o publica e NÃO entra na dureza unificada. É o mesmo tratamento que a Mark V comum já tinha nesta enciclopédia. Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=y-mark-v-hps-soft), na régua dela — que não é a dos materiais mais antigos do catálogo. A Yasaka não publica esses números em formato legível no site próprio."
     },
     "yasaka-mark-v-m2": {
       "confianca": "revendedor",
@@ -12878,11 +13026,15 @@
       "consultadoEm": "2026-08-04",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "≈ 47,5°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=y-markv-m2), na régua dela — que não é a dos materiais mais antigos do catálogo. A Yasaka não publica esses números em formato legível no site próprio."
+      "nota": "A DUREZA (≈ 47,5°) veio da ficha oficial da Yasaka em 2026-08-23 (https://yasakatabletennis.com/product/mark-v-m2), que a publica como \"~47,5\" — a fonte principal desta ficha não a trazia. A Yasaka NÃO NOMEIA A RÉGUA em ficha nenhuma, e o próprio til com que ela escreve o número já diz que é aproximado. Sem régua declarada não há conversão honesta: o grau aparece aqui como a marca o publica e NÃO entra na dureza unificada. É o mesmo tratamento que a Mark V comum já tinha nesta enciclopédia. Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=y-markv-m2), na régua dela — que não é a dos materiais mais antigos do catálogo. A Yasaka não publica esses números em formato legível no site próprio."
     },
     "yasaka-rising-dragon-ii": {
       "confianca": "revendedor",
@@ -12890,11 +13042,15 @@
       "consultadoEm": "2026-08-04",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "≈ 50°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=y-rising-dragon-ii), na régua dela — que não é a dos materiais mais antigos do catálogo. A Yasaka não publica esses números em formato legível no site próprio."
+      "nota": "A DUREZA (≈ 50°) veio da ficha oficial da Yasaka em 2026-08-23 (https://yasakatabletennis.com/product/rising-dragon-ii-2), que a publica como \"~50\" — a fonte principal desta ficha não a trazia. A Yasaka NÃO NOMEIA A RÉGUA em ficha nenhuma, e o próprio til com que ela escreve o número já diz que é aproximado. Sem régua declarada não há conversão honesta: o grau aparece aqui como a marca o publica e NÃO entra na dureza unificada. É o mesmo tratamento que a Mark V comum já tinha nesta enciclopédia. Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=y-rising-dragon-ii), na régua dela — que não é a dos materiais mais antigos do catálogo. A Yasaka não publica esses números em formato legível no site próprio."
     },
     "yasaka-shining-dragon-ii": {
       "confianca": "revendedor",
@@ -12902,11 +13058,15 @@
       "consultadoEm": "2026-08-04",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "≈ 47,5°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=y-shining-dragon-ii), na régua dela — que não é a dos materiais mais antigos do catálogo. A Yasaka não publica esses números em formato legível no site próprio."
+      "nota": "A DUREZA (≈ 47,5°) veio da ficha oficial da Yasaka em 2026-08-23 (https://yasakatabletennis.com/product/shining-dragon-ii-2), que a publica como \"~47,5\" — a fonte principal desta ficha não a trazia. A Yasaka NÃO NOMEIA A RÉGUA em ficha nenhuma, e o próprio til com que ela escreve o número já diz que é aproximado. Sem régua declarada não há conversão honesta: o grau aparece aqui como a marca o publica e NÃO entra na dureza unificada. É o mesmo tratamento que a Mark V comum já tinha nesta enciclopédia. Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=y-shining-dragon-ii), na régua dela — que não é a dos materiais mais antigos do catálogo. A Yasaka não publica esses números em formato legível no site próprio."
     },
     "yasaka-mark-v-30": {
       "confianca": "revendedor",
@@ -12926,11 +13086,15 @@
       "consultadoEm": "2026-08-04",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "≈ 42,5°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=y-mark-v-hps), na régua dela — que não é a dos materiais mais antigos do catálogo. A Yasaka não publica esses números em formato legível no site próprio."
+      "nota": "A DUREZA (≈ 42,5°) veio da ficha oficial da Yasaka em 2026-08-23 (https://yasakatabletennis.com/product/mark-v-hps), que a publica como \"~42,5\" — a fonte principal desta ficha não a trazia. A Yasaka NÃO NOMEIA A RÉGUA em ficha nenhuma, e o próprio til com que ela escreve o número já diz que é aproximado. Sem régua declarada não há conversão honesta: o grau aparece aqui como a marca o publica e NÃO entra na dureza unificada. É o mesmo tratamento que a Mark V comum já tinha nesta enciclopédia. Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=y-mark-v-hps), na régua dela — que não é a dos materiais mais antigos do catálogo. A Yasaka não publica esses números em formato legível no site próprio."
     },
     "yasaka-rising-dragon": {
       "confianca": "revendedor",
@@ -13902,11 +14066,15 @@
       "consultadoEm": "2026-08-06",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "42° a 46°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, não aderente"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "A DUREZA (42° a 46°) veio da MESMA PÁGINA que já era a fonte desta ficha (https://chtt.se/en/varumarken/729friendship/21-gummi/729-focus-iii-snipe), reconferida em 2026-08-23 — o dado estava lá e não tinha sido colhido. A 729 vende esta borracha em MAIS DE UMA dureza e a fonte lista as opções (\"42, 44, 46\"); a linha guarda a FAIXA em vez de escolher uma, porque escolher seria inventar qual chegou ao catálogo. A fonte não nomeia a régua, e a 729 também não: o site oficial da marca (en.729sports.com) responde com certificado inválido e não abre para consulta. Sem régua declarada não há conversão honesta, então o grau entra exatamente como a fonte o publica e NÃO vira dureza unificada. Os valores desta marca vão de 36° a 47°, o que atravessa a faixa típica chinesa E a europeia — mais um motivo para não supor qual é. Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "f729-master-gs": {
       "confianca": "revendedor",
@@ -13914,11 +14082,15 @@
       "consultadoEm": "2026-08-06",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "39° a 40°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "A DUREZA (39° a 40°) veio da MESMA PÁGINA que já era a fonte desta ficha (https://chtt.se/en/varumarken/729friendship/21-gummi/729-master-gs), reconferida em 2026-08-23 — o dado estava lá e não tinha sido colhido. A 729 vende esta borracha em MAIS DE UMA dureza e a fonte lista as opções (\"39 e 40\"); a linha guarda a FAIXA em vez de escolher uma, porque escolher seria inventar qual chegou ao catálogo. A fonte não nomeia a régua, e a 729 também não: o site oficial da marca (en.729sports.com) responde com certificado inválido e não abre para consulta. Sem régua declarada não há conversão honesta, então o grau entra exatamente como a fonte o publica e NÃO vira dureza unificada. Os valores desta marca vão de 36° a 47°, o que atravessa a faixa típica chinesa E a europeia — mais um motivo para não supor qual é. Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "f729-master-gt": {
       "confianca": "revendedor",
@@ -13926,11 +14098,15 @@
       "consultadoEm": "2026-08-06",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "36° a 38°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "A DUREZA (36° a 38°) veio da MESMA PÁGINA que já era a fonte desta ficha (https://chtt.se/en/varumarken/729friendship/21-gummi/729-master-gt), reconferida em 2026-08-23 — o dado estava lá e não tinha sido colhido. A 729 vende esta borracha em MAIS DE UMA dureza e a fonte lista as opções (\"36 e 38\"); a linha guarda a FAIXA em vez de escolher uma, porque escolher seria inventar qual chegou ao catálogo. A fonte não nomeia a régua, e a 729 também não: o site oficial da marca (en.729sports.com) responde com certificado inválido e não abre para consulta. Sem régua declarada não há conversão honesta, então o grau entra exatamente como a fonte o publica e NÃO vira dureza unificada. Os valores desta marca vão de 36° a 47°, o que atravessa a faixa típica chinesa E a europeia — mais um motivo para não supor qual é. Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "f729-presto-max-speed": {
       "confianca": "revendedor",
@@ -13938,11 +14114,15 @@
       "consultadoEm": "2026-08-06",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "46°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "A DUREZA (46°) veio da MESMA PÁGINA que já era a fonte desta ficha (https://chtt.se/en/varumarken/729friendship/21-gummi/729-presto-speed-max), reconferida em 2026-08-23 — o dado estava lá e não tinha sido colhido. A fonte publica um valor só (\"Sponge hardness: 46\"). A fonte não nomeia a régua, e a 729 também não: o site oficial da marca (en.729sports.com) responde com certificado inválido e não abre para consulta. Sem régua declarada não há conversão honesta, então o grau entra exatamente como a fonte o publica e NÃO vira dureza unificada. Os valores desta marca vão de 36° a 47°, o que atravessa a faixa típica chinesa E a europeia — mais um motivo para não supor qual é. Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "f729-presto-max-spin": {
       "confianca": "revendedor",
@@ -13950,11 +14130,15 @@
       "consultadoEm": "2026-08-06",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "46°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "A DUREZA (46°) veio da MESMA PÁGINA que já era a fonte desta ficha (https://chtt.se/en/varumarken/729friendship/21-gummi/729-presto-max-spin), reconferida em 2026-08-23 — o dado estava lá e não tinha sido colhido. A fonte publica um valor só (\"46 degrees\"). A fonte não nomeia a régua, e a 729 também não: o site oficial da marca (en.729sports.com) responde com certificado inválido e não abre para consulta. Sem régua declarada não há conversão honesta, então o grau entra exatamente como a fonte o publica e NÃO vira dureza unificada. Os valores desta marca vão de 36° a 47°, o que atravessa a faixa típica chinesa E a europeia — mais um motivo para não supor qual é. Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "f729-bloom-power": {
       "confianca": "revendedor",
@@ -13962,11 +14146,15 @@
       "consultadoEm": "2026-08-06",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "45° a 47°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "A DUREZA (45° a 47°) veio da MESMA PÁGINA que já era a fonte desta ficha (https://chtt.se/en/varumarken/729friendship/21-gummi/729-bloom-power), reconferida em 2026-08-23 — o dado estava lá e não tinha sido colhido. A 729 vende esta borracha em MAIS DE UMA dureza e a fonte lista as opções (\"45 47\"); a linha guarda a FAIXA em vez de escolher uma, porque escolher seria inventar qual chegou ao catálogo. A fonte não nomeia a régua, e a 729 também não: o site oficial da marca (en.729sports.com) responde com certificado inválido e não abre para consulta. Sem régua declarada não há conversão honesta, então o grau entra exatamente como a fonte o publica e NÃO vira dureza unificada. Os valores desta marca vão de 36° a 47°, o que atravessa a faixa típica chinesa E a europeia — mais um motivo para não supor qual é. Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "f729-bloom-spin": {
       "confianca": "revendedor",
@@ -13974,11 +14162,15 @@
       "consultadoEm": "2026-08-06",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "45° a 47°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "A DUREZA (45° a 47°) veio da MESMA PÁGINA que já era a fonte desta ficha (https://chtt.se/en/varumarken/729friendship/21-gummi/729-bloom-spin), reconferida em 2026-08-23 — o dado estava lá e não tinha sido colhido. A 729 vende esta borracha em MAIS DE UMA dureza e a fonte lista as opções (\"45 e 47\"); a linha guarda a FAIXA em vez de escolher uma, porque escolher seria inventar qual chegou ao catálogo. A fonte não nomeia a régua, e a 729 também não: o site oficial da marca (en.729sports.com) responde com certificado inválido e não abre para consulta. Sem régua declarada não há conversão honesta, então o grau entra exatamente como a fonte o publica e NÃO vira dureza unificada. Os valores desta marca vão de 36° a 47°, o que atravessa a faixa típica chinesa E a europeia — mais um motivo para não supor qual é. Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "f729-battle-iii-purple": {
       "confianca": "revendedor",
@@ -13986,11 +14178,15 @@
       "consultadoEm": "2026-08-06",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "39° a 41,5°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "A DUREZA (39° a 41,5°) veio da MESMA PÁGINA que já era a fonte desta ficha (https://chtt.se/en/varumarken/729friendship/21-gummi/729-battle-iii-purple-lightning), reconferida em 2026-08-23 — o dado estava lá e não tinha sido colhido. A 729 vende esta borracha em MAIS DE UMA dureza e a fonte lista as opções (\"H39, H40, H40.5, H41.5\"); a linha guarda a FAIXA em vez de escolher uma, porque escolher seria inventar qual chegou ao catálogo. A fonte não nomeia a régua, e a 729 também não: o site oficial da marca (en.729sports.com) responde com certificado inválido e não abre para consulta. Sem régua declarada não há conversão honesta, então o grau entra exatamente como a fonte o publica e NÃO vira dureza unificada. Os valores desta marca vão de 36° a 47°, o que atravessa a faixa típica chinesa E a europeia — mais um motivo para não supor qual é. Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "f729-battle-iii": {
       "confianca": "revendedor",
@@ -13998,11 +14194,15 @@
       "consultadoEm": "2026-08-06",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "38° a 40°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "A DUREZA (38° a 40°) veio da MESMA PÁGINA que já era a fonte desta ficha (https://chtt.se/en/varumarken/729friendship/21-gummi/12-729-battle-iii), reconferida em 2026-08-23 — o dado estava lá e não tinha sido colhido. A 729 vende esta borracha em MAIS DE UMA dureza e a fonte lista as opções (\"38, 39, 40\"); a linha guarda a FAIXA em vez de escolher uma, porque escolher seria inventar qual chegou ao catálogo. A fonte não nomeia a régua, e a 729 também não: o site oficial da marca (en.729sports.com) responde com certificado inválido e não abre para consulta. Sem régua declarada não há conversão honesta, então o grau entra exatamente como a fonte o publica e NÃO vira dureza unificada. Os valores desta marca vão de 36° a 47°, o que atravessa a faixa típica chinesa E a europeia — mais um motivo para não supor qual é. Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "f729-battle-ii-national": {
       "confianca": "revendedor",
@@ -14010,11 +14210,15 @@
       "consultadoEm": "2026-08-06",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "38° a 40°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "A DUREZA (38° a 40°) veio da MESMA PÁGINA que já era a fonte desta ficha (https://chtt.se/en/varumarken/729friendship/21-gummi/729-battle-ii-national), reconferida em 2026-08-23 — o dado estava lá e não tinha sido colhido. A 729 vende esta borracha em MAIS DE UMA dureza e a fonte lista as opções (\"38, 39, 40 degrees\"); a linha guarda a FAIXA em vez de escolher uma, porque escolher seria inventar qual chegou ao catálogo. A fonte não nomeia a régua, e a 729 também não: o site oficial da marca (en.729sports.com) responde com certificado inválido e não abre para consulta. Sem régua declarada não há conversão honesta, então o grau entra exatamente como a fonte o publica e NÃO vira dureza unificada. Os valores desta marca vão de 36° a 47°, o que atravessa a faixa típica chinesa E a europeia — mais um motivo para não supor qual é. Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "f729-battle-ii-pro": {
       "confianca": "revendedor",
@@ -14022,11 +14226,15 @@
       "consultadoEm": "2026-08-06",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "38° a 40°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "A DUREZA (38° a 40°) veio da MESMA PÁGINA que já era a fonte desta ficha (https://chtt.se/en/varumarken/729friendship/21-gummi/729-battle-ii-pro), reconferida em 2026-08-23 — o dado estava lá e não tinha sido colhido. A 729 vende esta borracha em MAIS DE UMA dureza e a fonte lista as opções (\"38, 39, 40 degrees\"); a linha guarda a FAIXA em vez de escolher uma, porque escolher seria inventar qual chegou ao catálogo. A fonte não nomeia a régua, e a 729 também não: o site oficial da marca (en.729sports.com) responde com certificado inválido e não abre para consulta. Sem régua declarada não há conversão honesta, então o grau entra exatamente como a fonte o publica e NÃO vira dureza unificada. Os valores desta marca vão de 36° a 47°, o que atravessa a faixa típica chinesa E a europeia — mais um motivo para não supor qual é. Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "f729-battle-ii-pro-blue": {
       "confianca": "revendedor",
@@ -14034,11 +14242,15 @@
       "consultadoEm": "2026-08-06",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "39° a 40°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "A DUREZA (39° a 40°) veio da MESMA PÁGINA que já era a fonte desta ficha (https://chtt.se/en/varumarken/729friendship/21-gummi/729-battle-ii-pro-blue), reconferida em 2026-08-23 — o dado estava lá e não tinha sido colhido. A 729 vende esta borracha em MAIS DE UMA dureza e a fonte lista as opções (\"39 40\"); a linha guarda a FAIXA em vez de escolher uma, porque escolher seria inventar qual chegou ao catálogo. A fonte não nomeia a régua, e a 729 também não: o site oficial da marca (en.729sports.com) responde com certificado inválido e não abre para consulta. Sem régua declarada não há conversão honesta, então o grau entra exatamente como a fonte o publica e NÃO vira dureza unificada. Os valores desta marca vão de 36° a 47°, o que atravessa a faixa típica chinesa E a europeia — mais um motivo para não supor qual é. Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "f729-battle-ii-gold": {
       "confianca": "revendedor",
@@ -14046,11 +14258,15 @@
       "consultadoEm": "2026-08-06",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "40°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "A DUREZA (40°) veio da MESMA PÁGINA que já era a fonte desta ficha (https://chtt.se/en/varumarken/729friendship/21-gummi/729-battle-ii-gold), reconferida em 2026-08-23 — o dado estava lá e não tinha sido colhido. A fonte publica um valor só (\"40°\"). A fonte não nomeia a régua, e a 729 também não: o site oficial da marca (en.729sports.com) responde com certificado inválido e não abre para consulta. Sem régua declarada não há conversão honesta, então o grau entra exatamente como a fonte o publica e NÃO vira dureza unificada. Os valores desta marca vão de 36° a 47°, o que atravessa a faixa típica chinesa E a europeia — mais um motivo para não supor qual é. Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "f729-battle-ii-silver": {
       "confianca": "revendedor",
@@ -14058,11 +14274,15 @@
       "consultadoEm": "2026-08-06",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "38° a 39°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "A DUREZA (38° a 39°) veio da MESMA PÁGINA que já era a fonte desta ficha (https://chtt.se/en/varumarken/729friendship/21-gummi/729-battle-ii-silver), reconferida em 2026-08-23 — o dado estava lá e não tinha sido colhido. A 729 vende esta borracha em MAIS DE UMA dureza e a fonte lista as opções (\"38 e 39\"); a linha guarda a FAIXA em vez de escolher uma, porque escolher seria inventar qual chegou ao catálogo. A fonte não nomeia a régua, e a 729 também não: o site oficial da marca (en.729sports.com) responde com certificado inválido e não abre para consulta. Sem régua declarada não há conversão honesta, então o grau entra exatamente como a fonte o publica e NÃO vira dureza unificada. Os valores desta marca vão de 36° a 47°, o que atravessa a faixa típica chinesa E a europeia — mais um motivo para não supor qual é. Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "f729-dragon-l": {
       "confianca": "revendedor",
@@ -14094,11 +14314,15 @@
       "consultadoEm": "2026-08-06",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "37°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente, macia"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "A DUREZA (37°) veio da MESMA PÁGINA que já era a fonte desta ficha (https://chtt.se/en/varumarken/729friendship/21-gummi/729-battle-ii-soft), reconferida em 2026-08-23 — o dado estava lá e não tinha sido colhido. A fonte publica um valor só (\"37 degrees\"). A fonte não nomeia a régua, e a 729 também não: o site oficial da marca (en.729sports.com) responde com certificado inválido e não abre para consulta. Sem régua declarada não há conversão honesta, então o grau entra exatamente como a fonte o publica e NÃO vira dureza unificada. Os valores desta marca vão de 36° a 47°, o que atravessa a faixa típica chinesa E a europeia — mais um motivo para não supor qual é. Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "f729-aurora-max": {
       "confianca": "revendedor",
@@ -14142,11 +14366,15 @@
       "consultadoEm": "2026-08-06",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "40° a 44°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "A DUREZA (40° a 44°) veio da MESMA PÁGINA que já era a fonte desta ficha (https://chtt.se/en/varumarken/729friendship/21-gummi/geo-spin-gs), reconferida em 2026-08-23 — o dado estava lá e não tinha sido colhido. A 729 vende esta borracha em MAIS DE UMA dureza e a fonte lista as opções (\"40–44°\"); a linha guarda a FAIXA em vez de escolher uma, porque escolher seria inventar qual chegou ao catálogo. A fonte não nomeia a régua, e a 729 também não: o site oficial da marca (en.729sports.com) responde com certificado inválido e não abre para consulta. Sem régua declarada não há conversão honesta, então o grau entra exatamente como a fonte o publica e NÃO vira dureza unificada. Os valores desta marca vão de 36° a 47°, o que atravessa a faixa típica chinesa E a europeia — mais um motivo para não supor qual é. Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "xiom-allround-s": {
       "confianca": "revendedor",
@@ -14410,11 +14638,15 @@
       "consultadoEm": "2026-08-09",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "47,5° (escala ESN)"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "Preço, foto, construção e os índices de desempenho conferidos na Megaspin, nos Estados Unidos. Os números estão NA RÉGUA DA MEGASPIN, que não é a mesma dos materiais mais antigos do catálogo — nela uma borracha passa de 100. Por isso o site não compara este material com os que estão em outra régua. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "A DUREZA (47,5°) veio da ficha oficial da GEWO em 2026-08-23 (https://www.gewousa.com/products/gewo-proton-neo-475-offensive-table-tennis-rubber), onde o campo \"Sponge hardness\" lê exatamente \"47.5/Hard\" — a fonte principal desta ficha não a trazia. É a ÚNICA Proton Neo em que a GEWO publica o número: as irmãs 325, 375 e 450 trazem só palavra no mesmo campo (\"Soft\", \"Soft+\", \"Medium+\"), e por isso ficam sem dureza aqui em vez de receberem 32,5 / 37,5 / 45 deduzidos do nome do modelo. A página não nomeia a régua; a atribuição vem da mesma cadeia europeia que as outras fichas GEWO deste site já usam. Preço, foto, construção e os índices de desempenho conferidos na Megaspin, nos Estados Unidos. Os números estão NA RÉGUA DA MEGASPIN, que não é a mesma dos materiais mais antigos do catálogo — nela uma borracha passa de 100. Por isso o site não compara este material com os que estão em outra régua. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "gewo-proton-neo-450": {
       "confianca": "revendedor",

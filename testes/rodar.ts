@@ -422,6 +422,8 @@ afirma(sensacao(57).rotulo === 'Muito dura', 'topo da escala');
 afirma(primeiroGrau('46,7° a 47,7° (escala ESN)') === 46.7, 'lê grau com vírgula decimal');
 afirma(primeiroGrau('sem número') === null, 'ficha sem grau devolve null');
 afirma(escalaDoTexto('37° a 41° (escala DHS)') === 'dhs', 'reconhece a escala DHS na ficha');
+afirma(escalaDoTexto('35° (escala chinesa)') === 'dhs',
+  'reconhece "escala chinesa" como a mesma régua que o módulo chama de DHS (chinesa)');
 afirma(escalaDoTexto('40° a 45° (≈ 42,5°)') === null, 'ficha que não diz a escala devolve null');
 /* Regua NOMEADA que este site nao converte: `escalaDoTexto` devolve null nos
    dois casos, e so' `reguaSemConversao` separa "a fonte calou" de "a fonte
