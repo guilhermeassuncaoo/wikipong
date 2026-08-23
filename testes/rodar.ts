@@ -2945,6 +2945,68 @@ for (const mat of MATERIAIS.filter((x) => x.tipo === 'Borracha')) {
   afirma(temRegua || explica,
     `${mat.id}: a linha de dureza ("${linha.valor}") nao nomeia a regua e a nota nao explica por que — o leitor ve um grau e nenhuma conversao, sem saber o motivo`);
 }
+/* ───── Victas: grau publicado, regua NENHUMA ─────
+   A Victas publica a dureza de cada borracha ("47.5±3") e nao diz em que regua.
+   Tambem nao diz onde a esponja e' feita: a pagina da VS>401 fala em
+   "especialistas de material alemaes e japoneses (GJ Tec)", que e' quem
+   desenvolveu, nao onde se fabrica, e a da TRIPLE fala em capa "China-style",
+   que e' estilo e nao origem. Sem regua e sem fabrica nao ha cadeia ate uma
+   escala — diferente da Stiga, que tambem nao nomeia a regua mas declara
+   "Made in Germany", e e' dai que sai a ESN dela.
+
+   O risco que esta asercao guarda e' o de alguem "completar" a linha com um
+   "(escala ESN)" so por parecer plausivel: a partir dai a VS>401 de 57,5°
+   viraria dureza unificada e sairia comparada com uma Tenergy, como se as duas
+   tivessem sido medidas com a mesma regua. Nao foram, e nada no dado diz que
+   sim. Se a Victas passar a declarar a regua, e' aqui que se afrouxa — com a
+   URL nova na nota. */
+const victasComDureza = MATERIAIS.filter(
+  (m) =>
+    m.id.startsWith('victas-') &&
+    m.tipo === 'Borracha' &&
+    (fabricantePorId(m.id)?.ficha ?? []).some((l) => /dureza/i.test(l.rotulo)),
+);
+afirma(
+  victasComDureza.length >= 24,
+  `Victas: so ${victasComDureza.length} fichas com dureza — eram 24 na colheita de 2026-08-23`,
+);
+for (const mat of victasComDureza) {
+  const linha = (fabricantePorId(mat.id)?.ficha ?? []).find((l) => /dureza/i.test(l.rotulo));
+  afirma(
+    linha !== undefined && escalaDoTexto(linha.valor) === null,
+    `${mat.id}: a linha de dureza ("${linha?.valor}") atribui uma regua que a Victas nao publica`,
+  );
+  afirma(
+    mat.origemDureza !== 'fabricante',
+    `${mat.id}: grau da Victas foi carimbado como vindo da regua do fabricante, e regua declarada nao ha`,
+  );
+  /* O grau tem que CHEGAR na tela. Se a ponte voltar a devolver null aqui, a
+     pagina volta a dizer "o fabricante nao publica a regua" logo abaixo de uma
+     ficha que mostra 47,5 deg — dois textos contrarios na mesma tela. */
+  afirma(
+    mat.grauSemRegua !== undefined,
+    `${mat.id}: a ficha publica grau e a ponte nao o levou pra tela`,
+  );
+}
+
+/* Os dois campos de procedencia sao EXCLUDENTES: ou a marca disse a regua (e o
+   grau foi convertido), ou nao disse (e o grau fica cru). Ter os dois seria a
+   tela poder afirmar as duas coisas do mesmo numero. */
+const doisCarimbos = MATERIAIS.find(
+  (m) => m.durezaFabricante !== undefined && m.grauSemRegua !== undefined,
+);
+afirma(
+  doisCarimbos === undefined,
+  `${doisCarimbos?.id}: tem dureza convertida E grau sem regua — a tela poderia afirmar as duas coisas do mesmo numero`,
+);
+const carimboIndevido = MATERIAIS.find(
+  (m) => m.grauSemRegua !== undefined && m.origemDureza !== 'semente',
+);
+afirma(
+  carimboIndevido === undefined,
+  `${carimboIndevido?.id}: grau sem regua carimbado como vindo do fabricante`,
+);
+
 console.log(`\n✔ ${ok} asserções passaram`);
 if (falhas.length) {
   console.error(`✘ ${falhas.length} falharam:`);

@@ -80,6 +80,14 @@
   color: var(--cor-texto-acento);
   font-weight: 700;
 }
+/* Ocupa o lugar do numero quando numero nao ha — e diz o que falta, em vez de
+   um traco mudo. Nao usa a fonte mono do dado nem o tamanho de dado: nao e'
+   dado, e parecer dado seria a mentira que a linha existe pra evitar. */
+.semValor {
+  font-size: var(--texto-menor);
+  font-style: italic;
+  color: var(--cor-tinta-suave);
+}
 .palavra {
   margin-left: 0.75rem;
   font-size: var(--texto-menor);

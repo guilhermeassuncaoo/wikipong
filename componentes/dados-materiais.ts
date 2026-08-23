@@ -42,12 +42,40 @@ export interface MaterialCatalogo extends Material {
   origemDureza: OrigemDureza;
   /** O que o fabricante publica, quando publica — para a UI mostrar a origem. */
   durezaFabricante?: { grau: number; escala: string };
+  /**
+   * O grau que o fabricante PUBLICA quando NÃO diz em que régua ele foi medido.
+   *
+   * É um terceiro caso, e não um jeito de dizer "não tem": a Victas publica
+   * "47,5° ± 3" em toda ficha e não nomeia a régua em nenhuma; a Yasaka
+   * publica "40° a 45°" da Mark V do mesmo jeito. O número existe, é da marca,
+   * e mesmo assim não pode ser convertido — sem saber a régua, 47,5 de uma não
+   * é comparável com 47,5 de outra. Sem este campo a tela dizia "o fabricante
+   * não publica a régua", que é verdade e esconde metade do fato.
+   *
+   * É o GRAU lido, não a linha crua: seis fichas guardam o número dentro de uma
+   * frase ("Lisa clássica, esponja 35°") e a frase inteira não cabe no meio de
+   * uma sentença. A linha crua continua à vista, logo acima, na ficha do modo
+   * Técnico — nada se perde.
+   */
+  grauSemRegua?: number;
   /** Ausente = 'semente' (os materiais antigos, anteriores a esta distinção). */
   origemSpecs?: OrigemSpecs;
 }
 
+/**
+ * Três desfechos, não dois — e a diferença entre os dois últimos é o ponto:
+ *  · 'convertida' — a ficha traz grau E régua: dá pra converter, e a origem é o fabricante.
+ *  · 'semRegua'   — a ficha traz o GRAU e nenhuma régua. O dado existe, é da marca,
+ *                   e ainda assim não converte — a tela mostra o grau e diz que a régua falta.
+ *  · null         — não há linha de dureza nenhuma.
+ */
+type LeituraDeDureza =
+  | { tipo: 'convertida'; unificada: number; grau: number; escala: string }
+  | { tipo: 'semRegua'; grau: number }
+  | null;
+
 /** Converte a ficha do fabricante em grau ESN-equivalente. null quando não dá. */
-function durezaDaFicha(id: string): { unificada: number; grau: number; escala: string } | null {
+function durezaDaFicha(id: string): LeituraDeDureza {
   const ficha = fabricantePorId(id)?.ficha;
   /* ── O LEITOR OLHAVA SÓ O RÓTULO (conserto de 2026-08-22) ──────────────────
      Ele procurava uma linha chamada "Dureza da esponja". Só que 33 fichas
@@ -66,10 +94,14 @@ function durezaDaFicha(id: string): { unificada: number; grau: number; escala: s
     ficha?.find((l) => /esponja/i.test(l.valor) && /\d\s*°/.test(l.valor));
   if (!linha) return null;
   const grau = grauRepresentativo(linha.valor);
+  if (grau === null) return null;
   const escala = escalaDoTexto(linha.valor);
-  if (grau === null || escala === null) return null;
+  /* Grau sim, régua não. Antes isto devolvia null junto com "não tem dureza
+     nenhuma", e a tela tratava os dois casos com a mesma frase. */
+  if (escala === null) return { tipo: 'semRegua', grau };
   const faixa = paraESN(grau, escala);
   return {
+    tipo: 'convertida',
     // Centro da faixa, arredondado: a régua unificada trabalha em graus inteiros.
     unificada: Math.round((faixa.min + faixa.max) / 2),
     grau,
@@ -130,6 +162,13 @@ function resolver(m: (typeof dados.materiais)[number]): MaterialCatalogo {
 
   const doFabricante = durezaDaFicha(m.id);
   if (!doFabricante) return { ...base, origemDureza: 'semente' };
+  /* Grau publicado sem régua NÃO carimba origem 'fabricante': a dureza unificada
+     que sobra é a da semente, e dizer que ela veio do fabricante seria emprestar
+     ao chute a autoridade da marca. O grau cru vai junto pra tela poder mostrar
+     o que a marca publica ao lado da estimativa, sem misturar os dois. */
+  if (doFabricante.tipo === 'semRegua') {
+    return { ...base, origemDureza: 'semente', grauSemRegua: doFabricante.grau };
+  }
   return {
     ...base,
     durezaUnificada: doFabricante.unificada,

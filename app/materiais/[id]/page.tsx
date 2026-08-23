@@ -362,17 +362,39 @@ export default async function PaginaDetalhe({ params }: { params: Promise<{ id: 
                     </td>
                   </tr>
                 ))}
-                {m.durezaUnificada !== undefined && (
+                {/* ── DUREZA UNIFICADA, E O CASO EM QUE ELA NÃO EXISTE ────────
+                    A linha só aparecia quando havia número. Só que 24 borrachas
+                    da Victas passaram a mostrar "57,5° ± 3" na ficha do
+                    fabricante logo acima e NENHUMA dureza unificada — sem uma
+                    palavra dizendo por quê. Some a linha, some a explicação, e
+                    fica no leitor a impressão de que o site esqueceu.
+
+                    Agora ela aparece TAMBÉM quando a marca publicou um grau e
+                    calou a régua: no lugar do número, a razão. É a saída (2) da
+                    regra de dado do projeto — dizer o que não se sabe e por quê,
+                    em vez do traço mudo. */}
+                {(m.durezaUnificada !== undefined || m.grauSemRegua !== undefined) && (
                 <tr>
                   <th scope="row">Dureza unificada*</th>
                   <td>
-                    <span className={`mono ${estilos.valor}`}>{m.durezaUnificada}°</span>
-                    {/* Procedência à vista: convertida da ficha do fabricante ou
-                        estimativa nossa. As duas coisas não valem o mesmo (D-16). */}
+                    {m.durezaUnificada !== undefined ? (
+                      <span className={`mono ${estilos.valor}`}>{m.durezaUnificada}°</span>
+                    ) : (
+                      <span className={estilos.semValor}>não dá para converter</span>
+                    )}
+                    {/* Procedência à vista, em TRÊS casos — porque são três, e o
+                        do meio existe de verdade: a marca publica o grau e cala
+                        a régua. Juntar esse caso com "não publica nada" fazia a
+                        tela dizer que o fabricante não publica a régua bem em
+                        cima de uma ficha que mostra "47,5° ± 3" logo acima, e
+                        deixava o leitor sem saber por que aquele número não
+                        valia. Agora a frase nomeia a marca e o grau dela. */}
                     <span className={estilos.palavra}>
                       {m.origemDureza === 'fabricante' && m.durezaFabricante
                         ? `convertida de ${m.durezaFabricante.grau}° ${m.durezaFabricante.escala.toUpperCase()}`
-                        : 'estimativa, o fabricante não publica a régua'}
+                        : m.grauSemRegua !== undefined
+                          ? `${m.durezaUnificada !== undefined ? 'estimativa nossa — ' : ''}a ${m.marca} publica ${String(m.grauSemRegua).replace('.', ',')}° e não diz em que régua`
+                          : 'estimativa, o fabricante não publica a régua'}
                     </span>
                   </td>
                 </tr>
