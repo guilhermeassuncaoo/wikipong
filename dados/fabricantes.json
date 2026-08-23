@@ -3858,11 +3858,15 @@
       "consultadoEm": "2026-07-29",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "52,5° (escala ESN)"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa tensionada, esponja extra dura"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha e a Stiga não a publica em página acessível. Ela entra SEM a régua unificada, e por isso sem a leitura de dureza em português claro, em vez de herdar o grau de uma irmã da mesma linha, que é outra esponja."
+      "nota": "A DUREZA (52,5° (escala ESN)) veio da ficha oficial da Stiga em 2026-08-23 (https://www.stigaaustralia.com/product/stiga-dna-platinum-xh). Isto CORRIGE esta ficha: a nota anterior afirmava que \"a Stiga não a publica em página acessível\", e era falso — a Stiga publica, e o dado estava lá o tempo todo; o que não abria era o site principal, renderizado por JavaScript. Campo vazio quase sempre é colheita preguiçosa, e este era. A Stiga não nomeia a régua em nenhuma ficha, mas declara \"Made in Germany\" para as linhas DNA e Helix (https://www.stigaaustralia.com/product/stiga-dna-platinum-s e https://www.stigaaustralia.com/product/stiga-rubber-helix-platinum-xh-table-tennis-rubber), e a tabela de escalas deste site define a ESN como a régua da fábrica alemã: é dessa cadeia que sai a atribuição, e não de suposição sobre a marca."
     },
     "stiga-dna-dragon-grip": {
       "confianca": "revendedor",
@@ -3950,11 +3954,15 @@
       "consultadoEm": "2026-07-29",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "47,5° (escala ESN)"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa híbrida levemente aderente"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha e a Stiga não a publica em página acessível. Ela entra SEM a régua unificada, e por isso sem a leitura de dureza em português claro, em vez de herdar o grau de uma irmã da mesma linha, que é outra esponja. Esta borracha não tem amostra suficiente na comunidade (Revspin) para entrar na nossa escala de desempenho. O piso é 5 avaliações. Entra com ficha, preço real e foto. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=s-dna-hybrid-m), na régua dela — que não é a dos materiais mais antigos do catálogo. A Stiga não publica esses números em formato legível no site próprio."
+      "nota": "A DUREZA (47,5° (escala ESN)) veio da ficha oficial da Stiga em 2026-08-23 (https://www.stigasports.com/en/product/dna-hybrid-m). O grau desta variante está no próprio título da página oficial da Stiga (\"DNA Hybrid M sponge 47.5 degrees\"), que é a forma exata em que ele foi lido. Isto CORRIGE esta ficha: a nota anterior afirmava que \"a Stiga não a publica em página acessível\", e era falso — a Stiga publica, e o dado estava lá o tempo todo; o que não abria era o site principal, renderizado por JavaScript. Campo vazio quase sempre é colheita preguiçosa, e este era. A Stiga não nomeia a régua em nenhuma ficha, mas declara \"Made in Germany\" para as linhas DNA e Helix (https://www.stigaaustralia.com/product/stiga-dna-platinum-s e https://www.stigaaustralia.com/product/stiga-rubber-helix-platinum-xh-table-tennis-rubber), e a tabela de escalas deste site define a ESN como a régua da fábrica alemã: é dessa cadeia que sai a atribuição, e não de suposição sobre a marca. Esta borracha não tem amostra suficiente na comunidade (Revspin) para entrar na nossa escala de desempenho. O piso é 5 avaliações. Entra com ficha, preço real e foto. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=s-dna-hybrid-m), na régua dela — que não é a dos materiais mais antigos do catálogo. A Stiga não publica esses números em formato legível no site próprio."
     },
     "stiga-dna-hybrid-xh": {
       "confianca": "revendedor",
@@ -3962,11 +3970,15 @@
       "consultadoEm": "2026-07-29",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "52,5° (escala ESN)"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa híbrida, esponja extra dura"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha e a Stiga não a publica em página acessível. Ela entra SEM a régua unificada, e por isso sem a leitura de dureza em português claro, em vez de herdar o grau de uma irmã da mesma linha, que é outra esponja. Esta borracha não tem amostra suficiente na comunidade (Revspin) para entrar na nossa escala de desempenho. O piso é 5 avaliações. Entra com ficha, preço real e foto. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=s-dna-hybrid-xh), na régua dela — que não é a dos materiais mais antigos do catálogo. A Stiga não publica esses números em formato legível no site próprio."
+      "nota": "A DUREZA (52,5° (escala ESN)) veio da ficha oficial da Stiga em 2026-08-23 (https://www.stigaaustralia.com/product/stiga-dna-hybrid-xh-table-tennis-rubber). Isto CORRIGE esta ficha: a nota anterior afirmava que \"a Stiga não a publica em página acessível\", e era falso — a Stiga publica, e o dado estava lá o tempo todo; o que não abria era o site principal, renderizado por JavaScript. Campo vazio quase sempre é colheita preguiçosa, e este era. A Stiga não nomeia a régua em nenhuma ficha, mas declara \"Made in Germany\" para as linhas DNA e Helix (https://www.stigaaustralia.com/product/stiga-dna-platinum-s e https://www.stigaaustralia.com/product/stiga-rubber-helix-platinum-xh-table-tennis-rubber), e a tabela de escalas deste site define a ESN como a régua da fábrica alemã: é dessa cadeia que sai a atribuição, e não de suposição sobre a marca. Esta borracha não tem amostra suficiente na comunidade (Revspin) para entrar na nossa escala de desempenho. O piso é 5 avaliações. Entra com ficha, preço real e foto. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=s-dna-hybrid-xh), na régua dela — que não é a dos materiais mais antigos do catálogo. A Stiga não publica esses números em formato legível no site próprio."
     },
     "stiga-dna-platinum-h": {
       "confianca": "revendedor",
@@ -3974,11 +3986,15 @@
       "consultadoEm": "2026-07-29",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "50° (escala ESN)"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa tensionada"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha e a Stiga não a publica em página acessível. Ela entra SEM a régua unificada, e por isso sem a leitura de dureza em português claro, em vez de herdar o grau de uma irmã da mesma linha, que é outra esponja. Esta borracha não tem amostra suficiente na comunidade (Revspin) para entrar na nossa escala de desempenho. O piso é 5 avaliações. Entra com ficha, preço real e foto. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=s-dna-platinum-h), na régua dela — que não é a dos materiais mais antigos do catálogo. A Stiga não publica esses números em formato legível no site próprio."
+      "nota": "A DUREZA (50° (escala ESN)) veio da ficha oficial da Stiga em 2026-08-23 (https://www.stigaaustralia.com/product/stiga-dna-platinum-h). Isto CORRIGE esta ficha: a nota anterior afirmava que \"a Stiga não a publica em página acessível\", e era falso — a Stiga publica, e o dado estava lá o tempo todo; o que não abria era o site principal, renderizado por JavaScript. Campo vazio quase sempre é colheita preguiçosa, e este era. A Stiga não nomeia a régua em nenhuma ficha, mas declara \"Made in Germany\" para as linhas DNA e Helix (https://www.stigaaustralia.com/product/stiga-dna-platinum-s e https://www.stigaaustralia.com/product/stiga-rubber-helix-platinum-xh-table-tennis-rubber), e a tabela de escalas deste site define a ESN como a régua da fábrica alemã: é dessa cadeia que sai a atribuição, e não de suposição sobre a marca. Esta borracha não tem amostra suficiente na comunidade (Revspin) para entrar na nossa escala de desempenho. O piso é 5 avaliações. Entra com ficha, preço real e foto. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=s-dna-platinum-h), na régua dela — que não é a dos materiais mais antigos do catálogo. A Stiga não publica esses números em formato legível no site próprio."
     },
     "stiga-dna-platinum-s": {
       "confianca": "revendedor",
@@ -3986,11 +4002,15 @@
       "consultadoEm": "2026-07-29",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "42,5° (escala ESN)"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa tensionada, esponja macia"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha e a Stiga não a publica em página acessível. Ela entra SEM a régua unificada, e por isso sem a leitura de dureza em português claro, em vez de herdar o grau de uma irmã da mesma linha, que é outra esponja. Esta borracha não tem amostra suficiente na comunidade (Revspin) para entrar na nossa escala de desempenho. O piso é 5 avaliações. Entra com ficha, preço real e foto. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=s-dna-platinum-s), na régua dela — que não é a dos materiais mais antigos do catálogo. A Stiga não publica esses números em formato legível no site próprio."
+      "nota": "A DUREZA (42,5° (escala ESN)) veio da ficha oficial da Stiga em 2026-08-23 (https://www.stigaaustralia.com/product/stiga-dna-platinum-s). Isto CORRIGE esta ficha: a nota anterior afirmava que \"a Stiga não a publica em página acessível\", e era falso — a Stiga publica, e o dado estava lá o tempo todo; o que não abria era o site principal, renderizado por JavaScript. Campo vazio quase sempre é colheita preguiçosa, e este era. A Stiga não nomeia a régua em nenhuma ficha, mas declara \"Made in Germany\" para as linhas DNA e Helix (https://www.stigaaustralia.com/product/stiga-dna-platinum-s e https://www.stigaaustralia.com/product/stiga-rubber-helix-platinum-xh-table-tennis-rubber), e a tabela de escalas deste site define a ESN como a régua da fábrica alemã: é dessa cadeia que sai a atribuição, e não de suposição sobre a marca. Esta borracha não tem amostra suficiente na comunidade (Revspin) para entrar na nossa escala de desempenho. O piso é 5 avaliações. Entra com ficha, preço real e foto. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=s-dna-platinum-s), na régua dela — que não é a dos materiais mais antigos do catálogo. A Stiga não publica esses números em formato legível no site próprio."
     },
     "stiga-mantra-pro-h": {
       "confianca": "revendedor",
@@ -4062,11 +4082,15 @@
       "consultadoEm": "2026-07-29",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "47,5° (escala ESN)"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa híbrida levemente aderente"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta variante e a Stiga não a publica em página acessível. Ela entra SEM a régua unificada, e por isso sem a leitura de dureza em português claro, em vez de herdar o grau de uma irmã da mesma linha: a esponja é justamente o que separa uma M de uma XH. Toda a linha Helix é lançamento recente e ainda não tem amostra na comunidade. O Revspin registra de 0 a 2 avaliações para cada, abaixo do nosso piso de 5. Entram com ficha, preço real e foto. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=s-helix-hybrid-m), na régua dela — que não é a dos materiais mais antigos do catálogo. A Stiga não publica esses números em formato legível no site próprio."
+      "nota": "A DUREZA (47,5° (escala ESN)) veio da ficha oficial da Stiga em 2026-08-23 (https://www.stigaaustralia.com/product/stiga-helix-hybrid-m-table-tennis-rubber). Isto CORRIGE esta ficha: a nota anterior afirmava que \"a Stiga não a publica em página acessível\", e era falso — a Stiga publica, e o dado estava lá o tempo todo; o que não abria era o site principal, renderizado por JavaScript. Campo vazio quase sempre é colheita preguiçosa, e este era. A Stiga não nomeia a régua em nenhuma ficha, mas declara \"Made in Germany\" para as linhas DNA e Helix (https://www.stigaaustralia.com/product/stiga-dna-platinum-s e https://www.stigaaustralia.com/product/stiga-rubber-helix-platinum-xh-table-tennis-rubber), e a tabela de escalas deste site define a ESN como a régua da fábrica alemã: é dessa cadeia que sai a atribuição, e não de suposição sobre a marca. Toda a linha Helix é lançamento recente e ainda não tem amostra na comunidade. O Revspin registra de 0 a 2 avaliações para cada, abaixo do nosso piso de 5. Entram com ficha, preço real e foto. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=s-helix-hybrid-m), na régua dela — que não é a dos materiais mais antigos do catálogo. A Stiga não publica esses números em formato legível no site próprio."
     },
     "stiga-helix-hybrid-xh": {
       "confianca": "revendedor",
@@ -4074,11 +4098,15 @@
       "consultadoEm": "2026-07-29",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "52,5° (escala ESN)"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa híbrida, esponja extra dura"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta variante e a Stiga não a publica em página acessível. Ela entra SEM a régua unificada, e por isso sem a leitura de dureza em português claro, em vez de herdar o grau de uma irmã da mesma linha: a esponja é justamente o que separa uma M de uma XH. Toda a linha Helix é lançamento recente e ainda não tem amostra na comunidade. O Revspin registra de 0 a 2 avaliações para cada, abaixo do nosso piso de 5. Entram com ficha, preço real e foto. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=s-helix-hybrid-xh), na régua dela — que não é a dos materiais mais antigos do catálogo. A Stiga não publica esses números em formato legível no site próprio."
+      "nota": "A DUREZA (52,5° (escala ESN)) veio da ficha oficial da Stiga em 2026-08-23 (https://www.stigaaustralia.com/product/stiga-helix-hybrid-xh-table-tennis-rubber). Isto CORRIGE esta ficha: a nota anterior afirmava que \"a Stiga não a publica em página acessível\", e era falso — a Stiga publica, e o dado estava lá o tempo todo; o que não abria era o site principal, renderizado por JavaScript. Campo vazio quase sempre é colheita preguiçosa, e este era. A Stiga não nomeia a régua em nenhuma ficha, mas declara \"Made in Germany\" para as linhas DNA e Helix (https://www.stigaaustralia.com/product/stiga-dna-platinum-s e https://www.stigaaustralia.com/product/stiga-rubber-helix-platinum-xh-table-tennis-rubber), e a tabela de escalas deste site define a ESN como a régua da fábrica alemã: é dessa cadeia que sai a atribuição, e não de suposição sobre a marca. Toda a linha Helix é lançamento recente e ainda não tem amostra na comunidade. O Revspin registra de 0 a 2 avaliações para cada, abaixo do nosso piso de 5. Entram com ficha, preço real e foto. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=s-helix-hybrid-xh), na régua dela — que não é a dos materiais mais antigos do catálogo. A Stiga não publica esses números em formato legível no site próprio."
     },
     "stiga-helix-platinum-55": {
       "confianca": "revendedor",
@@ -4102,11 +4130,15 @@
       "consultadoEm": "2026-07-29",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "50° (escala ESN)"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa tensionada"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta variante e a Stiga não a publica em página acessível. Ela entra SEM a régua unificada, e por isso sem a leitura de dureza em português claro, em vez de herdar o grau de uma irmã da mesma linha: a esponja é justamente o que separa uma M de uma XH. Toda a linha Helix é lançamento recente e ainda não tem amostra na comunidade. O Revspin registra de 0 a 2 avaliações para cada, abaixo do nosso piso de 5. Entram com ficha, preço real e foto. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=s-helix-platinum-h), na régua dela — que não é a dos materiais mais antigos do catálogo. A Stiga não publica esses números em formato legível no site próprio."
+      "nota": "A DUREZA (50° (escala ESN)) veio da ficha oficial da Stiga em 2026-08-23 (https://www.stigaaustralia.com/product/stiga-helix-platinum-h-table-tennis-rubber). Isto CORRIGE esta ficha: a nota anterior afirmava que \"a Stiga não a publica em página acessível\", e era falso — a Stiga publica, e o dado estava lá o tempo todo; o que não abria era o site principal, renderizado por JavaScript. Campo vazio quase sempre é colheita preguiçosa, e este era. A Stiga não nomeia a régua em nenhuma ficha, mas declara \"Made in Germany\" para as linhas DNA e Helix (https://www.stigaaustralia.com/product/stiga-dna-platinum-s e https://www.stigaaustralia.com/product/stiga-rubber-helix-platinum-xh-table-tennis-rubber), e a tabela de escalas deste site define a ESN como a régua da fábrica alemã: é dessa cadeia que sai a atribuição, e não de suposição sobre a marca. Toda a linha Helix é lançamento recente e ainda não tem amostra na comunidade. O Revspin registra de 0 a 2 avaliações para cada, abaixo do nosso piso de 5. Entram com ficha, preço real e foto. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=s-helix-platinum-h), na régua dela — que não é a dos materiais mais antigos do catálogo. A Stiga não publica esses números em formato legível no site próprio."
     },
     "stiga-helix-platinum-m": {
       "confianca": "revendedor",
@@ -4130,11 +4162,15 @@
       "consultadoEm": "2026-07-29",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "52,5° (escala ESN)"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa tensionada, esponja extra dura"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta variante e a Stiga não a publica em página acessível. Ela entra SEM a régua unificada, e por isso sem a leitura de dureza em português claro, em vez de herdar o grau de uma irmã da mesma linha: a esponja é justamente o que separa uma M de uma XH. Toda a linha Helix é lançamento recente e ainda não tem amostra na comunidade. O Revspin registra de 0 a 2 avaliações para cada, abaixo do nosso piso de 5. Entram com ficha, preço real e foto. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=s-helix-platinum-xh), na régua dela — que não é a dos materiais mais antigos do catálogo. A Stiga não publica esses números em formato legível no site próprio."
+      "nota": "A DUREZA (52,5° (escala ESN)) veio da ficha oficial da Stiga em 2026-08-23 (https://www.stigaaustralia.com/product/stiga-rubber-helix-platinum-xh-table-tennis-rubber). Isto CORRIGE esta ficha: a nota anterior afirmava que \"a Stiga não a publica em página acessível\", e era falso — a Stiga publica, e o dado estava lá o tempo todo; o que não abria era o site principal, renderizado por JavaScript. Campo vazio quase sempre é colheita preguiçosa, e este era. A Stiga não nomeia a régua em nenhuma ficha, mas declara \"Made in Germany\" para as linhas DNA e Helix (https://www.stigaaustralia.com/product/stiga-dna-platinum-s e https://www.stigaaustralia.com/product/stiga-rubber-helix-platinum-xh-table-tennis-rubber), e a tabela de escalas deste site define a ESN como a régua da fábrica alemã: é dessa cadeia que sai a atribuição, e não de suposição sobre a marca. Toda a linha Helix é lançamento recente e ainda não tem amostra na comunidade. O Revspin registra de 0 a 2 avaliações para cada, abaixo do nosso piso de 5. Entram com ficha, preço real e foto. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=s-helix-platinum-xh), na régua dela — que não é a dos materiais mais antigos do catálogo. A Stiga não publica esses números em formato legível no site próprio."
     },
     "stiga-carbonado-45": {
       "confianca": "revendedor",
@@ -8462,11 +8498,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "40° ± 3"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita. Velocidade, efeito e controle são a MÉDIA DE 51 JOGADORES no Revspin (https://revspin.net/rubber/victas-v-01-limber.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
+      "nota": "A DUREZA (40° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=19), onde a marca a publica como \"40±3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita. Velocidade, efeito e controle são a MÉDIA DE 51 JOGADORES no Revspin (https://revspin.net/rubber/victas-v-01-limber.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
     },
     "victas-v-15-extra": {
       "confianca": "revendedor",
@@ -8474,11 +8514,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "47,5° ± 3"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita. Velocidade, efeito e controle são a MÉDIA DE 41 JOGADORES no Revspin (https://revspin.net/rubber/victas-v-15-extra.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
+      "nota": "A DUREZA (47,5° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=9), onde a marca a publica como \"47.5±3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita. Velocidade, efeito e controle são a MÉDIA DE 41 JOGADORES no Revspin (https://revspin.net/rubber/victas-v-15-extra.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
     },
     "victas-v-22-double-extra": {
       "confianca": "revendedor",
@@ -8486,11 +8530,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "50° ± 3"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita. Velocidade, efeito e controle são a MÉDIA DE 36 JOGADORES no Revspin (https://revspin.net/rubber/victas-v-22-double-extra.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
+      "nota": "A DUREZA (50° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=6), onde a marca a publica como \"50±3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita. Velocidade, efeito e controle são a MÉDIA DE 36 JOGADORES no Revspin (https://revspin.net/rubber/victas-v-22-double-extra.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
     },
     "victas-v-01-stiff": {
       "confianca": "revendedor",
@@ -8498,11 +8546,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "45° ± 3"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada, dura"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita. Velocidade, efeito e controle são a MÉDIA DE 34 JOGADORES no Revspin (https://revspin.net/rubber/victas-v-01-stiff.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
+      "nota": "A DUREZA (45° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=18), onde a marca a publica como \"45±3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita. Velocidade, efeito e controle são a MÉDIA DE 34 JOGADORES no Revspin (https://revspin.net/rubber/victas-v-01-stiff.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
     },
     "victas-vs-401": {
       "confianca": "revendedor",
@@ -8510,11 +8562,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "57,5° ± 3"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita. Velocidade, efeito e controle são a MÉDIA DE 32 JOGADORES no Revspin (https://revspin.net/rubber/victas-vs-401.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
+      "nota": "A DUREZA (57,5° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=24), onde a marca a publica como \"57.5±3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita. Velocidade, efeito e controle são a MÉDIA DE 32 JOGADORES no Revspin (https://revspin.net/rubber/victas-vs-401.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
     },
     "victas-v-15-limber": {
       "confianca": "revendedor",
@@ -8522,11 +8578,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "40° ± 3"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita. Velocidade, efeito e controle são a MÉDIA DE 30 JOGADORES no Revspin (https://revspin.net/rubber/victas-v-15-limber.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
+      "nota": "A DUREZA (40° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=11), onde a marca a publica como \"40±3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita. Velocidade, efeito e controle são a MÉDIA DE 30 JOGADORES no Revspin (https://revspin.net/rubber/victas-v-15-limber.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
     },
     "victas-ventus-extra": {
       "confianca": "revendedor",
@@ -8534,11 +8594,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "47,5° ± 3"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=victas-ventus-extra), na régua dela — que não é a dos materiais mais antigos do catálogo. A Victas não publica esses números em formato legível no site próprio."
+      "nota": "A DUREZA (47,5° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=12), onde a marca a publica como \"47.5±3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=victas-ventus-extra), na régua dela — que não é a dos materiais mais antigos do catálogo. A Victas não publica esses números em formato legível no site próprio."
     },
     "victas-v-11-extra": {
       "confianca": "revendedor",
@@ -8546,11 +8610,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "47,5° ± 3"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita. Velocidade, efeito e controle são a MÉDIA DE 22 JOGADORES no Revspin (https://revspin.net/rubber/victas-v-11-extra.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
+      "nota": "A DUREZA (47,5° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=15), onde a marca a publica como \"47.5±3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita. Velocidade, efeito e controle são a MÉDIA DE 22 JOGADORES no Revspin (https://revspin.net/rubber/victas-v-11-extra.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
     },
     "victas-v-01": {
       "confianca": "revendedor",
@@ -8558,11 +8626,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "47,5° ± 3"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita. Velocidade, efeito e controle são a MÉDIA DE 19 JOGADORES no Revspin (https://revspin.net/rubber/victas-v-01.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
+      "nota": "A DUREZA (47,5° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=17), onde a marca a publica como \"47.5±3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita. Velocidade, efeito e controle são a MÉDIA DE 19 JOGADORES no Revspin (https://revspin.net/rubber/victas-v-01.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
     },
     "victas-v-15-stiff": {
       "confianca": "revendedor",
@@ -8570,11 +8642,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "45° ± 3"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada, dura"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita."
+      "nota": "A DUREZA (45° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=10), onde a marca a publica como \"45±3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita."
     },
     "victas-vs-402-double-extra": {
       "confianca": "revendedor",
@@ -8582,11 +8658,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "50° ± 3"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita. Velocidade, efeito e controle são a MÉDIA DE 17 JOGADORES no Revspin (https://revspin.net/rubber/victas-vs-402-double-extra.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
+      "nota": "A DUREZA (50° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=25), onde a marca a publica como \"50±3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita. Velocidade, efeito e controle são a MÉDIA DE 17 JOGADORES no Revspin (https://revspin.net/rubber/victas-vs-402-double-extra.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
     },
     "victas-vs-402-limber": {
       "confianca": "revendedor",
@@ -8594,11 +8674,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "40° ± 3"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita. Velocidade, efeito e controle são a MÉDIA DE 15 JOGADORES no Revspin (https://revspin.net/rubber/victas-vs-402-limber.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
+      "nota": "A DUREZA (40° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=26), onde a marca a publica como \"40±3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita. Velocidade, efeito e controle são a MÉDIA DE 15 JOGADORES no Revspin (https://revspin.net/rubber/victas-vs-402-limber.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
     },
     "victas-v-20-double-extra": {
       "confianca": "revendedor",
@@ -8606,11 +8690,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "52,5° ± 3"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita."
+      "nota": "A DUREZA (52,5° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=5), onde a marca a publica como \"52.5±3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita."
     },
     "victas-vj-07-stiff": {
       "confianca": "revendedor",
@@ -8618,11 +8706,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "45° ± 3"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada, dura"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita."
+      "nota": "A DUREZA (45° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=20), onde a marca a publica como \"45±3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita."
     },
     "victas-triple-double-extra": {
       "confianca": "revendedor",
@@ -8630,11 +8722,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "57,5° ± 3"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente, tensionada"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=victas-t-d-extra), na régua dela — que não é a dos materiais mais antigos do catálogo. A Victas não publica esses números em formato legível no site próprio."
+      "nota": "A DUREZA (57,5° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=28), onde a marca a publica como \"57.5±3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=victas-t-d-extra), na régua dela — que não é a dos materiais mais antigos do catálogo. A Victas não publica esses números em formato legível no site próprio."
     },
     "victas-ventus-stiff": {
       "confianca": "revendedor",
@@ -8642,11 +8738,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "45° ± 3"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada, dura"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=victas-ventus-stiff), na régua dela — que não é a dos materiais mais antigos do catálogo. A Victas não publica esses números em formato legível no site próprio."
+      "nota": "A DUREZA (45° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=13), onde a marca a publica como \"45±3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=victas-ventus-stiff), na régua dela — que não é a dos materiais mais antigos do catálogo. A Victas não publica esses números em formato legível no site próprio."
     },
     "victas-vj-07-regular": {
       "confianca": "revendedor",
@@ -8654,11 +8754,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "42,5° ± 3"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita."
+      "nota": "A DUREZA (42,5° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=23), onde a marca a publica como \"42.5±3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita."
     },
     "victas-triple-extra": {
       "confianca": "revendedor",
@@ -8666,11 +8770,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "55° ± 3"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente, tensionada"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. Velocidade, efeito e controle são a MÉDIA DE 5 JOGADORES no Revspin (https://revspin.net/rubber/victas-triple-extra.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
+      "nota": "A DUREZA (55° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=29), onde a marca a publica como \"55±3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. Velocidade, efeito e controle são a MÉDIA DE 5 JOGADORES no Revspin (https://revspin.net/rubber/victas-triple-extra.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
     },
     "victas-v-20-extra": {
       "confianca": "revendedor",
@@ -8678,11 +8786,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "47,5° ± 3"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
+      "nota": "A DUREZA (47,5° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=8), onde a marca a publica como \"47.5±3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
     },
     "victas-v-15-sticky": {
       "confianca": "revendedor",
@@ -8690,11 +8802,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "52,5° ± 3"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente, tensionada"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
+      "nota": "A DUREZA (52,5° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=175), onde a marca a publica como \"52,5°+/-3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
     },
     "victas-v-15-sticky-soft": {
       "confianca": "revendedor",
@@ -8702,11 +8818,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "47,5° ± 3"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente, esponja macia"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
+      "nota": "A DUREZA (47,5° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=176), onde a marca a publica como \"47,5°+/-3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
     },
     "victas-v-03": {
       "confianca": "revendedor",
@@ -8726,11 +8846,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "40° ± 3"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=victas-ventus-limber), na régua dela — que não é a dos materiais mais antigos do catálogo. A Victas não publica esses números em formato legível no site próprio."
+      "nota": "A DUREZA (40° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=14), onde a marca a publica como \"40±3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=victas-ventus-limber), na régua dela — que não é a dos materiais mais antigos do catálogo. A Victas não publica esses números em formato legível no site próprio."
     },
     "victas-ventus-regular": {
       "confianca": "revendedor",
@@ -8738,11 +8862,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "42,5° ± 3"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
+      "nota": "A DUREZA (42,5° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=22), onde a marca a publica como \"42.5±3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
     },
     "victas-triple-regular": {
       "confianca": "revendedor",
@@ -8750,11 +8878,15 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "55° ± 3"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
+      "nota": "A DUREZA (55° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=30), onde a marca a publica como \"55±3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
     },
     "victas-koki-niwa-wood": {
       "confianca": "revendedor",
