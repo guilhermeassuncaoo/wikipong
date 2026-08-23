@@ -3061,6 +3061,33 @@ for (const mat of MATERIAIS.filter((x) => x.tipo === 'Lâmina')) {
   );
 }
 
+/* ───── tipo trocado: ficha de madeira num produto marcado como borracha ─────
+   Cinco produtos Nittaku (Factive 7, Flyatt Carbon, Flyatt Carbon Pro, Fistard
+   e Engent) estavam no catalogo como BORRACHA e sao LAMINAS. A fonte dizia
+   "Camadas: 5+2, peso 82 g, espessura 6 mm" — ficha de madeira — e o catalogo
+   ainda carimbava "Superficie: Lisa, tensionada" por cima, linha que nao existe
+   no anuncio nenhum: era o preenchimento padrao de borracha.
+
+   O erro sobreviveu porque produto do tipo errado nunca acha o dado do tipo
+   dele, entao ele so' parece "material sem dado" — e a gente vai atras do dado
+   em vez de desconfiar do tipo. Esta asercao desconfia do tipo. */
+for (const mat of MATERIAIS) {
+  const ficha = fabricantePorId(mat.id)?.ficha ?? [];
+  const texto = ficha.map((l) => `${l.rotulo} ${l.valor}`).join(' ').toLowerCase();
+  if (mat.tipo === 'Borracha') {
+    afirma(
+      !/camadas|lâminas de madeira|all-wood|ply/.test(texto),
+      `${mat.id}: marcado como Borracha e a ficha descreve madeira ("${texto.slice(0, 70)}…") — tipo trocado?`,
+    );
+  }
+  if (mat.tipo === 'Lâmina') {
+    afirma(
+      !ficha.some((l) => /dureza da esponja/i.test(l.rotulo)),
+      `${mat.id}: marcado como Lâmina e a ficha traz dureza de esponja — tipo trocado?`,
+    );
+  }
+}
+
 console.log(`\n✔ ${ok} asserções passaram`);
 if (falhas.length) {
   console.error(`✘ ${falhas.length} falharam:`);

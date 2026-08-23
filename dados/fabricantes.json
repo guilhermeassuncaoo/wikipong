@@ -5274,11 +5274,15 @@
       "consultadoEm": "2026-07-30",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "47,5°"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa tensionada"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha. Ela entra SEM a régua unificada, e por isso sem a leitura de dureza em português claro, em vez de herdar o grau de uma irmã da mesma linha, que é outra esponja."
+      "nota": "A DUREZA (47,5°) estava na MESMA PÁGINA que já era a fonte desta ficha (https://americatt.net/donic-bluestorm-pro-am/), reconferida em 2026-08-23: \"Extreme catapulta a esponja 47,5 °\". A fonte publica o grau e não nomeia a régua; a Donic só declara fabricação alemã na página da série BlueStar, e este site não empresta essa evidência para outra linha. Por isso o grau entra como está e não vira dureza unificada."
     },
     "donic-bluestorm-z1": {
       "confianca": "revendedor",
@@ -5690,11 +5694,19 @@
       "consultadoEm": "2026-07-30",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "45°"
+        },
+        {
           "rotulo": "Superfície",
-          "valor": "Lisa tensionada"
+          "valor": "Lisa aderente"
+        },
+        {
+          "rotulo": "Esponja",
+          "valor": "Firme e responsiva"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha. Ela entra SEM a régua unificada, e por isso sem a leitura de dureza em português claro, em vez de herdar o grau de uma irmã da mesma linha. Esta variante não tem amostra suficiente na comunidade (Revspin) para entrar na escala de desempenho. O piso é 5 avaliações."
+      "nota": "A DUREZA (45°) estava na MESMA PÁGINA que já era a fonte desta ficha (https://americatt.net/donic-coppa-e1/), reconferida em 2026-08-23: \"esponja de 45 graus, firme e responsiva\". A fonte publica o grau e não nomeia a régua; a Donic só declara fabricação alemã na página da série BlueStar, e este site não empresta essa evidência para outra linha. Por isso o grau entra como está e não vira dureza unificada. Esta variante não tem amostra suficiente na comunidade (Revspin) para entrar na escala de desempenho. O piso é 5 avaliações."
     },
     "donic-coppa-e2": {
       "confianca": "revendedor",
@@ -5702,11 +5714,15 @@
       "consultadoEm": "2026-07-30",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "42,5°"
+        },
+        {
           "rotulo": "Superfície",
-          "valor": "Lisa tensionada"
+          "valor": "Lisa invertida"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha. Ela entra SEM a régua unificada, e por isso sem a leitura de dureza em português claro, em vez de herdar o grau de uma irmã da mesma linha. Esta variante não tem amostra suficiente na comunidade (Revspin) para entrar na escala de desempenho. O piso é 5 avaliações."
+      "nota": "A DUREZA (42,5°) estava na MESMA PÁGINA que já era a fonte desta ficha (https://americatt.net/donic-coppa-e2/), reconferida em 2026-08-23: \"Dureza: 42,5 graus\". A fonte publica o grau e não nomeia a régua; a Donic só declara fabricação alemã na página da série BlueStar, e este site não empresta essa evidência para outra linha. Por isso o grau entra como está e não vira dureza unificada. Esta variante não tem amostra suficiente na comunidade (Revspin) para entrar na escala de desempenho. O piso é 5 avaliações."
     },
     "donic-coppa-e3": {
       "confianca": "revendedor",
@@ -5714,11 +5730,19 @@
       "consultadoEm": "2026-07-30",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "40°"
+        },
+        {
           "rotulo": "Superfície",
-          "valor": "Lisa tensionada, esponja macia"
+          "valor": "Lisa invertida"
+        },
+        {
+          "rotulo": "Classe",
+          "valor": "ALL+ (allround ofensiva)"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha. Ela entra SEM a régua unificada, e por isso sem a leitura de dureza em português claro, em vez de herdar o grau de uma irmã da mesma linha. Esta variante não tem amostra suficiente na comunidade (Revspin) para entrar na escala de desempenho. O piso é 5 avaliações."
+      "nota": "A DUREZA (40°) e a CLASSE estavam na MESMA PÁGINA que já era a fonte desta ficha (https://americatt.net/donic-coppa-e3/), reconferida em 2026-08-23: \"Dureza: 40 graus. Classificação: ALL+\". A fonte publica o grau e não nomeia a régua; a Donic só declara fabricação alemã na página da série BlueStar, e este site não empresta essa evidência para outra linha. Por isso o grau entra como está e não vira dureza unificada. Esta variante não tem amostra suficiente na comunidade (Revspin) para entrar na escala de desempenho. O piso é 5 avaliações."
     },
     "donic-slice-40-cd": {
       "confianca": "revendedor",
@@ -5727,10 +5751,18 @@
       "ficha": [
         {
           "rotulo": "Superfície",
-          "valor": "Lisa aderente, voltada à defesa"
+          "valor": "Lisa aderente (pegajosa)"
+        },
+        {
+          "rotulo": "Espessuras",
+          "valor": "1,2 mm · 1,5 mm · 1,8 mm"
+        },
+        {
+          "rotulo": "Feita para",
+          "valor": "Defesa moderna e jogo allround"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. CLASSIFICAÇÃO CONFERIDA: eu suspeitava que a Slice 40 fosse de pinos, pelo nome e pela descrição voltada ao defensor. Não é. O Revspin a lista no índice de LISAS (/rubber/) e não no de pinos (/pips/), é borracha lisa aderente, feita para defesa. Três avaliações na comunidade, abaixo do nosso piso de cinco."
+      "nota": "Colhido em 2026-08-23 da mesma página que já era a fonte desta ficha — estava lá e não tinha sido lido. As espessuras finas e a capa pegajosa são o desenho típico de borracha de defensor. CLASSIFICAÇÃO CONFERIDA: eu suspeitava que a Slice 40 fosse de pinos, pelo nome e pela descrição voltada ao defensor. Não é. O Revspin a lista no índice de LISAS (/rubber/) e não no de pinos (/pips/), é borracha lisa aderente, feita para defesa. Três avaliações na comunidade, abaixo do nosso piso de cinco."
     },
     "donic-slice-40-cs": {
       "confianca": "revendedor",
@@ -7163,10 +7195,10 @@
       "ficha": [
         {
           "rotulo": "Superfície",
-          "valor": "Lisa aderente, esponja chinesa"
+          "valor": "Lisa aderente e firme"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada."
+      "nota": "Colhido em 2026-08-23 da mesma página que já era a fonte desta ficha — estava lá e não tinha sido lido. É a única Battle II deste catálogo sem grau: a loja brasileira descreve a borracha por adjetivos, e as irmãs National, PRO, Gold, Silver e Soft têm o grau publicado pela loja sueca."
     },
     "f729-battle-taichi": {
       "confianca": "revendedor",
@@ -7226,7 +7258,7 @@
           "valor": "Lisa, esponja Transcend"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. NOME SÓ DESTA LOJA: o Revspin lista \"729 Transcend\", \"SP Transcend\" e \"Cream Transcend\", nenhuma \"Higher\". Não dá pra saber qual delas é, então nenhuma nota foi atribuída — emprestar a nota da vizinha seria inventar. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
+      "nota": "FONTE FORA DO AR: a página da AmericaTT que abastece esta ficha (https://americatt.net/borracha-729-higher-transcend-sponge/) responde 404 desde 2026-08-23. O preço e a foto que estão aqui foram conferidos quando ela existia, e a data da consulta continua registrada acima. Nada novo pôde ser colhido, e por isso a ficha segue com o que se sabia — não com o que se imagina. NOME SÓ DESTA LOJA: o Revspin lista \"729 Transcend\", \"SP Transcend\" e \"Cream Transcend\", nenhuma \"Higher\". Não dá pra saber qual delas é, então nenhuma nota foi atribuída — emprestar a nota da vizinha seria inventar. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
     },
     "f729-faster-transcend": {
       "confianca": "revendedor",
@@ -7238,7 +7270,7 @@
           "valor": "Lisa, esponja Transcend"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. NOME SÓ DESTA LOJA: mesma situação da Higher — o Revspin não tem nenhuma \"Faster Transcend\". Entra sem nota. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
+      "nota": "FONTE FORA DO AR: a página da AmericaTT que abastece esta ficha (https://americatt.net/borracha-729-faster-transcend-sponge/) responde 404 desde 2026-08-23. O preço e a foto que estão aqui foram conferidos quando ela existia, e a data da consulta continua registrada acima. Nada novo pôde ser colhido, e por isso a ficha segue com o que se sabia — não com o que se imagina. NOME SÓ DESTA LOJA: mesma situação da Higher — o Revspin não tem nenhuma \"Faster Transcend\". Entra sem nota. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
     },
     "f729-2": {
       "confianca": "revendedor",
@@ -7250,7 +7282,7 @@
           "valor": "Lisa aderente clássica"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. A loja anuncia como \"Friendship 729\", sem número. O slug traz \"729 2 2\", que é o modelo 729-2 na espessura 2,2 mm — é assim que ela entra aqui. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
+      "nota": "FONTE FORA DO AR: a página da AmericaTT que abastece esta ficha (https://americatt.net/friendship-729-2-2-vermelha-envio-imediato/) responde 404 desde 2026-08-23. O preço e a foto foram conferidos quando ela existia, e a data da consulta segue registrada acima. Nada novo pôde ser colhido. A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. A loja anuncia como \"Friendship 729\", sem número. O slug traz \"729 2 2\", que é o modelo 729-2 na espessura 2,2 mm — é assim que ela entra aqui. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
     },
     "f729-fx-super-soft": {
       "confianca": "revendedor",
@@ -7259,10 +7291,14 @@
       "ficha": [
         {
           "rotulo": "Superfície",
-          "valor": "Lisa, esponja macia"
+          "valor": "Lisa"
+        },
+        {
+          "rotulo": "Esponja",
+          "valor": "Versão \"Super Soft\", de toque mais macio que a FX comum (a fonte não dá o grau)"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
+      "nota": "Colhido em 2026-08-23 da mesma página que já era a fonte desta ficha — estava lá e não tinha sido lido. A loja separa esta da FX comum pelo toque, não por um número. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
     },
     "f729-ktl-pro-xt": {
       "confianca": "revendedor",
@@ -7271,10 +7307,14 @@
       "ficha": [
         {
           "rotulo": "Superfície",
-          "valor": "Lisa"
+          "valor": "Lisa aderente"
+        },
+        {
+          "rotulo": "Espessuras",
+          "valor": "1,5 mm · 1,8 mm · 2,0 mm · 2,2 mm"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. KTL é uma linha da própria Friendship, e não uma marca separada — a loja a vende dentro da 729. O Revspin não a lista sob nenhum dos dois nomes. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
+      "nota": "Colhido em 2026-08-23 da mesma página que já era a fonte desta ficha — estava lá e não tinha sido lido. A loja publica quatro espessuras e descreve a borracha como aderente, controlável e estável, sem dar dureza. KTL é uma linha da própria Friendship, e não uma marca separada — a loja a vende dentro da 729. O Revspin não a lista sob nenhum dos dois nomes. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
     },
     "f729-ktl-rapid-speed": {
       "confianca": "revendedor",
@@ -7283,10 +7323,10 @@
       "ficha": [
         {
           "rotulo": "Superfície",
-          "valor": "Lisa"
+          "valor": "Lisa aderente, rápida"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. KTL é linha da Friendship, vendida dentro da 729. Sem registro no Revspin. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
+      "nota": "Colhido em 2026-08-23 da mesma página que já era a fonte desta ficha — estava lá e não tinha sido lido. A loja descreve a borracha e não publica dureza nem espessuras separadas. KTL é linha da Friendship, vendida dentro da 729. Sem registro no Revspin. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
     },
     "sanwei-target-national": {
       "confianca": "revendedor",
@@ -7306,11 +7346,19 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "37°"
+        },
+        {
           "rotulo": "Superfície",
-          "valor": "Lisa aderente, edição especial"
+          "valor": "Lisa semi-pegajosa (híbrida: grip chinês com elasticidade europeia)"
+        },
+        {
+          "rotulo": "Espessuras",
+          "valor": "2,1 mm"
         }
       ],
-      "nota": "A OperaTT não declara a dureza desta borracha; ela entra sem a régua unificada. EDIÇÃO QUE NÃO EXISTE NO REVSPIN: não há nenhuma \"Gordanga\" registrada lá. Não dá pra saber se é a Target National comum com outra embalagem ou uma esponja diferente, então nenhuma nota foi emprestada. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
+      "nota": "A DUREZA (37°) estava na MESMA PÁGINA que já era a fonte desta ficha (https://www.operatt.com.br/borracha-para-raquete-de-tnis-de-mesa-sanwei-target-national-gordanga-edition), reconferida em 2026-08-23. A loja não nomeia a régua — e as fichas da própria Sanwei que dizem \"escala chinesa\" são de OUTROS modelos, não deste. O grau entra como está. EDIÇÃO QUE NÃO EXISTE NO REVSPIN: não há nenhuma \"Gordanga\" registrada lá. Não dá pra saber se é a Target National comum com outra embalagem ou uma esponja diferente, então nenhuma nota foi emprestada. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
     },
     "sanwei-target-pro-blue": {
       "confianca": "revendedor",
@@ -7319,10 +7367,22 @@
       "ficha": [
         {
           "rotulo": "Superfície",
-          "valor": "Lisa aderente, esponja azul"
+          "valor": "Lisa pegajosa (viscosa, padrão chinês)"
+        },
+        {
+          "rotulo": "Esponja",
+          "valor": "Azul, \"muito dura\" — a loja classifica por palavra, sem grau"
+        },
+        {
+          "rotulo": "Espessuras",
+          "valor": "2,0 mm"
+        },
+        {
+          "rotulo": "Feita para",
+          "valor": "Forehand"
         }
       ],
-      "nota": "A OperaTT não declara a dureza desta borracha; ela entra sem a régua unificada. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
+      "nota": "Colhido em 2026-08-23 da mesma página que já era a fonte desta ficha — estava lá e não tinha sido lido. A loja é explícita sobre a esponja ser dura e sobre o lado de uso, e não dá grau. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
     },
     "sanwei-target-3rd": {
       "confianca": "revendedor",
@@ -7363,10 +7423,14 @@
       "ficha": [
         {
           "rotulo": "Superfície",
-          "valor": "Lisa aderente, esponja leve"
+          "valor": "Lisa pegajosa (padrão chinês)"
+        },
+        {
+          "rotulo": "Esponja",
+          "valor": "Mais aerada que a da Taiji Plus — é o que deixa a borracha mais leve"
         }
       ],
-      "nota": "A OperaTT não declara a dureza desta borracha; ela entra sem a régua unificada. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
+      "nota": "Colhido em 2026-08-23 da mesma página que já era a fonte desta ficha — estava lá e não tinha sido lido. A loja posiciona a Taiji Light como a versão leve da Taiji Plus, com a mesma capa. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
     },
     "sanwei-gear-hyper": {
       "confianca": "revendedor",
@@ -7391,10 +7455,14 @@
       "ficha": [
         {
           "rotulo": "Superfície",
-          "valor": "Lisa aderente"
+          "valor": "Lisa"
+        },
+        {
+          "rotulo": "Homologação",
+          "valor": "Aprovada pela ITTF"
         }
       ],
-      "nota": "A OperaTT não declara a dureza desta borracha; ela entra sem a régua unificada. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
+      "nota": "Colhido em 2026-08-23 da mesma página que já era a fonte desta ficha — estava lá e não tinha sido lido. A ficha da loja e a página da própria Sanwei trazem só espessura MAX e a homologação: nenhuma das duas publica dureza nem índice. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
     },
     "sanwei-ultra-spin-blue": {
       "confianca": "revendedor",
@@ -7643,10 +7711,14 @@
       "ficha": [
         {
           "rotulo": "Superfície",
-          "valor": "Lisa, homologada pela ITTF"
+          "valor": "Lisa"
+        },
+        {
+          "rotulo": "Esponja",
+          "valor": "Dureza \"médio\" — a loja classifica por palavra, sem grau"
         }
       ],
-      "nota": "A loja não declara a dureza desta borracha; ela entra sem a régua unificada. A loja acrescenta \"Moxa\" ao nome; o Revspin registra só \"Mercury II\", e não há outra Mercury II com que confundir. A amostra foi atribuída."
+      "nota": "Colhido em 2026-08-23 da mesma página que já era a fonte desta ficha — estava lá e não tinha sido lido. Das cinco Yinhe deste catálogo, só a Big Dipper e a Jupiter 3 Euro têm grau publicado. A loja acrescenta \"Moxa\" ao nome; o Revspin registra só \"Mercury II\", e não há outra Mercury II com que confundir. A amostra foi atribuída."
     },
     "yinhe-big-dipper": {
       "confianca": "revendedor",
@@ -7687,10 +7759,14 @@
       "ficha": [
         {
           "rotulo": "Superfície",
-          "valor": "Lisa aderente, para forehand"
+          "valor": "Lisa aderente (pegajosa), versão de forehand"
+        },
+        {
+          "rotulo": "Espessuras",
+          "valor": "MAX"
         }
       ],
-      "nota": "A loja não declara a dureza desta borracha; ela entra sem a régua unificada. Não há nenhuma \"Big Dipper Pro\" no Revspin — só a comum e as numeradas. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
+      "nota": "Colhido em 2026-08-23 da mesma página que já era a fonte desta ficha — estava lá e não tinha sido lido. A loja não publica dureza desta, ao contrário da Big Dipper comum, que tem \"40° Hard ou 39° Medium\". Não há nenhuma \"Big Dipper Pro\" no Revspin — só a comum e as numeradas. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
     },
     "yinhe-mars-ii": {
       "confianca": "revendedor",
@@ -7700,9 +7776,17 @@
         {
           "rotulo": "Superfície",
           "valor": "Lisa"
+        },
+        {
+          "rotulo": "Espessuras",
+          "valor": "MAX"
+        },
+        {
+          "rotulo": "Índices da marca",
+          "valor": "Velocidade 12 · efeito 9 — régua da própria Yinhe, que NÃO é a escala 0 a 10 deste site"
         }
       ],
-      "nota": "A loja não declara a dureza desta borracha; ela entra sem a régua unificada. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
+      "nota": "Colhido em 2026-08-23 da mesma página que já era a fonte desta ficha — estava lá e não tinha sido lido. Os dois índices são da Yinhe, na régua dela, e por isso ficam na ficha do fabricante em vez de virarem velocidade/efeito/controle do site: misturar réguas é o defeito que a ficha unificada existe para impedir. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
     },
     "yinhe-moon-12-blue": {
       "confianca": "revendedor",
@@ -7711,10 +7795,14 @@
       "ficha": [
         {
           "rotulo": "Superfície",
-          "valor": "Lisa, esponja azul"
+          "valor": "Lisa"
+        },
+        {
+          "rotulo": "Esponja",
+          "valor": "Azul · dureza \"médio duro\" — a loja classifica por palavra, sem grau"
         }
       ],
-      "nota": "A loja não declara a dureza desta borracha; ela entra sem a régua unificada. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
+      "nota": "Colhido em 2026-08-23 da mesma página que já era a fonte desta ficha — estava lá e não tinha sido lido. Das cinco Yinhe deste catálogo, só a Big Dipper e a Jupiter 3 Euro têm grau publicado. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
     },
     "yinhe-v14-pro": {
       "confianca": "revendedor",
@@ -9176,9 +9264,13 @@
         {
           "rotulo": "Superfície",
           "valor": "Lisa, tensionada"
+        },
+        {
+          "rotulo": "Feita para",
+          "valor": "Topspin, bloqueio e contra-ataque perto da mesa e à meia distância"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
+      "nota": "Colhido em 2026-08-23 da mesma página que já era a fonte desta ficha — estava lá e não tinha sido lido. A V-03 saiu do catálogo atual da Victas: não está entre as 36 borrachas do site oficial da marca, e por isso a dureza dela não pôde vir da fonte que abasteceu as outras 24 Victas deste site. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
     },
     "victas-ventus-limber": {
       "confianca": "revendedor",
@@ -10135,10 +10227,18 @@
       "ficha": [
         {
           "rotulo": "Superfície",
-          "valor": "Lisa aderente chinesa"
+          "valor": "Lisa pegajosa, para aderência em golpes de efeito"
+        },
+        {
+          "rotulo": "Esponja",
+          "valor": "Elástica, de catapulta"
+        },
+        {
+          "rotulo": "Espessuras",
+          "valor": "1,6 mm · 1,8 mm · 2,0 mm"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. O Revspin não registra este modelo. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
+      "nota": "Colhido em 2026-08-23 da mesma página que já era a fonte desta ficha — estava lá e não tinha sido lido. A loja descreve capa e esponja separadamente, e é dessa descrição que saem as duas linhas. O Revspin não registra este modelo. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
     },
     "nittaku-hurricane-pro-3-turbo-blue": {
       "confianca": "revendedor",
@@ -10192,9 +10292,17 @@
         {
           "rotulo": "Superfície",
           "valor": "Lisa"
+        },
+        {
+          "rotulo": "Espessuras",
+          "valor": "1,2 mm · 1,4 mm · 1,8 mm"
+        },
+        {
+          "rotulo": "Feita para",
+          "valor": "Jogo passivo e contra-ataque — as espessuras finas são a pista disso"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
+      "nota": "Colhido em 2026-08-23 da mesma página que já era a fonte desta ficha — estava lá e não tinha sido lido. As três espessuras finas (1,2 a 1,8 mm) são coerentes com o uso que a loja descreve. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
     },
     "nittaku-acoustic-carbon-g-revision": {
       "confianca": "revendedor",
@@ -10666,11 +10774,31 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
-          "rotulo": "Superfície",
-          "valor": "Lisa, tensionada"
+          "rotulo": "Tipo de lâmina",
+          "valor": "Lâmina avulsa"
+        },
+        {
+          "rotulo": "Construção",
+          "valor": "5 lâminas de madeira"
+        },
+        {
+          "rotulo": "Classe",
+          "valor": "ALL+ (allround ofensiva)"
+        },
+        {
+          "rotulo": "Espessura",
+          "valor": "6,0 mm"
+        },
+        {
+          "rotulo": "Cabeça",
+          "valor": "156 × 152 mm"
+        },
+        {
+          "rotulo": "Peso",
+          "valor": "≈ 83 g"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. O Revspin não registra este modelo. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
+      "nota": "CORREÇÃO DE TIPO, 2026-08-23. Este material estava catalogado como BORRACHA e é uma LÂMINA. A prova está na própria fonte desta ficha, que a descreve assim: \"Com estrutura de 5 folhas e peso aproximado de 83g / Com espessura de 6 mm e tamanho de 156 x 152 mm\" — camadas, peso e espessura são ficha de madeira, não de borracha. A ficha antiga trazia \"Superfície: Lisa, tensionada\", linha que NÃO existe no anúncio: era o preenchimento padrão de borracha aplicado a um produto que não é borracha, e por isso saiu. Saiu junto a frase que dizia que \"a AmericaTT não declara a dureza desta borracha\" — lâmina não tem esponja, e não ter dureza aqui é o esperado, não uma falta. A construção, a espessura e o peso estavam na mesma página o tempo todo e não tinham sido colhidos."
     },
     "nittaku-eto-blade-2025-snake-fl": {
       "confianca": "revendedor",
@@ -10742,11 +10870,23 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
-          "rotulo": "Superfície",
-          "valor": "Lisa, tensionada"
+          "rotulo": "Tipo de lâmina",
+          "valor": "Lâmina avulsa. O cabo (FL curvado ou ST reto) se escolhe na loja"
+        },
+        {
+          "rotulo": "Construção",
+          "valor": "7 lâminas de madeira (all-wood)"
+        },
+        {
+          "rotulo": "Espessura",
+          "valor": "6,2 mm"
+        },
+        {
+          "rotulo": "Peso",
+          "valor": "≈ 83 g"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. O Revspin não registra este modelo. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
+      "nota": "CORREÇÃO DE TIPO, 2026-08-23. Este material estava catalogado como BORRACHA e é uma LÂMINA. A prova está na própria fonte desta ficha, que a descreve assim: \"Camadas: 7 | Peso (g): 83 | espessura (mm): 6:2 | Tipo de cabo: cabo curvado FL, cabo reto ST\" — camadas, peso e espessura são ficha de madeira, não de borracha. A ficha antiga trazia \"Superfície: Lisa, tensionada\", linha que NÃO existe no anúncio: era o preenchimento padrão de borracha aplicado a um produto que não é borracha, e por isso saiu. Saiu junto a frase que dizia que \"a AmericaTT não declara a dureza desta borracha\" — lâmina não tem esponja, e não ter dureza aqui é o esperado, não uma falta. A construção, a espessura e o peso estavam na mesma página o tempo todo e não tinham sido colhidos."
     },
     "nittaku-fastarc-c1": {
       "confianca": "revendedor",
@@ -10770,11 +10910,27 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
-          "rotulo": "Superfície",
-          "valor": "Lisa, tensionada"
+          "rotulo": "Tipo de lâmina",
+          "valor": "Lâmina avulsa"
+        },
+        {
+          "rotulo": "Construção",
+          "valor": "5 lâminas de madeira"
+        },
+        {
+          "rotulo": "Classe",
+          "valor": "OFF (ofensiva)"
+        },
+        {
+          "rotulo": "Espessura",
+          "valor": "5,7 mm"
+        },
+        {
+          "rotulo": "Peso",
+          "valor": "≈ 82 g"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. O Revspin não registra este modelo. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
+      "nota": "CORREÇÃO DE TIPO, 2026-08-23. Este material estava catalogado como BORRACHA e é uma LÂMINA. A prova está na própria fonte desta ficha, que a descreve assim: \"Tipo: Off | Peso: 82 g | Número de camadas: 5 | Espessura: 5,7 mm\" — camadas, peso e espessura são ficha de madeira, não de borracha. A ficha antiga trazia \"Superfície: Lisa, tensionada\", linha que NÃO existe no anúncio: era o preenchimento padrão de borracha aplicado a um produto que não é borracha, e por isso saiu. Saiu junto a frase que dizia que \"a AmericaTT não declara a dureza desta borracha\" — lâmina não tem esponja, e não ter dureza aqui é o esperado, não uma falta. A construção, a espessura e o peso estavam na mesma página o tempo todo e não tinham sido colhidos."
     },
     "nittaku-flyatt-carbon": {
       "confianca": "revendedor",
@@ -10782,11 +10938,23 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
-          "rotulo": "Superfície",
-          "valor": "Lisa, tensionada"
+          "rotulo": "Tipo de lâmina",
+          "valor": "Lâmina avulsa"
+        },
+        {
+          "rotulo": "Construção",
+          "valor": "5 lâminas de madeira + 2 de carbono"
+        },
+        {
+          "rotulo": "Espessura",
+          "valor": "6,0 mm"
+        },
+        {
+          "rotulo": "Peso",
+          "valor": "≈ 82 g"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. O Revspin não registra este modelo. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
+      "nota": "CORREÇÃO DE TIPO, 2026-08-23. Este material estava catalogado como BORRACHA e é uma LÂMINA. A prova está na própria fonte desta ficha, que a descreve assim: \"Peso (g): 82, espessura (mm): 6, Camadas: 5+2\" — camadas, peso e espessura são ficha de madeira, não de borracha. A ficha antiga trazia \"Superfície: Lisa, tensionada\", linha que NÃO existe no anúncio: era o preenchimento padrão de borracha aplicado a um produto que não é borracha, e por isso saiu. Saiu junto a frase que dizia que \"a AmericaTT não declara a dureza desta borracha\" — lâmina não tem esponja, e não ter dureza aqui é o esperado, não uma falta. A construção, a espessura e o peso estavam na mesma página o tempo todo e não tinham sido colhidos."
     },
     "nittaku-flyatt-carbon-pro": {
       "confianca": "revendedor",
@@ -10794,11 +10962,23 @@
       "consultadoEm": "2026-08-01",
       "ficha": [
         {
-          "rotulo": "Superfície",
-          "valor": "Lisa, tensionada"
+          "rotulo": "Tipo de lâmina",
+          "valor": "Lâmina avulsa"
+        },
+        {
+          "rotulo": "Construção",
+          "valor": "5 lâminas de madeira + 2 de carbono-kevlar"
+        },
+        {
+          "rotulo": "Espessura",
+          "valor": "5,8 mm"
+        },
+        {
+          "rotulo": "Peso",
+          "valor": "≈ 85 g"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. O Revspin não registra este modelo. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
+      "nota": "CORREÇÃO DE TIPO, 2026-08-23. Este material estava catalogado como BORRACHA e é uma LÂMINA. A prova está na própria fonte desta ficha, que a descreve assim: \"Camadas: 5+2 | Peso (g): 85 | espessura (mm): 5:8\" — camadas, peso e espessura são ficha de madeira, não de borracha. A ficha antiga trazia \"Superfície: Lisa, tensionada\", linha que NÃO existe no anúncio: era o preenchimento padrão de borracha aplicado a um produto que não é borracha, e por isso saiu. Saiu junto a frase que dizia que \"a AmericaTT não declara a dureza desta borracha\" — lâmina não tem esponja, e não ter dureza aqui é o esperado, não uma falta. A construção, a espessura e o peso estavam na mesma página o tempo todo e não tinham sido colhidos."
     },
     "nittaku-flyatt-evo": {
       "confianca": "revendedor",
@@ -10967,10 +11147,18 @@
       "ficha": [
         {
           "rotulo": "Superfície",
-          "valor": "Lisa, tensionada"
+          "valor": "Lisa invertida"
+        },
+        {
+          "rotulo": "Esponja",
+          "valor": "Versão mais macia que a da Hammond Z2 comum — a fonte diz isso e não dá o grau de nenhuma das duas"
+        },
+        {
+          "rotulo": "Espessuras",
+          "valor": "MAX"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
+      "nota": "Colhido em 2026-08-23 da mesma página que já era a fonte desta ficha — estava lá e não tinha sido lido. A Hammond Z2 comum tem 50° publicado pela distribuidora alemã; esta versão especial não está no catálogo dela, e o site NÃO copia o grau da irmã — \"mais macia que\" não é um número. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações."
     },
     "nittaku-hino-blade-5-22-fl": {
       "confianca": "revendedor",
@@ -11859,10 +12047,22 @@
       "ficha": [
         {
           "rotulo": "Superfície",
-          "valor": "Lisa aderente, tensionada"
+          "valor": "Lisa híbrida, capa Hyper-Traction (aderência extra)"
+        },
+        {
+          "rotulo": "Esponja",
+          "valor": "Balance · dureza \"Hard+\" (a Joola classifica por palavra, não por grau)"
+        },
+        {
+          "rotulo": "Pinos (por dentro)",
+          "valor": "altura 0,7 mm · largura 1,4 mm · espaçamento 0,8 mm"
+        },
+        {
+          "rotulo": "Espessuras",
+          "valor": "2,0 mm · MAX"
         }
       ],
-      "nota": "Preço conferido na loja oficial da JOOLA no Brasil. A foto e a construção vêm da Megaspin, nos Estados Unidos. Estava esgotada na loja em 2026-08-05; o preço é o que a loja publica."
+      "nota": "Colhido em 2026-08-23 da mesma página que já era a fonte desta ficha — estava lá e não tinha sido lido. A Joola publica a geometria dos pinos e classifica a dureza por palavra (\"Hard+\"), sem grau. Preço conferido na loja oficial da JOOLA no Brasil. A foto e a construção vêm da Megaspin, nos Estados Unidos. Estava esgotada na loja em 2026-08-05; o preço é o que a loja publica."
     },
     "joola-rhyzen-fire": {
       "confianca": "revendedor",
@@ -11931,10 +12131,22 @@
       "ficha": [
         {
           "rotulo": "Superfície",
-          "valor": "Lisa aderente, tensionada"
+          "valor": "Lisa híbrida, capa Hyper-Traction"
+        },
+        {
+          "rotulo": "Esponja",
+          "valor": "Balance, cor creme · dureza \"Hard+\" (sem grau publicado)"
+        },
+        {
+          "rotulo": "Pinos (por dentro)",
+          "valor": "altura 0,9 mm · largura 1,6 mm · espaçamento 0,8 mm"
+        },
+        {
+          "rotulo": "Espessuras",
+          "valor": "2,0 mm · MAX"
         }
       ],
-      "nota": "Preço conferido na loja oficial da JOOLA no Brasil. A foto e a construção vêm da Megaspin, nos Estados Unidos. Estava esgotada na loja em 2026-08-05; o preço é o que a loja publica."
+      "nota": "Colhido em 2026-08-23 da mesma página que já era a fonte desta ficha — estava lá e não tinha sido lido. A Joola publica a geometria dos pinos e classifica a dureza por palavra (\"Hard+\"), sem grau. Preço conferido na loja oficial da JOOLA no Brasil. A foto e a construção vêm da Megaspin, nos Estados Unidos. Estava esgotada na loja em 2026-08-05; o preço é o que a loja publica."
     },
     "joola-energy": {
       "confianca": "revendedor",
@@ -11955,10 +12167,18 @@
       "ficha": [
         {
           "rotulo": "Superfície",
-          "valor": "Lisa"
+          "valor": "Lisa muito aderente (pegajosa), sem efeito catapulta"
+        },
+        {
+          "rotulo": "Esponja",
+          "valor": "Roxa, poro fino, amortecedora · dureza \"Hard\" (sem grau publicado)"
+        },
+        {
+          "rotulo": "Espessuras",
+          "valor": "1,8 mm · 2,0 mm · MAX"
         }
       ],
-      "nota": "Preço conferido na loja oficial da JOOLA no Brasil. A foto e a construção vêm da Megaspin, nos Estados Unidos. Estava esgotada na loja em 2026-08-05; o preço é o que a loja publica."
+      "nota": "Colhido em 2026-08-23 da mesma página que já era a fonte desta ficha — estava lá e não tinha sido lido. A Joola descreve a Micron como borracha de desenho clássico, de propósito sem catapulta. Preço conferido na loja oficial da JOOLA no Brasil. A foto e a construção vêm da Megaspin, nos Estados Unidos. Estava esgotada na loja em 2026-08-05; o preço é o que a loja publica."
     },
     "joola-zack": {
       "confianca": "revendedor",
@@ -12426,11 +12646,15 @@
       "consultadoEm": "2026-08-04",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "39° (escala DHS)"
+        },
+        {
           "rotulo": "Superfície",
-          "valor": "Lisa aderente"
+          "valor": "Lisa aderente (pegajosa) · esponja azul, edição National"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "Colhido em 2026-08-23 da mesma página que já era a fonte desta ficha — estava lá e não tinha sido lido. A fonte publica \"Hardness: 39-degree\" e a régua é a chinesa da própria DHS, que a tabela de escalas deste site nomeia como a régua das Hurricane e variantes. Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "dhs-h3-neo-prov-azul": {
       "confianca": "revendedor",
@@ -12712,9 +12936,13 @@
         {
           "rotulo": "Superfície",
           "valor": "Lisa aderente"
+        },
+        {
+          "rotulo": "Esponja",
+          "valor": "Macroporosa 80#, macia e de alta elasticidade · dureza \"média-dura\" (sem grau publicado)"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "Colhido em 2026-08-23 da mesma página que já era a fonte desta ficha — estava lá e não tinha sido lido. O \"80#\" é o código de esponja da DHS, não um grau — por isso não vira dureza aqui. Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "dhs-tinarc": {
       "confianca": "revendedor",
@@ -12722,11 +12950,15 @@
       "consultadoEm": "2026-08-04",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "37° (escala DHS)"
+        },
+        {
           "rotulo": "Superfície",
-          "valor": "Lisa, tensionada"
+          "valor": "Lisa aderente, pinos de estrutura \"speedy\" (tecnologia Dual-Extreme)"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "A DUREZA (37°) estava na MESMA PÁGINA que já era a fonte desta ficha (https://www.megaspin.net/store/default.asp?pid=dhs-tinarc-med), reconferida em 2026-08-23: \"Hardness: 37\". A régua é a chinesa da própria DHS, que a tabela de escalas deste site nomeia como a régua das borrachas pegajosas dela. Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "dhs-hurricane-9-verde": {
       "confianca": "revendedor",
@@ -12735,10 +12967,14 @@
       "ficha": [
         {
           "rotulo": "Superfície",
-          "valor": "Lisa aderente"
+          "valor": "Lisa aderente (pegajosa)"
+        },
+        {
+          "rotulo": "Esponja",
+          "valor": "Código #22, azul · dureza \"média-dura\" (a fonte classifica por palavra, sem grau)"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "Colhido em 2026-08-23 da mesma página que já era a fonte desta ficha — estava lá e não tinha sido lido. A DHS trata a Hurricane 9 de um jeito que nenhuma outra Hurricane tem, e a fonte é explícita: \"cada cor tem uma esponja única, e por isso características únicas\". A cor aqui NÃO é enfeite — é o jeito de a marca separar quatro borrachas diferentes. Por isso cada variante deste catálogo guarda o código de esponja que a fonte dá para ELA, e nenhuma herda o da irmã. Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "dhs-tinarc-5": {
       "confianca": "revendedor",
@@ -12747,10 +12983,14 @@
       "ficha": [
         {
           "rotulo": "Superfície",
-          "valor": "Lisa, tensionada"
+          "valor": "Lisa aderente"
+        },
+        {
+          "rotulo": "Esponja",
+          "valor": "Dureza \"média\" — a fonte classifica por palavra, e não repete o grau que dá na Tinarc comum"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "Colhido em 2026-08-23 da mesma página que já era a fonte desta ficha — estava lá e não tinha sido lido. A Tinarc comum tem 37° publicado na mesma loja; a Tinarc 5 não, e o site não copia o grau de uma para a outra. Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "dhs-hurricane-9-rosa": {
       "confianca": "revendedor",
@@ -12759,10 +12999,14 @@
       "ficha": [
         {
           "rotulo": "Superfície",
-          "valor": "Lisa aderente"
+          "valor": "Lisa aderente (pegajosa)"
+        },
+        {
+          "rotulo": "Esponja",
+          "valor": "Código #22, azul (a fonte não publica dureza desta variante, nem em grau nem em palavra)"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "Colhido em 2026-08-23 da mesma página que já era a fonte desta ficha — estava lá e não tinha sido lido. A DHS trata a Hurricane 9 de um jeito que nenhuma outra Hurricane tem, e a fonte é explícita: \"cada cor tem uma esponja única, e por isso características únicas\". A cor aqui NÃO é enfeite — é o jeito de a marca separar quatro borrachas diferentes. Por isso cada variante deste catálogo guarda o código de esponja que a fonte dá para ELA, e nenhuma herda o da irmã. Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "dhs-hurricane-9-azul": {
       "confianca": "revendedor",
@@ -12771,10 +13015,14 @@
       "ficha": [
         {
           "rotulo": "Superfície",
-          "valor": "Lisa aderente"
+          "valor": "Lisa aderente (pegajosa)"
+        },
+        {
+          "rotulo": "Esponja",
+          "valor": "Código 22# · macroporosa, macia e de alta elasticidade · dureza \"dura\" (sem grau)"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "Colhido em 2026-08-23 da mesma página que já era a fonte desta ficha — estava lá e não tinha sido lido. A DHS trata a Hurricane 9 de um jeito que nenhuma outra Hurricane tem, e a fonte é explícita: \"cada cor tem uma esponja única, e por isso características únicas\". A cor aqui NÃO é enfeite — é o jeito de a marca separar quatro borrachas diferentes. Por isso cada variante deste catálogo guarda o código de esponja que a fonte dá para ELA, e nenhuma herda o da irmã. Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "dhs-gold-arc-5": {
       "confianca": "revendedor",
@@ -14591,10 +14839,18 @@
       "ficha": [
         {
           "rotulo": "Superfície",
-          "valor": "Lisa, não aderente, macia"
+          "valor": "Lisa não aderente"
+        },
+        {
+          "rotulo": "Esponja",
+          "valor": "Poro grande, mais macia · vendida em Soft ou Medium-soft (sem grau publicado)"
+        },
+        {
+          "rotulo": "Espessuras",
+          "valor": "2,1 mm"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "Colhido em 2026-08-23 da mesma página que já era a fonte desta ficha — estava lá e não tinha sido lido. A loja classifica a dureza por palavra nesta e na irmã Dragon F. Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "f729-dragon-f": {
       "confianca": "revendedor",
@@ -14603,10 +14859,18 @@
       "ficha": [
         {
           "rotulo": "Superfície",
-          "valor": "Lisa aderente, macia"
+          "valor": "Lisa aderente (pegajosa)"
+        },
+        {
+          "rotulo": "Esponja",
+          "valor": "Poro grande, mais macia · vendida em Medium-Soft ou Medium-Hard (a fonte não dá o grau)"
+        },
+        {
+          "rotulo": "Espessuras",
+          "valor": "2,1 mm"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "Colhido em 2026-08-23 da mesma página que já era a fonte desta ficha — estava lá e não tinha sido lido. A loja compara o toque ao da Battle II original. Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "f729-battle-ii-soft": {
       "confianca": "revendedor",
@@ -14631,10 +14895,14 @@
       "ficha": [
         {
           "rotulo": "Superfície",
-          "valor": "Lisa, não aderente"
+          "valor": "Lisa não aderente"
+        },
+        {
+          "rotulo": "Esponja",
+          "valor": "Cake pré-tratada · vendida em Soft, Medium Soft ou Medium Hard (sem grau publicado)"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "Colhido em 2026-08-23 da mesma página que já era a fonte desta ficha — estava lá e não tinha sido lido. A loja publica índices por versão de dureza e ainda assim não dá o grau de nenhuma. Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "f729-phoenix-ii": {
       "confianca": "revendedor",
@@ -14643,10 +14911,18 @@
       "ficha": [
         {
           "rotulo": "Superfície",
-          "valor": "Lisa"
+          "valor": "Lisa aderente, capa fina com pinos finos e espaçados"
+        },
+        {
+          "rotulo": "Esponja",
+          "valor": "Vendida em Soft ou Medium Soft (sem grau publicado)"
+        },
+        {
+          "rotulo": "Espessuras",
+          "valor": "2,0 mm"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "Colhido em 2026-08-23 da mesma página que já era a fonte desta ficha — estava lá e não tinha sido lido. A loja descreve a geometria da capa, que é o que separa esta borracha das outras 729 do catálogo. Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "f729-gs-special": {
       "confianca": "revendedor",
@@ -14655,10 +14931,14 @@
       "ficha": [
         {
           "rotulo": "Superfície",
-          "valor": "Lisa, semiaderente"
+          "valor": "Lisa semi-pegajosa"
+        },
+        {
+          "rotulo": "Esponja",
+          "valor": "Pré-tratada · vendida em Medium Soft ou Medium Hard (sem grau publicado)"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "Colhido em 2026-08-23 da mesma página que já era a fonte desta ficha — estava lá e não tinha sido lido. A loja chama a borracha de \"semi-tacky e bem equilibrada\", e não dá grau. Preço, foto e construção conferidos na Chinese Table Tennis, na Suécia. Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "f729-geo-spin-gs": {
       "confianca": "revendedor",
@@ -14699,10 +14979,14 @@
       "ficha": [
         {
           "rotulo": "Superfície",
-          "valor": "Lisa, tensionada"
+          "valor": "Lisa aderente, com toque de tensor"
+        },
+        {
+          "rotulo": "Esponja",
+          "valor": "Vendida em M− ou M+ (sem grau publicado)"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Chinese Table Tennis (Suécia). Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "Colhido em 2026-08-23 da mesma página que já era a fonte desta ficha — estava lá e não tinha sido lido. A loja sueca publica a dureza desta por letra, e não por grau como faz com as 729. Preço, foto e construção conferidos na Chinese Table Tennis (Suécia). Não é vendida no Brasil: o preço está em coroa sueca porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "gewo-allround-basic": {
       "confianca": "revendedor",
@@ -15147,10 +15431,22 @@
       "ficha": [
         {
           "rotulo": "Superfície",
-          "valor": "Lisa, tensionada"
+          "valor": "Lisa, aderente e lenta"
+        },
+        {
+          "rotulo": "Espessuras",
+          "valor": "1,8 mm"
+        },
+        {
+          "rotulo": "Homologação",
+          "valor": "Aprovada pela ITTF"
+        },
+        {
+          "rotulo": "Fabricação",
+          "valor": "China"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "Colhido em 2026-08-23 da mesma página que já era a fonte desta ficha — estava lá e não tinha sido lido. A Megaspin descreve a Raver como borracha de entrada, de efeito e controle, também usada para reforrar raquetes de escola e clube. Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "gewo-return-pro": {
       "confianca": "revendedor",
