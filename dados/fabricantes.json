@@ -4894,11 +4894,15 @@
       "consultadoEm": "2026-07-30",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "47,5° (escala ESN)"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa tensionada"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha. Ela entra SEM a régua unificada, e por isso sem a leitura de dureza em português claro, em vez de herdar o grau de uma irmã da mesma linha, que é outra esponja."
+      "nota": "A DUREZA (47,5°) vem da PRÓPRIA DONIC, na página da série Bluefire M, consultada em 2026-08-22 (https://www.donic.com/en/donic-rubber-series-bluefire) — é dado de fabricante, não de loja. A Donic publica o grau e não nomeia a régua; registramos como ESN seguindo o que as fichas já verificadas desta marca no site usam (Bluestorm Z1 Turbo, Z3 e Bluefire M1 Turbo), e os três valores que tínhamos conferem exatamente com o que a Donic publica hoje."
     },
     "donic-bluefire-m1-turbo": {
       "confianca": "revendedor",
@@ -4922,11 +4926,15 @@
       "consultadoEm": "2026-07-30",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "45° (escala ESN)"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa tensionada"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha. Ela entra SEM a régua unificada, e por isso sem a leitura de dureza em português claro, em vez de herdar o grau de uma irmã da mesma linha, que é outra esponja."
+      "nota": "A DUREZA (45°) vem da PRÓPRIA DONIC, na página da série Bluefire M, consultada em 2026-08-22 (https://www.donic.com/en/donic-rubber-series-bluefire) — é dado de fabricante, não de loja. A Donic publica o grau e não nomeia a régua; registramos como ESN seguindo o que as fichas já verificadas desta marca no site usam (Bluestorm Z1 Turbo, Z3 e Bluefire M1 Turbo), e os três valores que tínhamos conferem exatamente com o que a Donic publica hoje."
     },
     "donic-bluefire-m3": {
       "confianca": "revendedor",
@@ -4934,11 +4942,15 @@
       "consultadoEm": "2026-07-30",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "40° (escala ESN)"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa tensionada"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha. Ela entra SEM a régua unificada, e por isso sem a leitura de dureza em português claro, em vez de herdar o grau de uma irmã da mesma linha, que é outra esponja."
+      "nota": "A DUREZA (40°) vem da PRÓPRIA DONIC, na página da série Bluefire M, consultada em 2026-08-22 (https://www.donic.com/en/donic-rubber-series-bluefire) — é dado de fabricante, não de loja. A Donic publica o grau e não nomeia a régua; registramos como ESN seguindo o que as fichas já verificadas desta marca no site usam (Bluestorm Z1 Turbo, Z3 e Bluefire M1 Turbo), e os três valores que tínhamos conferem exatamente com o que a Donic publica hoje. A recusa registrada aqui antes — não herdar o grau de uma irmã da mesma linha, já que a loja consultada não declarava a dureza — foi resolvida da forma certa: o grau veio do fabricante, não de dedução."
     },
     "donic-bluestorm-pro": {
       "confianca": "revendedor",
@@ -4974,11 +4986,15 @@
       "consultadoEm": "2026-07-30",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "47,5° (escala ESN)"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa tensionada"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha. Ela entra SEM a régua unificada, e por isso sem a leitura de dureza em português claro, em vez de herdar o grau de uma irmã da mesma linha, que é outra esponja."
+      "nota": "A DUREZA (47,5°) vem da PRÓPRIA DONIC, na página da série Bluestorm Z, consultada em 2026-08-22 (https://www.donic.com/en/donic-rubber-series-bluestorm) — é dado de fabricante, não de loja. A Donic publica o grau e não nomeia a régua; registramos como ESN seguindo o que as fichas já verificadas desta marca no site usam (Bluestorm Z1 Turbo, Z3 e Bluefire M1 Turbo), e os três valores que tínhamos conferem exatamente com o que a Donic publica hoje. A recusa registrada aqui antes — não herdar o grau de uma irmã da mesma linha, já que a loja consultada não declarava a dureza — foi resolvida da forma certa: o grau veio do fabricante, não de dedução."
     },
     "donic-bluestorm-z1-turbo": {
       "confianca": "revendedor",
@@ -5002,11 +5018,15 @@
       "consultadoEm": "2026-07-30",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "47,5° (escala ESN)"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa tensionada"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha. Ela entra SEM a régua unificada, e por isso sem a leitura de dureza em português claro, em vez de herdar o grau de uma irmã da mesma linha, que é outra esponja."
+      "nota": "A DUREZA (47,5°) vem da PRÓPRIA DONIC, na página da série Bluestorm Z, consultada em 2026-08-22 (https://www.donic.com/en/donic-rubber-series-bluestorm) — é dado de fabricante, não de loja. A Donic publica o grau e não nomeia a régua; registramos como ESN seguindo o que as fichas já verificadas desta marca no site usam (Bluestorm Z1 Turbo, Z3 e Bluefire M1 Turbo), e os três valores que tínhamos conferem exatamente com o que a Donic publica hoje. A recusa registrada aqui antes — não herdar o grau de uma irmã da mesma linha, já que a loja consultada não declarava a dureza — foi resolvida da forma certa: o grau veio do fabricante, não de dedução."
     },
     "donic-bluestorm-z3": {
       "confianca": "revendedor",
@@ -5946,11 +5966,15 @@
       "consultadoEm": "2026-07-30",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "55° (escala ESN)"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente híbrida"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. CLASSIFICAÇÃO CONFERIDA: a linha BlueGrip caiu como LÂMINA na primeira passada da minha heurística, porque o nome dela não estava na lista de linhas de borracha da Donic. Duas fontes independentes corrigem: o Revspin as lista no índice de borrachas (/rubber/), e a descrição da própria loja começa com \"as borrachas Donic Bluegrip\"."
+      "nota": "A DUREZA (55°) vem da PRÓPRIA DONIC, na página da série BlueGrip J, consultada em 2026-08-22 (https://www.donic.com/en/donic-rubber-series-bluegrip) — é dado de fabricante, não de loja. A Donic publica o grau e não nomeia a régua; registramos como ESN seguindo o que as fichas já verificadas desta marca no site usam (Bluestorm Z1 Turbo, Z3 e Bluefire M1 Turbo), e os três valores que tínhamos conferem exatamente com o que a Donic publica hoje. CLASSIFICAÇÃO CONFERIDA: a linha BlueGrip caiu como LÂMINA na primeira passada da minha heurística, porque o nome dela não estava na lista de linhas de borracha da Donic. Duas fontes independentes corrigem: o Revspin as lista no índice de borrachas (/rubber/), e a descrição da própria loja começa com \"as borrachas Donic Bluegrip\"."
     },
     "donic-bluegrip-s2": {
       "confianca": "revendedor",
@@ -5982,11 +6006,15 @@
       "consultadoEm": "2026-07-30",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "52,5° (escala ESN)"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente híbrida"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. CLASSIFICAÇÃO CONFERIDA: a linha BlueGrip caiu como LÂMINA na primeira passada da minha heurística, porque o nome dela não estava na lista de linhas de borracha da Donic. Duas fontes independentes corrigem: o Revspin as lista no índice de borrachas (/rubber/), e a descrição da própria loja começa com \"as borrachas Donic Bluegrip\". Esta variante não tem amostra suficiente na comunidade. O piso é 5 avaliações. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=d-bluegrip-j2), na régua dela — que não é a dos materiais mais antigos do catálogo. A Donic não publica esses números em formato legível no site próprio."
+      "nota": "A DUREZA (52,5°) vem da PRÓPRIA DONIC, na página da série BlueGrip J, consultada em 2026-08-22 (https://www.donic.com/en/donic-rubber-series-bluegrip) — é dado de fabricante, não de loja. A Donic publica o grau e não nomeia a régua; registramos como ESN seguindo o que as fichas já verificadas desta marca no site usam (Bluestorm Z1 Turbo, Z3 e Bluefire M1 Turbo), e os três valores que tínhamos conferem exatamente com o que a Donic publica hoje. CLASSIFICAÇÃO CONFERIDA: a linha BlueGrip caiu como LÂMINA na primeira passada da minha heurística, porque o nome dela não estava na lista de linhas de borracha da Donic. Duas fontes independentes corrigem: o Revspin as lista no índice de borrachas (/rubber/), e a descrição da própria loja começa com \"as borrachas Donic Bluegrip\". Esta variante não tem amostra suficiente na comunidade. O piso é 5 avaliações. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=d-bluegrip-j2), na régua dela — que não é a dos materiais mais antigos do catálogo. A Donic não publica esses números em formato legível no site próprio."
     },
     "donic-bluegrip-j3": {
       "confianca": "revendedor",
@@ -5994,11 +6022,15 @@
       "consultadoEm": "2026-07-30",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "50° (escala ESN)"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa aderente híbrida, esponja macia"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. CLASSIFICAÇÃO CONFERIDA: a linha BlueGrip caiu como LÂMINA na primeira passada da minha heurística, porque o nome dela não estava na lista de linhas de borracha da Donic. Duas fontes independentes corrigem: o Revspin as lista no índice de borrachas (/rubber/), e a descrição da própria loja começa com \"as borrachas Donic Bluegrip\". Esta variante não tem amostra suficiente na comunidade. O piso é 5 avaliações. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=d-bluegrip-j3), na régua dela — que não é a dos materiais mais antigos do catálogo. A Donic não publica esses números em formato legível no site próprio."
+      "nota": "A DUREZA (50°) vem da PRÓPRIA DONIC, na página da série BlueGrip J, consultada em 2026-08-22 (https://www.donic.com/en/donic-rubber-series-bluegrip) — é dado de fabricante, não de loja. A Donic publica o grau e não nomeia a régua; registramos como ESN seguindo o que as fichas já verificadas desta marca no site usam (Bluestorm Z1 Turbo, Z3 e Bluefire M1 Turbo), e os três valores que tínhamos conferem exatamente com o que a Donic publica hoje. CLASSIFICAÇÃO CONFERIDA: a linha BlueGrip caiu como LÂMINA na primeira passada da minha heurística, porque o nome dela não estava na lista de linhas de borracha da Donic. Duas fontes independentes corrigem: o Revspin as lista no índice de borrachas (/rubber/), e a descrição da própria loja começa com \"as borrachas Donic Bluegrip\". Esta variante não tem amostra suficiente na comunidade. O piso é 5 avaliações. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=d-bluegrip-j3), na régua dela — que não é a dos materiais mais antigos do catálogo. A Donic não publica esses números em formato legível no site próprio."
     },
     "donic-epox-topspeed": {
       "confianca": "revendedor",
