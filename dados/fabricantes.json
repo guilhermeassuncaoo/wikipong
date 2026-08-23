@@ -5066,11 +5066,15 @@
       "consultadoEm": "2026-07-30",
       "ficha": [
         {
+          "rotulo": "Dureza da esponja",
+          "valor": "52,5° (escala ESN)"
+        },
+        {
           "rotulo": "Superfície",
           "valor": "Lisa tensionada (esponja OPTE)"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha. Ela entra SEM a régua unificada, e por isso sem a leitura de dureza em português claro, em vez de herdar o grau de uma irmã da mesma linha, que é outra esponja."
+      "nota": "A DUREZA (52,5°) vem da PRÓPRIA DONIC, na página da série BlueStar, consultada em 2026-08-22 (https://www.donic.com/en/donic-rubber-series-bluestar). Régua registrada como ESN, seguindo o que as fichas já verificadas da marca usam neste site."
     },
     "donic-bluestar-a2": {
       "confianca": "revendedor",
@@ -5089,20 +5093,20 @@
       "nota": "A régua é a ESN, padrão das esponjas europeias."
     },
     "donic-bluestar-a3": {
-      "confianca": "revendedor",
-      "fonte": "https://americatt.net/borracha-donic-bluestar-a3/",
-      "consultadoEm": "2026-07-30",
+      "confianca": "oficial",
+      "fonte": "https://www.donic.com/en/donic-rubber-series-bluestar",
+      "consultadoEm": "2026-08-22",
       "ficha": [
         {
           "rotulo": "Dureza da esponja",
-          "valor": "50° (escala ESN)"
+          "valor": "47,5° (escala ESN)"
         },
         {
           "rotulo": "Superfície",
           "valor": "Lisa tensionada (esponja OPTE)"
         }
       ],
-      "nota": "A régua é a ESN, padrão das esponjas europeias."
+      "nota": "CORREÇÃO DE 2026-08-22. Esta ficha publicava 50°, colhido da AmericaTT em 30/07/2026 — o MESMO valor da irmã A2, o que já era um sinal. A própria Donic publica a série inteira numa página só (\"A1: 52.5°, A2: 50°, A3: 47.5°\") e a A3 é 47,5°. Fabricante vence revendedor, que é a ordem de confiança deste site, e o número foi trocado. A régua é a ESN, padrão das esponjas europeias."
     },
     "donic-baracuda": {
       "confianca": "revendedor",
