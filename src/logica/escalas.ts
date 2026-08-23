@@ -156,6 +156,17 @@ export function grauRepresentativo(texto: string): number | null {
 /** Reconhece a escala citada num texto de ficha. Null quando a ficha não diz. */
 export function escalaDoTexto(texto: string): Escala | null {
   const t = texto.toLowerCase();
+  /* ── RÉGUA DECLARADA VENCE NOME DE MARCA (armadilha real, 2026-08-23) ───────
+     A linha honesta da GoldArc é "47,5° (Shore C, régua declarada pela DHS)".
+     Ela contém "DHS", e o teste abaixo lia isso como a régua chinesa: 47,5 na
+     conversão DHS vira ~59° ESN, e o site publicaria uma tensora alemã como se
+     fosse a esponja mais dura do catálogo. O erro nasceria de citar a FONTE
+     dentro do campo — coisa que a procedência pede o tempo todo aqui.
+
+     Quando a fonte nomeia uma régua que este módulo não converte, a resposta é
+     null e ponto: o nome da régua é mais específico que uma marca solta no
+     meio da frase, e não converter é sempre o desfecho seguro. */
+  if (reguaSemConversao(t) !== null) return null;
   if (t.includes('dhs')) return 'dhs';
   if (t.includes('esn')) return 'esn';
   if (t.includes('butterfly')) return 'butterfly';
@@ -167,4 +178,46 @@ export function escalaDoTexto(texto: string): Escala | null {
      deste módulo). O mesmo vale para "alemã": a ESN é a fábrica alemã. */
   if (/europ|alem/.test(t)) return 'esn';
   return null;
+}
+
+/**
+ * RÉGUAS QUE A FONTE NOMEIA E QUE ESTE SITE NÃO CONVERTE
+ * ==============================================================================
+ * `escalaDoTexto` devolve null em dois casos que NÃO são o mesmo:
+ *
+ *   1. a fonte não disse régua nenhuma  — a Victas publica "47,5±3" e pronto;
+ *   2. a fonte DISSE, e a régua não está aqui — a DHS declara "Shore C
+ *      hardness standard" para a linha GoldArc.
+ *
+ * Tratar os dois como um só faz a tela dizer "a DHS publica 47,5° e não diz em
+ * que régua" numa borracha cuja fábrica diz exatamente qual é. É mentira
+ * pequena e evitável, e a diferença importa pro leitor: no caso 1 não há a quem
+ * recorrer; no caso 2 o nome da régua é a pista para procurar a conversão.
+ *
+ * Entrar nesta lista é dizer "reconheço o nome e não tenho conversão com
+ * procedência". Converter sem régua declarada é o que a D-16 proíbe, e um
+ * palpite de conversão aqui reapareceria como grau na coluna unificada.
+ */
+export const REGUAS_SEM_CONVERSAO: readonly { padrao: RegExp; nome: string }[] = [
+  /* A DHS declara Shore C na linha GoldArc. Shore C é norma de durômetro, não
+     a régua-de-catálogo chinesa que a `dhs` acima modela — e o próprio número
+     mostra: 47,5 "Shore C" ao lado das Hurricane de 39°/40° não é a mesma
+     conta. */
+  { padrao: /shore\s*c/, nome: 'Shore C' },
+  /* Shore A e Shore O aparecem em tabelas de terceiros (a Calibra da Stiga em
+     Shore A, as medições de comunidade em Shore O). Nomeadas aqui pra que, se
+     um dia entrarem numa ficha, entrem rotuladas em vez de viraram ESN. */
+  { padrao: /shore\s*a/, nome: 'Shore A' },
+  { padrao: /shore\s*o/, nome: 'Shore O' },
+  /* A Nittaku publica as duas na Genextion: "42,5° (japonesa) / 52,5° (alemã)".
+     Dez graus de diferença na MESMA esponja — prova, vinda do fabricante, de
+     que a japonesa dela não é a europeia. Sem uma tabela de pares publicada,
+     um deslocamento tirado de um caso só seria régua inventada. */
+  { padrao: /japones|japonesa/, nome: 'japonesa' },
+];
+
+/** O nome da régua quando a fonte a declara e este site não a converte. */
+export function reguaSemConversao(texto: string): string | null {
+  const t = texto.toLowerCase();
+  return REGUAS_SEM_CONVERSAO.find((r) => r.padrao.test(t))?.nome ?? null;
 }

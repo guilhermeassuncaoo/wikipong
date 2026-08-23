@@ -28,7 +28,7 @@ import {
   Material,
 } from '../src/logica/filtros.js';
 import {
-  paraESN, converter, faixaLegivel, sensacao, primeiroGrau, escalaDoTexto,
+  paraESN, converter, faixaLegivel, sensacao, primeiroGrau, escalaDoTexto, reguaSemConversao,
   DESLOCAMENTO_ATE_ESN, INCERTEZA, grauRepresentativo,
 } from '../src/logica/escalas.js';
 import { etiquetasDoPreset } from '../src/logica/descrever-filtro.js';
@@ -423,6 +423,17 @@ afirma(primeiroGrau('46,7° a 47,7° (escala ESN)') === 46.7, 'lê grau com vír
 afirma(primeiroGrau('sem número') === null, 'ficha sem grau devolve null');
 afirma(escalaDoTexto('37° a 41° (escala DHS)') === 'dhs', 'reconhece a escala DHS na ficha');
 afirma(escalaDoTexto('40° a 45° (≈ 42,5°)') === null, 'ficha que não diz a escala devolve null');
+/* Regua NOMEADA que este site nao converte: `escalaDoTexto` devolve null nos
+   dois casos, e so' `reguaSemConversao` separa "a fonte calou" de "a fonte
+   disse e eu nao sei converter". A DHS declara Shore C na GoldArc. */
+afirma(reguaSemConversao('47,5° (Shore C, régua declarada pela DHS)') === 'Shore C',
+  'reconhece a Shore C como régua declarada e não convertida');
+afirma(reguaSemConversao('42,5° (régua japonesa da Nittaku)') === 'japonesa',
+  'reconhece a régua japonesa como declarada e não convertida');
+afirma(reguaSemConversao('47,5° ± 3') === null,
+  'grau sem régua nenhuma não inventa uma régua declarada');
+afirma(escalaDoTexto('47,5° (Shore C, régua declarada pela DHS)') === null,
+  'Shore C não vira ESN por engano — não há conversão publicada entre as duas');
 
 
 // ───────── montagem: soma real e observações derivadas (sem nota combinada) ─────────
@@ -2941,8 +2952,13 @@ for (const mat of MATERIAIS.filter((x) => x.tipo === 'Borracha')) {
   const linha = (entrada?.ficha ?? []).find((l) => /dureza/i.test(l.rotulo));
   if (!linha) continue;
   const temRegua = escalaDoTexto(linha.valor) !== null;
+  /* Terceira saida, aberta em 2026-08-23: a fonte NOMEIA uma regua que este
+     site nao converte (a DHS declara "Shore C" na linha GoldArc). A linha se
+     explica sozinha nesse caso — exigir que a nota diga "nao nomeia a regua"
+     obrigaria a escrever o contrario do que a fabrica publica. */
+  const reguaDeclarada = reguaSemConversao(linha.valor) !== null;
   const explica = /não nomeia a régua|nao nomeia a regua/i.test(entrada?.nota ?? '');
-  afirma(temRegua || explica,
+  afirma(temRegua || reguaDeclarada || explica,
     `${mat.id}: a linha de dureza ("${linha.valor}") nao nomeia a regua e a nota nao explica por que — o leitor ve um grau e nenhuma conversao, sem saber o motivo`);
 }
 /* ───── Victas: grau publicado, regua NENHUMA ─────
@@ -3006,6 +3022,24 @@ afirma(
   carimboIndevido === undefined,
   `${carimboIndevido?.id}: grau sem regua carimbado como vindo do fabricante`,
 );
+
+/* ───── dureza colhida que nao chega na tela ─────
+   Este defeito ja apareceu DUAS vezes, sempre por um motivo diferente: em
+   2026-08-22 o leitor olhava so o rotulo e 33 fichas com grau ficavam mudas;
+   em 2026-08-23 a linha de dureza morava dentro da tabela de desempenho, e 56
+   materiais sem velocidade/efeito/controle nao tinham onde mostrar a dureza —
+   38 deles com o grau JA CONVERTIDO da ficha do fabricante.
+
+   As duas causas eram diferentes e o sintoma era o mesmo: numero colhido, com
+   fonte e data, que o site nao publica. Esta asercao olha o sintoma. */
+for (const mat of MATERIAIS.filter((x) => x.tipo === 'Borracha')) {
+  const linha = (fabricantePorId(mat.id)?.ficha ?? []).find((l) => /dureza/i.test(l.rotulo));
+  if (!linha) continue;
+  afirma(
+    mat.durezaUnificada !== undefined || mat.grauSemRegua !== undefined,
+    `${mat.id}: a ficha publica "${linha.valor}" e a ponte nao entregou nem dureza unificada nem grau cru — colhido e sumido`,
+  );
+}
 
 console.log(`\n✔ ${ok} asserções passaram`);
 if (falhas.length) {

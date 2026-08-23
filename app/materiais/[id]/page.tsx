@@ -30,7 +30,7 @@ import { FaixaCatalogo } from '@/componentes/FaixaCatalogo';
 import { ComparativoSimilares } from '@/componentes/ComparativoSimilares';
 import { similares, type Similar } from '@/src/logica/similares';
 import { familiaDaLamina, familiaDaBorracha } from '@/src/logica/traduzir';
-import { MATERIAIS, materialPorId } from '@/componentes/dados-materiais';
+import { MATERIAIS, materialPorId, type MaterialCatalogo } from '@/componentes/dados-materiais';
 import { brl, dinheiro } from '@/componentes/formato';
 import { paraPalavra } from '@/src/logica/metricas';
 import { traduzirFicha } from '@/src/logica/traduzir';
@@ -106,6 +106,51 @@ const O_QUE_MEDE: Record<'velocidade' | 'spin' | 'controle' | 'durabilidade', st
   durabilidade:
     'Quanto tempo a peça mantém o que tinha de fábrica antes de gastar. Muda a conta de qual é cara: borracha é consumível, e uma que dura o dobro custa metade por ano.',
 };
+
+/**
+ * A DUREZA UNIFICADA — e o lugar onde ela cabe
+ * ------------------------------------------------------------------------------
+ * Era um `<tr>` escrito dentro da tabela de desempenho, e por isso só existia
+ * quando o material tinha velocidade/efeito/controle. 56 materiais ficavam de
+ * fora, 38 deles com a dureza JÁ CONVERTIDA da ficha do fabricante: a Hurricane
+ * 3 de 39° DHS virava 51° ESN no cálculo e não aparecia em lugar nenhum da
+ * página. Dado invisível outra vez, e pela mesma causa de sempre — a informação
+ * pendurada numa condição que não é a dela.
+ *
+ * Agora é componente, e a página o usa nos dois lugares: dentro da tabela quando
+ * ela existe, e sozinho quando não existe.
+ *
+ * TRÊS CASOS, porque são três (ver `grauSemRegua` em dados-materiais.ts):
+ *   convertida  — a fonte deu grau E régua
+ *   sem régua   — a fonte deu o grau e calou a régua (Victas, Nittaku japonesas)
+ *   régua alheia— a fonte NOMEOU uma régua que este site não converte (Shore C)
+ */
+function LinhaDeDureza({ m }: { m: MaterialCatalogo }) {
+  if (m.durezaUnificada === undefined && m.grauSemRegua === undefined) return null;
+  return (
+    <tr>
+      <th scope="row">Dureza unificada*</th>
+      <td>
+        {m.durezaUnificada !== undefined ? (
+          <span className={`mono ${estilos.valor}`}>{m.durezaUnificada}°</span>
+        ) : (
+          <span className={estilos.semValor}>não dá para converter</span>
+        )}
+        <span className={estilos.palavra}>
+          {m.origemDureza === 'fabricante' && m.durezaFabricante
+            ? `convertida de ${m.durezaFabricante.grau}° ${m.durezaFabricante.escala.toUpperCase()}`
+            : m.grauSemRegua
+              ? `${m.durezaUnificada !== undefined ? 'estimativa nossa — ' : ''}a ${m.marca} publica ${String(m.grauSemRegua.grau).replace('.', ',')}° ${
+                  m.grauSemRegua.regua
+                    ? `na régua ${m.grauSemRegua.regua}, que este site ainda não converte`
+                    : 'e não diz em que régua'
+                }`
+              : 'estimativa, o fabricante não publica a régua'}
+        </span>
+      </td>
+    </tr>
+  );
+}
 
 export default async function PaginaDetalhe({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
@@ -362,43 +407,7 @@ export default async function PaginaDetalhe({ params }: { params: Promise<{ id: 
                     </td>
                   </tr>
                 ))}
-                {/* ── DUREZA UNIFICADA, E O CASO EM QUE ELA NÃO EXISTE ────────
-                    A linha só aparecia quando havia número. Só que 24 borrachas
-                    da Victas passaram a mostrar "57,5° ± 3" na ficha do
-                    fabricante logo acima e NENHUMA dureza unificada — sem uma
-                    palavra dizendo por quê. Some a linha, some a explicação, e
-                    fica no leitor a impressão de que o site esqueceu.
-
-                    Agora ela aparece TAMBÉM quando a marca publicou um grau e
-                    calou a régua: no lugar do número, a razão. É a saída (2) da
-                    regra de dado do projeto — dizer o que não se sabe e por quê,
-                    em vez do traço mudo. */}
-                {(m.durezaUnificada !== undefined || m.grauSemRegua !== undefined) && (
-                <tr>
-                  <th scope="row">Dureza unificada*</th>
-                  <td>
-                    {m.durezaUnificada !== undefined ? (
-                      <span className={`mono ${estilos.valor}`}>{m.durezaUnificada}°</span>
-                    ) : (
-                      <span className={estilos.semValor}>não dá para converter</span>
-                    )}
-                    {/* Procedência à vista, em TRÊS casos — porque são três, e o
-                        do meio existe de verdade: a marca publica o grau e cala
-                        a régua. Juntar esse caso com "não publica nada" fazia a
-                        tela dizer que o fabricante não publica a régua bem em
-                        cima de uma ficha que mostra "47,5° ± 3" logo acima, e
-                        deixava o leitor sem saber por que aquele número não
-                        valia. Agora a frase nomeia a marca e o grau dela. */}
-                    <span className={estilos.palavra}>
-                      {m.origemDureza === 'fabricante' && m.durezaFabricante
-                        ? `convertida de ${m.durezaFabricante.grau}° ${m.durezaFabricante.escala.toUpperCase()}`
-                        : m.grauSemRegua !== undefined
-                          ? `${m.durezaUnificada !== undefined ? 'estimativa nossa — ' : ''}a ${m.marca} publica ${String(m.grauSemRegua).replace('.', ',')}° e não diz em que régua`
-                          : 'estimativa, o fabricante não publica a régua'}
-                    </span>
-                  </td>
-                </tr>
-                )}
+                <LinhaDeDureza m={m} />
               </tbody>
             </table>
             {/* ── O QUE CADA NÚMERO MEDE ────────────────────────────────────
@@ -461,6 +470,30 @@ export default async function PaginaDetalhe({ params }: { params: Promise<{ id: 
             </Link>
           </figure>
           )}
+        </section>
+        )}
+
+        {/* Sem perfil de desempenho não há tabela — e a dureza ficava sem tela.
+            Aqui ela tem a própria, com a mesma linha e a mesma procedência. */}
+        {!comSpecs && (m.durezaUnificada !== undefined || m.grauSemRegua !== undefined) && (
+        <section className={estilos.ficha} aria-labelledby="titulo-dureza">
+          <div className={estilos.fichaTexto}>
+            <h2 id="titulo-dureza">Dureza da esponja</h2>
+            <p className={estilos.subtituloFicha}>
+              Este material não tem velocidade, efeito e controle publicados por fonte que
+              possamos citar — mas tem dureza, e ela vale sozinha: é o que mais muda a
+              sensação na mão.
+            </p>
+            <table className={estilos.tabela}>
+              <tbody>
+                <LinhaDeDureza m={m} />
+              </tbody>
+            </table>
+            <p className={estilos.nota}>
+              * A régua comum é a <strong>ESN</strong>, europeia. O grau que o fabricante
+              publica, na régua dele, está logo abaixo com a fonte e a data da consulta.
+            </p>
+          </div>
         </section>
         )}
 

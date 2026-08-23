@@ -19,7 +19,7 @@
 import type { Material } from '@/src/logica/filtros';
 import dados from '@/dados/materiais.json';
 import { fabricantePorId } from './dados-fabricante';
-import { escalaDoTexto, grauRepresentativo, paraESN } from '@/src/logica/escalas';
+import { escalaDoTexto, grauRepresentativo, paraESN, reguaSemConversao } from '@/src/logica/escalas';
 import { MOEDAS, type Moeda } from '@/src/logica/moedas';
 import type { Specs } from '@/src/logica/metricas';
 import { notaBayesiana, mediaDoCatalogo } from '@/src/logica/popularidade';
@@ -56,8 +56,13 @@ export interface MaterialCatalogo extends Material {
    * frase ("Lisa clássica, esponja 35°") e a frase inteira não cabe no meio de
    * uma sentença. A linha crua continua à vista, logo acima, na ficha do modo
    * Técnico — nada se perde.
+   *
+   * `regua` vem preenchida quando a fonte NOMEIA a régua e este site não a
+   * converte (a DHS declara "Shore C" na linha GoldArc). Sem ela, a fonte não
+   * disse régua nenhuma. São coisas diferentes e a tela fala diferente de cada
+   * uma — ver REGUAS_SEM_CONVERSAO em src/logica/escalas.ts.
    */
-  grauSemRegua?: number;
+  grauSemRegua?: { grau: number; regua?: string };
   /** Ausente = 'semente' (os materiais antigos, anteriores a esta distinção). */
   origemSpecs?: OrigemSpecs;
 }
@@ -71,7 +76,7 @@ export interface MaterialCatalogo extends Material {
  */
 type LeituraDeDureza =
   | { tipo: 'convertida'; unificada: number; grau: number; escala: string }
-  | { tipo: 'semRegua'; grau: number }
+  | { tipo: 'semRegua'; grau: number; regua?: string }
   | null;
 
 /** Converte a ficha do fabricante em grau ESN-equivalente. null quando não dá. */
@@ -98,7 +103,7 @@ function durezaDaFicha(id: string): LeituraDeDureza {
   const escala = escalaDoTexto(linha.valor);
   /* Grau sim, régua não. Antes isto devolvia null junto com "não tem dureza
      nenhuma", e a tela tratava os dois casos com a mesma frase. */
-  if (escala === null) return { tipo: 'semRegua', grau };
+  if (escala === null) return { tipo: 'semRegua', grau, regua: reguaSemConversao(linha.valor) ?? undefined };
   const faixa = paraESN(grau, escala);
   return {
     tipo: 'convertida',
@@ -167,7 +172,11 @@ function resolver(m: (typeof dados.materiais)[number]): MaterialCatalogo {
      ao chute a autoridade da marca. O grau cru vai junto pra tela poder mostrar
      o que a marca publica ao lado da estimativa, sem misturar os dois. */
   if (doFabricante.tipo === 'semRegua') {
-    return { ...base, origemDureza: 'semente', grauSemRegua: doFabricante.grau };
+    return {
+      ...base,
+      origemDureza: 'semente',
+      grauSemRegua: { grau: doFabricante.grau, regua: doFabricante.regua },
+    };
   }
   return {
     ...base,
