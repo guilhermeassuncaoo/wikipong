@@ -12251,10 +12251,18 @@
         },
         {
           "rotulo": "Construção",
-          "valor": "Madeira com fibra PBO-c"
+          "valor": "7 lâminas · madeira reforçada com fibra sintética (Hinoki e PBO-c)"
+        },
+        {
+          "rotulo": "Classe",
+          "valor": "OFF− / OFF / OFF extremo"
+        },
+        {
+          "rotulo": "Peso",
+          "valor": "≈ 93 g"
         }
       ],
-      "nota": "Preço e foto conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido, e converter daria um número que muda todo dia. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "CONSTRUÇÃO E MEDIDAS colhidas em 2026-08-23 da MESMA página que já era a fonte desta ficha (https://www.megaspin.net/store/default.asp?pid=j-rossi-emotion-pbo-c) — estavam lá e não tinham sido lidas. Esta página descreve velocidade e controle por PALAVRA (\"Fast\", \"Offensive Minus\"), sem número, e por isso a lâmina segue sem índices.  Preço e foto conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido, e converter daria um número que muda todo dia. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "joola-vyzaryz-freeze-hrd": {
       "confianca": "revendedor",
@@ -12427,10 +12435,18 @@
         },
         {
           "rotulo": "Construção",
-          "valor": "7 camadas de madeira"
+          "valor": "7 lâminas de madeira (all-wood) · capa de Limba, miolo de Ayous"
+        },
+        {
+          "rotulo": "Classe",
+          "valor": "OFF / OFF+"
+        },
+        {
+          "rotulo": "Peso",
+          "valor": "≈ 87 g (a madeira varia ±7 g)"
         }
       ],
-      "nota": "Preço e foto conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido, e converter daria um número que muda todo dia. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "CONSTRUÇÃO E MEDIDAS colhidas em 2026-08-23 da MESMA página que já era a fonte desta ficha (https://www.megaspin.net/store/default.asp?pid=j-xylo-7) — estavam lá e não tinham sido lidas. Esta página descreve velocidade e controle por PALAVRA (\"Fast\", \"Offensive Minus\"), sem número, e por isso a lâmina segue sem índices.  Preço e foto conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido, e converter daria um número que muda todo dia. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "joola-classic-c-off": {
       "confianca": "revendedor",
@@ -12507,10 +12523,14 @@
         },
         {
           "rotulo": "Construção",
-          "valor": "Madeira com carbono"
+          "valor": "5 lâminas de madeira + 2 de carbono macio (interno) · capa de Limba"
+        },
+        {
+          "rotulo": "Peso",
+          "valor": "≈ 83 g"
         }
       ],
-      "nota": "Preço e foto conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido, e converter daria um número que muda todo dia. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "CONSTRUÇÃO E MEDIDAS colhidas em 2026-08-23 da MESMA página que já era a fonte desta ficha (https://www.megaspin.net/store/default.asp?pid=j-baseline-carbon) — estavam lá e não tinham sido lidas. Esta página descreve velocidade e controle por PALAVRA (\"Fast\", \"Offensive Minus\"), sem número, e por isso a lâmina segue sem índices.  Preço e foto conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido, e converter daria um número que muda todo dia. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "joola-baseline-off": {
       "confianca": "revendedor",
@@ -12603,10 +12623,22 @@
         },
         {
           "rotulo": "Construção",
-          "valor": "5 camadas de madeira pura, capa de limba"
+          "valor": "5 lâminas de madeira (all-wood) · capa de Limba"
+        },
+        {
+          "rotulo": "Espessura",
+          "valor": "6,5 mm"
+        },
+        {
+          "rotulo": "Peso",
+          "valor": "≈ 80 g"
+        },
+        {
+          "rotulo": "Feita para",
+          "valor": "Júnior: cabo mais curto e cabeça menor"
         }
       ],
-      "nota": "Preço e foto conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido, e converter daria um número que muda todo dia. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "CONSTRUÇÃO E MEDIDAS colhidas em 2026-08-23 da MESMA página que já era a fonte desta ficha (https://www.megaspin.net/store/default.asp?pid=j-baseline-junior) — estavam lá e não tinham sido lidas. Esta página descreve velocidade e controle por PALAVRA (\"Fast\", \"Offensive Minus\"), sem número, e por isso a lâmina segue sem índices.  Preço e foto conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido, e converter daria um número que muda todo dia. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "dhs-h3-national": {
       "confianca": "revendedor",
@@ -13147,10 +13179,22 @@
         },
         {
           "rotulo": "Construção",
-          "valor": "5 camadas de madeira pura"
+          "valor": "5 lâminas de madeira (all-wood)"
+        },
+        {
+          "rotulo": "Classe",
+          "valor": "OFF− (ofensiva contida)"
+        },
+        {
+          "rotulo": "Espessura",
+          "valor": "6,2 mm"
+        },
+        {
+          "rotulo": "Peso",
+          "valor": "≈ 84 g"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "CONSTRUÇÃO E MEDIDAS colhidas em 2026-08-23 da MESMA página que já era a fonte desta ficha (https://www.megaspin.net/store/default.asp?pid=dhs-wind-w1030) — estavam lá e não tinham sido lidas. Esta página descreve velocidade e controle por PALAVRA (\"Fast\", \"Offensive Minus\"), sem número, e por isso a lâmina segue sem índices.  Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "dhs-hurricane-hao-2": {
       "confianca": "revendedor",
@@ -13263,10 +13307,22 @@
         },
         {
           "rotulo": "Construção",
-          "valor": "5 camadas com núcleo único de fibra de vidro e carbono"
+          "valor": "5 lâminas de madeira + 2 de fibra de vidro-carbono (GC)"
+        },
+        {
+          "rotulo": "Classe",
+          "valor": "OFF+ (muito ofensiva)"
+        },
+        {
+          "rotulo": "Espessura",
+          "valor": "5,8 mm"
+        },
+        {
+          "rotulo": "Peso",
+          "valor": "≈ 85 g"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "CONSTRUÇÃO E MEDIDAS colhidas em 2026-08-23 da MESMA página que já era a fonte desta ficha (https://www.megaspin.net/store/default.asp?pid=dhs-hurricane-hao-3) — estavam lá e não tinham sido lidas. Esta página descreve velocidade e controle por PALAVRA (\"Fast\", \"Offensive Minus\"), sem número, e por isso a lâmina segue sem índices.  Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "dhs-hurricane-long-5-light": {
       "confianca": "revendedor",
@@ -13279,10 +13335,22 @@
         },
         {
           "rotulo": "Construção",
-          "valor": "5 camadas de madeira pura + 2 de carbono aromático, núcleo grande"
+          "valor": "5 lâminas de madeira + 2 de carbono aromático (AC), miolo de 0,5 mm"
+        },
+        {
+          "rotulo": "Classe",
+          "valor": "OFF+ (muito ofensiva)"
+        },
+        {
+          "rotulo": "Espessura",
+          "valor": "5,9 mm"
+        },
+        {
+          "rotulo": "Peso",
+          "valor": "≈ 89 g"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "CONSTRUÇÃO E MEDIDAS colhidas em 2026-08-23 da MESMA página que já era a fonte desta ficha (https://www.megaspin.net/store/default.asp?pid=dhs-hur-long-5-light) — estavam lá e não tinham sido lidas. Esta página descreve velocidade e controle por PALAVRA (\"Fast\", \"Offensive Minus\"), sem número, e por isso a lâmina segue sem índices.  Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "dhs-fang-bo-b2": {
       "confianca": "revendedor",
@@ -15559,10 +15627,18 @@
         },
         {
           "rotulo": "Construção",
-          "valor": "Limba, ayous, arylate-carbono, carbono"
+          "valor": "5 lâminas de madeira + 2 de PBO Power Carbon · Limba–Limba–PBO–Ayous–PBO–Limba–Limba"
+        },
+        {
+          "rotulo": "Classe",
+          "valor": "OFF (ofensiva)"
+        },
+        {
+          "rotulo": "Peso",
+          "valor": "≈ 87 g"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "CONSTRUÇÃO E MEDIDAS colhidas em 2026-08-23 da MESMA página que já era a fonte desta ficha (https://www.megaspin.net/store/default.asp?pid=gewo-in-force-pbo-pc) — estavam lá e não tinham sido lidas. Esta página descreve velocidade e controle por PALAVRA (\"Fast\", \"Offensive Minus\"), sem número, e por isso a lâmina segue sem índices.  Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "gewo-sensus-carbo-t": {
       "confianca": "revendedor",
@@ -15803,10 +15879,18 @@
         },
         {
           "rotulo": "Construção",
-          "valor": "Carbono"
+          "valor": "5 lâminas, com carbono"
+        },
+        {
+          "rotulo": "Classe",
+          "valor": "OFF (ofensiva)"
+        },
+        {
+          "rotulo": "Peso",
+          "valor": "≈ 92 g"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "VELOCIDADE E CONTROLE colhidos em 2026-08-23 da MESMA página que já era a fonte desta ficha (https://www.megaspin.net/store/default.asp?pid=gewo-xolo-off-carbon) — os números estavam lá e não tinham sido lidos. Eles estão NA RÉGUA DA MEGASPIN, não na escala 0 a 10 deste site: nela uma peça passa de 100, e por isso o site não os traduz em palavra, não os transforma em bolinha e não os desenha no radar. Comparar este número com o de um material que usa a nossa escala seria comparar duas réguas diferentes.  Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "gewo-celexxis-off-class": {
       "confianca": "revendedor",
@@ -15835,10 +15919,18 @@
         },
         {
           "rotulo": "Construção",
-          "valor": "Hinoki, kiri, carbono"
+          "valor": "3 lâminas de madeira + 2 de TPCF-Carbon · Hinoki–TPCF–Kiri–TPCF–Hinoki"
+        },
+        {
+          "rotulo": "Classe",
+          "valor": "OFF / OFF+"
+        },
+        {
+          "rotulo": "Peso",
+          "valor": "≈ 88 g"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "VELOCIDADE E CONTROLE colhidos em 2026-08-23 da MESMA página que já era a fonte desta ficha (https://www.megaspin.net/store/default.asp?pid=gewo-celexxis-fort-carb) — os números estavam lá e não tinham sido lidos. Eles estão NA RÉGUA DA MEGASPIN, não na escala 0 a 10 deste site: nela uma peça passa de 100, e por isso o site não os traduz em palavra, não os transforma em bolinha e não os desenha no radar. Comparar este número com o de um material que usa a nossa escala seria comparar duas réguas diferentes.  Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "gewo-celexxis-hin-ex-c": {
       "confianca": "revendedor",
@@ -15851,10 +15943,18 @@
         },
         {
           "rotulo": "Construção",
-          "valor": "Hinoki, koto, ayous, carbono"
+          "valor": "5 lâminas de madeira + 2 de TPCF-Carbon · Hinoki–TPCF–Koto–Ayous–Koto–TPCF–Hinoki"
+        },
+        {
+          "rotulo": "Classe",
+          "valor": "OFF / OFF+"
+        },
+        {
+          "rotulo": "Peso",
+          "valor": "≈ 88 g"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "VELOCIDADE E CONTROLE colhidos em 2026-08-23 da MESMA página que já era a fonte desta ficha (https://www.megaspin.net/store/default.asp?pid=gewo-celexxis-hin-ex-c) — os números estavam lá e não tinham sido lidos. Eles estão NA RÉGUA DA MEGASPIN, não na escala 0 a 10 deste site: nela uma peça passa de 100, e por isso o site não os traduz em palavra, não os transforma em bolinha e não os desenha no radar. Comparar este número com o de um material que usa a nossa escala seria comparar duas réguas diferentes.  Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "gewo-ex-force-pbo-pc": {
       "confianca": "revendedor",
@@ -15886,7 +15986,7 @@
           "valor": "Carbono"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "VELOCIDADE E CONTROLE colhidos em 2026-08-23 da MESMA página que já era a fonte desta ficha (https://www.megaspin.net/store/default.asp?pid=gewo-zoom-pro-light) — os números estavam lá e não tinham sido lidos. Eles estão NA RÉGUA DA MEGASPIN, não na escala 0 a 10 deste site: nela uma peça passa de 100, e por isso o site não os traduz em palavra, não os transforma em bolinha e não os desenha no radar. Comparar este número com o de um material que usa a nossa escala seria comparar duas réguas diferentes.  Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "gewo-force-arc": {
       "confianca": "revendedor",
@@ -15900,9 +16000,17 @@
         {
           "rotulo": "Construção",
           "valor": "5 camadas de arylate-carbono, carbono, aramida"
+        },
+        {
+          "rotulo": "Classe",
+          "valor": "OFF (ofensiva)"
+        },
+        {
+          "rotulo": "Peso",
+          "valor": "≈ 85 g"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "VELOCIDADE E CONTROLE colhidos em 2026-08-23 da MESMA página que já era a fonte desta ficha (https://www.megaspin.net/store/default.asp?pid=gewo-force-arc) — os números estavam lá e não tinham sido lidos. Eles estão NA RÉGUA DA MEGASPIN, não na escala 0 a 10 deste site: nela uma peça passa de 100, e por isso o site não os traduz em palavra, não os transforma em bolinha e não os desenha no radar. Comparar este número com o de um material que usa a nossa escala seria comparar duas réguas diferentes.  Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "gewo-alvaro-off": {
       "confianca": "revendedor",
@@ -15931,10 +16039,14 @@
         },
         {
           "rotulo": "Construção",
-          "valor": "5 camadas"
+          "valor": "5 lâminas"
+        },
+        {
+          "rotulo": "Peso",
+          "valor": "≈ 85 g"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "VELOCIDADE E CONTROLE colhidos em 2026-08-23 da MESMA página que já era a fonte desta ficha (https://www.megaspin.net/store/default.asp?pid=gewo-power-offense) — os números estavam lá e não tinham sido lidos. Eles estão NA RÉGUA DA MEGASPIN, não na escala 0 a 10 deste site: nela uma peça passa de 100, e por isso o site não os traduz em palavra, não os transforma em bolinha e não os desenha no radar. Comparar este número com o de um material que usa a nossa escala seria comparar duas réguas diferentes.  Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "gewo-power-carbon": {
       "confianca": "revendedor",
@@ -15950,7 +16062,7 @@
           "valor": "Carbono"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "VELOCIDADE E CONTROLE colhidos em 2026-08-23 da MESMA página que já era a fonte desta ficha (https://www.megaspin.net/store/default.asp?pid=gewo-power-carbon) — os números estavam lá e não tinham sido lidos. Eles estão NA RÉGUA DA MEGASPIN, não na escala 0 a 10 deste site: nela uma peça passa de 100, e por isso o site não os traduz em palavra, não os transforma em bolinha e não os desenha no radar. Comparar este número com o de um material que usa a nossa escala seria comparar duas réguas diferentes.  Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "gewo-zoom-balance-allp": {
       "confianca": "revendedor",
@@ -15963,10 +16075,18 @@
         },
         {
           "rotulo": "Construção",
-          "valor": "Ayous, kiri, carbono"
+          "valor": "3 lâminas de madeira · Kiri e Ayous"
+        },
+        {
+          "rotulo": "Classe",
+          "valor": "ALL+ (allround ofensiva)"
+        },
+        {
+          "rotulo": "Peso",
+          "valor": "≈ 85 g"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "VELOCIDADE E CONTROLE colhidos em 2026-08-23 da MESMA página que já era a fonte desta ficha (https://www.megaspin.net/store/default.asp?pid=gewo-zoom-balance-allp) — os números estavam lá e não tinham sido lidos. Eles estão NA RÉGUA DA MEGASPIN, não na escala 0 a 10 deste site: nela uma peça passa de 100, e por isso o site não os traduz em palavra, não os transforma em bolinha e não os desenha no radar. Comparar este número com o de um material que usa a nossa escala seria comparar duas réguas diferentes.  Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "gewo-balsa-c-375": {
       "confianca": "revendedor",
@@ -15995,10 +16115,18 @@
         },
         {
           "rotulo": "Construção",
-          "valor": "Balsa, carbono"
+          "valor": "Miolo de balsa com fibra CFL"
+        },
+        {
+          "rotulo": "Classe",
+          "valor": "ALL+ (allround ofensiva)"
+        },
+        {
+          "rotulo": "Peso",
+          "valor": "≈ 80 g"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "VELOCIDADE E CONTROLE colhidos em 2026-08-23 da MESMA página que já era a fonte desta ficha (https://www.megaspin.net/store/default.asp?pid=gewo-hybrid-c-as-allp) — os números estavam lá e não tinham sido lidos. Eles estão NA RÉGUA DA MEGASPIN, não na escala 0 a 10 deste site: nela uma peça passa de 100, e por isso o site não os traduz em palavra, não os transforma em bolinha e não os desenha no radar. Comparar este número com o de um material que usa a nossa escala seria comparar duas réguas diferentes.  Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "gewo-allround-classic": {
       "confianca": "revendedor",
@@ -16018,7 +16146,7 @@
           "valor": "≈ 80 g"
         }
       ],
-      "nota": "A CONSTRUÇÃO foi colhida em 2026-08-23 (https://tt-gewo.com/en/table-tennis-blades) — a ficha entrava sem ela. Colhida do SITE OFICIAL da GEWO (\"Layers: 5\"). A página dá a contagem e não diz se todas são de madeira. Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "VELOCIDADE E CONTROLE colhidos em 2026-08-23 da MESMA página que já era a fonte desta ficha (https://www.megaspin.net/store/default.asp?pid=gewo-allround-classic) — os números estavam lá e não tinham sido lidos. Eles estão NA RÉGUA DA MEGASPIN, não na escala 0 a 10 deste site: nela uma peça passa de 100, e por isso o site não os traduz em palavra, não os transforma em bolinha e não os desenha no radar. Comparar este número com o de um material que usa a nossa escala seria comparar duas réguas diferentes.  A CONSTRUÇÃO foi colhida em 2026-08-23 (https://tt-gewo.com/en/table-tennis-blades) — a ficha entrava sem ela. Colhida do SITE OFICIAL da GEWO (\"Layers: 5\"). A página dá a contagem e não diz se todas são de madeira. Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "gewo-celexxis-all-class": {
       "confianca": "revendedor",
@@ -16031,10 +16159,18 @@
         },
         {
           "rotulo": "Construção",
-          "valor": "5 camadas de limba, ayous"
+          "valor": "5 lâminas de madeira (all-wood) · Limba–Limba–Ayous–Limba–Limba"
+        },
+        {
+          "rotulo": "Classe",
+          "valor": "ALL+ / OFF−"
+        },
+        {
+          "rotulo": "Peso",
+          "valor": "≈ 88 g"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "VELOCIDADE E CONTROLE colhidos em 2026-08-23 da MESMA página que já era a fonte desta ficha (https://www.megaspin.net/store/default.asp?pid=gewo-celexxis-all-class) — os números estavam lá e não tinham sido lidos. Eles estão NA RÉGUA DA MEGASPIN, não na escala 0 a 10 deste site: nela uma peça passa de 100, e por isso o site não os traduz em palavra, não os transforma em bolinha e não os desenha no radar. Comparar este número com o de um material que usa a nossa escala seria comparar duas réguas diferentes.  Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "gewo-power-allround": {
       "confianca": "revendedor",
@@ -16063,10 +16199,18 @@
         },
         {
           "rotulo": "Construção",
-          "valor": "Koto, ayous, kiri, arylate-carbono"
+          "valor": "5 lâminas de madeira + 2 de Aramid-Carbon · Koto–Ayous–AC–Kiri–AC–Ayous–Koto"
+        },
+        {
+          "rotulo": "Classe",
+          "valor": "OFF− (ofensiva contida)"
+        },
+        {
+          "rotulo": "Peso",
+          "valor": "≈ 85 g"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "CONSTRUÇÃO E MEDIDAS colhidas em 2026-08-23 da MESMA página que já era a fonte desta ficha (https://www.megaspin.net/store/default.asp?pid=gewo-in-force-arc) — estavam lá e não tinham sido lidas. Esta página descreve velocidade e controle por PALAVRA (\"Fast\", \"Offensive Minus\"), sem número, e por isso a lâmina segue sem índices.  Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "gewo-aruna-all-plus": {
       "confianca": "revendedor",
@@ -16079,10 +16223,18 @@
         },
         {
           "rotulo": "Construção",
-          "valor": "Carbono"
+          "valor": "5 lâminas de madeira + 2 de fibra"
+        },
+        {
+          "rotulo": "Classe",
+          "valor": "ALL+ (allround ofensiva)"
+        },
+        {
+          "rotulo": "Peso",
+          "valor": "≈ 90 g"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "VELOCIDADE E CONTROLE colhidos em 2026-08-23 da MESMA página que já era a fonte desta ficha (https://www.megaspin.net/store/default.asp?pid=gewo-aruna-all-plus) — os números estavam lá e não tinham sido lidos. Eles estão NA RÉGUA DA MEGASPIN, não na escala 0 a 10 deste site: nela uma peça passa de 100, e por isso o site não os traduz em palavra, não os transforma em bolinha e não os desenha no radar. Comparar este número com o de um material que usa a nossa escala seria comparar duas réguas diferentes.  Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "gewo-alvaro-off-m": {
       "confianca": "revendedor",
@@ -16115,10 +16267,14 @@
         },
         {
           "rotulo": "Peso",
-          "valor": "≈ 85 a 90 g"
+          "valor": "≈ 90 g"
+        },
+        {
+          "rotulo": "Classe",
+          "valor": "ALL / ALL+ (allround)"
         }
       ],
-      "nota": "A CONSTRUÇÃO foi colhida em 2026-08-23 (https://tt-gewo.com/en/table-tennis-blades) — a ficha entrava sem ela. Colhida do SITE OFICIAL da GEWO (\"Layers: 5\"; a descrição fala em cinco lâminas de madeira). Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "CONSTRUÇÃO E MEDIDAS colhidas em 2026-08-23 da MESMA página que já era a fonte desta ficha (https://www.megaspin.net/store/default.asp?pid=gewo-xolo-allround) — estavam lá e não tinham sido lidas. Esta página descreve velocidade e controle por PALAVRA (\"Fast\", \"Offensive Minus\"), sem número, e por isso a lâmina segue sem índices.  A CONSTRUÇÃO foi colhida em 2026-08-23 (https://tt-gewo.com/en/table-tennis-blades) — a ficha entrava sem ela. Colhida do SITE OFICIAL da GEWO (\"Layers: 5\"; a descrição fala em cinco lâminas de madeira). Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "gewo-basic-off": {
       "confianca": "revendedor",
@@ -16136,9 +16292,13 @@
         {
           "rotulo": "Peso",
           "valor": "≈ 88 g"
+        },
+        {
+          "rotulo": "Classe",
+          "valor": "OFF− (ofensiva contida)"
         }
       ],
-      "nota": "A CONSTRUÇÃO foi colhida em 2026-08-23 (https://tt-gewo.com/en/table-tennis-blades) — a ficha entrava sem ela. Colhida do SITE OFICIAL da GEWO (\"Layers: 5\"; a descrição fala em five-ply). Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "VELOCIDADE E CONTROLE colhidos em 2026-08-23 da MESMA página que já era a fonte desta ficha (https://www.megaspin.net/store/default.asp?pid=gewo-basic-off) — os números estavam lá e não tinham sido lidos. Eles estão NA RÉGUA DA MEGASPIN, não na escala 0 a 10 deste site: nela uma peça passa de 100, e por isso o site não os traduz em palavra, não os transforma em bolinha e não os desenha no radar. Comparar este número com o de um material que usa a nossa escala seria comparar duas réguas diferentes.  A CONSTRUÇÃO foi colhida em 2026-08-23 (https://tt-gewo.com/en/table-tennis-blades) — a ficha entrava sem ela. Colhida do SITE OFICIAL da GEWO (\"Layers: 5\"; a descrição fala em five-ply). Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "gewo-velox-alpha-p-c": {
       "confianca": "revendedor",
@@ -16148,9 +16308,17 @@
         {
           "rotulo": "Tipo de lâmina",
           "valor": "Lâmina avulsa"
+        },
+        {
+          "rotulo": "Classe",
+          "valor": "ALL / OFF"
+        },
+        {
+          "rotulo": "Peso",
+          "valor": "≈ 80 g"
         }
       ],
-      "nota": "A CONSTRUÇÃO NÃO FOI CONFIRMADA, e o motivo é uma quase-coincidência que quase virou erro: o site oficial da GEWO (tt-gewo.com) tem uma \"Blade Gewo Power Control\" com 5 lâminas, peso 80 g e velocidade 86 — os dois primeiros batem com esta, e a velocidade também. Mas o NOME é outro (sem \"Velox Alpha\") e o CONTROLE diverge: 98 na fonte desta ficha, 89 na da GEWO. Dois produtos parecidos não são o mesmo produto, e copiar a construção de um para o outro seria inventar com cara de fonte. Fica sem, até a GEWO republicar a linha Velox ou a loja confirmar que são a mesma lâmina. Verificado em 2026-08-23. Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Velocidade, efeito e controle são a MÉDIA DE 8 JOGADORES no Revspin (https://revspin.net/blade/gewo-velox-alpha-power-control.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
+      "nota": "CONSTRUÇÃO E MEDIDAS colhidas em 2026-08-23 da MESMA página que já era a fonte desta ficha (https://www.megaspin.net/store/default.asp?pid=gewo-velox-alpha-p-c) — estavam lá e não tinham sido lidas. Esta página descreve velocidade e controle por PALAVRA (\"Fast\", \"Offensive Minus\"), sem número, e por isso a lâmina segue sem índices.  A CONSTRUÇÃO NÃO FOI CONFIRMADA, e o motivo é uma quase-coincidência que quase virou erro: o site oficial da GEWO (tt-gewo.com) tem uma \"Blade Gewo Power Control\" com 5 lâminas, peso 80 g e velocidade 86 — os dois primeiros batem com esta, e a velocidade também. Mas o NOME é outro (sem \"Velox Alpha\") e o CONTROLE diverge: 98 na fonte desta ficha, 89 na da GEWO. Dois produtos parecidos não são o mesmo produto, e copiar a construção de um para o outro seria inventar com cara de fonte. Fica sem, até a GEWO republicar a linha Velox ou a loja confirmar que são a mesma lâmina. Verificado em 2026-08-23. Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço. Velocidade, efeito e controle são a MÉDIA DE 8 JOGADORES no Revspin (https://revspin.net/blade/gewo-velox-alpha-power-control.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
     },
     "gewo-aruna-kids": {
       "confianca": "revendedor",
@@ -16163,10 +16331,18 @@
         },
         {
           "rotulo": "Construção",
-          "valor": "Hinoki, carbono"
+          "valor": "5 lâminas de madeira (all-wood)"
+        },
+        {
+          "rotulo": "Classe",
+          "valor": "OFF− (ofensiva contida)"
+        },
+        {
+          "rotulo": "Peso",
+          "valor": "≈ 81 g"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "VELOCIDADE E CONTROLE colhidos em 2026-08-23 da MESMA página que já era a fonte desta ficha (https://www.megaspin.net/store/default.asp?pid=gewo-aruna-kids) — os números estavam lá e não tinham sido lidos. Eles estão NA RÉGUA DA MEGASPIN, não na escala 0 a 10 deste site: nela uma peça passa de 100, e por isso o site não os traduz em palavra, não os transforma em bolinha e não os desenha no radar. Comparar este número com o de um material que usa a nossa escala seria comparar duas réguas diferentes.  Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "gewo-zoom-bal-allp-kids": {
       "confianca": "revendedor",
@@ -16179,10 +16355,18 @@
         },
         {
           "rotulo": "Construção",
-          "valor": "Ayous, kiri, carbono"
+          "valor": "3 lâminas de madeira · Kiri e Ayous"
+        },
+        {
+          "rotulo": "Classe",
+          "valor": "ALL+ (allround ofensiva)"
+        },
+        {
+          "rotulo": "Peso",
+          "valor": "≈ 85 g"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "VELOCIDADE E CONTROLE colhidos em 2026-08-23 da MESMA página que já era a fonte desta ficha (https://www.megaspin.net/store/default.asp?pid=gewo-zoom-bal-allp-kids) — os números estavam lá e não tinham sido lidos. Eles estão NA RÉGUA DA MEGASPIN, não na escala 0 a 10 deste site: nela uma peça passa de 100, e por isso o site não os traduz em palavra, não os transforma em bolinha e não os desenha no radar. Comparar este número com o de um material que usa a nossa escala seria comparar duas réguas diferentes.  Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "gewo-youngster": {
       "confianca": "revendedor",
@@ -16200,9 +16384,13 @@
         {
           "rotulo": "Peso",
           "valor": "≈ 80 g"
+        },
+        {
+          "rotulo": "Classe",
+          "valor": "ALL (allround)"
         }
       ],
-      "nota": "A CONSTRUÇÃO foi colhida em 2026-08-23 (https://tt-gewo.com/en/table-tennis-blades) — a ficha entrava sem ela. Colhida do SITE OFICIAL da GEWO (\"Layers: 5\"). A página dá a contagem e NÃO diz se todas são de madeira, então a linha não afirma \"all-wood\" — diferente das irmãs Xolo e Offense Basic, cujas descrições dizem. Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "VELOCIDADE E CONTROLE colhidos em 2026-08-23 da MESMA página que já era a fonte desta ficha (https://www.megaspin.net/store/default.asp?pid=gewo-youngster) — os números estavam lá e não tinham sido lidos. Eles estão NA RÉGUA DA MEGASPIN, não na escala 0 a 10 deste site: nela uma peça passa de 100, e por isso o site não os traduz em palavra, não os transforma em bolinha e não os desenha no radar. Comparar este número com o de um material que usa a nossa escala seria comparar duas réguas diferentes.  A CONSTRUÇÃO foi colhida em 2026-08-23 (https://tt-gewo.com/en/table-tennis-blades) — a ficha entrava sem ela. Colhida do SITE OFICIAL da GEWO (\"Layers: 5\"). A página dá a contagem e NÃO diz se todas são de madeira, então a linha não afirma \"all-wood\" — diferente das irmãs Xolo e Offense Basic, cujas descrições dizem. Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "gewo-celexxis-all-cl-cs": {
       "confianca": "revendedor",
@@ -16215,10 +16403,18 @@
         },
         {
           "rotulo": "Construção",
-          "valor": "5 camadas de limba, ayous"
+          "valor": "5 lâminas de madeira (all-wood) · Limba–Limba–Ayous–Limba–Limba"
+        },
+        {
+          "rotulo": "Classe",
+          "valor": "ALL+ / OFF−"
+        },
+        {
+          "rotulo": "Peso",
+          "valor": "≈ 88 g"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "VELOCIDADE E CONTROLE colhidos em 2026-08-23 da MESMA página que já era a fonte desta ficha (https://www.megaspin.net/store/default.asp?pid=gewo-celexxis-all-cl-cs) — os números estavam lá e não tinham sido lidos. Eles estão NA RÉGUA DA MEGASPIN, não na escala 0 a 10 deste site: nela uma peça passa de 100, e por isso o site não os traduz em palavra, não os transforma em bolinha e não os desenha no radar. Comparar este número com o de um material que usa a nossa escala seria comparar duas réguas diferentes.  Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "gewo-celexxis-h-ex-c-cs": {
       "confianca": "revendedor",
@@ -16231,10 +16427,18 @@
         },
         {
           "rotulo": "Construção",
-          "valor": "Hinoki, koto, ayous, carbono"
+          "valor": "5 lâminas de madeira + 2 de TPCF-Carbon · Hinoki–TPCF–Koto–Ayous–Koto–TPCF–Hinoki"
+        },
+        {
+          "rotulo": "Classe",
+          "valor": "OFF / OFF+"
+        },
+        {
+          "rotulo": "Peso",
+          "valor": "≈ 88 g"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "VELOCIDADE E CONTROLE colhidos em 2026-08-23 da MESMA página que já era a fonte desta ficha (https://www.megaspin.net/store/default.asp?pid=gewo-celexxis-h-ex-c-cs) — os números estavam lá e não tinham sido lidos. Eles estão NA RÉGUA DA MEGASPIN, não na escala 0 a 10 deste site: nela uma peça passa de 100, e por isso o site não os traduz em palavra, não os transforma em bolinha e não os desenha no radar. Comparar este número com o de um material que usa a nossa escala seria comparar duas réguas diferentes.  Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "gewo-celexxis-fort-c-cs": {
       "confianca": "revendedor",
@@ -16247,10 +16451,18 @@
         },
         {
           "rotulo": "Construção",
-          "valor": "Hinoki, kiri, carbono"
+          "valor": "3 lâminas de madeira + 2 de TPCF-Carbon · Hinoki–TPCF–Kiri–TPCF–Hinoki"
+        },
+        {
+          "rotulo": "Classe",
+          "valor": "OFF / OFF+"
+        },
+        {
+          "rotulo": "Peso",
+          "valor": "≈ 86 g"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "VELOCIDADE E CONTROLE colhidos em 2026-08-23 da MESMA página que já era a fonte desta ficha (https://www.megaspin.net/store/default.asp?pid=gewo-celexxis-fort-c-cs) — os números estavam lá e não tinham sido lidos. Eles estão NA RÉGUA DA MEGASPIN, não na escala 0 a 10 deste site: nela uma peça passa de 100, e por isso o site não os traduz em palavra, não os transforma em bolinha e não os desenha no radar. Comparar este número com o de um material que usa a nossa escala seria comparar duas réguas diferentes.  Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "gewo-celexxis-off-cl-cs": {
       "confianca": "revendedor",
@@ -16263,10 +16475,18 @@
         },
         {
           "rotulo": "Construção",
-          "valor": "7 camadas de limba, ayous, kiri"
+          "valor": "7 lâminas de madeira (all-wood) · Limba, Ayous e Kiri"
+        },
+        {
+          "rotulo": "Classe",
+          "valor": "OFF (ofensiva)"
+        },
+        {
+          "rotulo": "Peso",
+          "valor": "≈ 87 g"
         }
       ],
-      "nota": "Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
+      "nota": "VELOCIDADE E CONTROLE colhidos em 2026-08-23 da MESMA página que já era a fonte desta ficha (https://www.megaspin.net/store/default.asp?pid=gewo-celexxis-off-cl-cs) — os números estavam lá e não tinham sido lidos. Eles estão NA RÉGUA DA MEGASPIN, não na escala 0 a 10 deste site: nela uma peça passa de 100, e por isso o site não os traduz em palavra, não os transforma em bolinha e não os desenha no radar. Comparar este número com o de um material que usa a nossa escala seria comparar duas réguas diferentes.  Preço, foto e construção conferidos na Megaspin, nos Estados Unidos. Não é vendida no Brasil: o preço está em dólar porque é a moeda em que foi conferido. Por não estar em reais, ela fica fora do filtro e da ordenação por preço."
     },
     "xiom-hayabusa-zl-pro": {
       "confianca": "revendedor",
