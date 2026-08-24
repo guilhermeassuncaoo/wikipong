@@ -28,7 +28,7 @@ import { repositorioPerfilAtual, perfilVazio, type Perfil } from '@/src/logica/p
 import { INTENCAO_DO_ESTILO, ROTULO_ESTILO } from '@/src/logica/avaliacoes';
 import { MATERIAIS, materialPorId, type MaterialCatalogo } from '@/componentes/dados-materiais';
 import { brl } from '@/componentes/formato';
-import { paraPalavra } from '@/src/logica/metricas';
+import { paraPalavra, NOME_DA_REGUA } from '@/src/logica/metricas';
 import {
   observacoes,
   vereditosDaMontagem,
@@ -187,7 +187,10 @@ export function MontarCliente() {
                         <span className={`mono ${estilos.previaMeta}`}>
                           {atual.nivel}
                           {atual.specs
-                            ? ` · ${paraPalavra('controle', atual.specs.controle)}`
+                            ? ` · ${
+                                paraPalavra('controle', atual.specs.controle, atual.specs.regua) ??
+                                `controle ${atual.specs.controle} (${NOME_DA_REGUA[atual.specs.regua!]})`
+                              }`
                             : ''}
                         </span>
                       </span>

@@ -13,7 +13,7 @@
  */
 import {
   maciez, custoMensal, custoMensalPorClasse,
-  paraBolinhas, paraPalavra, indicesDoMaximo, Specs,
+  paraBolinhas, paraPalavra, indicesDoMaximo, Specs, naNossaRegua, type Regua,
   reguaDe, mesmaRegua, TETO_DA_REGUA,
 } from '../src/logica/metricas.js';
 import {
@@ -118,9 +118,9 @@ afirma(aprox(custoMensal(450, 4), 112.5), 'custo Tenergy = 112.5/mês');
 afirma(aprox(custoMensal(180, 10), 18), 'custo Mark V = 18/mês');
 afirma(aprox(custoMensalPorClasse(450, 'tensor'), 112.5), 'custo por classe tensor');
 
-afirma(paraBolinhas(9.0) === 5, 'bolinhas(9.0) = 5');
-afirma(paraBolinhas(7.0) === 4, 'bolinhas(7.0) = 4 (round(3.5))');
-afirma(paraBolinhas(0) === 0 && paraBolinhas(10) === 5, 'bolinhas nos extremos');
+afirma(paraBolinhas(9.0, undefined) === 5, 'bolinhas(9.0) = 5');
+afirma(paraBolinhas(7.0, undefined) === 4, 'bolinhas(7.0) = 4 (round(3.5))');
+afirma(paraBolinhas(0, undefined) === 0 && paraBolinhas(10, undefined) === 5, 'bolinhas nos extremos');
 
 afirma(paraPalavra('velocidade', 9.0) === 'Muito rápida', 'vel 9.0 → Muito rápida');
 afirma(paraPalavra('velocidade', 7.0) === 'Moderada', 'vel 7.0 → Moderada');
@@ -3086,6 +3086,60 @@ for (const mat of MATERIAIS) {
       `${mat.id}: marcado como Lâmina e a ficha traz dureza de esponja — tipo trocado?`,
     );
   }
+}
+
+/* ───── numero de regua alheia nao se traduz ─────
+   O defeito mais grave achado em 2026-08-23. A tabela PALAVRAS e' de 0 a 10.
+   Aplicada aos numeros da regua da Megaspin, que passam de 100, ela satura em
+   cima: os 294 materiais com `regua` declarada recebiam a palavra do TOPO nos
+   tres eixos — 100% deles, medido.
+
+   Dois casos diziam o oposto do que a peca e':
+     · andro Hexer Grip SFX, controle 40 (o MENOR do grupo) -> "Muito facil";
+     · Tibhar Super Defense 40 Soft, velocidade 60 -> "Muito rapida", numa
+       borracha que tem "Defense" no nome.
+
+   E nao era so' a palavra: a bolinha enchia as cinco, e o radar — que desenha
+   `raio * (valor / 10)` — punha o vertice a 9,3 raios do centro em 117 deles.
+   A mesma pagina ja dizia o certo no modo Simples ("na regua da Megaspin, nela
+   uma borracha passa de 100"), entao ela se contradizia sozinha.
+
+   A regra agora mora no modulo puro e o terceiro parametro e' obrigatorio, pra
+   que uma tela nova nao possa esquecer de dizer de quem e' o numero. */
+afirma(naNossaRegua(undefined), 'regua ausente significa a nossa escala 0 a 10');
+afirma(naNossaRegua('semente'), 'a semente conta como nossa regua: mesma escala, apenas sem fonte');
+afirma(!naNossaRegua('megaspin'), 'a regua da Megaspin NAO e a nossa');
+
+afirma(paraPalavra('velocidade', 9.0, undefined) === 'Muito rápida',
+  'numero da nossa regua continua virando palavra');
+afirma(paraPalavra('velocidade', 93, 'megaspin') === null,
+  'velocidade 93 da regua da loja NAO vira palavra');
+afirma(paraPalavra('controle', 40, 'megaspin') === null,
+  'controle 40 da regua da loja NAO vira "Muito facil"');
+afirma(paraBolinhas(9.0, undefined) === 5, 'numero da nossa regua continua virando bolinha');
+afirma(paraBolinhas(93, 'megaspin') === null, 'numero da regua da loja NAO vira bolinha');
+
+/* E o dado tem que continuar coerente: regua declarada significa que o numero
+   veio de fora, e a origem sai DAI — nao de um campo digitado que pode divergir. */
+const reguaSemLoja = MATERIAIS.find(
+  (m) => (m.specs as { regua?: string } | undefined)?.regua !== undefined && m.origemSpecs !== 'loja',
+);
+afirma(reguaSemLoja === undefined,
+  `${reguaSemLoja?.id}: tem regua declarada e nao esta marcado como vindo da loja`);
+const lojaSemRegua = MATERIAIS.find(
+  (m) => m.origemSpecs === 'loja' && (m.specs as { regua?: string } | undefined)?.regua === undefined,
+);
+afirma(lojaSemRegua === undefined,
+  `${lojaSemRegua?.id}: marcado como vindo da loja e sem regua declarada`);
+
+/* Nenhum material com regua alheia pode receber palavra em nenhum eixo. */
+for (const mat of MATERIAIS.filter((x) => temDesempenho(x) && x.origemSpecs === 'loja')) {
+  const r = (mat.specs as { regua?: Regua }).regua;
+  afirma(
+    paraPalavra('velocidade', mat.specs.velocidade, r) === null &&
+      paraPalavra('controle', mat.specs.controle, r) === null,
+    `${mat.id}: numero da regua da loja voltou a ser traduzido com a tabela de 0 a 10`,
+  );
 }
 
 console.log(`\n✔ ${ok} asserções passaram`);

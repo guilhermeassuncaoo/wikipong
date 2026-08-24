@@ -95,6 +95,24 @@ type Faixa = { min: number; palavra: string };
  * quarto eixo do radar e conversa com o custo/mês — borracha é consumível, e
  * quanto ela dura muda a conta de qual é cara.
  */
+/**
+ * O número está na régua 0 a 10 DESTE site?
+ *
+ * `semente` conta como nossa: é a proposta original do protótipo, na mesma
+ * escala — o que a distingue é não ter fonte, não ter outra unidade. Régua de
+ * terceiro (a da Megaspin, onde uma borracha passa de 100) não é nossa, e por
+ * isso não se traduz com a tabela abaixo.
+ */
+export function naNossaRegua(regua: Regua | undefined): boolean {
+  return regua === undefined || regua === 'semente';
+}
+
+/** Como cada régua se chama na tela, para o número poder aparecer com dono. */
+export const NOME_DA_REGUA: Readonly<Record<Regua, string>> = {
+  semente: 'escala 0 a 10 do WikiPong',
+  megaspin: 'régua da Megaspin',
+};
+
 export const PALAVRAS: Record<'velocidade' | 'spin' | 'controle' | 'durabilidade', Faixa[]> = {
   velocidade: [
     { min: 8.5, palavra: 'Muito rápida' },
@@ -136,13 +154,46 @@ export const DURABILIDADE_MESES: Record<ClasseBorracha, number> = {
 const clamp = (v: number, lo: number, hi: number) => Math.min(hi, Math.max(lo, v));
 
 /** Número → palavra, via tabela. O "renderer Simples" das tabelas (D-08). */
-export function paraPalavra(atributo: keyof typeof PALAVRAS, valor: number): string {
+/**
+ * Número → palavra em português claro. `null` quando o número NÃO está na régua
+ * 0–10 deste site.
+ *
+ * ── POR QUE O TERCEIRO PARÂMETRO É OBRIGATÓRIO (conserto de 2026-08-23) ───────
+ * A tabela acima é de 0 a 10. Aplicada a um número da régua da Megaspin, que
+ * passa de 100, ela satura em cima e devolve a palavra do topo para TUDO: os
+ * 294 materiais do catálogo com `regua` declarada recebiam "Muito rápida",
+ * "Altíssimo" e "Muito fácil" nos três eixos, 100% deles.
+ *
+ * Os dois piores casos diziam o contrário do que a peça é:
+ *   · andro Hexer Grip SFX, controle 40 (o MENOR do grupo) → "Muito fácil";
+ *   · Tibhar Super Defense 40 Soft, velocidade 60 → "Muito rápida",
+ *     numa borracha que tem "Defense" no nome.
+ *
+ * Traduzir número de régua alheia com a tabela desta régua é a mesma falta que
+ * converter dureza sem saber a escala — e aqui saía como frase afirmativa, em
+ * português, na parte da página que existe justamente para explicar o número.
+ *
+ * A régua entra como parâmetro OBRIGATÓRIO de propósito: assim o compilador
+ * obriga cada tela a dizer de quem é o número antes de traduzi-lo, em vez de o
+ * defeito voltar calado numa tela nova.
+ */
+export function paraPalavra(
+  atributo: keyof typeof PALAVRAS,
+  valor: number,
+  regua: Regua | undefined,
+): string | null {
+  if (!naNossaRegua(regua)) return null;
   const faixa = PALAVRAS[atributo].find(f => valor >= f.min);
   return faixa ? faixa.palavra : PALAVRAS[atributo][PALAVRAS[atributo].length - 1].palavra;
 }
 
-/** Número (0–10) → bolinhas (0–5), o renderer dos cards Simples. round(v/2): 9.0→5, 7.0→4. */
-export function paraBolinhas(valor: number): number {
+/**
+ * Número (0–10) → bolinhas (0–5), o renderer dos cards Simples. round(v/2).
+ * `null` pela mesma razão da `paraPalavra`: um 93 da régua da Megaspin virava
+ * cinco bolinhas cheias, e cinco bolinhas cheias em tudo não informam nada.
+ */
+export function paraBolinhas(valor: number, regua: Regua | undefined): number | null {
+  if (!naNossaRegua(regua)) return null;
   return clamp(Math.round(valor / 2), 0, 5);
 }
 

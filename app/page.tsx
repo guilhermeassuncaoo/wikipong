@@ -357,7 +357,7 @@ export default function Home() {
                           </span>
                           {linha.atributo && (
                             <span className={styles.valorSimples}>
-                              {paraPalavra(linha.atributo, valor)}
+                              {paraPalavra(linha.atributo, valor, undefined)}
                             </span>
                           )}
                         </td>

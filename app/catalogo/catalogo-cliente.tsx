@@ -31,7 +31,7 @@ import {
   type FiltroEstado,
   type Ordenacao,
 } from '@/src/logica/filtros';
-import { PALAVRAS, paraPalavra } from '@/src/logica/metricas';
+import { PALAVRAS, paraPalavra, NOME_DA_REGUA } from '@/src/logica/metricas';
 import { traduzirFicha } from '@/src/logica/traduzir';
 import { fabricantePorId } from '@/componentes/dados-fabricante';
 import { MATERIAIS, type MaterialCatalogo } from '@/componentes/dados-materiais';
@@ -542,8 +542,11 @@ function CartaoMaterial({
           {linhas.map(([rotulo, atributo, valor]) => (
             <p key={rotulo} className={estilos.linhaSimples}>
               <span className={estilos.rotuloSimples}>{rotulo}</span>
-              <Bolinhas valor={valor} />
-              <span className={estilos.palavraSimples}>{paraPalavra(atributo, valor)}</span>
+              <Bolinhas valor={valor} regua={m.specs?.regua} />
+              <span className={estilos.palavraSimples}>
+                {paraPalavra(atributo, valor, m.specs?.regua) ??
+                  `${valor} na ${NOME_DA_REGUA[m.specs!.regua!]}`}
+              </span>
             </p>
           ))}
           {leitura && leitura.resumo && (

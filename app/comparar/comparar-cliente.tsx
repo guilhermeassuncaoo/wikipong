@@ -13,7 +13,7 @@
  */
 import { useState } from 'react';
 import { useSearchParams } from 'next/navigation';
-import { indicesDoMaximo, paraPalavra } from '@/src/logica/metricas';
+import { indicesDoMaximo, paraPalavra, NOME_DA_REGUA, naNossaRegua } from '@/src/logica/metricas';
 import { metricasComparaveis, metricasDoRadar, temRadar } from '@/src/logica/comparacao';
 import type { Specs } from '@/src/logica/metricas';
 
@@ -301,7 +301,11 @@ function Comparacao({ par, modo }: { par: [MaterialComparavel, MaterialComparave
   /* Polígono precisa de três vértices para ser forma. Com dois — o caso da
      lâmina, que só tem velocidade e controle — o radar vira um traço que não
      diz nada, e não desenhar é melhor que desenhar ilegível (D-16). */
-  const desenhaRadar = temRadar(metricas);
+  /* ...e os números precisam ser da NOSSA régua. O eixo é 0–10 (o próprio
+     comentário abaixo diz isso); valor da régua da loja passa de 100 e sai do
+     desenho. Conserto de 2026-08-23, junto com a palavra e a bolinha. */
+  const desenhaRadar =
+    temRadar(metricas) && naNossaRegua(a.specs?.regua) && naNossaRegua(b.specs?.regua);
 
   /* A tabela é a MESMA lista do radar, mais o preço — que nunca entra no radar
      porque o eixo mede desempenho de 0 a 10 e reais não são isso. */
@@ -372,8 +376,11 @@ function Comparacao({ par, modo }: { par: [MaterialComparavel, MaterialComparave
                             </span>
                           ) : (
                             <span className={`${estilos.valorSimples} ${ehMaximo ? estilos.maximo : ''}`}>
-                              <Bolinhas valor={valor} />
-                              <span>{paraPalavra(linha.atributo, valor)}</span>
+                              <Bolinhas valor={valor} regua={[a, b][i].specs?.regua} />
+                              <span>
+                                {paraPalavra(linha.atributo, valor, [a, b][i].specs?.regua) ??
+                                  `${valor} na ${NOME_DA_REGUA[[a, b][i].specs!.regua!]}`}
+                              </span>
                               {ehMaximo && <span className={estilos.tagMaior}>maior</span>}
                             </span>
                           )}

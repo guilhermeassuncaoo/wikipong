@@ -30,10 +30,23 @@ export type OrigemDureza = 'fabricante' | 'semente';
 /**
  * De onde vêm velocidade/efeito/controle:
  *  · 'comunidade' — médias do Revspin, na mesma escala 0–10, com amostra e URL
- *  · 'semente'    — proposta do protótipo, sem fonte rastreável (A VALIDAR)
- * As duas não valem o mesmo, e a ficha diz qual é qual (D-16).
+ *  · 'loja'       — números que a LOJA publica, na régua dela (campo `regua`)
+ *  · 'semente'    — proposta do protótipo, sem fonte rastreável
+ * As três não valem o mesmo, e a ficha diz qual é qual (D-16).
+ *
+ * ── 'loja' NASCEU DE UMA CONTRADIÇÃO NA TELA (2026-08-23) ────────────────────
+ * 294 materiais tinham `regua: 'megaspin'` — número colhido da loja, com URL e
+ * data — e mesmo assim caíam em 'semente', porque só havia dois valores. O
+ * resultado era a MESMA página dizer duas coisas opostas sobre o mesmo número:
+ * no modo Simples, "a loja publica velocidade 82, controle 93 na régua da
+ * Megaspin"; na ficha logo abaixo, "os números abaixo são ESTIMATIVA, não o
+ * dado oficial do fabricante". Uma das duas frases era falsa, e era a segunda.
+ *
+ * Não é campo digitado: sai da presença da `regua`. Régua declarada só existe
+ * quando o número veio de fora, e dado derivado que se digita à mão é dado que
+ * diverge da derivação no primeiro descuido — foi a lição da `durezaUnificada`.
  */
-export type OrigemSpecs = 'comunidade' | 'semente';
+export type OrigemSpecs = 'comunidade' | 'loja' | 'semente';
 
 export interface MaterialCatalogo extends Material {
   simples: { tag: string; frase: string };
@@ -162,8 +175,12 @@ const REGUAS = ['semente', 'megaspin'] as const;
 function resolver(m: (typeof dados.materiais)[number]): MaterialCatalogo {
   /* O JSON infere `origemSpecs` como string; aqui ela volta ao tipo estreito.
      Ausente = 'semente' (os materiais anteriores a esta distinção). */
-  const origemSpecs = ((m as { origemSpecs?: string }).origemSpecs ?? 'semente') as OrigemSpecs;
-  const base = { ...m, origemSpecs, moeda: moedaDo(m), specs: specsDe(m) };
+  const declarada = ((m as { origemSpecs?: string }).origemSpecs ?? 'semente') as OrigemSpecs;
+  const specs = specsDe(m);
+  /* Régua declarada = número que veio de FORA, não estimativa nossa. A origem
+     sai daqui e não do JSON, para não poder divergir da régua que a acompanha. */
+  const origemSpecs: OrigemSpecs = specs?.regua !== undefined ? 'loja' : declarada;
+  const base = { ...m, origemSpecs, moeda: moedaDo(m), specs };
 
   const doFabricante = durezaDaFicha(m.id);
   if (!doFabricante) return { ...base, origemDureza: 'semente' };

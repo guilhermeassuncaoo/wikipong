@@ -32,7 +32,7 @@ import { similares, type Similar } from '@/src/logica/similares';
 import { familiaDaLamina, familiaDaBorracha } from '@/src/logica/traduzir';
 import { MATERIAIS, materialPorId, type MaterialCatalogo } from '@/componentes/dados-materiais';
 import { brl, dinheiro } from '@/componentes/formato';
-import { paraPalavra } from '@/src/logica/metricas';
+import { paraPalavra, NOME_DA_REGUA, naNossaRegua } from '@/src/logica/metricas';
 import { traduzirFicha } from '@/src/logica/traduzir';
 import { vereditosDoMaterial, ROTULO_INTENCAO } from '@/src/logica/recomendacao';
 import {
@@ -191,8 +191,12 @@ export default async function PaginaDetalhe({ params }: { params: Promise<{ id: 
       ];
   const eixosFicha = indices.map((i) => i.eixo);
   const valoresFicha = indices.map((i) => i.valor);
-  /* Polígono precisa de três vértices para ser forma (mesma regra do /comparar). */
-  const temRadarFicha = indices.length >= 3;
+  /* Polígono precisa de três vértices para ser forma (mesma regra do /comparar).
+     E precisa dos números NA NOSSA RÉGUA: o radar desenha `raio * (valor / 10)`,
+     então um 93 da régua da Megaspin põe o vértice a 9,3 raios do centro, fora
+     do desenho inteiro. Eram 117 materiais nesse estado. Sem régua nossa, não
+     há radar — igual à palavra e à bolinha, pela mesma razão. */
+  const temRadarFicha = indices.length >= 3 && naNossaRegua(m.specs?.regua);
 
   /* ── A RÉGUA DO CATÁLOGO ────────────────────────────────────────────────────
      O radar precisa de três eixos e por isso atende 114 dos 678 materiais e
@@ -320,15 +324,18 @@ export default async function PaginaDetalhe({ params }: { params: Promise<{ id: 
   // Ficha técnica (fato): número + tradução lado a lado (D-08, mesmo dado canônico)
   const ficha = comSpecs
     ? [
-        { rotulo: 'Velocidade', valor: m.specs.velocidade, palavra: paraPalavra('velocidade', m.specs.velocidade) },
+        { rotulo: 'Velocidade', valor: m.specs.velocidade, palavra: paraPalavra('velocidade', m.specs.velocidade, m.specs.regua) },
         ...(m.specs.spin !== undefined
-          ? [{ rotulo: 'Spin (efeito)', valor: m.specs.spin, palavra: paraPalavra('spin', m.specs.spin) }]
+          ? [{ rotulo: 'Spin (efeito)', valor: m.specs.spin, palavra: paraPalavra('spin', m.specs.spin, m.specs.regua) }]
           : []),
-        { rotulo: 'Controle', valor: m.specs.controle, palavra: paraPalavra('controle', m.specs.controle) },
-        // Durabilidade só entra quando há fonte: lâmina não tem número publicado.
+        { rotulo: 'Controle', valor: m.specs.controle, palavra: paraPalavra('controle', m.specs.controle, m.specs.regua) },
+        /* Durabilidade só entra quando há fonte: lâmina não tem número publicado.
+           Ela é sempre da NOSSA régua — não vem da loja junto com as outras —,
+           por isso passa `undefined` e continua traduzida mesmo quando o resto
+           da linha não está. */
         ...(m.durabilidade !== undefined
           ? [{ rotulo: 'Durabilidade', valor: m.durabilidade,
-               palavra: paraPalavra('durabilidade', m.durabilidade) }]
+               palavra: paraPalavra('durabilidade', m.durabilidade, undefined) }]
           : []),
       ]
     : [];
@@ -382,12 +389,26 @@ export default async function PaginaDetalhe({ params }: { params: Promise<{ id: 
         <section className={estilos.ficha} aria-labelledby="titulo-ficha">
           <div className={estilos.fichaTexto}>
             <h2 id="titulo-ficha">Ficha unificada do WikiPong</h2>
-            {/* A procedência muda o que a frase pode prometer: número vindo de
-                centenas de avaliações não é a mesma coisa que estimativa nossa. */}
+            {/* ── TRÊS PROCEDÊNCIAS, TRÊS FRASES (conserto de 2026-08-23) ──────
+                Eram duas, e a segunda mentia sobre 294 materiais. Quando os
+                números vêm da loja, na régua dela, esta frase dizia "Escala 0 a
+                10 nossa" em cima de uma tabela com 93, 99 e 72, e chamava de
+                "estimativa" um dado que tem URL e data. O modo Simples da mesma
+                página já dizia o certo — "na régua da Megaspin, nela uma
+                borracha passa de 100" —, então a página se contradizia sozinha. */}
             {m.origemSpecs === 'comunidade' && sinal ? (
               <p className={estilos.subtituloFicha}>
                 Escala 0 a 10 <strong>nossa</strong>, para permitir comparar marcas diferentes. Estes
                 números são a <strong>média de {sinal.avaliacoes} avaliações</strong> da comunidade do {sinal.fonte}, não chute nosso nem o número que a marca usa pra vender (que está logo abaixo, com a fonte).
+              </p>
+            ) : m.origemSpecs === 'loja' ? (
+              <p className={estilos.subtituloFicha}>
+                Estes números são da <strong>{NOME_DA_REGUA[m.specs.regua!]}</strong>, não da escala
+                0 a 10 deste site — nela uma peça passa de 100. Eles são o que a loja publica, com
+                fonte e data logo abaixo, e por isso <strong>não se comparam</strong> com os dos
+                materiais que usam a nossa escala. Também não recebem a tradução em português claro:
+                traduzir um número de outra régua com a nossa tabela diria &ldquo;muito rápida&rdquo;
+                para tudo.
               </p>
             ) : (
               <p className={estilos.subtituloFicha}>
@@ -435,9 +456,19 @@ export default async function PaginaDetalhe({ params }: { params: Promise<{ id: 
                 do hedge não é virar categórico — é parar de pedir desculpa por
                 um dado que já se explica. */}
             <p className={estilos.nota}>
-              * A escala 0 a 10 é <strong>do WikiPong</strong>, construída para deixar marcas
-              diferentes lado a lado. O número que cada fabricante publica, na régua dele, está
-              logo abaixo com a fonte e a data da consulta.
+              {m.origemSpecs === 'loja' ? (
+                <>
+                  * A dureza unificada é a única linha desta tabela na régua do WikiPong: ela é
+                  convertida, e a conversão está dita ao lado. As outras três são da{' '}
+                  {NOME_DA_REGUA[m.specs.regua!]}, como a loja as publica.
+                </>
+              ) : (
+                <>
+                  * A escala 0 a 10 é <strong>do WikiPong</strong>, construída para deixar marcas
+                  diferentes lado a lado. O número que cada fabricante publica, na régua dele, está
+                  logo abaixo com a fonte e a data da consulta.
+                </>
+              )}
             </p>
           </div>
 
@@ -626,18 +657,21 @@ export default async function PaginaDetalhe({ params }: { params: Promise<{ id: 
           {comSpecs && (
             <ul className={estilos.resumoSimples}>
               <li>
-                <span>Velocidade</span> <Bolinhas valor={m.specs.velocidade} />{' '}
-                {paraPalavra('velocidade', m.specs.velocidade)}
+                <span>Velocidade</span> <Bolinhas valor={m.specs.velocidade} regua={m.specs.regua} />{' '}
+                {paraPalavra('velocidade', m.specs.velocidade, m.specs.regua) ??
+                  `${m.specs.velocidade} na ${NOME_DA_REGUA[m.specs.regua!]}`}
               </li>
               {m.specs.spin !== undefined && (
                 <li>
-                  <span>Efeito</span> <Bolinhas valor={m.specs.spin} />{' '}
-                  {paraPalavra('spin', m.specs.spin)}
+                  <span>Efeito</span> <Bolinhas valor={m.specs.spin} regua={m.specs.regua} />{' '}
+                  {paraPalavra('spin', m.specs.spin, m.specs.regua) ??
+                    `${m.specs.spin} na ${NOME_DA_REGUA[m.specs.regua!]}`}
                 </li>
               )}
               <li>
-                <span>Controle</span> <Bolinhas valor={m.specs.controle} />{' '}
-                {paraPalavra('controle', m.specs.controle)}
+                <span>Controle</span> <Bolinhas valor={m.specs.controle} regua={m.specs.regua} />{' '}
+                {paraPalavra('controle', m.specs.controle, m.specs.regua) ??
+                  `${m.specs.controle} na ${NOME_DA_REGUA[m.specs.regua!]}`}
               </li>
             </ul>
           )}
