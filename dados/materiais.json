@@ -1292,9 +1292,15 @@
       "rating": 4.5,
       "reviews": 0,
       "simples": {
-        "tag": "Sem índice publicado",
-        "frase": "Não encontrei índice de velocidade, efeito ou controle deste material em nenhuma das fontes que consulto. O que está conferido aqui é o preço, a foto e a ficha do fabricante."
-      }
+        "tag": "10 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,5, efeito 9,1 e controle 9,2 — são a MÉDIA DE 10 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
+      },
+      "specs": {
+        "velocidade": 8.5,
+        "spin": 9.1,
+        "controle": 9.2
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "xiom-vega-europe-hybrid",
@@ -11510,9 +11516,14 @@
       "rating": 4.5,
       "reviews": 0,
       "simples": {
-        "tag": "Sem índice publicado",
-        "frase": "A Nittaku não publica índice de velocidade, efeito ou controle em formato legível no site dela, e a loja onde o preço foi conferido também não. O que está conferido aqui é o preço, a foto e o que a ficha do fabricante mostra."
-      }
+        "tag": "5 avaliações no Revspin",
+        "frase": "Os números — velocidade 9,0 e controle 9,3 — são a MÉDIA DE 5 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
+      },
+      "specs": {
+        "velocidade": 9.0,
+        "controle": 9.3
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "nittaku-fastarc-c1",
@@ -11561,9 +11572,14 @@
       "rating": 4.5,
       "reviews": 0,
       "simples": {
-        "tag": "Sem índice publicado",
-        "frase": "A Nittaku não publica índice de velocidade, efeito ou controle em formato legível no site dela, e a loja onde o preço foi conferido também não. O que está conferido aqui é o preço, a foto e o que a ficha do fabricante mostra."
-      }
+        "tag": "7 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,9 e controle 8,9 — são a MÉDIA DE 7 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
+      },
+      "specs": {
+        "velocidade": 8.9,
+        "controle": 8.9
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "nittaku-flyatt-carbon-pro",
@@ -13458,9 +13474,15 @@
       "rating": 4.5,
       "reviews": 0,
       "simples": {
-        "tag": "Esponja 40",
-        "frase": "A DHS não publica índice de velocidade, efeito ou controle em formato legível no site dela, e a loja onde o preço foi conferido também não. O que está conferido aqui é o preço, a foto e o que a ficha do fabricante mostra."
-      }
+        "tag": "39 avaliações no Revspin",
+        "frase": "Os números — velocidade 9,1, efeito 9,4 e controle 9,1 — são a MÉDIA DE 39 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
+      },
+      "specs": {
+        "velocidade": 9.1,
+        "spin": 9.4,
+        "controle": 9.1
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "dhs-h3-national-blue",
@@ -13474,9 +13496,15 @@
       "rating": 4.5,
       "reviews": 0,
       "simples": {
-        "tag": "Sem índice publicado",
-        "frase": "A DHS não publica índice de velocidade, efeito ou controle em formato legível no site dela, e a loja onde o preço foi conferido também não. O que está conferido aqui é o preço, a foto e o que a ficha do fabricante mostra."
-      }
+        "tag": "63 avaliações no Revspin",
+        "frase": "Os números — velocidade 9,2, efeito 9,6 e controle 9,2 — são a MÉDIA DE 63 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
+      },
+      "specs": {
+        "velocidade": 9.2,
+        "spin": 9.6,
+        "controle": 9.2
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "dhs-h3-neo-prov-azul",
@@ -13490,9 +13518,15 @@
       "rating": 4.5,
       "reviews": 0,
       "simples": {
-        "tag": "Esponja 39",
-        "frase": "A DHS não publica índice de velocidade, efeito ou controle em formato legível no site dela, e a loja onde o preço foi conferido também não. O que está conferido aqui é o preço, a foto e o que a ficha do fabricante mostra."
-      }
+        "tag": "26 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,3, efeito 9,3 e controle 8,6 — são a MÉDIA DE 26 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
+      },
+      "specs": {
+        "velocidade": 8.3,
+        "spin": 9.3,
+        "controle": 8.6
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "dhs-h3-50",
@@ -13618,9 +13652,15 @@
       "rating": 4.5,
       "reviews": 0,
       "simples": {
-        "tag": "Esponja 37",
-        "frase": "A DHS não publica índice de velocidade, efeito ou controle em formato legível no site dela, e a loja onde o preço foi conferido também não. O que está conferido aqui é o preço, a foto e o que a ficha do fabricante mostra."
-      }
+        "tag": "24 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,5, efeito 8,9 e controle 9,2 — são a MÉDIA DE 24 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
+      },
+      "specs": {
+        "velocidade": 8.5,
+        "spin": 8.9,
+        "controle": 9.2
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "dhs-skyline-3",
@@ -13778,9 +13818,15 @@
       "rating": 4.5,
       "reviews": 0,
       "simples": {
-        "tag": "Sem índice publicado",
-        "frase": "A DHS não publica índice de velocidade, efeito ou controle em formato legível no site dela, e a loja onde o preço foi conferido também não. O que está conferido aqui é o preço, a foto e o que a ficha do fabricante mostra."
-      }
+        "tag": "22 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,3, efeito 8,5 e controle 8,5 — são a MÉDIA DE 22 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
+      },
+      "specs": {
+        "velocidade": 8.3,
+        "spin": 8.5,
+        "controle": 8.5
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "dhs-hurricane-9-verde",
@@ -13810,9 +13856,15 @@
       "rating": 4.5,
       "reviews": 0,
       "simples": {
-        "tag": "Sem índice publicado",
-        "frase": "A DHS não publica índice de velocidade, efeito ou controle em formato legível no site dela, e a loja onde o preço foi conferido também não. O que está conferido aqui é o preço, a foto e o que a ficha do fabricante mostra."
-      }
+        "tag": "23 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,6, efeito 8,9 e controle 9,0 — são a MÉDIA DE 23 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
+      },
+      "specs": {
+        "velocidade": 8.6,
+        "spin": 8.9,
+        "controle": 9.0
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "dhs-hurricane-9-rosa",
@@ -13842,9 +13894,15 @@
       "rating": 4.5,
       "reviews": 0,
       "simples": {
-        "tag": "Sem índice publicado",
-        "frase": "A DHS não publica índice de velocidade, efeito ou controle em formato legível no site dela, e a loja onde o preço foi conferido também não. O que está conferido aqui é o preço, a foto e o que a ficha do fabricante mostra."
-      }
+        "tag": "11 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,4, efeito 8,9 e controle 8,8 — são a MÉDIA DE 11 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
+      },
+      "specs": {
+        "velocidade": 8.4,
+        "spin": 8.9,
+        "controle": 8.8
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "dhs-gold-arc-5",
@@ -13858,9 +13916,15 @@
       "rating": 4.5,
       "reviews": 0,
       "simples": {
-        "tag": "Esponja 42",
-        "frase": "A DHS não publica índice de velocidade, efeito ou controle em formato legível no site dela, e a loja onde o preço foi conferido também não. O que está conferido aqui é o preço, a foto e o que a ficha do fabricante mostra."
-      }
+        "tag": "41 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,7, efeito 9,0 e controle 9,3 — são a MÉDIA DE 41 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
+      },
+      "specs": {
+        "velocidade": 8.7,
+        "spin": 9.0,
+        "controle": 9.3
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "dhs-hurricane-long-5",
