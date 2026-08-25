@@ -817,8 +817,8 @@ export const GUIAS: Guia[] = [
     slug: 'o-que-e-tra',
     titulo: 'TRA: a taxa que libera você para competir',
     resumo:
-      'O que é a Taxa de Registro Anual da CBTM, as três categorias (Bronze, Prata e Ouro) e o que cada uma libera.',
-    minutos: 4,
+      'O que é a Taxa de Registro Anual da CBTM, as quatro categorias (Iniciante, Bronze, Prata e Ouro), o que cada uma libera e como se paga.',
+    minutos: 6,
     corpo: (
       <>
         <p>
@@ -842,11 +842,20 @@ export const GUIAS: Guia[] = [
           assinar uma súmula ou constar como técnico de uma equipe.
         </p>
 
-        <h2>As três categorias, e o que muda entre elas</h2>
+        <h2>As quatro categorias, e o que muda entre elas</h2>
         <p>
-          Aqui está o que a sigla esconde: TRA não é uma coisa só. São três níveis de
+          Aqui está o que a sigla esconde: TRA não é uma coisa só. São quatro níveis de
           filiação, e o que muda entre eles é <strong>até onde você pode competir</strong>.
           As descrições abaixo são as da própria CBTM.
+        </p>
+
+        <h3>Membro Iniciante</h3>
+        <p>
+          A CBTM é direta: <em>&ldquo;praticantes até 11 anos ficam isentos de cobrança de TRA,
+          mas devem estar devidamente registrados&rdquo;</em>. Guarde as duas metades da frase —
+          quem tem até 11 anos <strong>não paga</strong>, e mesmo assim <strong>precisa estar
+          registrado</strong>. O registro é o que coloca a criança no sistema; sem ele, a
+          isenção não serve de nada na hora de inscrever numa etapa.
         </p>
 
         <h3>Membro Bronze</h3>
@@ -889,6 +898,48 @@ export const GUIAS: Guia[] = [
           por que ela existe.
         </p>
 
+        <h2>Como se paga, na prática</h2>
+        <p>
+          A TRA não se paga direto na CBTM, e é aí que a maioria se perde. O caminho é este:
+        </p>
+        <ol>
+          <li>
+            <strong>Esteja ligado a um clube.</strong> Para competir oficialmente é preciso
+            estar associado a um clube — é ele quem aparece do seu lado na inscrição, e a
+            filiação começa por aí.
+          </li>
+          <li>
+            <strong>Procure a sua federação estadual ou a liga regional.</strong> A própria
+            CBTM manda para elas: são essas entidades que fazem o registro do atleta. Não é a
+            Confederação que atende o jogador um a um.
+          </li>
+          <li>
+            <strong>O registro acontece no CBTM Web.</strong> É o sistema em{' '}
+            <a href="https://app.cbtm.org.br" target="_blank" rel="noopener noreferrer">
+              app.cbtm.org.br
+            </a>
+            , onde o cadastro é feito e o <strong>boleto</strong> da TRA é emitido.
+          </li>
+          <li>
+            <strong>Pague e confira se você aparece no sistema.</strong> A compensação bancária
+            leva alguns dias, e é o registro no sistema — não o comprovante no seu bolso — que
+            libera a inscrição na competição.
+          </li>
+        </ol>
+        <p>
+          <strong>Pague cedo.</strong> A CBTM trabalha com uma data de corte no começo do ano:
+          quem paga até o prazo paga menos, e quem paga depois paga mais. O valor muda todo ano,
+          então a data e o preço vigentes se confirmam na federação ou no site da CBTM — mas a
+          regra de que existe um desconto por antecedência vale a pena ter na cabeça em janeiro,
+          não em maio.
+        </p>
+        <p>
+          Ficou em dúvida sobre a sua situação, a categoria certa ou um pagamento que não
+          apareceu? A CBTM atende em <strong>tmb@cbtm.org.br</strong> e no{' '}
+          <strong>(21) 2579-0650</strong>, de segunda a sexta, das 13h30 às 17h30. Mas para
+          registro e boleto, o primeiro telefonema é para a sua federação.
+        </p>
+
         <h2>Quanto custa</h2>
         <p>
           <strong>Não publicamos os valores aqui, de propósito.</strong> Eles mudam de ano para
@@ -900,15 +951,35 @@ export const GUIAS: Guia[] = [
           , e a inscrição é feita pela federação do seu estado.
         </p>
         <p>
-          Duas coisas que valem confirmar com a sua federação antes de pagar: se existe{' '}
-          <strong>isenção para atleta estudantil</strong> cadastrado por associação escolar (a
-          CBTM já publicou essa regra) e se a sua categoria cobre o calendário que você
-          pretende jogar no ano — subir de Bronze para Prata no meio da temporada costuma ser
-          mais caro que começar certo.
+          Três coisas que valem confirmar com a sua federação antes de pagar:
         </p>
+        <ul>
+          <li>
+            Se a sua <strong>categoria cobre o calendário</strong> que você pretende jogar no
+            ano — subir de Bronze para Prata no meio da temporada costuma sair mais caro que
+            começar certo.
+          </li>
+          <li>
+            Se existe <strong>isenção para atleta estudantil</strong> cadastrado por associação
+            escolar: a CBTM já publicou essa regra, e ela é diferente da isenção por idade do
+            Membro Iniciante.
+          </li>
+          <li>
+            <strong>Qual é a data de corte deste ano</strong> — é ela que separa o preço menor
+            do maior.
+          </li>
+        </ul>
 
         <p className="nota-fonte">
           Fontes: CBTM,{' '}
+          <a
+            href="https://www.cbtm.org.br/noticia/detalhe/92392"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            a nota que descreve as quatro categorias
+          </a>{' '}
+          (de onde saem as frases entre aspas, inclusive a isenção até 11 anos),{' '}
           <a
             href="https://www.cbtm.org.br/conteudo/detalhe/18"
             target="_blank"
@@ -916,7 +987,7 @@ export const GUIAS: Guia[] = [
           >
             Modelo de Competições
           </a>{' '}
-          (categorias de filiação) e{' '}
+          (filiação) e{' '}
           <a
             href="https://www.cbtm.org.br/noticia/detalhe/85658/pagamento-da-taxa-de-registro-anual-tra-possibilita-varios-beneficios"
             target="_blank"
@@ -924,7 +995,7 @@ export const GUIAS: Guia[] = [
           >
             Pagamento da Taxa de Registro Anual (TRA)
           </a>{' '}
-          (quem paga e o que ela financia). Consultado em 20/08/2026. Regra de federação muda:
+          (quem paga e o que ela financia). Consultado em 20/08/2026 e reconferido em 23/08/2026, quando entraram a categoria Iniciante e o passo a passo do pagamento. Regra de federação muda:
           confirme na CBTM antes de se inscrever.
         </p>
       </>
