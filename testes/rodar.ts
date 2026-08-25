@@ -3173,6 +3173,33 @@ for (const mat of MATERIAIS.filter((x) => x.origemSpecs === 'comunidade')) {
   );
 }
 
+/* ───── o 404 e' uma tela do site, nao uma tela do Next ─────
+   Ate 2026-08-23 o site servia o 404 PADRAO: "404 · This page could not be
+   found", em ingles, sem cabecalho, sem rodape e sem um caminho de volta. Numa
+   enciclopedia PT-BR com 953 paginas de material, quem erra uma letra na URL
+   caia numa tela de sistema em outro idioma.
+
+   Nenhum teste apontaria isso — nada estava quebrado, so' nao existia. Foi
+   achado varrendo o HTML PUBLICADO de cada rota, e nao o codigo.
+
+   A asercao de casca acima nao cobre este arquivo: ela caminha por PASTAS com
+   `page.tsx`, e o not-found mora solto na raiz de `app/`. */
+{
+  const arq = 'app/not-found.tsx';
+  afirma(existsSync(arq), 'o site precisa do seu proprio 404 — sem ele volta o do Next, em ingles');
+  const fonte = existsSync(arq) ? readFileSync(arq, 'utf8') : '';
+  afirma(/<Pagina[\s>]/.test(fonte),
+    '404: sem a casca, a tela de erro perde cabecalho, rodape e o link de pular');
+  afirma(/\/catalogo\//.test(fonte),
+    '404: precisa levar ao catalogo, que e onde mora a busca — link morto aqui quase sempre e id de material');
+  /* Nao da pra checar "voltou o texto do Next" procurando a frase no FONTE: o
+     comentario do arquivo CITA a frase antiga pra explicar o conserto, e a
+     primeira versao desta asercao reprovou a propria documentacao. O que prova
+     que a tela e' nossa e' ela dizer, em portugues, o que aconteceu. */
+  afirma(/Esta página não existe/.test(fonte),
+    '404: falta o titulo em portugues — sem ele a tela nao se explica a quem chegou');
+}
+
 console.log(`\n✔ ${ok} asserções passaram`);
 if (falhas.length) {
   console.error(`✘ ${falhas.length} falharam:`);

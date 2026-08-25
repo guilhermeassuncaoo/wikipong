@@ -1,0 +1,97 @@
+/* WikiPong · 404. Reusa os tokens e o cartão do resto do site: a tela de erro
+   não é um lugar estranho, é o mesmo site avisando que errou o endereço. */
+
+.pagina {
+  padding-block: clamp(2rem, 6vw, 4.5rem) clamp(2.5rem, 7vw, 5rem);
+  min-height: 60dvh;
+}
+
+/* O acento aqui é PREENCHIMENTO de texto pequeno — usa o alias semântico, que
+   resolve para o acento-escuro no tema claro e passa AA nos dois temas. */
+.codigo {
+  color: var(--cor-texto-acento);
+  font-size: var(--texto-micro);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 0 0 0.5rem;
+}
+
+.titulo {
+  font-size: var(--titulo-1);
+  font-weight: 800;
+  margin: 0;
+  text-wrap: balance;
+}
+
+.lede {
+  color: var(--cor-tinta-suave);
+  max-width: 60ch;
+  margin: 0.75rem 0 1.75rem;
+  text-wrap: pretty;
+  line-height: 1.6;
+}
+
+.acao {
+  display: inline-flex;
+  margin-bottom: clamp(2rem, 5vw, 3rem);
+}
+
+.saidas {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 0.9rem;
+}
+
+.cartao {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  height: 100%;
+  color: inherit;
+  text-decoration: none;
+  background: var(--cor-superficie);
+  border: 1px solid var(--cor-linha);
+  border-radius: var(--raio-md);
+  padding: 1.1rem 1.2rem;
+  box-shadow: var(--sombra-cartao);
+  transition: border-color 160ms ease, transform 160ms ease;
+}
+.cartao:hover {
+  border-color: var(--cor-acento);
+  transform: translateY(-3px);
+}
+
+/* Quem prefere menos movimento não recebe o deslocamento no hover. */
+@media (prefers-reduced-motion: reduce) {
+  .cartao {
+    transition: border-color 160ms ease;
+  }
+  .cartao:hover {
+    transform: none;
+  }
+}
+
+.cartaoTitulo {
+  font-family: var(--fonte-display);
+  font-weight: 700;
+  font-size: var(--texto-maior);
+}
+
+.cartaoTexto {
+  color: var(--cor-tinta-suave);
+  font-size: var(--texto-menor);
+  line-height: 1.5;
+}
+
+.rodape {
+  margin-top: clamp(2rem, 5vw, 3rem);
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--cor-linha);
+  color: var(--cor-tinta-suave);
+  font-size: var(--texto-menor);
+  max-width: 62ch;
+  text-wrap: pretty;
+}
