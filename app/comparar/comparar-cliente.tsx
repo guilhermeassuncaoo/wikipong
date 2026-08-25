@@ -353,6 +353,14 @@ function Comparacao({ par, modo }: { par: [MaterialComparavel, MaterialComparave
                 {[a, b].map((m) => (
                   <th scope="col" key={m.id}>
                     {m.nome}
+                    {/* Comparar dois materiais de réguas diferentes é o caso em
+                        que o aviso mais importa: a coluna maior pode ser só a
+                        que usa a régua que vai até 100. */}
+                    {!naNossaRegua(m.specs?.regua) && (
+                      <span className={estilos.reguaDaColuna}>
+                        {NOME_DA_REGUA[m.specs!.regua!]} — não é a escala 0 a 10 do site
+                      </span>
+                    )}
                   </th>
                 ))}
               </tr>
@@ -378,8 +386,12 @@ function Comparacao({ par, modo }: { par: [MaterialComparavel, MaterialComparave
                             <span className={`${estilos.valorSimples} ${ehMaximo ? estilos.maximo : ''}`}>
                               <Bolinhas valor={valor} regua={[a, b][i].specs?.regua} />
                               <span>
-                                {paraPalavra(linha.atributo, valor, [a, b][i].specs?.regua) ??
-                                  `${valor} na ${NOME_DA_REGUA[[a, b][i].specs!.regua!]}`}
+                                {/* A régua é dita UMA vez, no cabeçalho da
+                                    coluna — repetir em cada linha enchia a
+                                    tabela de "na régua da Megaspin". */}
+                                {paraPalavra(linha.atributo, valor, [a, b][i].specs?.regua) ?? (
+                                  <span className="mono">{valor}</span>
+                                )}
                               </span>
                               {ehMaximo && <span className={estilos.tagMaior}>maior</span>}
                             </span>

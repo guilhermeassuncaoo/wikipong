@@ -492,6 +492,15 @@
   color: var(--cor-tinta-suave);
   font-size: var(--texto-mini);
 }
+/* Aviso de régua alheia: uma linha, no fim do bloco de números. Discreta de
+   propósito — ela qualifica os números acima, não compete com eles. */
+.reguaAlheia {
+  margin: 0.3rem 0 0;
+  font-size: var(--texto-micro);
+  color: var(--cor-tinta-suave);
+  font-style: italic;
+  line-height: 1.35;
+}
 .praQuemE {
   margin: 0.35rem 0 0;
   font-size: var(--texto-menor);

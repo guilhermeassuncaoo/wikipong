@@ -31,7 +31,7 @@ import {
   type FiltroEstado,
   type Ordenacao,
 } from '@/src/logica/filtros';
-import { PALAVRAS, paraPalavra, NOME_DA_REGUA } from '@/src/logica/metricas';
+import { PALAVRAS, paraPalavra, NOME_DA_REGUA, naNossaRegua } from '@/src/logica/metricas';
 import { traduzirFicha } from '@/src/logica/traduzir';
 import { fabricantePorId } from '@/componentes/dados-fabricante';
 import { MATERIAIS, type MaterialCatalogo } from '@/componentes/dados-materiais';
@@ -544,11 +544,23 @@ function CartaoMaterial({
               <span className={estilos.rotuloSimples}>{rotulo}</span>
               <Bolinhas valor={valor} regua={m.specs?.regua} />
               <span className={estilos.palavraSimples}>
-                {paraPalavra(atributo, valor, m.specs?.regua) ??
-                  `${valor} na ${NOME_DA_REGUA[m.specs!.regua!]}`}
+                {/* Sem régua nossa não há palavra: fica o número cru, e o aviso
+                    de régua vem UMA vez no rodapé do cartão em vez de três. */}
+                {paraPalavra(atributo, valor, m.specs?.regua) ?? (
+                  <span className="mono">{valor}</span>
+                )}
               </span>
             </p>
           ))}
+          {/* O que um cartão de régua alheia precisa dizer num GRID não é de
+              quem é a régua — é que ele não se compara com o cartão do lado.
+              Essa é a leitura que a pessoa faz sem perceber ao percorrer a
+              grade, e é a que estava errada. */}
+          {comSpecs && !naNossaRegua(m.specs?.regua) && (
+            <p className={estilos.reguaAlheia}>
+              Números na {NOME_DA_REGUA[m.specs!.regua!]} — não se comparam com os dos outros cartões.
+            </p>
+          )}
           {leitura && leitura.resumo && (
             <p className={estilos.praQuemE}>
               <b>{m.simples.tag}.</b> {leitura.resumo}

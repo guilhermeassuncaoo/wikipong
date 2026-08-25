@@ -185,6 +185,18 @@
   font-family: var(--fonte-display);
   font-size: var(--texto-menor);
 }
+/* Aviso de régua embaixo do nome da coluna: quebra em linha própria, menor e
+   sem o peso do display, pra qualificar a coluna sem virar título. */
+.reguaDaColuna {
+  display: block;
+  margin-top: 0.2rem;
+  font-family: var(--fonte-texto);
+  font-size: var(--texto-micro);
+  font-weight: 400;
+  font-style: italic;
+  color: var(--cor-tinta-suave);
+  line-height: 1.3;
+}
 .tabela tbody tr {
   transition: background 140ms ease;
 }
