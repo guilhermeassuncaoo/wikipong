@@ -10,9 +10,9 @@
       "intencao": "atacar",
       "preco": 537,
       "specs": {
-        "velocidade": 9,
-        "spin": 9.3,
-        "controle": 7.8
+        "velocidade": 9.3,
+        "spin": 9.4,
+        "controle": 8.3
       },
       "durabilidade": 7.5,
       "durezaUnificada": 47,
@@ -21,7 +21,8 @@
       "simples": {
         "tag": "Rápida e com muito efeito",
         "frase": "A bola sai com força e gira muito. Rende no ataque, mas pede controle de quem já tem técnica."
-      }
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "viscaria",
@@ -32,15 +33,16 @@
       "intencao": "atacar",
       "preco": 1655,
       "specs": {
-        "velocidade": 8.8,
-        "controle": 8.5
+        "velocidade": 9.0,
+        "controle": 8.8
       },
       "rating": 4.9,
       "reviews": 120,
       "simples": {
         "tag": "Rápida e equilibrada",
         "frase": "Madeira ofensiva clássica, com bom toque. Referência pra quem leva o ataque a sério."
-      }
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "evolution",
@@ -73,9 +75,9 @@
       "intencao": "atacar",
       "preco": 329,
       "specs": {
-        "velocidade": 8.2,
-        "spin": 9.6,
-        "controle": 8
+        "velocidade": 8.4,
+        "spin": 9.3,
+        "controle": 8.7
       },
       "durabilidade": 8.8,
       "durezaUnificada": 54,
@@ -84,7 +86,8 @@
       "simples": {
         "tag": "Velocidade 8.2, acima do controle",
         "frase": "Gira muito a bola, no estilo chinês. Exige técnica, mas recompensa quem a domina."
-      }
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "dignics05",
@@ -95,9 +98,9 @@
       "intencao": "atacar",
       "preco": 645,
       "specs": {
-        "velocidade": 9.2,
+        "velocidade": 9.1,
         "spin": 9.4,
-        "controle": 7.6
+        "controle": 8.8
       },
       "durabilidade": 7.8,
       "durezaUnificada": 46,
@@ -106,7 +109,8 @@
       "simples": {
         "tag": "Rápida e potente",
         "frase": "Topo de linha em velocidade e spin. Pra quem já tem o braço formado."
-      }
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "mxp",
@@ -117,9 +121,9 @@
       "intencao": "equilibrado",
       "preco": 359,
       "specs": {
-        "velocidade": 8.8,
-        "spin": 8.9,
-        "controle": 7.9
+        "velocidade": 9.5,
+        "spin": 9.3,
+        "controle": 8.7
       },
       "durabilidade": 7.7,
       "durezaUnificada": 46,
@@ -128,7 +132,8 @@
       "simples": {
         "tag": "Versátil e amigável",
         "frase": "Boa em quase tudo sem exigir demais. Ideal pra dar o passo do iniciante pro avançado."
-      }
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "rozena",
@@ -139,9 +144,9 @@
       "intencao": "controlar",
       "preco": 390,
       "specs": {
-        "velocidade": 7.8,
-        "spin": 8,
-        "controle": 8.6
+        "velocidade": 8.6,
+        "spin": 8.4,
+        "controle": 8.7
       },
       "durabilidade": 8.2,
       "durezaUnificada": 43,
@@ -150,7 +155,8 @@
       "simples": {
         "tag": "Macia e fácil de jogar",
         "frase": "Tem efeito bom e é gentil com quem está aprendendo. Uma porta de entrada pras tensionadas."
-      }
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "fzd",
@@ -161,15 +167,16 @@
       "intencao": "atacar",
       "preco": 1489,
       "specs": {
-        "velocidade": 8.6,
-        "controle": 8.2
+        "velocidade": 8.8,
+        "controle": 9.1
       },
       "rating": 4.8,
       "reviews": 92,
       "simples": {
         "tag": "Rápida com controle",
         "frase": "Madeira com fibra que dá velocidade sem perder a mão. Boa pra ataque preciso."
-      }
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "d40",
@@ -217,15 +224,16 @@
       "intencao": "controlar",
       "preco": 338,
       "specs": {
-        "velocidade": 5.5,
-        "controle": 9
+        "velocidade": 6.6,
+        "controle": 8.9
       },
       "rating": 4.7,
       "reviews": 140,
       "simples": {
         "tag": "Madeira que perdoa",
         "frase": "Lâmina lenta e cheia de controle, a base clássica pra aprender o toque sem a bola fugir da mesa."
-      }
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "xiom-vega-intro",
@@ -236,9 +244,9 @@
       "intencao": "controlar",
       "preco": 220,
       "specs": {
-        "velocidade": 5.5,
-        "spin": 7.5,
-        "controle": 9
+        "velocidade": 7.7,
+        "spin": 8.0,
+        "controle": 8.8
       },
       "durabilidade": 8,
       "durezaUnificada": 45,
@@ -247,7 +255,8 @@
       "simples": {
         "tag": "Feita pra começar",
         "frase": "Tensionada mas domável: efeito bom com muito controle. Uma porta de entrada suave pras borrachas modernas."
-      }
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "markv",
@@ -258,9 +267,9 @@
       "intencao": "equilibrado",
       "preco": 329,
       "specs": {
-        "velocidade": 6,
-        "spin": 7.5,
-        "controle": 9
+        "velocidade": 8.0,
+        "spin": 8.2,
+        "controle": 8.7
       },
       "durabilidade": 9,
       "durezaUnificada": 42,
@@ -269,7 +278,8 @@
       "simples": {
         "tag": "O curinga do controle",
         "frase": "Borracha lendária: efeito constante e muita margem pro erro. Cresce junto com o seu jogo por anos."
-      }
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "palio-ak47",
@@ -280,9 +290,9 @@
       "intencao": "controlar",
       "preco": 155,
       "specs": {
-        "velocidade": 5,
-        "spin": 7,
-        "controle": 9.3
+        "velocidade": 8.6,
+        "spin": 8.4,
+        "controle": 8.7
       },
       "durabilidade": 7.5,
       "durezaUnificada": 40,
@@ -291,7 +301,8 @@
       "simples": {
         "tag": "Equilibrada e barata",
         "frase": "Dureza intermediária da linha AK47 (a Blue é mais macia, a Red mais dura). Barata e previsível, boa pra sentir a bola nos primeiros treinos."
-      }
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "donic-appelgren",
@@ -302,15 +313,16 @@
       "intencao": "equilibrado",
       "preco": 250,
       "specs": {
-        "velocidade": 6,
-        "controle": 8.8
+        "velocidade": 6.9,
+        "controle": 8.7
       },
       "rating": 4.6,
       "reviews": 88,
       "simples": {
         "tag": "Um passo além da base",
         "frase": "Madeira allround com um tiquinho a mais de velocidade, pra quem pegou o controle e quer começar a atacar."
-      }
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "tenergy05-hard",
@@ -7279,9 +7291,15 @@
       "rating": 4.7,
       "reviews": 47,
       "simples": {
-        "tag": "Sem índice publicado",
-        "frase": "Não encontrei índice de velocidade, efeito ou controle deste material em nenhuma das fontes que consulto. O que está conferido aqui é o preço, a foto e a ficha do fabricante."
-      }
+        "tag": "51 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,9, efeito 9,4 e controle 9,1 — são a MÉDIA DE 51 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
+      },
+      "specs": {
+        "velocidade": 8.9,
+        "spin": 9.4,
+        "controle": 9.1
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "f729-battle-taichi",
@@ -7429,15 +7447,15 @@
       "rating": 4.45,
       "reviews": 37,
       "simples": {
-        "tag": "Velocidade 160, acima do controle",
-        "frase": "A loja publica velocidade 160, efeito 140, controle 120 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "37 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,6, efeito 9,2 e controle 8,9 — são a MÉDIA DE 37 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 160,
-        "spin": 140,
-        "controle": 120,
-        "regua": "megaspin"
-      }
+        "velocidade": 8.6,
+        "spin": 9.2,
+        "controle": 8.9
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "sanwei-target-national-gordanga",
@@ -7525,15 +7543,15 @@
       "rating": 4.25,
       "reviews": 11,
       "simples": {
-        "tag": "Velocidade 160, acima do controle",
-        "frase": "A loja publica velocidade 160, efeito 130, controle 150 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "11 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,6, efeito 8,4 e controle 8,9 — são a MÉDIA DE 11 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 160,
-        "spin": 130,
-        "controle": 150,
-        "regua": "megaspin"
-      }
+        "velocidade": 8.6,
+        "spin": 8.4,
+        "controle": 8.9
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "sanwei-ultra-spin",
@@ -7791,9 +7809,15 @@
       "rating": 4.3,
       "reviews": 106,
       "simples": {
-        "tag": "Sem avaliação publicada",
-        "frase": "Procurei índice de desempenho desta borracha no site da Yinhe, na loja onde o preço foi conferido e no Revspin, e não achei em nenhum. O que está conferido aqui é o preço, a foto e a ficha do fabricante."
-      }
+        "tag": "106 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,3, efeito 8,8 e controle 8,7 — são a MÉDIA DE 106 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
+      },
+      "specs": {
+        "velocidade": 8.3,
+        "spin": 8.8,
+        "controle": 8.7
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "yinhe-big-dipper",
@@ -7806,9 +7830,15 @@
       "rating": 4.45,
       "reviews": 61,
       "simples": {
-        "tag": "Sem índice publicado",
-        "frase": "Não encontrei índice de velocidade, efeito ou controle deste material em nenhuma das fontes que consulto. O que está conferido aqui é o preço, a foto e a ficha do fabricante."
-      }
+        "tag": "61 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,6, efeito 8,9 e controle 8,6 — são a MÉDIA DE 61 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
+      },
+      "specs": {
+        "velocidade": 8.6,
+        "spin": 8.9,
+        "controle": 8.6
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "yinhe-jupiter-3-euro",
@@ -7881,9 +7911,14 @@
       "rating": 4.65,
       "reviews": 68,
       "simples": {
-        "tag": "Sem índice publicado",
-        "frase": "Não encontrei índice de velocidade, efeito ou controle deste material em nenhuma das fontes que consulto. O que está conferido aqui é o preço, a foto e a ficha do fabricante."
-      }
+        "tag": "68 avaliações no Revspin",
+        "frase": "Os números — velocidade 9,1 e controle 9,1 — são a MÉDIA DE 68 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
+      },
+      "specs": {
+        "velocidade": 9.1,
+        "controle": 9.1
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "yinhe-t11s",
@@ -7896,9 +7931,14 @@
       "rating": 4.55,
       "reviews": 28,
       "simples": {
-        "tag": "Sem índice publicado",
-        "frase": "Não encontrei índice de velocidade, efeito ou controle deste material em nenhuma das fontes que consulto. O que está conferido aqui é o preço, a foto e a ficha do fabricante."
-      }
+        "tag": "28 avaliações no Revspin",
+        "frase": "Os números — velocidade 9,5 e controle 8,6 — são a MÉDIA DE 28 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
+      },
+      "specs": {
+        "velocidade": 9.5,
+        "controle": 8.6
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "yinhe-mercury-13",
@@ -7911,9 +7951,14 @@
       "rating": 4.5,
       "reviews": 26,
       "simples": {
-        "tag": "Sem índice publicado",
-        "frase": "Não encontrei índice de velocidade, efeito ou controle deste material em nenhuma das fontes que consulto. O que está conferido aqui é o preço, a foto e a ficha do fabricante."
-      }
+        "tag": "26 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,5 e controle 9,0 — são a MÉDIA DE 26 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
+      },
+      "specs": {
+        "velocidade": 8.5,
+        "controle": 9.0
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "yinhe-j1",
@@ -7926,9 +7971,14 @@
       "rating": 4.15,
       "reviews": 20,
       "simples": {
-        "tag": "Sem índice publicado",
-        "frase": "Não encontrei índice de velocidade, efeito ou controle deste material em nenhuma das fontes que consulto. O que está conferido aqui é o preço, a foto e a ficha do fabricante."
-      }
+        "tag": "20 avaliações no Revspin",
+        "frase": "Os números — velocidade 7,9 e controle 8,9 — são a MÉDIA DE 20 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
+      },
+      "specs": {
+        "velocidade": 7.9,
+        "controle": 8.9
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "yinhe-980",
@@ -7941,9 +7991,14 @@
       "rating": 4.65,
       "reviews": 18,
       "simples": {
-        "tag": "Sem índice publicado",
-        "frase": "Não encontrei índice de velocidade, efeito ou controle deste material em nenhuma das fontes que consulto. O que está conferido aqui é o preço, a foto e a ficha do fabricante."
-      }
+        "tag": "18 avaliações no Revspin",
+        "frase": "Os números — velocidade 6,8 e controle 9,3 — são a MÉDIA DE 18 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
+      },
+      "specs": {
+        "velocidade": 6.8,
+        "controle": 9.3
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "yinhe-988",
@@ -7956,9 +8011,14 @@
       "rating": 4.55,
       "reviews": 12,
       "simples": {
-        "tag": "Sem índice publicado",
-        "frase": "Não encontrei índice de velocidade, efeito ou controle deste material em nenhuma das fontes que consulto. O que está conferido aqui é o preço, a foto e a ficha do fabricante."
-      }
+        "tag": "12 avaliações no Revspin",
+        "frase": "Os números — velocidade 9,3 e controle 8,7 — são a MÉDIA DE 12 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
+      },
+      "specs": {
+        "velocidade": 9.3,
+        "controle": 8.7
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "yinhe-985",
@@ -7971,9 +8031,14 @@
       "rating": 4.6,
       "reviews": 7,
       "simples": {
-        "tag": "Sem índice publicado",
-        "frase": "Não encontrei índice de velocidade, efeito ou controle deste material em nenhuma das fontes que consulto. O que está conferido aqui é o preço, a foto e a ficha do fabricante."
-      }
+        "tag": "7 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,9 e controle 8,8 — são a MÉDIA DE 7 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
+      },
+      "specs": {
+        "velocidade": 8.9,
+        "controle": 8.8
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "yinhe-989",
@@ -7986,9 +8051,14 @@
       "rating": 4.4,
       "reviews": 6,
       "simples": {
-        "tag": "Sem índice publicado",
-        "frase": "Não encontrei índice de velocidade, efeito ou controle deste material em nenhuma das fontes que consulto. O que está conferido aqui é o preço, a foto e a ficha do fabricante."
-      }
+        "tag": "6 avaliações no Revspin",
+        "frase": "Os números — velocidade 9,3 e controle 8,3 — são a MÉDIA DE 6 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
+      },
+      "specs": {
+        "velocidade": 9.3,
+        "controle": 8.3
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "yinhe-t1s",
@@ -8001,9 +8071,14 @@
       "rating": 4.75,
       "reviews": 5,
       "simples": {
-        "tag": "Sem índice publicado",
-        "frase": "Não encontrei índice de velocidade, efeito ou controle deste material em nenhuma das fontes que consulto. O que está conferido aqui é o preço, a foto e a ficha do fabricante."
-      }
+        "tag": "5 avaliações no Revspin",
+        "frase": "Os números — velocidade 9,8 e controle 7,6 — são a MÉDIA DE 5 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
+      },
+      "specs": {
+        "velocidade": 9.8,
+        "controle": 7.6
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "yinhe-t2s",
@@ -8106,15 +8181,15 @@
       "rating": 4.65,
       "reviews": 93,
       "simples": {
-        "tag": "Velocidade 96, acima do controle",
-        "frase": "A loja publica velocidade 96, efeito 96, controle 68 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "93 avaliações no Revspin",
+        "frase": "Os números — velocidade 9,4, efeito 9,3 e controle 8,9 — são a MÉDIA DE 93 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 96,
-        "spin": 96,
-        "controle": 68,
-        "regua": "megaspin"
-      }
+        "velocidade": 9.4,
+        "spin": 9.3,
+        "controle": 8.9
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "andro-rasanter-r42",
@@ -8127,15 +8202,15 @@
       "rating": 4.6,
       "reviews": 67,
       "simples": {
-        "tag": "Velocidade 95, acima do controle",
-        "frase": "A loja publica velocidade 95, efeito 96, controle 69 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "67 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,9, efeito 9,2 e controle 9,2 — são a MÉDIA DE 67 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 95,
-        "spin": 96,
-        "controle": 69,
-        "regua": "megaspin"
-      }
+        "velocidade": 8.9,
+        "spin": 9.2,
+        "controle": 9.2
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "andro-rasanter-r48",
@@ -8148,15 +8223,15 @@
       "rating": 4.65,
       "reviews": 52,
       "simples": {
-        "tag": "Velocidade 97, acima do controle",
-        "frase": "A loja publica velocidade 97, efeito 97, controle 68 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "53 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,9, efeito 9,4 e controle 8,9 — são a MÉDIA DE 53 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 97,
-        "spin": 97,
-        "controle": 68,
-        "regua": "megaspin"
-      }
+        "velocidade": 8.9,
+        "spin": 9.4,
+        "controle": 8.9
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "andro-rasanter-r37",
@@ -8169,15 +8244,15 @@
       "rating": 4.6,
       "reviews": 44,
       "simples": {
-        "tag": "Velocidade 94, acima do controle",
-        "frase": "A loja publica velocidade 94, efeito 96, controle 70 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "44 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,7, efeito 9,1 e controle 9,4 — são a MÉDIA DE 44 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 94,
-        "spin": 96,
-        "controle": 70,
-        "regua": "megaspin"
-      }
+        "velocidade": 8.7,
+        "spin": 9.1,
+        "controle": 9.4
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "andro-rasanter-r50",
@@ -8190,15 +8265,15 @@
       "rating": 4.7,
       "reviews": 43,
       "simples": {
-        "tag": "Velocidade 124, acima do controle",
-        "frase": "A loja publica velocidade 124, efeito 126, controle 82 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "43 avaliações no Revspin",
+        "frase": "Os números — velocidade 9,4, efeito 9,4 e controle 8,7 — são a MÉDIA DE 43 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 124,
-        "spin": 126,
-        "controle": 82,
-        "regua": "megaspin"
-      }
+        "velocidade": 9.4,
+        "spin": 9.4,
+        "controle": 8.7
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "andro-rasanter-r53",
@@ -8211,15 +8286,15 @@
       "rating": 4.7,
       "reviews": 38,
       "simples": {
-        "tag": "Velocidade 98, acima do controle",
-        "frase": "A loja publica velocidade 98, efeito 97, controle 67 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "38 avaliações no Revspin",
+        "frase": "Os números — velocidade 9,5, efeito 9,4 e controle 8,9 — são a MÉDIA DE 38 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 98,
-        "spin": 97,
-        "controle": 67,
-        "regua": "megaspin"
-      }
+        "velocidade": 9.5,
+        "spin": 9.4,
+        "controle": 8.9
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "andro-rasanter-v42",
@@ -8232,15 +8307,15 @@
       "rating": 4.55,
       "reviews": 22,
       "simples": {
-        "tag": "Velocidade 96, acima do controle",
-        "frase": "A loja publica velocidade 96, efeito 93, controle 70 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "22 avaliações no Revspin",
+        "frase": "Os números — velocidade 9,0, efeito 9,0 e controle 9,2 — são a MÉDIA DE 22 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 96,
-        "spin": 93,
-        "controle": 70,
-        "regua": "megaspin"
-      }
+        "velocidade": 9.0,
+        "spin": 9.0,
+        "controle": 9.2
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "andro-rasanter-v47",
@@ -8253,15 +8328,15 @@
       "rating": 4.45,
       "reviews": 22,
       "simples": {
-        "tag": "Velocidade 126, acima do controle",
-        "frase": "A loja publica velocidade 126, efeito 124, controle 87 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "22 avaliações no Revspin",
+        "frase": "Os números — velocidade 9,3, efeito 8,9 e controle 8,9 — são a MÉDIA DE 22 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 126,
-        "spin": 124,
-        "controle": 87,
-        "regua": "megaspin"
-      }
+        "velocidade": 9.3,
+        "spin": 8.9,
+        "controle": 8.9
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "andro-rasanter-c48",
@@ -8274,15 +8349,15 @@
       "rating": 4.7,
       "reviews": 18,
       "simples": {
-        "tag": "Velocidade 96, acima do controle",
-        "frase": "A loja publica velocidade 96, efeito 98, controle 69 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "19 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,8, efeito 9,3 e controle 9,2 — são a MÉDIA DE 19 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 96,
-        "spin": 98,
-        "controle": 69,
-        "regua": "megaspin"
-      }
+        "velocidade": 8.8,
+        "spin": 9.3,
+        "controle": 9.2
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "andro-rasanter-c53",
@@ -8295,15 +8370,15 @@
       "rating": 4.6,
       "reviews": 9,
       "simples": {
-        "tag": "Velocidade 97, acima do controle",
-        "frase": "A loja publica velocidade 97, efeito 98, controle 68 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "9 avaliações no Revspin",
+        "frase": "Os números — velocidade 9,2, efeito 9,2 e controle 9,1 — são a MÉDIA DE 9 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 97,
-        "spin": 98,
-        "controle": 68,
-        "regua": "megaspin"
-      }
+        "velocidade": 9.2,
+        "spin": 9.2,
+        "controle": 9.1
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "andro-rasanter-c45",
@@ -8316,15 +8391,15 @@
       "rating": 4.7,
       "reviews": 5,
       "simples": {
-        "tag": "Velocidade 95, acima do controle",
-        "frase": "A loja publica velocidade 95, efeito 98, controle 70 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "5 avaliações no Revspin",
+        "frase": "Os números — velocidade 9,1, efeito 9,2 e controle 9,1 — são a MÉDIA DE 5 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 95,
-        "spin": 98,
-        "controle": 70,
-        "regua": "megaspin"
-      }
+        "velocidade": 9.1,
+        "spin": 9.2,
+        "controle": 9.1
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "andro-hexer",
@@ -8358,15 +8433,15 @@
       "rating": 4.7,
       "reviews": 46,
       "simples": {
-        "tag": "Velocidade 94, acima do controle",
-        "frase": "A loja publica velocidade 94, efeito 92, controle 71 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "46 avaliações no Revspin",
+        "frase": "Os números — velocidade 9,2, efeito 9,3 e controle 9,3 — são a MÉDIA DE 46 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 94,
-        "spin": 92,
-        "controle": 71,
-        "regua": "megaspin"
-      }
+        "velocidade": 9.2,
+        "spin": 9.3,
+        "controle": 9.3
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "andro-hexer-duro",
@@ -8379,15 +8454,15 @@
       "rating": 4.55,
       "reviews": 42,
       "simples": {
-        "tag": "Velocidade 88, acima do controle",
-        "frase": "A loja publica velocidade 88, efeito 86, controle 74 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "42 avaliações no Revspin",
+        "frase": "Os números — velocidade 9,1, efeito 9,2 e controle 8,6 — são a MÉDIA DE 42 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 88,
-        "spin": 86,
-        "controle": 74,
-        "regua": "megaspin"
-      }
+        "velocidade": 9.1,
+        "spin": 9.2,
+        "controle": 8.6
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "andro-hexer-grip-sfx",
@@ -8400,15 +8475,15 @@
       "rating": 4.55,
       "reviews": 40,
       "simples": {
-        "tag": "Velocidade 90, acima do controle",
-        "frase": "A loja publica velocidade 90, efeito 92, controle 40 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "40 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,5, efeito 9,2 e controle 9,4 — são a MÉDIA DE 40 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 90,
-        "spin": 92,
-        "controle": 40,
-        "regua": "megaspin"
-      }
+        "velocidade": 8.5,
+        "spin": 9.2,
+        "controle": 9.4
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "andro-hexer-grip",
@@ -8421,15 +8496,15 @@
       "rating": 4.55,
       "reviews": 34,
       "simples": {
-        "tag": "Velocidade 93, acima do controle",
-        "frase": "A loja publica velocidade 93, efeito 92, controle 45 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "34 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,8, efeito 9,3 e controle 9,2 — são a MÉDIA DE 34 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 93,
-        "spin": 92,
-        "controle": 45,
-        "regua": "megaspin"
-      }
+        "velocidade": 8.8,
+        "spin": 9.3,
+        "controle": 9.2
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "andro-hexer-powergrip-sfx",
@@ -8442,15 +8517,15 @@
       "rating": 4.65,
       "reviews": 32,
       "simples": {
-        "tag": "Velocidade 92, acima do controle",
-        "frase": "A loja publica velocidade 92, efeito 92, controle 42 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "32 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,7, efeito 9,0 e controle 9,1 — são a MÉDIA DE 32 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 92,
-        "spin": 92,
-        "controle": 42,
-        "regua": "megaspin"
-      }
+        "velocidade": 8.7,
+        "spin": 9.0,
+        "controle": 9.1
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "andro-hexer-powersponge",
@@ -8526,15 +8601,15 @@
       "rating": 3.95,
       "reviews": 14,
       "simples": {
-        "tag": "Velocidade 89, acima do controle",
-        "frase": "A loja publica velocidade 89, efeito 105, controle 84 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "14 avaliações no Revspin",
+        "frase": "Os números — velocidade 7,5, efeito 7,9 e controle 8,3 — são a MÉDIA DE 14 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 89,
-        "spin": 105,
-        "controle": 84,
-        "regua": "megaspin"
-      }
+        "velocidade": 7.5,
+        "spin": 7.9,
+        "controle": 8.3
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "andro-impuls-powersponge",
@@ -8568,15 +8643,15 @@
       "rating": 4.7,
       "reviews": 12,
       "simples": {
-        "tag": "Velocidade 98, acima do controle",
-        "frase": "A loja publica velocidade 98, efeito 98, controle 69 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo. A esponja é grau 55, número que está no próprio nome do produto."
+        "tag": "12 avaliações no Revspin",
+        "frase": "Os números — velocidade 9,7, efeito 9,3 e controle 8,7 — são a MÉDIA DE 12 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 98,
-        "spin": 98,
-        "controle": 69,
-        "regua": "megaspin"
-      }
+        "velocidade": 9.7,
+        "spin": 9.3,
+        "controle": 8.7
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "andro-good",
@@ -8610,15 +8685,15 @@
       "rating": 4.65,
       "reviews": 8,
       "simples": {
-        "tag": "Velocidade 97, acima do controle",
-        "frase": "A loja publica velocidade 97, efeito 98, controle 70 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo. A esponja é grau 50, número que está no próprio nome do produto."
+        "tag": "8 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,9, efeito 9,3 e controle 8,8 — são a MÉDIA DE 8 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 97,
-        "spin": 98,
-        "controle": 70,
-        "regua": "megaspin"
-      }
+        "velocidade": 8.9,
+        "spin": 9.3,
+        "controle": 8.8
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "andro-nuzn-48",
@@ -8736,14 +8811,14 @@
       "rating": 4.75,
       "reviews": 28,
       "simples": {
-        "tag": "Velocidade 90, acima do controle",
-        "frase": "A loja publica velocidade 90, controle 66 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "28 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,9 e controle 9,1 — são a MÉDIA DE 28 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 90,
-        "controle": 66,
-        "regua": "megaspin"
-      }
+        "velocidade": 8.9,
+        "controle": 9.1
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "andro-synteliac-vci-off",
@@ -8796,14 +8871,14 @@
       "rating": 4.7,
       "reviews": 12,
       "simples": {
-        "tag": "Velocidade 87, acima do controle",
-        "frase": "A loja publica velocidade 87, controle 66 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "12 avaliações no Revspin",
+        "frase": "Os números — velocidade 9,2 e controle 9,2 — são a MÉDIA DE 12 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 87,
-        "controle": 66,
-        "regua": "megaspin"
-      }
+        "velocidade": 9.2,
+        "controle": 9.2
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "andro-timber-5-all-s",
@@ -8816,14 +8891,14 @@
       "rating": 4.7,
       "reviews": 11,
       "simples": {
-        "tag": "Velocidade 75, acima do controle",
-        "frase": "A loja publica velocidade 75, controle 73 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "11 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,3 e controle 9,6 — são a MÉDIA DE 11 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 75,
-        "controle": 73,
-        "regua": "megaspin"
-      }
+        "velocidade": 8.3,
+        "controle": 9.6
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "andro-tp-ligna-co-off",
@@ -8836,14 +8911,14 @@
       "rating": 4.65,
       "reviews": 11,
       "simples": {
-        "tag": "Velocidade 89, acima do controle",
-        "frase": "A loja publica velocidade 89, controle 66 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "11 avaliações no Revspin",
+        "frase": "Os números — velocidade 9,4 e controle 9,4 — são a MÉDIA DE 11 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 89,
-        "controle": 66,
-        "regua": "megaspin"
-      }
+        "velocidade": 9.4,
+        "controle": 9.4
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "andro-novacell-all-s",
@@ -8876,14 +8951,14 @@
       "rating": 4.7,
       "reviews": 10,
       "simples": {
-        "tag": "Velocidade 90, acima do controle",
-        "frase": "A loja publica velocidade 90, controle 65 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "10 avaliações no Revspin",
+        "frase": "Os números — velocidade 9,1 e controle 9,4 — são a MÉDIA DE 10 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 90,
-        "controle": 65,
-        "regua": "megaspin"
-      }
+        "velocidade": 9.1,
+        "controle": 9.4
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "andro-timber-5-off",
@@ -8896,14 +8971,14 @@
       "rating": 4.65,
       "reviews": 9,
       "simples": {
-        "tag": "Velocidade 88, acima do controle",
-        "frase": "A loja publica velocidade 88, controle 65 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "9 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,6 e controle 9,5 — são a MÉDIA DE 9 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 88,
-        "controle": 65,
-        "regua": "megaspin"
-      }
+        "velocidade": 8.6,
+        "controle": 9.5
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "andro-timber-7-off",
@@ -9216,14 +9291,14 @@
       "rating": 4.5,
       "reviews": 10,
       "simples": {
-        "tag": "Velocidade 77, acima do controle",
-        "frase": "A loja publica velocidade 77, controle 76 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "10 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,1 e controle 9,5 — são a MÉDIA DE 10 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 77,
-        "controle": 76,
-        "regua": "megaspin"
-      }
+        "velocidade": 8.1,
+        "controle": 9.5
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "victas-v-01-limber",
@@ -9362,15 +9437,15 @@
       "rating": 4.7,
       "reviews": 42,
       "simples": {
-        "tag": "Velocidade 90, acima do controle",
-        "frase": "A loja publica velocidade 90, efeito 88, controle 83 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "42 avaliações no Revspin",
+        "frase": "Os números — velocidade 9,2, efeito 9,4 e controle 9,4 — são a MÉDIA DE 42 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 90,
-        "spin": 88,
-        "controle": 83,
-        "regua": "megaspin"
-      }
+        "velocidade": 9.2,
+        "spin": 9.4,
+        "controle": 9.4
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "victas-v-11-extra",
@@ -9425,9 +9500,15 @@
       "rating": 4.55,
       "reviews": 17,
       "simples": {
-        "tag": "Sem índice publicado",
-        "frase": "A Victas não publica índice de velocidade, efeito ou controle em formato legível no site dela, e a loja onde o preço foi conferido também não. O que está conferido aqui é o preço, a foto e o que a ficha do fabricante mostra."
-      }
+        "tag": "17 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,9, efeito 9,3 e controle 9,3 — são a MÉDIA DE 17 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
+      },
+      "specs": {
+        "velocidade": 8.9,
+        "spin": 9.3,
+        "controle": 9.3
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "victas-vs-402-double-extra",
@@ -9482,9 +9563,15 @@
       "rating": 4.7,
       "reviews": 12,
       "simples": {
-        "tag": "Sem índice publicado",
-        "frase": "A Victas não publica índice de velocidade, efeito ou controle em formato legível no site dela, e a loja onde o preço foi conferido também não. O que está conferido aqui é o preço, a foto e o que a ficha do fabricante mostra."
-      }
+        "tag": "12 avaliações no Revspin",
+        "frase": "Os números — velocidade 9,1, efeito 9,5 e controle 8,9 — são a MÉDIA DE 12 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
+      },
+      "specs": {
+        "velocidade": 9.1,
+        "spin": 9.5,
+        "controle": 8.9
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "victas-vj-07-stiff",
@@ -9497,9 +9584,15 @@
       "rating": 4.7,
       "reviews": 11,
       "simples": {
-        "tag": "Sem índice publicado",
-        "frase": "A Victas não publica índice de velocidade, efeito ou controle em formato legível no site dela, e a loja onde o preço foi conferido também não. O que está conferido aqui é o preço, a foto e o que a ficha do fabricante mostra."
-      }
+        "tag": "11 avaliações no Revspin",
+        "frase": "Os números — velocidade 9,0, efeito 9,3 e controle 9,3 — são a MÉDIA DE 11 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
+      },
+      "specs": {
+        "velocidade": 9.0,
+        "spin": 9.3,
+        "controle": 9.3
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "victas-triple-double-extra",
@@ -9512,15 +9605,15 @@
       "rating": 4.75,
       "reviews": 10,
       "simples": {
-        "tag": "Controle 87, acima da velocidade",
-        "frase": "A loja publica velocidade 86, efeito 94, controle 87 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "10 avaliações no Revspin",
+        "frase": "Os números — velocidade 9,2, efeito 9,5 e controle 9,1 — são a MÉDIA DE 10 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 86,
-        "spin": 94,
-        "controle": 87,
-        "regua": "megaspin"
-      }
+        "velocidade": 9.2,
+        "spin": 9.5,
+        "controle": 9.1
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "victas-ventus-stiff",
@@ -9533,15 +9626,15 @@
       "rating": 4.5,
       "reviews": 6,
       "simples": {
-        "tag": "Velocidade 87, acima do controle",
-        "frase": "A loja publica velocidade 87, efeito 86, controle 86 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "6 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,8, efeito 9,0 e controle 9,2 — são a MÉDIA DE 6 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 87,
-        "spin": 86,
-        "controle": 86,
-        "regua": "megaspin"
-      }
+        "velocidade": 8.8,
+        "spin": 9.0,
+        "controle": 9.2
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "victas-vj-07-regular",
@@ -9554,9 +9647,15 @@
       "rating": 4.65,
       "reviews": 5,
       "simples": {
-        "tag": "Sem índice publicado",
-        "frase": "A Victas não publica índice de velocidade, efeito ou controle em formato legível no site dela, e a loja onde o preço foi conferido também não. O que está conferido aqui é o preço, a foto e o que a ficha do fabricante mostra."
-      }
+        "tag": "5 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,2, efeito 9,0 e controle 9,6 — são a MÉDIA DE 5 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
+      },
+      "specs": {
+        "velocidade": 8.2,
+        "spin": 9.0,
+        "controle": 9.6
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "victas-triple-extra",
@@ -9721,14 +9820,14 @@
       "rating": 4.7,
       "reviews": 24,
       "simples": {
-        "tag": "Controle 85, acima da velocidade",
-        "frase": "A loja publica velocidade 75, controle 85 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "24 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,5 e controle 9,3 — são a MÉDIA DE 24 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 75,
-        "controle": 85,
-        "regua": "megaspin"
-      }
+        "velocidade": 8.5,
+        "controle": 9.3
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "victas-koji-matsushita",
@@ -9741,14 +9840,14 @@
       "rating": 4.6,
       "reviews": 18,
       "simples": {
-        "tag": "Controle 95, acima da velocidade",
-        "frase": "A loja publica velocidade 55, controle 95 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "18 avaliações no Revspin",
+        "frase": "Os números — velocidade 6,2 e controle 9,5 — são a MÉDIA DE 18 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 55,
-        "controle": 95,
-        "regua": "megaspin"
-      }
+        "velocidade": 6.2,
+        "controle": 9.5
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "victas-koji-matsushita-defensive",
@@ -9761,14 +9860,14 @@
       "rating": 4.75,
       "reviews": 17,
       "simples": {
-        "tag": "Controle 100, acima da velocidade",
-        "frase": "A loja publica velocidade 50, controle 100 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "17 avaliações no Revspin",
+        "frase": "Os números — velocidade 5,3 e controle 9,6 — são a MÉDIA DE 17 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 50,
-        "controle": 100,
-        "regua": "megaspin"
-      }
+        "velocidade": 5.3,
+        "controle": 9.6
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "victas-zx-gear-in",
@@ -9781,14 +9880,14 @@
       "rating": 4.65,
       "reviews": 16,
       "simples": {
-        "tag": "Velocidade 90, acima do controle",
-        "frase": "A loja publica velocidade 90, controle 80 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "16 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,7 e controle 9,3 — são a MÉDIA DE 16 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 90,
-        "controle": 80,
-        "regua": "megaspin"
-      }
+        "velocidade": 8.7,
+        "controle": 9.3
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "victas-fire-fall-vc",
@@ -9801,14 +9900,14 @@
       "rating": 4.7,
       "reviews": 14,
       "simples": {
-        "tag": "Velocidade 95, acima do controle",
-        "frase": "A loja publica velocidade 95, controle 70 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "14 avaliações no Revspin",
+        "frase": "Os números — velocidade 9,4 e controle 9,3 — são a MÉDIA DE 14 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 95,
-        "controle": 70,
-        "regua": "megaspin"
-      }
+        "velocidade": 9.4,
+        "controle": 9.3
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "victas-koji-matsushita-offensive",
@@ -9821,14 +9920,14 @@
       "rating": 4.8,
       "reviews": 13,
       "simples": {
-        "tag": "Controle 90, acima da velocidade",
-        "frase": "A loja publica velocidade 65, controle 90 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "13 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,5 e controle 9,2 — são a MÉDIA DE 13 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 65,
-        "controle": 90,
-        "regua": "megaspin"
-      }
+        "velocidade": 8.5,
+        "controle": 9.2
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "victas-liam-pitchford",
@@ -9841,14 +9940,14 @@
       "rating": 3.9,
       "reviews": 12,
       "simples": {
-        "tag": "Velocidade 95, acima do controle",
-        "frase": "A loja publica velocidade 95, controle 75 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "12 avaliações no Revspin",
+        "frase": "Os números — velocidade 9,2 e controle 8,4 — são a MÉDIA DE 12 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 95,
-        "controle": 75,
-        "regua": "megaspin"
-      }
+        "velocidade": 9.2,
+        "controle": 8.4
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "victas-koki-niwa",
@@ -9861,14 +9960,14 @@
       "rating": 4.55,
       "reviews": 8,
       "simples": {
-        "tag": "Velocidade 90, acima do controle",
-        "frase": "A loja publica velocidade 90, controle 75 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "8 avaliações no Revspin",
+        "frase": "Os números — velocidade 9,2 e controle 9,1 — são a MÉDIA DE 8 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 90,
-        "controle": 75,
-        "regua": "megaspin"
-      }
+        "velocidade": 9.2,
+        "controle": 9.1
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "victas-award-offensive",
@@ -10531,15 +10630,15 @@
       "rating": 4.7,
       "reviews": 187,
       "simples": {
-        "tag": "Velocidade 95, acima do controle",
-        "frase": "A loja publica velocidade 95, efeito 96, controle 68 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "188 avaliações no Revspin",
+        "frase": "Os números — velocidade 9,0, efeito 9,3 e controle 9,1 — são a MÉDIA DE 188 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 95,
-        "spin": 96,
-        "controle": 68,
-        "regua": "megaspin"
-      }
+        "velocidade": 9.0,
+        "spin": 9.3,
+        "controle": 9.1
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "nittaku-fastarc-s1",
@@ -10552,15 +10651,15 @@
       "rating": 4.65,
       "reviews": 68,
       "simples": {
-        "tag": "Velocidade 97, acima do controle",
-        "frase": "A loja publica velocidade 97, efeito 94, controle 68 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "68 avaliações no Revspin",
+        "frase": "Os números — velocidade 9,1, efeito 8,9 e controle 9,1 — são a MÉDIA DE 68 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 97,
-        "spin": 94,
-        "controle": 68,
-        "regua": "megaspin"
-      }
+        "velocidade": 9.1,
+        "spin": 8.9,
+        "controle": 9.1
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "nittaku-flyatt-soft",
@@ -10615,15 +10714,15 @@
       "rating": 4.7,
       "reviews": 5,
       "simples": {
-        "tag": "Velocidade 98, acima do controle",
-        "frase": "A loja publica velocidade 98, efeito 97, controle 67 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "5 avaliações no Revspin",
+        "frase": "Os números — velocidade 9,6, efeito 9,6 e controle 9,2 — são a MÉDIA DE 5 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 98,
-        "spin": 97,
-        "controle": 67,
-        "regua": "megaspin"
-      }
+        "velocidade": 9.6,
+        "spin": 9.6,
+        "controle": 9.2
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "nittaku-hammond",
@@ -10699,15 +10798,15 @@
       "rating": 4.75,
       "reviews": 79,
       "simples": {
-        "tag": "Velocidade 98, acima do controle",
-        "frase": "A loja publica velocidade 98, efeito 96, controle 67 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "79 avaliações no Revspin",
+        "frase": "Os números — velocidade 9,3, efeito 9,3 e controle 9,1 — são a MÉDIA DE 79 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 98,
-        "spin": 96,
-        "controle": 67,
-        "regua": "megaspin"
-      }
+        "velocidade": 9.3,
+        "spin": 9.3,
+        "controle": 9.1
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "nittaku-hurricane-3-neo-8701",
@@ -10756,9 +10855,15 @@
       "rating": 4.7,
       "reviews": 30,
       "simples": {
-        "tag": "Sem índice publicado",
-        "frase": "A Nittaku não publica índice de velocidade, efeito ou controle em formato legível no site dela, e a loja onde o preço foi conferido também não. O que está conferido aqui é o preço, a foto e o que a ficha do fabricante mostra."
-      }
+        "tag": "30 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,8, efeito 9,5 e controle 8,8 — são a MÉDIA DE 30 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
+      },
+      "specs": {
+        "velocidade": 8.8,
+        "spin": 9.5,
+        "controle": 8.8
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "nittaku-hurricane-pro-3-turbo-orange",
@@ -10771,9 +10876,15 @@
       "rating": 4.6,
       "reviews": 39,
       "simples": {
-        "tag": "Sem índice publicado",
-        "frase": "A Nittaku não publica índice de velocidade, efeito ou controle em formato legível no site dela, e a loja onde o preço foi conferido também não. O que está conferido aqui é o preço, a foto e o que a ficha do fabricante mostra."
-      }
+        "tag": "39 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,6, efeito 9,3 e controle 8,9 — são a MÉDIA DE 39 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
+      },
+      "specs": {
+        "velocidade": 8.6,
+        "spin": 9.3,
+        "controle": 8.9
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "nittaku-moristo-df",
@@ -11047,14 +11158,14 @@
       "rating": 4.8,
       "reviews": 96,
       "simples": {
-        "tag": "Velocidade 86, acima do controle",
-        "frase": "A loja publica velocidade 86, controle 67 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "96 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,6 e controle 9,3 — são a MÉDIA DE 96 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 86,
-        "controle": 67,
-        "regua": "megaspin"
-      }
+        "velocidade": 8.6,
+        "controle": 9.3
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "nittaku-acoustic-carbon",
@@ -11067,14 +11178,14 @@
       "rating": 4.65,
       "reviews": 24,
       "simples": {
-        "tag": "Velocidade 92, acima do controle",
-        "frase": "A loja publica velocidade 92, controle 65 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "24 avaliações no Revspin",
+        "frase": "Os números — velocidade 9,2 e controle 9,0 — são a MÉDIA DE 24 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 92,
-        "controle": 65,
-        "regua": "megaspin"
-      }
+        "velocidade": 9.2,
+        "controle": 9.0
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "nittaku-acoustic-carbon-classineta",
@@ -11102,14 +11213,14 @@
       "rating": 4.75,
       "reviews": 19,
       "simples": {
-        "tag": "Velocidade 90, acima do controle",
-        "frase": "A loja publica velocidade 90, controle 66 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "19 avaliações no Revspin",
+        "frase": "Os números — velocidade 9,0 e controle 9,3 — são a MÉDIA DE 19 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 90,
-        "controle": 66,
-        "regua": "megaspin"
-      }
+        "velocidade": 9.0,
+        "controle": 9.3
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "nittaku-acoustic-carbon-inner-5-8",
@@ -11182,9 +11293,14 @@
       "rating": 4.75,
       "reviews": 24,
       "simples": {
-        "tag": "Sem índice publicado",
-        "frase": "A Nittaku não publica índice de velocidade, efeito ou controle em formato legível no site dela, e a loja onde o preço foi conferido também não. O que está conferido aqui é o preço, a foto e o que a ficha do fabricante mostra."
-      }
+        "tag": "24 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,9 e controle 9,4 — são a MÉDIA DE 24 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
+      },
+      "specs": {
+        "velocidade": 8.9,
+        "controle": 9.4
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "nittaku-advance-carbon",
@@ -11373,15 +11489,15 @@
       "rating": 4.5,
       "reviews": 26,
       "simples": {
-        "tag": "Velocidade 92, acima do controle",
-        "frase": "A loja publica velocidade 92, efeito 92, controle 71 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "26 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,5, efeito 8,6 e controle 9,1 — são a MÉDIA DE 26 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 92,
-        "spin": 92,
-        "controle": 71,
-        "regua": "megaspin"
-      }
+        "velocidade": 8.5,
+        "spin": 8.6,
+        "controle": 9.1
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "nittaku-factive-7",
@@ -11409,15 +11525,15 @@
       "rating": 4.6,
       "reviews": 60,
       "simples": {
-        "tag": "Velocidade 96, acima do controle",
-        "frase": "A loja publica velocidade 96, efeito 95, controle 68 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "60 avaliações no Revspin",
+        "frase": "Os números — velocidade 9,0, efeito 9,1 e controle 9,2 — são a MÉDIA DE 60 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 96,
-        "spin": 95,
-        "controle": 68,
-        "regua": "megaspin"
-      }
+        "velocidade": 9.0,
+        "spin": 9.1,
+        "controle": 9.2
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "nittaku-fistard",
@@ -11666,14 +11782,14 @@
       "rating": 4.8,
       "reviews": 5,
       "simples": {
-        "tag": "Velocidade 92, acima do controle",
-        "frase": "A loja publica velocidade 92, controle 65 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "5 avaliações no Revspin",
+        "frase": "Os números — velocidade 9,7 e controle 9,4 — são a MÉDIA DE 5 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 92,
-        "controle": 65,
-        "regua": "megaspin"
-      }
+        "velocidade": 9.7,
+        "controle": 9.4
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "nittaku-hino-blade-7-22-classineta",
@@ -11701,14 +11817,14 @@
       "rating": 4.75,
       "reviews": 14,
       "simples": {
-        "tag": "Velocidade 94, acima do controle",
-        "frase": "A loja publica velocidade 94, controle 64 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "14 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,7 e controle 9,5 — são a MÉDIA DE 14 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 94,
-        "controle": 64,
-        "regua": "megaspin"
-      }
+        "velocidade": 8.7,
+        "controle": 9.5
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "nittaku-holz-sieben",
@@ -11751,14 +11867,14 @@
       "rating": 4.75,
       "reviews": 17,
       "simples": {
-        "tag": "Velocidade 86, acima do controle",
-        "frase": "A loja publica velocidade 86, controle 78 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "17 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,5 e controle 9,0 — são a MÉDIA DE 17 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 86,
-        "controle": 78,
-        "regua": "megaspin"
-      }
+        "velocidade": 8.5,
+        "controle": 9.0
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "nittaku-large-dratsuka",
@@ -11821,14 +11937,14 @@
       "rating": 4.75,
       "reviews": 10,
       "simples": {
-        "tag": "Velocidade 85, acima do controle",
-        "frase": "A loja publica velocidade 85, controle 79 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "10 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,7 e controle 9,1 — são a MÉDIA DE 10 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 85,
-        "controle": 79,
-        "regua": "megaspin"
-      }
+        "velocidade": 8.7,
+        "controle": 9.1
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "nittaku-ludeack",
@@ -11896,14 +12012,14 @@
       "rating": 4.4,
       "reviews": 14,
       "simples": {
-        "tag": "Velocidade 95, acima do controle",
-        "frase": "A loja publica velocidade 95, controle 59 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "14 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,6 e controle 8,5 — são a MÉDIA DE 14 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 95,
-        "controle": 59,
-        "regua": "megaspin"
-      }
+        "velocidade": 8.6,
+        "controle": 8.5
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "nittaku-miyabi-r-caneta",
@@ -12081,14 +12197,14 @@
       "rating": 4.65,
       "reviews": 27,
       "simples": {
-        "tag": "Velocidade 90, acima do controle",
-        "frase": "A loja publica velocidade 90, controle 74 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "27 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,6 e controle 8,7 — são a MÉDIA DE 27 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 90,
-        "controle": 74,
-        "regua": "megaspin"
-      }
+        "velocidade": 8.6,
+        "controle": 8.7
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "nittaku-septear-classineta",
@@ -12296,14 +12412,14 @@
       "rating": 4.7,
       "reviews": 50,
       "simples": {
-        "tag": "Velocidade 88, acima do controle",
-        "frase": "A loja publica velocidade 88, controle 65 na régua da Megaspin — nela uma borracha passa de 100, então este número não se compara com o dos materiais mais antigos do catálogo."
+        "tag": "50 avaliações no Revspin",
+        "frase": "Os números — velocidade 8,3 e controle 9,0 — são a MÉDIA DE 50 JOGADORES no Revspin, na mesma escala 0 a 10 que o site usa para todo material. Não é chute nosso nem o índice que a marca usa para vender."
       },
       "specs": {
-        "velocidade": 88,
-        "controle": 65,
-        "regua": "megaspin"
-      }
+        "velocidade": 8.3,
+        "controle": 9.0
+      },
+      "origemSpecs": "comunidade"
     },
     {
       "id": "nittaku-violin-classineta",

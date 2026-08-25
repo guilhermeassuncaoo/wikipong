@@ -36,7 +36,8 @@
             "valor": 79
           }
         ]
-      }
+      },
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/butterfly-tenergy-05.html): são a média de 379 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos."
     },
     "rozena": {
       "confianca": "oficial",
@@ -52,7 +53,7 @@
           "valor": "Lisa, alta tensão (Spring Sponge)"
         }
       ],
-      "nota": "Os índices de velocidade/efeito desta ficha não foram embutidos: a leitura automática que fiz da página devolveu um valor que não bate. Consulte a fonte oficial para os números vigentes."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/butterfly-rozena.html): são a média de 90 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Os índices de velocidade/efeito desta ficha não foram embutidos: a leitura automática que fiz da página devolveu um valor que não bate. Consulte a fonte oficial para os números vigentes."
     },
     "dignics05": {
       "confianca": "oficial",
@@ -67,7 +68,8 @@
           "rotulo": "Superfície",
           "valor": "Lisa, alta tensão (Spring Sponge X)"
         }
-      ]
+      ],
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/butterfly-dignics-05.html): são a média de 80 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos."
     },
     "evolution": {
       "confianca": "oficial",
@@ -136,7 +138,7 @@
           }
         ]
       },
-      "nota": "Construção e medidas conferem entre a página do fabricante e vários revendedores oficiais."
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/butterfly-viscaria.html): são a média de 178 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Construção e medidas conferem entre a página do fabricante e vários revendedores oficiais."
     },
     "fzd": {
       "confianca": "revendedor",
@@ -181,7 +183,7 @@
           }
         ]
       },
-      "nota": "Compartilha a estrutura de lâminas da Viscaria, as fontes registram isso explicitamente. Refere-se ao modelo ALC; a versão Super ALC é outra lâmina, com specs diferentes."
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/butterfly-fan-zhendong-alc.html): são a média de 23 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Compartilha a estrutura de lâminas da Viscaria, as fontes registram isso explicitamente. Refere-se ao modelo ALC; a versão Super ALC é outra lâmina, com specs diferentes."
     },
     "hurricane": {
       "confianca": "revendedor",
@@ -201,7 +203,7 @@
           "valor": "2,15 mm / 2,20 mm"
         }
       ],
-      "nota": "Nem 'graus' significam a mesma coisa entre marcas: a versão 39° na escala DHS equivale a cerca de 51° na escala ESN das marcas europeias. É o exemplo mais claro de por que a ficha unificada do WikiPong existe."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/dhs-neo-hurricane-3.html): são a média de 319 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Nem 'graus' significam a mesma coisa entre marcas: a versão 39° na escala DHS equivale a cerca de 51° na escala ESN das marcas europeias. É o exemplo mais claro de por que a ficha unificada do WikiPong existe."
     },
     "mxp": {
       "confianca": "revendedor",
@@ -221,7 +223,7 @@
           "valor": "≈ 72 g inteira · ≈ 49 g já cortada"
         }
       ],
-      "nota": "As fontes convergem numa faixa de dureza, não num valor único, por isso registramos a faixa. Os índices de velocidade/efeito aparecem em escalas diferentes conforme a fonte e não foram embutidos."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/tibhar-evolution-mx-p.html): são a média de 137 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. As fontes convergem numa faixa de dureza, não num valor único, por isso registramos a faixa. Os índices de velocidade/efeito aparecem em escalas diferentes conforme a fonte e não foram embutidos."
     },
     "xiom-vega-intro": {
       "confianca": "oficial",
@@ -241,7 +243,7 @@
           "valor": "Entrada da série Vega, a mais acessível"
         }
       ],
-      "nota": "A loja oficial da Xiom publica 47,5°, e é esse o valor que registramos. AS FONTES DIVERGEM: revendedores listam 45° e um teste prático estimou 42,5° a 45°. Como a divergência é real e não resolvida, ela fica dita aqui em vez de escondida."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/xiom-vega-intro.html): são a média de 14 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A loja oficial da Xiom publica 47,5°, e é esse o valor que registramos. AS FONTES DIVERGEM: revendedores listam 45° e um teste prático estimou 42,5° a 45°. Como a divergência é real e não resolvida, ela fica dita aqui em vez de escondida."
     },
     "markv": {
       "confianca": "revendedor",
@@ -265,7 +267,7 @@
           "valor": "1969"
         }
       ],
-      "nota": "As fontes divergem no valor exato da dureza (40° a 45°), então registramos a faixa. Os índices de velocidade/efeito aparecem em pelo menos três escalas distintas conforme a fonte e não foram embutidos. A FONTE NÃO NOMEIA A RÉGUA, então o grau fica como está publicado e NÃO entra na conversão para ESN-equivalente: sem saber a régua, o número não diz o quanto a esponja é dura de verdade."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/yasaka-mark-v.html): são a média de 212 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. As fontes divergem no valor exato da dureza (40° a 45°), então registramos a faixa. Os índices de velocidade/efeito aparecem em pelo menos três escalas distintas conforme a fonte e não foram embutidos. A FONTE NÃO NOMEIA A RÉGUA, então o grau fica como está publicado e NÃO entra na conversão para ESN-equivalente: sem saber a régua, o número não diz o quanto a esponja é dura de verdade."
     },
     "stiga-allround": {
       "confianca": "oficial",
@@ -305,7 +307,8 @@
             "valor": 77
           }
         ]
-      }
+      },
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/stiga-allround-classic.html): são a média de 67 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos."
     },
     "donic-appelgren": {
       "confianca": "oficial",
@@ -345,7 +348,8 @@
             "valor": 82
           }
         ]
-      }
+      },
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/donic-appelgren-allplay.html): são a média de 51 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos."
     },
     "palio-expert": {
       "confianca": "oficial",
@@ -402,7 +406,7 @@
           "valor": "2,2 mm"
         }
       ],
-      "nota": "Atenção: na linha AK47, a Yellow é a dureza INTERMEDIÁRIA, a mais macia é a Blue (38° a 40°) e a Red é a mais dura. O texto do WikiPong descrevia a Yellow como 'a mais macia da lista', o que está incorreto. A FONTE NÃO NOMEIA A RÉGUA, então o grau fica como está publicado e NÃO entra na conversão para ESN-equivalente: sem saber a régua, o número não diz o quanto a esponja é dura de verdade."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/palio-ak-47-yellow-sponge.html): são a média de 30 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Atenção: na linha AK47, a Yellow é a dureza INTERMEDIÁRIA, a mais macia é a Blue (38° a 40°) e a Red é a mais dura. O texto do WikiPong descrevia a Yellow como 'a mais macia da lista', o que está incorreto. A FONTE NÃO NOMEIA A RÉGUA, então o grau fica como está publicado e NÃO entra na conversão para ESN-equivalente: sem saber a régua, o número não diz o quanto a esponja é dura de verdade."
     },
     "d40": {
       "confianca": "revendedor",
@@ -2769,7 +2773,7 @@
           "valor": "158 × 152 mm"
         }
       ],
-      "nota": "Dureza de esponja não se aplica: a lâmina é de madeira. Esta lâmina não tem amostra suficiente na comunidade (Revspin) para entrar na nossa escala de desempenho. O piso é 5 avaliações. Entra com a construção medida, o preço real e a foto oficial. A lâmina traz gravado que foi desenvolvida e fabricada no Japão pelo mestre de compensado de Hinoki Masatoshi Morishita, e imprime na madeira o próprio gráfico de posicionamento. A OperaTT vende esta lâmina em dois formatos de cabeça, clássica e classineta. É a mesma madeira. O formato se escolhe na compra, como o cabo. Velocidade, efeito e controle são a MÉDIA DE 8 JOGADORES no Revspin (https://revspin.net/blade/xiom-feel-zx3.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
+      "nota": "Dureza de esponja não se aplica: a lâmina é de madeira.O piso é 5 avaliações. Entra com a construção medida, o preço real e a foto oficial. A lâmina traz gravado que foi desenvolvida e fabricada no Japão pelo mestre de compensado de Hinoki Masatoshi Morishita, e imprime na madeira o próprio gráfico de posicionamento. A OperaTT vende esta lâmina em dois formatos de cabeça, clássica e classineta. É a mesma madeira. O formato se escolhe na compra, como o cabo. Velocidade, efeito e controle são a MÉDIA DE 8 JOGADORES no Revspin (https://revspin.net/blade/xiom-feel-zx3.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
     },
     "xiom-hibi-o-tour": {
       "confianca": "revendedor",
@@ -6950,7 +6954,7 @@
           "valor": "1,8 mm e 2,0 mm"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. CLASSIFICAÇÃO CONFERIDA: a Liga entrou como LÂMINA na primeira passada, porque o nome não estava na lista de linhas de borracha da Donic e o ramo padrão da heurística é lâmina, o mesmo caminho que já tinha errado com as Stiga Helix e as Donic BlueGrip. Dois sinais corrigem: o preço de R$ 94, contra R$ 226 da lâmina mais barata da marca, e a foto oficial, que mostra a embalagem com as espessuras 1,8/2,0 mm e o selo ITTF. Esta borracha não tem amostra suficiente na comunidade. O piso é 5 avaliações. Velocidade, efeito e controle são a MÉDIA DE 21 JOGADORES no Revspin (https://revspin.net/rubber/donic-liga.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
+      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. CLASSIFICAÇÃO CONFERIDA: a Liga entrou como LÂMINA na primeira passada, porque o nome não estava na lista de linhas de borracha da Donic e o ramo padrão da heurística é lâmina, o mesmo caminho que já tinha errado com as Stiga Helix e as Donic BlueGrip. Dois sinais corrigem: o preço de R$ 94, contra R$ 226 da lâmina mais barata da marca, e a foto oficial, que mostra a embalagem com as espessuras 1,8/2,0 mm e o selo ITTF.O piso é 5 avaliações. Velocidade, efeito e controle são a MÉDIA DE 21 JOGADORES no Revspin (https://revspin.net/rubber/donic-liga.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
     },
     "donic-master-ultra-power": {
       "confianca": "revendedor",
@@ -7198,7 +7202,7 @@
           "valor": "Lisa aderente e firme"
         }
       ],
-      "nota": "Colhido em 2026-08-23 da mesma página que já era a fonte desta ficha — estava lá e não tinha sido lido. É a única Battle II deste catálogo sem grau: a loja brasileira descreve a borracha por adjetivos, e as irmãs National, PRO, Gold, Silver e Soft têm o grau publicado pela loja sueca."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/729-battle-ii-provincial.html): são a média de 51 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Colhido em 2026-08-23 da mesma página que já era a fonte desta ficha — estava lá e não tinha sido lido. É a única Battle II deste catálogo sem grau: a loja brasileira descreve a borracha por adjetivos, e as irmãs National, PRO, Gold, Silver e Soft têm o grau publicado pela loja sueca."
     },
     "f729-battle-taichi": {
       "confianca": "revendedor",
@@ -7338,7 +7342,7 @@
           "valor": "Lisa aderente, esponja chinesa"
         }
       ],
-      "nota": "A OperaTT não declara a dureza desta borracha; ela entra sem a régua unificada. O Revspin também lista uma \"Target National (New)\", com 14 avaliações e nota 9,3. A loja não diz qual versão vende, então a nota atribuída é a da original, que tem a amostra maior. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=sanwei-target-national), na régua dela — que não é a dos materiais mais antigos do catálogo. A Sanwei não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/sanwei-target-national.html): são a média de 37 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A OperaTT não declara a dureza desta borracha; ela entra sem a régua unificada. O Revspin também lista uma \"Target National (New)\", com 14 avaliações e nota 9,3. A loja não diz qual versão vende, então a nota atribuída é a da original, que tem a amostra maior. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=sanwei-target-national), na régua dela — que não é a dos materiais mais antigos do catálogo. A Sanwei não publica esses números em formato legível no site próprio."
     },
     "sanwei-target-national-gordanga": {
       "confianca": "revendedor",
@@ -7446,7 +7450,7 @@
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "A DUREZA (37° a 39°) veio da ficha oficial da Sanwei em 2026-08-23 (https://sanweisport.com/en/product/rubber/gear/best-table-tennis-rubber-sanwei-gear-hyper/) — a fonte principal desta ficha não a trazia. A Sanwei vende esta em TRÊS durezas (37°, 38° e 39°) e a linha guarda a faixa. Ao contrário da Target 3rd Edition e da Taiji Plus, esta página NÃO NOMEIA A RÉGUA — e o site não empresta a régua de uma ficha para outra, nem quando é a mesma marca. Por isso o grau entra cru, sem conversão. A Sanwei não publica grau em toda a linha: a Target National, a Ultra Spin e a Taiji Light saem da ficha oficial dela só com espessura e palavra, e por isso continuam sem dureza aqui em vez de herdar o número de uma irmã. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=sanwei-gear-hyper), na régua dela — que não é a dos materiais mais antigos do catálogo. A Sanwei não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/sanwei-gear-hyper.html): são a média de 11 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A DUREZA (37° a 39°) veio da ficha oficial da Sanwei em 2026-08-23 (https://sanweisport.com/en/product/rubber/gear/best-table-tennis-rubber-sanwei-gear-hyper/) — a fonte principal desta ficha não a trazia. A Sanwei vende esta em TRÊS durezas (37°, 38° e 39°) e a linha guarda a faixa. Ao contrário da Target 3rd Edition e da Taiji Plus, esta página NÃO NOMEIA A RÉGUA — e o site não empresta a régua de uma ficha para outra, nem quando é a mesma marca. Por isso o grau entra cru, sem conversão. A Sanwei não publica grau em toda a linha: a Target National, a Ultra Spin e a Taiji Light saem da ficha oficial dela só com espessura e palavra, e por isso continuam sem dureza aqui em vez de herdar o número de uma irmã. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=sanwei-gear-hyper), na régua dela — que não é a dos materiais mais antigos do catálogo. A Sanwei não publica esses números em formato legível no site próprio."
     },
     "sanwei-ultra-spin": {
       "confianca": "revendedor",
@@ -7718,7 +7722,7 @@
           "valor": "Dureza \"médio\" — a loja classifica por palavra, sem grau"
         }
       ],
-      "nota": "Colhido em 2026-08-23 da mesma página que já era a fonte desta ficha — estava lá e não tinha sido lido. Das cinco Yinhe deste catálogo, só a Big Dipper e a Jupiter 3 Euro têm grau publicado. A loja acrescenta \"Moxa\" ao nome; o Revspin registra só \"Mercury II\", e não há outra Mercury II com que confundir. A amostra foi atribuída."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/yinhe-galaxy-mercury-ii.html): são a média de 106 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Colhido em 2026-08-23 da mesma página que já era a fonte desta ficha — estava lá e não tinha sido lido. Das cinco Yinhe deste catálogo, só a Big Dipper e a Jupiter 3 Euro têm grau publicado. A loja acrescenta \"Moxa\" ao nome; o Revspin registra só \"Mercury II\", e não há outra Mercury II com que confundir. A amostra foi atribuída."
     },
     "yinhe-big-dipper": {
       "confianca": "revendedor",
@@ -7734,7 +7738,7 @@
           "valor": "Lisa aderente chinesa, tensionada"
         }
       ],
-      "nota": "A DUREZA (39° a 40°) veio da MESMA PÁGINA que já era a fonte desta ficha (https://www.tenisdemesastore.com.br/borracha-chinesa-pegajosa-yinhe-big-dipper-tensionada), reconferida em 2026-08-23, onde ela aparece como \"Dureza Esponja: 40° graus Hard ou 39° Medium\" — o dado estava lá e não tinha sido colhido. A fonte não nomeia a régua, então o grau entra exatamente como ela o publica e NÃO vira dureza unificada. É o mesmo tratamento que as outras fichas desta marca neste site já recebem. O Revspin tem cinco Big Dipper (comum, II, III, IV e 5). A loja vende só \"Big Dipper Tensionada\", sem número — atribuí a da versão comum, que é a que tem 61 avaliações. Se a loja estiver vendendo uma das numeradas, a nota muda."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/galaxy-yinhe-big-dipper.html): são a média de 61 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A DUREZA (39° a 40°) veio da MESMA PÁGINA que já era a fonte desta ficha (https://www.tenisdemesastore.com.br/borracha-chinesa-pegajosa-yinhe-big-dipper-tensionada), reconferida em 2026-08-23, onde ela aparece como \"Dureza Esponja: 40° graus Hard ou 39° Medium\" — o dado estava lá e não tinha sido colhido. A fonte não nomeia a régua, então o grau entra exatamente como ela o publica e NÃO vira dureza unificada. É o mesmo tratamento que as outras fichas desta marca neste site já recebem. O Revspin tem cinco Big Dipper (comum, II, III, IV e 5). A loja vende só \"Big Dipper Tensionada\", sem número — atribuí a da versão comum, que é a que tem 61 avaliações. Se a loja estiver vendendo uma das numeradas, a nota muda."
     },
     "yinhe-jupiter-3-euro": {
       "confianca": "revendedor",
@@ -7818,7 +7822,7 @@
           "valor": "Madeira + arylate-carbono (ALC), classe OFF+"
         }
       ],
-      "nota": "Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. O catálogo usa \"V14 Pro\", que é como a loja brasileira vende. O Revspin registra a mesma lâmina como \"Venus V-14 PRO\" — Venus é o nome da linha, que a loja omite."
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/galaxy-yinhe-venus-v-14-pro.html): são a média de 68 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. O catálogo usa \"V14 Pro\", que é como a loja brasileira vende. O Revspin registra a mesma lâmina como \"Venus V-14 PRO\" — Venus é o nome da linha, que a loja omite."
     },
     "yinhe-t11s": {
       "confianca": "revendedor",
@@ -7834,7 +7838,7 @@
           "valor": "Madeira + carbono"
         }
       ],
-      "nota": "Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. DOIS NOMES, UMA MARCA: a fábrica usa \"Yinhe\" e \"Galaxy\" indistintamente, e as lojas brasileiras alternam entre os dois. O Revspin registra sob os dois também. É a mesma marca."
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/yinhe-t11s.html): são a média de 28 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. DOIS NOMES, UMA MARCA: a fábrica usa \"Yinhe\" e \"Galaxy\" indistintamente, e as lojas brasileiras alternam entre os dois. O Revspin registra sob os dois também. É a mesma marca."
     },
     "yinhe-mercury-13": {
       "confianca": "revendedor",
@@ -7850,7 +7854,7 @@
           "valor": "Madeira + fibra de vidro"
         }
       ],
-      "nota": "Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. A loja escreve \"Mercury 13\"; o Revspin, \"Mercury Y-13\". Mesma lâmina. PREÇOS QUE NÃO BATEM: a clássica custa R$ 279 e a classineta R$ 249. Registrei o da clássica, que é a listagem conferida."
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/galaxy-yinhe-mercury-y-13.html): são a média de 26 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. A loja escreve \"Mercury 13\"; o Revspin, \"Mercury Y-13\". Mesma lâmina. PREÇOS QUE NÃO BATEM: a clássica custa R$ 279 e a classineta R$ 249. Registrei o da clássica, que é a listagem conferida."
     },
     "yinhe-j1": {
       "confianca": "revendedor",
@@ -7866,7 +7870,7 @@
           "valor": "Caneta japonesa (JPEN), madeira"
         }
       ],
-      "nota": "Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui."
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/yinhe-galaxy-j-1.html): são a média de 20 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui."
     },
     "yinhe-980": {
       "confianca": "revendedor",
@@ -7882,7 +7886,7 @@
           "valor": "Madeira, classe defensiva"
         }
       ],
-      "nota": "Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. A loja a chama de \"cato\" ou \"cateiro\" — gíria brasileira para o estilo defensivo de corte longe da mesa."
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/galaxy-980.html): são a média de 18 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. A loja a chama de \"cato\" ou \"cateiro\" — gíria brasileira para o estilo defensivo de corte longe da mesa."
     },
     "yinhe-988": {
       "confianca": "revendedor",
@@ -7898,7 +7902,7 @@
           "valor": "Caneta, madeira + carbono"
         }
       ],
-      "nota": "Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui."
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/yinhe-galaxy-988.html): são a média de 12 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui."
     },
     "yinhe-985": {
       "confianca": "revendedor",
@@ -7914,7 +7918,7 @@
           "valor": "Caneta, madeira"
         }
       ],
-      "nota": "Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui."
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/yinhe-galaxy-985.html): são a média de 7 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui."
     },
     "yinhe-989": {
       "confianca": "revendedor",
@@ -7930,7 +7934,7 @@
           "valor": "Caneta, madeira"
         }
       ],
-      "nota": "Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui."
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/galaxy-yinhe-989.html): são a média de 6 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui."
     },
     "yinhe-t1s": {
       "confianca": "revendedor",
@@ -7946,7 +7950,7 @@
           "valor": "Madeira + carbono"
         }
       ],
-      "nota": "Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. DOIS NOMES, UMA MARCA: a fábrica usa \"Yinhe\" e \"Galaxy\" indistintamente, e as lojas brasileiras alternam entre os dois. O Revspin registra sob os dois também. É a mesma marca."
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/yinhe-t-1s.html): são a média de 5 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. DOIS NOMES, UMA MARCA: a fábrica usa \"Yinhe\" e \"Galaxy\" indistintamente, e as lojas brasileiras alternam entre os dois. O Revspin registra sob os dois também. É a mesma marca."
     },
     "yinhe-t2s": {
       "confianca": "revendedor",
@@ -8058,7 +8062,7 @@
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "A DUREZA (47° na régua ESN) veio da listagem da Megaspin em 2026-08-22 (https://www.megaspin.net/store/default.asp?cid=rubbers&brand=andro) — a fonte principal desta ficha não a declarava, e a nota anterior dizia isso. Régua atribuída pela própria tabela de escalas do site, que nomeia a andro Rasanter entre os exemplos da ESN. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-rasanter-r47), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/andro-rasanter-r47.html): são a média de 93 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A DUREZA (47° na régua ESN) veio da listagem da Megaspin em 2026-08-22 (https://www.megaspin.net/store/default.asp?cid=rubbers&brand=andro) — a fonte principal desta ficha não a declarava, e a nota anterior dizia isso. Régua atribuída pela própria tabela de escalas do site, que nomeia a andro Rasanter entre os exemplos da ESN. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-rasanter-r47), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
     },
     "andro-rasanter-r42": {
       "confianca": "revendedor",
@@ -8074,7 +8078,7 @@
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "A DUREZA (42° na régua ESN) veio da listagem da Megaspin em 2026-08-22 (https://www.megaspin.net/store/default.asp?cid=rubbers&brand=andro) — a fonte principal desta ficha não a declarava, e a nota anterior dizia isso. Régua atribuída pela própria tabela de escalas do site, que nomeia a andro Rasanter entre os exemplos da ESN. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-rasanter-r42), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/andro-rasanter-r42.html): são a média de 67 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A DUREZA (42° na régua ESN) veio da listagem da Megaspin em 2026-08-22 (https://www.megaspin.net/store/default.asp?cid=rubbers&brand=andro) — a fonte principal desta ficha não a declarava, e a nota anterior dizia isso. Régua atribuída pela própria tabela de escalas do site, que nomeia a andro Rasanter entre os exemplos da ESN. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-rasanter-r42), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
     },
     "andro-rasanter-r48": {
       "confianca": "revendedor",
@@ -8090,7 +8094,7 @@
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "A DUREZA (48° na régua ESN) veio da listagem da Megaspin em 2026-08-22 (https://www.megaspin.net/store/default.asp?cid=rubbers&brand=andro) — a fonte principal desta ficha não a declarava, e a nota anterior dizia isso. Régua atribuída pela própria tabela de escalas do site, que nomeia a andro Rasanter entre os exemplos da ESN. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-rasanter-r48), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/andro-rasanter-r48.html): são a média de 53 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A DUREZA (48° na régua ESN) veio da listagem da Megaspin em 2026-08-22 (https://www.megaspin.net/store/default.asp?cid=rubbers&brand=andro) — a fonte principal desta ficha não a declarava, e a nota anterior dizia isso. Régua atribuída pela própria tabela de escalas do site, que nomeia a andro Rasanter entre os exemplos da ESN. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-rasanter-r48), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
     },
     "andro-rasanter-r37": {
       "confianca": "revendedor",
@@ -8106,7 +8110,7 @@
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "A DUREZA (37° na régua ESN) veio da listagem da Megaspin em 2026-08-22 (https://www.megaspin.net/store/default.asp?cid=rubbers&brand=andro) — a fonte principal desta ficha não a declarava, e a nota anterior dizia isso. Régua atribuída pela própria tabela de escalas do site, que nomeia a andro Rasanter entre os exemplos da ESN. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-rasanter-r37), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/andro-rasanter-r37.html): são a média de 44 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A DUREZA (37° na régua ESN) veio da listagem da Megaspin em 2026-08-22 (https://www.megaspin.net/store/default.asp?cid=rubbers&brand=andro) — a fonte principal desta ficha não a declarava, e a nota anterior dizia isso. Régua atribuída pela própria tabela de escalas do site, que nomeia a andro Rasanter entre os exemplos da ESN. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-rasanter-r37), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
     },
     "andro-rasanter-r50": {
       "confianca": "revendedor",
@@ -8122,7 +8126,7 @@
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "A DUREZA (50° na régua ESN) veio da listagem da Megaspin em 2026-08-22 (https://www.megaspin.net/store/default.asp?cid=rubbers&brand=andro) — a fonte principal desta ficha não a declarava, e a nota anterior dizia isso. Régua atribuída pela própria tabela de escalas do site, que nomeia a andro Rasanter entre os exemplos da ESN. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-rasanter-r50), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/andro-rasanter-r50.html): são a média de 43 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A DUREZA (50° na régua ESN) veio da listagem da Megaspin em 2026-08-22 (https://www.megaspin.net/store/default.asp?cid=rubbers&brand=andro) — a fonte principal desta ficha não a declarava, e a nota anterior dizia isso. Régua atribuída pela própria tabela de escalas do site, que nomeia a andro Rasanter entre os exemplos da ESN. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-rasanter-r50), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
     },
     "andro-rasanter-r53": {
       "confianca": "revendedor",
@@ -8138,7 +8142,7 @@
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "A DUREZA (53° na régua ESN) veio da listagem da Megaspin em 2026-08-22 (https://www.megaspin.net/store/default.asp?cid=rubbers&brand=andro) — a fonte principal desta ficha não a declarava, e a nota anterior dizia isso. Régua atribuída pela própria tabela de escalas do site, que nomeia a andro Rasanter entre os exemplos da ESN. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-rasanter-r53), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/andro-rasanter-r53.html): são a média de 38 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A DUREZA (53° na régua ESN) veio da listagem da Megaspin em 2026-08-22 (https://www.megaspin.net/store/default.asp?cid=rubbers&brand=andro) — a fonte principal desta ficha não a declarava, e a nota anterior dizia isso. Régua atribuída pela própria tabela de escalas do site, que nomeia a andro Rasanter entre os exemplos da ESN. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-rasanter-r53), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
     },
     "andro-rasanter-v42": {
       "confianca": "revendedor",
@@ -8154,7 +8158,7 @@
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "A DUREZA (42° na régua ESN) veio da listagem da Megaspin em 2026-08-22 (https://www.megaspin.net/store/default.asp?cid=rubbers&brand=andro) — a fonte principal desta ficha não a declarava, e a nota anterior dizia isso. Régua atribuída pela própria tabela de escalas do site, que nomeia a andro Rasanter entre os exemplos da ESN. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-rasanter-v42), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/andro-rasanter-v42.html): são a média de 22 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A DUREZA (42° na régua ESN) veio da listagem da Megaspin em 2026-08-22 (https://www.megaspin.net/store/default.asp?cid=rubbers&brand=andro) — a fonte principal desta ficha não a declarava, e a nota anterior dizia isso. Régua atribuída pela própria tabela de escalas do site, que nomeia a andro Rasanter entre os exemplos da ESN. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-rasanter-v42), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
     },
     "andro-rasanter-v47": {
       "confianca": "revendedor",
@@ -8170,7 +8174,7 @@
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "A DUREZA (47° na régua ESN) veio da listagem da Megaspin em 2026-08-22 (https://www.megaspin.net/store/default.asp?cid=rubbers&brand=andro) — a fonte principal desta ficha não a declarava, e a nota anterior dizia isso. Régua atribuída pela própria tabela de escalas do site, que nomeia a andro Rasanter entre os exemplos da ESN. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-rasanter-v47), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/andro-rasanter-v47.html): são a média de 22 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A DUREZA (47° na régua ESN) veio da listagem da Megaspin em 2026-08-22 (https://www.megaspin.net/store/default.asp?cid=rubbers&brand=andro) — a fonte principal desta ficha não a declarava, e a nota anterior dizia isso. Régua atribuída pela própria tabela de escalas do site, que nomeia a andro Rasanter entre os exemplos da ESN. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-rasanter-v47), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
     },
     "andro-rasanter-c48": {
       "confianca": "revendedor",
@@ -8186,7 +8190,7 @@
           "valor": "Lisa aderente, tensionada"
         }
       ],
-      "nota": "A DUREZA (48° na régua ESN) veio da listagem da Megaspin em 2026-08-22 (https://www.megaspin.net/store/default.asp?cid=rubbers&brand=andro) — a fonte principal desta ficha não a declarava, e a nota anterior dizia isso. Régua atribuída pela própria tabela de escalas do site, que nomeia a andro Rasanter entre os exemplos da ESN. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-rasanter-c48), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/andro-rasanter-c48.html): são a média de 19 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A DUREZA (48° na régua ESN) veio da listagem da Megaspin em 2026-08-22 (https://www.megaspin.net/store/default.asp?cid=rubbers&brand=andro) — a fonte principal desta ficha não a declarava, e a nota anterior dizia isso. Régua atribuída pela própria tabela de escalas do site, que nomeia a andro Rasanter entre os exemplos da ESN. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-rasanter-c48), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
     },
     "andro-rasanter-c53": {
       "confianca": "revendedor",
@@ -8202,7 +8206,7 @@
           "valor": "Lisa aderente, tensionada"
         }
       ],
-      "nota": "A DUREZA (53° na régua ESN) veio da listagem da Megaspin em 2026-08-22 (https://www.megaspin.net/store/default.asp?cid=rubbers&brand=andro) — a fonte principal desta ficha não a declarava, e a nota anterior dizia isso. Régua atribuída pela própria tabela de escalas do site, que nomeia a andro Rasanter entre os exemplos da ESN. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-rasanter-c53), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/andro-rasanter-c53.html): são a média de 9 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A DUREZA (53° na régua ESN) veio da listagem da Megaspin em 2026-08-22 (https://www.megaspin.net/store/default.asp?cid=rubbers&brand=andro) — a fonte principal desta ficha não a declarava, e a nota anterior dizia isso. Régua atribuída pela própria tabela de escalas do site, que nomeia a andro Rasanter entre os exemplos da ESN. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-rasanter-c53), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
     },
     "andro-rasanter-c45": {
       "confianca": "revendedor",
@@ -8218,7 +8222,7 @@
           "valor": "Lisa aderente, tensionada"
         }
       ],
-      "nota": "A DUREZA (45° na régua ESN) veio da listagem da Megaspin em 2026-08-22 (https://www.megaspin.net/store/default.asp?cid=rubbers&brand=andro) — a fonte principal desta ficha não a declarava, e a nota anterior dizia isso. Régua atribuída pela própria tabela de escalas do site, que nomeia a andro Rasanter entre os exemplos da ESN. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-rasanter-c45), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/andro-rasanter-c45.html): são a média de 5 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A DUREZA (45° na régua ESN) veio da listagem da Megaspin em 2026-08-22 (https://www.megaspin.net/store/default.asp?cid=rubbers&brand=andro) — a fonte principal desta ficha não a declarava, e a nota anterior dizia isso. Régua atribuída pela própria tabela de escalas do site, que nomeia a andro Rasanter entre os exemplos da ESN. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-rasanter-c45), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
     },
     "andro-hexer": {
       "confianca": "revendedor",
@@ -8246,7 +8250,7 @@
           "valor": "Lisa, tensionada, esponja Powergrip"
         }
       ],
-      "nota": "A DUREZA (47,5°) veio da ficha oficial da andro em 2026-08-23 (https://andro.de/en/hexer-powergrip) — a fonte principal desta ficha não a trazia. A página não nomeia a régua, mas a tabela de escalas deste site declara a ESN como a fábrica alemã que produz para a andro, entre outras marcas: é dessa cadeia que sai a atribuição, a mesma já usada nas fichas andro que o site publica com grau. IMPORTANTE: a andro só publica grau em PARTE da linha — Hexer, Hexer Duro, Hexer+, Hexer Powersponge, Impuls Speed, Impuls Powersponge, GTT 45, Good! e BYPE SFX trazem só palavra (\"medium-hard\", \"soft\"), e por isso continuam sem dureza aqui em vez de receber número deduzido de uma irmã. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-hexer-pg), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/andro-hexer-powergrip.html): são a média de 46 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A DUREZA (47,5°) veio da ficha oficial da andro em 2026-08-23 (https://andro.de/en/hexer-powergrip) — a fonte principal desta ficha não a trazia. A página não nomeia a régua, mas a tabela de escalas deste site declara a ESN como a fábrica alemã que produz para a andro, entre outras marcas: é dessa cadeia que sai a atribuição, a mesma já usada nas fichas andro que o site publica com grau. IMPORTANTE: a andro só publica grau em PARTE da linha — Hexer, Hexer Duro, Hexer+, Hexer Powersponge, Impuls Speed, Impuls Powersponge, GTT 45, Good! e BYPE SFX trazem só palavra (\"medium-hard\", \"soft\"), e por isso continuam sem dureza aqui em vez de receber número deduzido de uma irmã. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-hexer-pg), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
     },
     "andro-hexer-duro": {
       "confianca": "revendedor",
@@ -8258,7 +8262,7 @@
           "valor": "Lisa, tensionada, dura"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=a-hexer-duro), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/andro-hexer-duro.html): são a média de 42 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=a-hexer-duro), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
     },
     "andro-hexer-grip-sfx": {
       "confianca": "revendedor",
@@ -8274,7 +8278,7 @@
           "valor": "Lisa aderente, esponja macia (SFX)"
         }
       ],
-      "nota": "A DUREZA (40°) veio da ficha oficial da andro em 2026-08-23 (https://andro.de/en/hexer-grip-sfx) — a fonte principal desta ficha não a trazia. A página não nomeia a régua, mas a tabela de escalas deste site declara a ESN como a fábrica alemã que produz para a andro, entre outras marcas: é dessa cadeia que sai a atribuição, a mesma já usada nas fichas andro que o site publica com grau. IMPORTANTE: a andro só publica grau em PARTE da linha — Hexer, Hexer Duro, Hexer+, Hexer Powersponge, Impuls Speed, Impuls Powersponge, GTT 45, Good! e BYPE SFX trazem só palavra (\"medium-hard\", \"soft\"), e por isso continuam sem dureza aqui em vez de receber número deduzido de uma irmã. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-hexer-g-sfx), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/andro-hexer-grip-sfx.html): são a média de 40 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A DUREZA (40°) veio da ficha oficial da andro em 2026-08-23 (https://andro.de/en/hexer-grip-sfx) — a fonte principal desta ficha não a trazia. A página não nomeia a régua, mas a tabela de escalas deste site declara a ESN como a fábrica alemã que produz para a andro, entre outras marcas: é dessa cadeia que sai a atribuição, a mesma já usada nas fichas andro que o site publica com grau. IMPORTANTE: a andro só publica grau em PARTE da linha — Hexer, Hexer Duro, Hexer+, Hexer Powersponge, Impuls Speed, Impuls Powersponge, GTT 45, Good! e BYPE SFX trazem só palavra (\"medium-hard\", \"soft\"), e por isso continuam sem dureza aqui em vez de receber número deduzido de uma irmã. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-hexer-g-sfx), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
     },
     "andro-hexer-grip": {
       "confianca": "revendedor",
@@ -8290,7 +8294,7 @@
           "valor": "Lisa aderente, tensionada"
         }
       ],
-      "nota": "A DUREZA (45°) veio da ficha oficial da andro em 2026-08-23 (https://andro.de/en/hexer-grip) — a fonte principal desta ficha não a trazia. A página não nomeia a régua, mas a tabela de escalas deste site declara a ESN como a fábrica alemã que produz para a andro, entre outras marcas: é dessa cadeia que sai a atribuição, a mesma já usada nas fichas andro que o site publica com grau. IMPORTANTE: a andro só publica grau em PARTE da linha — Hexer, Hexer Duro, Hexer+, Hexer Powersponge, Impuls Speed, Impuls Powersponge, GTT 45, Good! e BYPE SFX trazem só palavra (\"medium-hard\", \"soft\"), e por isso continuam sem dureza aqui em vez de receber número deduzido de uma irmã. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-hexer-g), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/andro-hexer-grip.html): são a média de 34 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A DUREZA (45°) veio da ficha oficial da andro em 2026-08-23 (https://andro.de/en/hexer-grip) — a fonte principal desta ficha não a trazia. A página não nomeia a régua, mas a tabela de escalas deste site declara a ESN como a fábrica alemã que produz para a andro, entre outras marcas: é dessa cadeia que sai a atribuição, a mesma já usada nas fichas andro que o site publica com grau. IMPORTANTE: a andro só publica grau em PARTE da linha — Hexer, Hexer Duro, Hexer+, Hexer Powersponge, Impuls Speed, Impuls Powersponge, GTT 45, Good! e BYPE SFX trazem só palavra (\"medium-hard\", \"soft\"), e por isso continuam sem dureza aqui em vez de receber número deduzido de uma irmã. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-hexer-g), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
     },
     "andro-hexer-powergrip-sfx": {
       "confianca": "revendedor",
@@ -8306,7 +8310,7 @@
           "valor": "Lisa, esponja Powergrip macia"
         }
       ],
-      "nota": "A DUREZA (42,5°) veio da ficha oficial da andro em 2026-08-23 (https://andro.de/en/hexer-powergrip-sfx) — a fonte principal desta ficha não a trazia. A página não nomeia a régua, mas a tabela de escalas deste site declara a ESN como a fábrica alemã que produz para a andro, entre outras marcas: é dessa cadeia que sai a atribuição, a mesma já usada nas fichas andro que o site publica com grau. IMPORTANTE: a andro só publica grau em PARTE da linha — Hexer, Hexer Duro, Hexer+, Hexer Powersponge, Impuls Speed, Impuls Powersponge, GTT 45, Good! e BYPE SFX trazem só palavra (\"medium-hard\", \"soft\"), e por isso continuam sem dureza aqui em vez de receber número deduzido de uma irmã. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-hexer-pg-sfx), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/andro-hexer-powergrip-sfx.html): são a média de 32 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A DUREZA (42,5°) veio da ficha oficial da andro em 2026-08-23 (https://andro.de/en/hexer-powergrip-sfx) — a fonte principal desta ficha não a trazia. A página não nomeia a régua, mas a tabela de escalas deste site declara a ESN como a fábrica alemã que produz para a andro, entre outras marcas: é dessa cadeia que sai a atribuição, a mesma já usada nas fichas andro que o site publica com grau. IMPORTANTE: a andro só publica grau em PARTE da linha — Hexer, Hexer Duro, Hexer+, Hexer Powersponge, Impuls Speed, Impuls Powersponge, GTT 45, Good! e BYPE SFX trazem só palavra (\"medium-hard\", \"soft\"), e por isso continuam sem dureza aqui em vez de receber número deduzido de uma irmã. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-hexer-pg-sfx), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
     },
     "andro-hexer-powersponge": {
       "confianca": "revendedor",
@@ -8354,7 +8358,7 @@
           "valor": "Lisa"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-impuls-speed), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/andro-impuls-speed.html): são a média de 14 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-impuls-speed), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
     },
     "andro-impuls-powersponge": {
       "confianca": "revendedor",
@@ -8382,7 +8386,7 @@
           "valor": "Lisa, tensionada, dura"
         }
       ],
-      "nota": "A DUREZA (55°) veio da ficha oficial da andro em 2026-08-23 (https://andro.de/en/nuzn-55) — a fonte principal desta ficha não a trazia. A página não nomeia a régua, mas a tabela de escalas deste site declara a ESN como a fábrica alemã que produz para a andro, entre outras marcas: é dessa cadeia que sai a atribuição, a mesma já usada nas fichas andro que o site publica com grau. IMPORTANTE: a andro só publica grau em PARTE da linha — Hexer, Hexer Duro, Hexer+, Hexer Powersponge, Impuls Speed, Impuls Powersponge, GTT 45, Good! e BYPE SFX trazem só palavra (\"medium-hard\", \"soft\"), e por isso continuam sem dureza aqui em vez de receber número deduzido de uma irmã. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-nuzn-55), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/andro-nuzn-55.html): são a média de 12 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A DUREZA (55°) veio da ficha oficial da andro em 2026-08-23 (https://andro.de/en/nuzn-55) — a fonte principal desta ficha não a trazia. A página não nomeia a régua, mas a tabela de escalas deste site declara a ESN como a fábrica alemã que produz para a andro, entre outras marcas: é dessa cadeia que sai a atribuição, a mesma já usada nas fichas andro que o site publica com grau. IMPORTANTE: a andro só publica grau em PARTE da linha — Hexer, Hexer Duro, Hexer+, Hexer Powersponge, Impuls Speed, Impuls Powersponge, GTT 45, Good! e BYPE SFX trazem só palavra (\"medium-hard\", \"soft\"), e por isso continuam sem dureza aqui em vez de receber número deduzido de uma irmã. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-nuzn-55), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
     },
     "andro-good": {
       "confianca": "revendedor",
@@ -8410,7 +8414,7 @@
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "A DUREZA (50° na régua ESN) veio da listagem da Megaspin em 2026-08-22 (https://www.megaspin.net/store/default.asp?cid=rubbers&brand=andro) — a fonte principal desta ficha não a declarava, e a nota anterior dizia isso. Régua atribuída pela própria tabela de escalas do site, que nomeia a andro Rasanter entre os exemplos da ESN. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-nuzn-50), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/andro-nuzn-50.html): são a média de 8 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A DUREZA (50° na régua ESN) veio da listagem da Megaspin em 2026-08-22 (https://www.megaspin.net/store/default.asp?cid=rubbers&brand=andro) — a fonte principal desta ficha não a declarava, e a nota anterior dizia isso. Régua atribuída pela própria tabela de escalas do site, que nomeia a andro Rasanter entre os exemplos da ESN. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-nuzn-50), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
     },
     "andro-nuzn-48": {
       "confianca": "revendedor",
@@ -8502,7 +8506,7 @@
           "valor": "Madeira + fibra"
         }
       ],
-      "nota": "Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-gauzy-sl-off), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/andro-gauzy-sl-off.html): são a média de 28 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-gauzy-sl-off), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
     },
     "andro-synteliac-vci-off": {
       "confianca": "revendedor",
@@ -8550,7 +8554,7 @@
           "valor": "Madeira"
         }
       ],
-      "nota": "Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=a-novacell-off-s), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/andro-novacell-off-s.html): são a média de 12 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=a-novacell-off-s), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
     },
     "andro-timber-5-all-s": {
       "confianca": "revendedor",
@@ -8566,7 +8570,7 @@
           "valor": "Madeira, 5 camadas"
         }
       ],
-      "nota": "Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-timber-5-all-s), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/andro-timber-5-all-s.html): são a média de 11 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-timber-5-all-s), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
     },
     "andro-tp-ligna-co-off": {
       "confianca": "revendedor",
@@ -8582,7 +8586,7 @@
           "valor": "Madeira + carbono externo"
         }
       ],
-      "nota": "Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-tp-ligna-co-off), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/andro-tp-ligna-co-off.html): são a média de 11 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-tp-ligna-co-off), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
     },
     "andro-novacell-all-s": {
       "confianca": "revendedor",
@@ -8614,7 +8618,7 @@
           "valor": "Madeira + carbono interno"
         }
       ],
-      "nota": "Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=a-tp-ligna-ci-off), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/andro-tp-ligna-ci-off.html): são a média de 10 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=a-tp-ligna-ci-off), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
     },
     "andro-timber-5-off": {
       "confianca": "revendedor",
@@ -8630,7 +8634,7 @@
           "valor": "Madeira, 5 camadas"
         }
       ],
-      "nota": "Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-timber-5-off), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/andro-timber-5-off.html): são a média de 9 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-timber-5-off), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
     },
     "andro-timber-7-off": {
       "confianca": "revendedor",
@@ -8918,7 +8922,7 @@
           "valor": "Madeira, classe allround"
         }
       ],
-      "nota": "Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Esta lâmina quase ficou de fora da colheita: o slug da loja tem underscore (tp_ligna) e o extrator de endereços só aceitava letras, números e hífen. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-tp-ligna-all), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/andro-tp-ligna-all.html): são a média de 10 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Esta lâmina quase ficou de fora da colheita: o slug da loja tem underscore (tp_ligna) e o extrator de endereços só aceitava letras, números e hífen. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=andro-tp-ligna-all), na régua dela — que não é a dos materiais mais antigos do catálogo. A Andro não publica esses números em formato legível no site próprio."
     },
     "victas-v-01-limber": {
       "confianca": "revendedor",
@@ -9030,7 +9034,7 @@
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "A DUREZA (47,5° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=12), onde a marca a publica como \"47.5±3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=victas-ventus-extra), na régua dela — que não é a dos materiais mais antigos do catálogo. A Victas não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/victas-ventus-extra.html): são a média de 42 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A DUREZA (47,5° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=12), onde a marca a publica como \"47.5±3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=victas-ventus-extra), na régua dela — que não é a dos materiais mais antigos do catálogo. A Victas não publica esses números em formato legível no site próprio."
     },
     "victas-v-11-extra": {
       "confianca": "revendedor",
@@ -9078,7 +9082,7 @@
           "valor": "Lisa, tensionada, dura"
         }
       ],
-      "nota": "A DUREZA (45° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=10), onde a marca a publica como \"45±3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/victas-v--gt-15-stiff.html): são a média de 17 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A DUREZA (45° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=10), onde a marca a publica como \"45±3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita."
     },
     "victas-vs-402-double-extra": {
       "confianca": "revendedor",
@@ -9126,7 +9130,7 @@
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "A DUREZA (52,5° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=5), onde a marca a publica como \"52.5±3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/victas-v--gt-20-double-extra.html): são a média de 12 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A DUREZA (52,5° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=5), onde a marca a publica como \"52.5±3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita."
     },
     "victas-vj-07-stiff": {
       "confianca": "revendedor",
@@ -9142,7 +9146,7 @@
           "valor": "Lisa, tensionada, dura"
         }
       ],
-      "nota": "A DUREZA (45° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=20), onde a marca a publica como \"45±3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/victas-vj--gt-07-stiff.html): são a média de 11 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A DUREZA (45° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=20), onde a marca a publica como \"45±3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita."
     },
     "victas-triple-double-extra": {
       "confianca": "revendedor",
@@ -9158,7 +9162,7 @@
           "valor": "Lisa aderente, tensionada"
         }
       ],
-      "nota": "A DUREZA (57,5° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=28), onde a marca a publica como \"57.5±3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=victas-t-d-extra), na régua dela — que não é a dos materiais mais antigos do catálogo. A Victas não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/victas-triple-double-extra.html): são a média de 10 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A DUREZA (57,5° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=28), onde a marca a publica como \"57.5±3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=victas-t-d-extra), na régua dela — que não é a dos materiais mais antigos do catálogo. A Victas não publica esses números em formato legível no site próprio."
     },
     "victas-ventus-stiff": {
       "confianca": "revendedor",
@@ -9174,7 +9178,7 @@
           "valor": "Lisa, tensionada, dura"
         }
       ],
-      "nota": "A DUREZA (45° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=13), onde a marca a publica como \"45±3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=victas-ventus-stiff), na régua dela — que não é a dos materiais mais antigos do catálogo. A Victas não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/victas-ventus-stiff.html): são a média de 6 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A DUREZA (45° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=13), onde a marca a publica como \"45±3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=victas-ventus-stiff), na régua dela — que não é a dos materiais mais antigos do catálogo. A Victas não publica esses números em formato legível no site próprio."
     },
     "victas-vj-07-regular": {
       "confianca": "revendedor",
@@ -9190,7 +9194,7 @@
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "A DUREZA (42,5° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=23), onde a marca a publica como \"42.5±3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/victas-vj--gt-07-regular.html): são a média de 5 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A DUREZA (42,5° ± 3) veio da ficha oficial da Victas em 2026-08-23 (https://www.victas.com/en_gb/products/detail.html?id=23), onde a marca a publica como \"42.5±3\" — a fonte principal desta ficha não a trazia. A Victas NÃO NOMEIA A RÉGUA em nenhuma ficha dela e — ao contrário da Stiga — também não declara onde a esponja é feita: a página da VS>401 fala em \"especialistas de material alemães e japoneses (GJ Tec)\", que é desenvolvimento e não fabricação, e a da TRIPLE fala em capa \"China-style\", que é estilo e não origem. Sem régua declarada e sem cadeia até uma fábrica, não há conversão honesta: o grau aparece aqui exatamente como a marca o publica e NÃO entra na dureza unificada — comparar este número com o de outra marca seria comparar duas réguas diferentes. A marca escreve o nome com uma seta (\"V&gt;01\"); o catálogo usa hífen, que é como a loja brasileira vende e como se digita."
     },
     "victas-triple-extra": {
       "confianca": "revendedor",
@@ -9350,7 +9354,7 @@
           "valor": "Madeira + fibra"
         }
       ],
-      "nota": "Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=victas-fire-fall-fc), na régua dela — que não é a dos materiais mais antigos do catálogo. A Victas não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/victas-fire-fall-fc.html): são a média de 24 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=victas-fire-fall-fc), na régua dela — que não é a dos materiais mais antigos do catálogo. A Victas não publica esses números em formato legível no site próprio."
     },
     "victas-koji-matsushita": {
       "confianca": "revendedor",
@@ -9366,7 +9370,7 @@
           "valor": "Madeira"
         }
       ],
-      "nota": "Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=victas-matsushita), na régua dela — que não é a dos materiais mais antigos do catálogo. A Victas não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/victas-koji-matsushita.html): são a média de 18 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=victas-matsushita), na régua dela — que não é a dos materiais mais antigos do catálogo. A Victas não publica esses números em formato legível no site próprio."
     },
     "victas-koji-matsushita-defensive": {
       "confianca": "revendedor",
@@ -9382,7 +9386,7 @@
           "valor": "Madeira, classe defensiva"
         }
       ],
-      "nota": "Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=victas-matsushita-def), na régua dela — que não é a dos materiais mais antigos do catálogo. A Victas não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/victas-koji-matsushita-defensive.html): são a média de 17 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=victas-matsushita-def), na régua dela — que não é a dos materiais mais antigos do catálogo. A Victas não publica esses números em formato legível no site próprio."
     },
     "victas-zx-gear-in": {
       "confianca": "revendedor",
@@ -9398,7 +9402,7 @@
           "valor": "Madeira + fibra ZX em posição interna"
         }
       ],
-      "nota": "Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=victas-zx-gear-in), na régua dela — que não é a dos materiais mais antigos do catálogo. A Victas não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/victas-zx-gear-in.html): são a média de 16 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=victas-zx-gear-in), na régua dela — que não é a dos materiais mais antigos do catálogo. A Victas não publica esses números em formato legível no site próprio."
     },
     "victas-fire-fall-vc": {
       "confianca": "revendedor",
@@ -9414,7 +9418,7 @@
           "valor": "Madeira + fibra"
         }
       ],
-      "nota": "Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=victas-fire-fall-vc-22), na régua dela — que não é a dos materiais mais antigos do catálogo. A Victas não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/victas-fire-fall-vc.html): são a média de 14 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=victas-fire-fall-vc-22), na régua dela — que não é a dos materiais mais antigos do catálogo. A Victas não publica esses números em formato legível no site próprio."
     },
     "victas-koji-matsushita-offensive": {
       "confianca": "revendedor",
@@ -9430,7 +9434,7 @@
           "valor": "Madeira"
         }
       ],
-      "nota": "Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=victas-matsushita-off), na régua dela — que não é a dos materiais mais antigos do catálogo. A Victas não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/victas-koji-matsushita-offensive.html): são a média de 13 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=victas-matsushita-off), na régua dela — que não é a dos materiais mais antigos do catálogo. A Victas não publica esses números em formato legível no site próprio."
     },
     "victas-liam-pitchford": {
       "confianca": "revendedor",
@@ -9446,7 +9450,7 @@
           "valor": "Madeira + fibra"
         }
       ],
-      "nota": "Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=victas-liam-pitchford), na régua dela — que não é a dos materiais mais antigos do catálogo. A Victas não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/victas-liam-pitchford.html): são a média de 12 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=victas-liam-pitchford), na régua dela — que não é a dos materiais mais antigos do catálogo. A Victas não publica esses números em formato legível no site próprio."
     },
     "victas-koki-niwa": {
       "confianca": "revendedor",
@@ -9462,7 +9466,7 @@
           "valor": "Madeira + fibra"
         }
       ],
-      "nota": "Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=victas-koki-niwa), na régua dela — que não é a dos materiais mais antigos do catálogo. A Victas não publica esses números em formato legível no site próprio."
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/victas-koki-niwa.html): são a média de 8 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de desempenho vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=victas-koki-niwa), na régua dela — que não é a dos materiais mais antigos do catálogo. A Victas não publica esses números em formato legível no site próprio."
     },
     "victas-award-offensive": {
       "confianca": "revendedor",
@@ -10086,7 +10090,7 @@
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "A DUREZA (47,5°) veio da NITTAKU Deutschland, distribuidora oficial desde 2012, em 2026-08-22 (https://nittaku.tt/en/products/nittaku-fastarc-g-1-rubber) — a fonte principal desta ficha não a declarava. A página não nomeia a régua, mas declara \"Made in Germany\", e a tabela de escalas do próprio site define a ESN como a régua da fábrica alemã: é dessa cadeia que sai a atribuição, e não de suposição sobre a marca. A marca escreve o nome com hífen (\"Fastarc G-1\"); o catálogo usa a grafia da loja brasileira, sem hífen. Os índices de velocidade, efeito e controle vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=nittaku-fastarc-g-1), na régua dela — que não é a dos materiais mais antigos do catálogo. A Nittaku publica velocidade e efeito na régua própria dela (a Hammond Z2, por exemplo, sai como \"Speed 16.0 / Spin 13.0\") e não publica controle — por isso os três índices aqui vêm da Megaspin, que tem os três na mesma régua."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/nittaku-fastarc-g-1.html): são a média de 188 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A DUREZA (47,5°) veio da NITTAKU Deutschland, distribuidora oficial desde 2012, em 2026-08-22 (https://nittaku.tt/en/products/nittaku-fastarc-g-1-rubber) — a fonte principal desta ficha não a declarava. A página não nomeia a régua, mas declara \"Made in Germany\", e a tabela de escalas do próprio site define a ESN como a régua da fábrica alemã: é dessa cadeia que sai a atribuição, e não de suposição sobre a marca. A marca escreve o nome com hífen (\"Fastarc G-1\"); o catálogo usa a grafia da loja brasileira, sem hífen. Os índices de velocidade, efeito e controle vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=nittaku-fastarc-g-1), na régua dela — que não é a dos materiais mais antigos do catálogo. A Nittaku publica velocidade e efeito na régua própria dela (a Hammond Z2, por exemplo, sai como \"Speed 16.0 / Spin 13.0\") e não publica controle — por isso os três índices aqui vêm da Megaspin, que tem os três na mesma régua."
     },
     "nittaku-fastarc-s1": {
       "confianca": "revendedor",
@@ -10102,7 +10106,7 @@
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "A DUREZA (45°) veio da NITTAKU Deutschland, distribuidora oficial desde 2012, em 2026-08-22 (https://nittaku.tt/en/products/nittaku-fastarc-s-1-rubber) — a fonte principal desta ficha não a declarava. A página não nomeia a régua, mas declara \"Made in Germany\", e a tabela de escalas do próprio site define a ESN como a régua da fábrica alemã: é dessa cadeia que sai a atribuição, e não de suposição sobre a marca. A marca escreve o nome com hífen (\"Fastarc G-1\"); o catálogo usa a grafia da loja brasileira, sem hífen. Os índices de velocidade, efeito e controle vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=nittaku-fastarc-s1), na régua dela — que não é a dos materiais mais antigos do catálogo. A Nittaku publica velocidade e efeito na régua própria dela (a Hammond Z2, por exemplo, sai como \"Speed 16.0 / Spin 13.0\") e não publica controle — por isso os três índices aqui vêm da Megaspin, que tem os três na mesma régua."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/nittaku-fastarc-s-1.html): são a média de 68 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A DUREZA (45°) veio da NITTAKU Deutschland, distribuidora oficial desde 2012, em 2026-08-22 (https://nittaku.tt/en/products/nittaku-fastarc-s-1-rubber) — a fonte principal desta ficha não a declarava. A página não nomeia a régua, mas declara \"Made in Germany\", e a tabela de escalas do próprio site define a ESN como a régua da fábrica alemã: é dessa cadeia que sai a atribuição, e não de suposição sobre a marca. A marca escreve o nome com hífen (\"Fastarc G-1\"); o catálogo usa a grafia da loja brasileira, sem hífen. Os índices de velocidade, efeito e controle vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=nittaku-fastarc-s1), na régua dela — que não é a dos materiais mais antigos do catálogo. A Nittaku publica velocidade e efeito na régua própria dela (a Hammond Z2, por exemplo, sai como \"Speed 16.0 / Spin 13.0\") e não publica controle — por isso os três índices aqui vêm da Megaspin, que tem os três na mesma régua."
     },
     "nittaku-flyatt-soft": {
       "confianca": "revendedor",
@@ -10118,7 +10122,7 @@
           "valor": "Lisa, esponja macia"
         }
       ],
-      "nota": "A DUREZA (30°) veio da ficha oficial da NITTAKU Deutschland, distribuidora oficial da marca, em 2026-08-23 (https://nittaku.tt/en/products/flyatt-soft) — a fonte principal desta ficha não a trazia. A página publica o grau e NÃO NOMEIA A RÉGUA. E aqui vai o aviso que o número sozinho não dá: na Genextion, a ÚNICA em que a Nittaku publica as duas réguas, a mesma esponja aparece como \"42,5° (japonesa) / 52,5° (alemã)\" — dez graus de diferença. Ou seja, 50° da Nittaku não é 50° de uma borracha alemã, e comparar os dois direto engana. Por isso o grau entra como a marca publica e NÃO vira dureza unificada. O Revspin não registra este modelo. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações. Velocidade, efeito e controle são a MÉDIA DE 11 JOGADORES no Revspin (https://revspin.net/rubber/nittaku-flyatt-soft.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
+      "nota": "A DUREZA (30°) veio da ficha oficial da NITTAKU Deutschland, distribuidora oficial da marca, em 2026-08-23 (https://nittaku.tt/en/products/flyatt-soft) — a fonte principal desta ficha não a trazia. A página publica o grau e NÃO NOMEIA A RÉGUA. E aqui vai o aviso que o número sozinho não dá: na Genextion, a ÚNICA em que a Nittaku publica as duas réguas, a mesma esponja aparece como \"42,5° (japonesa) / 52,5° (alemã)\" — dez graus de diferença. Ou seja, 50° da Nittaku não é 50° de uma borracha alemã, e comparar os dois direto engana. Por isso o grau entra como a marca publica e NÃO vira dureza unificada.Velocidade, efeito e controle são a MÉDIA DE 11 JOGADORES no Revspin (https://revspin.net/rubber/nittaku-flyatt-soft.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
     },
     "nittaku-flyatt-spin": {
       "confianca": "revendedor",
@@ -10150,7 +10154,7 @@
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "A DUREZA (52,5°) veio da ficha oficial da NITTAKU Deutschland, distribuidora oficial da marca, em 2026-08-23 (https://nittaku.tt/en/products/nittaku-genextion) — a fonte principal desta ficha não a trazia. Esta é uma das pouquíssimas em que a Nittaku publica AS DUAS RÉGUAS: \"42,5° (japonesa) / 52,5° (alemã)\". O valor usado aqui é o alemão, e a tabela de escalas deste site define a ESN como a régua da fábrica alemã. Os índices de velocidade, efeito e controle vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=nittaku-genextion), na régua dela — que não é a dos materiais mais antigos do catálogo. A Nittaku publica velocidade e efeito na régua própria dela (a Hammond Z2, por exemplo, sai como \"Speed 16.0 / Spin 13.0\") e não publica controle — por isso os três índices aqui vêm da Megaspin, que tem os três na mesma régua."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/nittaku-genextion.html): são a média de 5 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A DUREZA (52,5°) veio da ficha oficial da NITTAKU Deutschland, distribuidora oficial da marca, em 2026-08-23 (https://nittaku.tt/en/products/nittaku-genextion) — a fonte principal desta ficha não a trazia. Esta é uma das pouquíssimas em que a Nittaku publica AS DUAS RÉGUAS: \"42,5° (japonesa) / 52,5° (alemã)\". O valor usado aqui é o alemão, e a tabela de escalas deste site define a ESN como a régua da fábrica alemã. Os índices de velocidade, efeito e controle vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=nittaku-genextion), na régua dela — que não é a dos materiais mais antigos do catálogo. A Nittaku publica velocidade e efeito na régua própria dela (a Hammond Z2, por exemplo, sai como \"Speed 16.0 / Spin 13.0\") e não publica controle — por isso os três índices aqui vêm da Megaspin, que tem os três na mesma régua."
     },
     "nittaku-hammond": {
       "confianca": "revendedor",
@@ -10178,7 +10182,7 @@
           "valor": "Lisa"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. O Revspin não registra este modelo. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações. Velocidade, efeito e controle são a MÉDIA DE 19 JOGADORES no Revspin (https://revspin.net/rubber/nittaku-hammond-cr.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
+      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada.Velocidade, efeito e controle são a MÉDIA DE 19 JOGADORES no Revspin (https://revspin.net/rubber/nittaku-hammond-cr.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
     },
     "nittaku-hammond-power": {
       "confianca": "revendedor",
@@ -10190,7 +10194,7 @@
           "valor": "Lisa"
         }
       ],
-      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada. O Revspin não registra este modelo. Esta borracha não tem amostra suficiente na comunidade (Revspin) — o piso é 5 avaliações. Velocidade, efeito e controle são a MÉDIA DE 9 JOGADORES no Revspin (https://revspin.net/rubber/nittaku-hammond-power.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
+      "nota": "A AmericaTT não declara a dureza desta borracha; ela entra sem a régua unificada.Velocidade, efeito e controle são a MÉDIA DE 9 JOGADORES no Revspin (https://revspin.net/rubber/nittaku-hammond-power.html), na escala 0–10 — não é número do fabricante, é opinião de quem usou, e por isso aparece marcada como dado da comunidade."
     },
     "nittaku-hammond-z2": {
       "confianca": "revendedor",
@@ -10206,7 +10210,7 @@
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "A DUREZA (50°) veio da ficha oficial da NITTAKU Deutschland, distribuidora oficial da marca, em 2026-08-23 (https://nittaku.tt/en/products/nittaku-hammond-z2) — a fonte principal desta ficha não a trazia. A página publica o grau e NÃO NOMEIA A RÉGUA. E aqui vai o aviso que o número sozinho não dá: na Genextion, a ÚNICA em que a Nittaku publica as duas réguas, a mesma esponja aparece como \"42,5° (japonesa) / 52,5° (alemã)\" — dez graus de diferença. Ou seja, 50° da Nittaku não é 50° de uma borracha alemã, e comparar os dois direto engana. Por isso o grau entra como a marca publica e NÃO vira dureza unificada. Os índices de velocidade, efeito e controle vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=nittaku-hammond-z2), na régua dela — que não é a dos materiais mais antigos do catálogo. A Nittaku publica velocidade e efeito na régua própria dela (a Hammond Z2, por exemplo, sai como \"Speed 16.0 / Spin 13.0\") e não publica controle — por isso os três índices aqui vêm da Megaspin, que tem os três na mesma régua."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/nittaku-hammond-z2.html): são a média de 79 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A DUREZA (50°) veio da ficha oficial da NITTAKU Deutschland, distribuidora oficial da marca, em 2026-08-23 (https://nittaku.tt/en/products/nittaku-hammond-z2) — a fonte principal desta ficha não a trazia. A página publica o grau e NÃO NOMEIA A RÉGUA. E aqui vai o aviso que o número sozinho não dá: na Genextion, a ÚNICA em que a Nittaku publica as duas réguas, a mesma esponja aparece como \"42,5° (japonesa) / 52,5° (alemã)\" — dez graus de diferença. Ou seja, 50° da Nittaku não é 50° de uma borracha alemã, e comparar os dois direto engana. Por isso o grau entra como a marca publica e NÃO vira dureza unificada. Os índices de velocidade, efeito e controle vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=nittaku-hammond-z2), na régua dela — que não é a dos materiais mais antigos do catálogo. A Nittaku publica velocidade e efeito na régua própria dela (a Hammond Z2, por exemplo, sai como \"Speed 16.0 / Spin 13.0\") e não publica controle — por isso os três índices aqui vêm da Megaspin, que tem os três na mesma régua."
     },
     "nittaku-hurricane-3-neo-8701": {
       "confianca": "revendedor",
@@ -10254,7 +10258,7 @@
           "valor": "Lisa aderente chinesa, esponja azul"
         }
       ],
-      "nota": "A DUREZA (58°) veio da ficha oficial da NITTAKU Deutschland, distribuidora oficial da marca, em 2026-08-23 (https://nittaku.tt/en/products/nittaku-hurricane-3-pro-turbo-blue-sponge) — a fonte principal desta ficha não a trazia. A página diz \"capa: Made in China / esponja + cola: Made in Japan\". A página publica o grau e NÃO NOMEIA A RÉGUA. E aqui vai o aviso que o número sozinho não dá: na Genextion, a ÚNICA em que a Nittaku publica as duas réguas, a mesma esponja aparece como \"42,5° (japonesa) / 52,5° (alemã)\" — dez graus de diferença. Ou seja, 50° da Nittaku não é 50° de uma borracha alemã, e comparar os dois direto engana. Por isso o grau entra como a marca publica e NÃO vira dureza unificada."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/nittaku-hurricane-pro-iii-turbo-blue.html): são a média de 30 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A DUREZA (58°) veio da ficha oficial da NITTAKU Deutschland, distribuidora oficial da marca, em 2026-08-23 (https://nittaku.tt/en/products/nittaku-hurricane-3-pro-turbo-blue-sponge) — a fonte principal desta ficha não a trazia. A página diz \"capa: Made in China / esponja + cola: Made in Japan\". A página publica o grau e NÃO NOMEIA A RÉGUA. E aqui vai o aviso que o número sozinho não dá: na Genextion, a ÚNICA em que a Nittaku publica as duas réguas, a mesma esponja aparece como \"42,5° (japonesa) / 52,5° (alemã)\" — dez graus de diferença. Ou seja, 50° da Nittaku não é 50° de uma borracha alemã, e comparar os dois direto engana. Por isso o grau entra como a marca publica e NÃO vira dureza unificada."
     },
     "nittaku-hurricane-pro-3-turbo-orange": {
       "confianca": "revendedor",
@@ -10270,7 +10274,7 @@
           "valor": "Lisa aderente chinesa, esponja laranja"
         }
       ],
-      "nota": "A DUREZA (aprox. 54°) veio da ficha oficial da NITTAKU Deutschland, distribuidora oficial da marca, em 2026-08-23 (https://nittaku.tt/en/products/nittaku-hurricane-pro-3-turbo) — a fonte principal desta ficha não a trazia. A página diz \"capa: Made in China / esponja: Made in Japan\". A página publica o grau e NÃO NOMEIA A RÉGUA. E aqui vai o aviso que o número sozinho não dá: na Genextion, a ÚNICA em que a Nittaku publica as duas réguas, a mesma esponja aparece como \"42,5° (japonesa) / 52,5° (alemã)\" — dez graus de diferença. Ou seja, 50° da Nittaku não é 50° de uma borracha alemã, e comparar os dois direto engana. Por isso o grau entra como a marca publica e NÃO vira dureza unificada."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/nittaku-hurricane-pro-iii-turbo-orange.html): são a média de 39 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A DUREZA (aprox. 54°) veio da ficha oficial da NITTAKU Deutschland, distribuidora oficial da marca, em 2026-08-23 (https://nittaku.tt/en/products/nittaku-hurricane-pro-3-turbo) — a fonte principal desta ficha não a trazia. A página diz \"capa: Made in China / esponja: Made in Japan\". A página publica o grau e NÃO NOMEIA A RÉGUA. E aqui vai o aviso que o número sozinho não dá: na Genextion, a ÚNICA em que a Nittaku publica as duas réguas, a mesma esponja aparece como \"42,5° (japonesa) / 52,5° (alemã)\" — dez graus de diferença. Ou seja, 50° da Nittaku não é 50° de uma borracha alemã, e comparar os dois direto engana. Por isso o grau entra como a marca publica e NÃO vira dureza unificada."
     },
     "nittaku-moristo-df": {
       "confianca": "revendedor",
@@ -10526,7 +10530,7 @@
           "valor": "Madeira pura, 5 camadas"
         }
       ],
-      "nota": "Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de velocidade e controle vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=nittaku-acoustic), na régua dela — que não é a dos materiais mais antigos do catálogo. A Nittaku publica velocidade e efeito na régua própria dela (a Hammond Z2, por exemplo, sai como \"Speed 16.0 / Spin 13.0\") e não publica controle — por isso os três índices aqui vêm da Megaspin, que tem os três na mesma régua."
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/nittaku-acoustic.html): são a média de 96 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de velocidade e controle vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=nittaku-acoustic), na régua dela — que não é a dos materiais mais antigos do catálogo. A Nittaku publica velocidade e efeito na régua própria dela (a Hammond Z2, por exemplo, sai como \"Speed 16.0 / Spin 13.0\") e não publica controle — por isso os três índices aqui vêm da Megaspin, que tem os três na mesma régua."
     },
     "nittaku-acoustic-carbon": {
       "confianca": "revendedor",
@@ -10542,7 +10546,7 @@
           "valor": "Madeira + carbono"
         }
       ],
-      "nota": "Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de velocidade e controle vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=nittaku-acoustic-c), na régua dela — que não é a dos materiais mais antigos do catálogo. A Nittaku publica velocidade e efeito na régua própria dela (a Hammond Z2, por exemplo, sai como \"Speed 16.0 / Spin 13.0\") e não publica controle — por isso os três índices aqui vêm da Megaspin, que tem os três na mesma régua."
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/nittaku-acoustic-carbon.html): são a média de 24 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de velocidade e controle vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=nittaku-acoustic-c), na régua dela — que não é a dos materiais mais antigos do catálogo. A Nittaku publica velocidade e efeito na régua própria dela (a Hammond Z2, por exemplo, sai como \"Speed 16.0 / Spin 13.0\") e não publica controle — por isso os três índices aqui vêm da Megaspin, que tem os três na mesma régua."
     },
     "nittaku-acoustic-carbon-classineta": {
       "confianca": "revendedor",
@@ -10574,7 +10578,7 @@
           "valor": "Madeira + carbono em posição interna"
         }
       ],
-      "nota": "Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de velocidade e controle vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=nittaku-acoustic-c-i), na régua dela — que não é a dos materiais mais antigos do catálogo. A Nittaku publica velocidade e efeito na régua própria dela (a Hammond Z2, por exemplo, sai como \"Speed 16.0 / Spin 13.0\") e não publica controle — por isso os três índices aqui vêm da Megaspin, que tem os três na mesma régua."
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/nittaku-acoustic-carbon-inner.html): são a média de 19 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de velocidade e controle vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=nittaku-acoustic-c-i), na régua dela — que não é a dos materiais mais antigos do catálogo. A Nittaku publica velocidade e efeito na régua própria dela (a Hammond Z2, por exemplo, sai como \"Speed 16.0 / Spin 13.0\") e não publica controle — por isso os três índices aqui vêm da Megaspin, que tem os três na mesma régua."
     },
     "nittaku-acoustic-carbon-inner-5-8": {
       "confianca": "revendedor",
@@ -10654,7 +10658,7 @@
           "valor": "Madeira pura, cabo grande"
         }
       ],
-      "nota": "Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui."
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/nittaku-acoustic--large-handle.html): são a média de 24 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui."
     },
     "nittaku-advance-carbon": {
       "confianca": "revendedor",
@@ -10862,7 +10866,7 @@
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "A DUREZA (45°) veio da ficha oficial da NITTAKU Deutschland, distribuidora oficial da marca, em 2026-08-23 (https://nittaku.tt/en/products/factive) — a fonte principal desta ficha não a trazia. A página publica o grau e NÃO NOMEIA A RÉGUA. E aqui vai o aviso que o número sozinho não dá: na Genextion, a ÚNICA em que a Nittaku publica as duas réguas, a mesma esponja aparece como \"42,5° (japonesa) / 52,5° (alemã)\" — dez graus de diferença. Ou seja, 50° da Nittaku não é 50° de uma borracha alemã, e comparar os dois direto engana. Por isso o grau entra como a marca publica e NÃO vira dureza unificada. Os índices de velocidade, efeito e controle vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=nittaku-factive), na régua dela — que não é a dos materiais mais antigos do catálogo. A Nittaku publica velocidade e efeito na régua própria dela (a Hammond Z2, por exemplo, sai como \"Speed 16.0 / Spin 13.0\") e não publica controle — por isso os três índices aqui vêm da Megaspin, que tem os três na mesma régua."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/nittaku-factive.html): são a média de 26 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A DUREZA (45°) veio da ficha oficial da NITTAKU Deutschland, distribuidora oficial da marca, em 2026-08-23 (https://nittaku.tt/en/products/factive) — a fonte principal desta ficha não a trazia. A página publica o grau e NÃO NOMEIA A RÉGUA. E aqui vai o aviso que o número sozinho não dá: na Genextion, a ÚNICA em que a Nittaku publica as duas réguas, a mesma esponja aparece como \"42,5° (japonesa) / 52,5° (alemã)\" — dez graus de diferença. Ou seja, 50° da Nittaku não é 50° de uma borracha alemã, e comparar os dois direto engana. Por isso o grau entra como a marca publica e NÃO vira dureza unificada. Os índices de velocidade, efeito e controle vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=nittaku-factive), na régua dela — que não é a dos materiais mais antigos do catálogo. A Nittaku publica velocidade e efeito na régua própria dela (a Hammond Z2, por exemplo, sai como \"Speed 16.0 / Spin 13.0\") e não publica controle — por isso os três índices aqui vêm da Megaspin, que tem os três na mesma régua."
     },
     "nittaku-factive-7": {
       "confianca": "revendedor",
@@ -10902,7 +10906,7 @@
           "valor": "Lisa, tensionada"
         }
       ],
-      "nota": "A DUREZA (45°) veio da NITTAKU Deutschland, distribuidora oficial desde 2012, em 2026-08-22 (https://nittaku.tt/en/products/nittaku-fastarc-c-1-rubber) — a fonte principal desta ficha não a declarava. A página não nomeia a régua, mas declara \"Made in Germany\", e a tabela de escalas do próprio site define a ESN como a régua da fábrica alemã: é dessa cadeia que sai a atribuição, e não de suposição sobre a marca. A marca escreve o nome com hífen (\"Fastarc G-1\"); o catálogo usa a grafia da loja brasileira, sem hífen. Os índices de velocidade, efeito e controle vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=nittaku-fastarc-c-1), na régua dela — que não é a dos materiais mais antigos do catálogo. A Nittaku publica velocidade e efeito na régua própria dela (a Hammond Z2, por exemplo, sai como \"Speed 16.0 / Spin 13.0\") e não publica controle — por isso os três índices aqui vêm da Megaspin, que tem os três na mesma régua."
+      "nota": "VELOCIDADE, EFEITO E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/rubber/nittaku-fastarc-c-1.html): são a média de 60 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. A DUREZA (45°) veio da NITTAKU Deutschland, distribuidora oficial desde 2012, em 2026-08-22 (https://nittaku.tt/en/products/nittaku-fastarc-c-1-rubber) — a fonte principal desta ficha não a declarava. A página não nomeia a régua, mas declara \"Made in Germany\", e a tabela de escalas do próprio site define a ESN como a régua da fábrica alemã: é dessa cadeia que sai a atribuição, e não de suposição sobre a marca. A marca escreve o nome com hífen (\"Fastarc G-1\"); o catálogo usa a grafia da loja brasileira, sem hífen. Os índices de velocidade, efeito e controle vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=nittaku-fastarc-c-1), na régua dela — que não é a dos materiais mais antigos do catálogo. A Nittaku publica velocidade e efeito na régua própria dela (a Hammond Z2, por exemplo, sai como \"Speed 16.0 / Spin 13.0\") e não publica controle — por isso os três índices aqui vêm da Megaspin, que tem os três na mesma régua."
     },
     "nittaku-fistard": {
       "confianca": "revendedor",
@@ -11174,7 +11178,7 @@
           "valor": "Hinoki, 5 camadas, 2,2 mm"
         }
       ],
-      "nota": "Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de velocidade e controle vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=nittaku-hino-5-22), na régua dela — que não é a dos materiais mais antigos do catálogo. A Nittaku publica velocidade e efeito na régua própria dela (a Hammond Z2, por exemplo, sai como \"Speed 16.0 / Spin 13.0\") e não publica controle — por isso os três índices aqui vêm da Megaspin, que tem os três na mesma régua."
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/nittaku-hino-522.html): são a média de 5 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de velocidade e controle vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=nittaku-hino-5-22), na régua dela — que não é a dos materiais mais antigos do catálogo. A Nittaku publica velocidade e efeito na régua própria dela (a Hammond Z2, por exemplo, sai como \"Speed 16.0 / Spin 13.0\") e não publica controle — por isso os três índices aqui vêm da Megaspin, que tem os três na mesma régua."
     },
     "nittaku-hino-blade-7-22-classineta": {
       "confianca": "revendedor",
@@ -11206,7 +11210,7 @@
           "valor": "Hinoki, 7 camadas, 2,2 mm"
         }
       ],
-      "nota": "Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de velocidade e controle vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=nittaku-hino-7-22), na régua dela — que não é a dos materiais mais antigos do catálogo. A Nittaku publica velocidade e efeito na régua própria dela (a Hammond Z2, por exemplo, sai como \"Speed 16.0 / Spin 13.0\") e não publica controle — por isso os três índices aqui vêm da Megaspin, que tem os três na mesma régua."
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/nittaku-hino-722.html): são a média de 14 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de velocidade e controle vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=nittaku-hino-7-22), na régua dela — que não é a dos materiais mais antigos do catálogo. A Nittaku publica velocidade e efeito na régua própria dela (a Hammond Z2, por exemplo, sai como \"Speed 16.0 / Spin 13.0\") e não publica controle — por isso os três índices aqui vêm da Megaspin, que tem os três na mesma régua."
     },
     "nittaku-holz-sieben": {
       "confianca": "revendedor",
@@ -11254,7 +11258,7 @@
           "valor": "Madeira"
         }
       ],
-      "nota": "Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de velocidade e controle vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=nittaku-kasumi-basic), na régua dela — que não é a dos materiais mais antigos do catálogo. A Nittaku publica velocidade e efeito na régua própria dela (a Hammond Z2, por exemplo, sai como \"Speed 16.0 / Spin 13.0\") e não publica controle — por isso os três índices aqui vêm da Megaspin, que tem os três na mesma régua."
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/nittaku-kasumi-basic.html): são a média de 17 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de velocidade e controle vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=nittaku-kasumi-basic), na régua dela — que não é a dos materiais mais antigos do catálogo. A Nittaku publica velocidade e efeito na régua própria dela (a Hammond Z2, por exemplo, sai como \"Speed 16.0 / Spin 13.0\") e não publica controle — por isso os três índices aqui vêm da Megaspin, que tem os três na mesma régua."
     },
     "nittaku-large-dratsuka": {
       "confianca": "revendedor",
@@ -11318,7 +11322,7 @@
           "valor": "Madeira, leve"
         }
       ],
-      "nota": "Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de velocidade e controle vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=nittaku-latika-light), na régua dela — que não é a dos materiais mais antigos do catálogo. A Nittaku publica velocidade e efeito na régua própria dela (a Hammond Z2, por exemplo, sai como \"Speed 16.0 / Spin 13.0\") e não publica controle — por isso os três índices aqui vêm da Megaspin, que tem os três na mesma régua."
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/nittaku-latika-light.html): são a média de 10 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de velocidade e controle vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=nittaku-latika-light), na régua dela — que não é a dos materiais mais antigos do catálogo. A Nittaku publica velocidade e efeito na régua própria dela (a Hammond Z2, por exemplo, sai como \"Speed 16.0 / Spin 13.0\") e não publica controle — por isso os três índices aqui vêm da Megaspin, que tem os três na mesma régua."
     },
     "nittaku-ludeack": {
       "confianca": "revendedor",
@@ -11382,7 +11386,7 @@
           "valor": "Madeira"
         }
       ],
-      "nota": "Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de velocidade e controle vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=nittaku-miyabi), na régua dela — que não é a dos materiais mais antigos do catálogo. A Nittaku publica velocidade e efeito na régua própria dela (a Hammond Z2, por exemplo, sai como \"Speed 16.0 / Spin 13.0\") e não publica controle — por isso os três índices aqui vêm da Megaspin, que tem os três na mesma régua."
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/nittaku-miyabi.html): são a média de 14 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de velocidade e controle vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=nittaku-miyabi), na régua dela — que não é a dos materiais mais antigos do catálogo. A Nittaku publica velocidade e efeito na régua própria dela (a Hammond Z2, por exemplo, sai como \"Speed 16.0 / Spin 13.0\") e não publica controle — por isso os três índices aqui vêm da Megaspin, que tem os três na mesma régua."
     },
     "nittaku-miyabi-r-caneta": {
       "confianca": "revendedor",
@@ -11558,7 +11562,7 @@
           "valor": "Madeira, 7 camadas"
         }
       ],
-      "nota": "Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de velocidade e controle vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=nittaku-septear), na régua dela — que não é a dos materiais mais antigos do catálogo. A Nittaku publica velocidade e efeito na régua própria dela (a Hammond Z2, por exemplo, sai como \"Speed 16.0 / Spin 13.0\") e não publica controle — por isso os três índices aqui vêm da Megaspin, que tem os três na mesma régua."
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/nittaku-septear.html): são a média de 27 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de velocidade e controle vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=nittaku-septear), na régua dela — que não é a dos materiais mais antigos do catálogo. A Nittaku publica velocidade e efeito na régua própria dela (a Hammond Z2, por exemplo, sai como \"Speed 16.0 / Spin 13.0\") e não publica controle — por isso os três índices aqui vêm da Megaspin, que tem os três na mesma régua."
     },
     "nittaku-septear-classineta": {
       "confianca": "revendedor",
@@ -11750,7 +11754,7 @@
           "valor": "Madeira pura, 5 camadas"
         }
       ],
-      "nota": "Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de velocidade e controle vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=nittaku-violin), na régua dela — que não é a dos materiais mais antigos do catálogo. A Nittaku publica velocidade e efeito na régua própria dela (a Hammond Z2, por exemplo, sai como \"Speed 16.0 / Spin 13.0\") e não publica controle — por isso os três índices aqui vêm da Megaspin, que tem os três na mesma régua."
+      "nota": "VELOCIDADE E CONTROLE colhidos do Revspin em 2026-08-23 (https://revspin.net/blade/nittaku-violin.html): são a média de 50 avaliações de jogadores, na escala 0 a 10 — a mesma do site, e por isso comparáveis com qualquer outro material daqui. A URL e a amostra já estavam registradas neste site; os números por eixo é que não tinham sido colhidos. Efeito não entra: é propriedade da borracha, não da madeira. Dureza de esponja também não se aplica aqui. Os índices de velocidade e controle vêm da Megaspin (https://www.megaspin.net/store/default.asp?pid=nittaku-violin), na régua dela — que não é a dos materiais mais antigos do catálogo. A Nittaku publica velocidade e efeito na régua própria dela (a Hammond Z2, por exemplo, sai como \"Speed 16.0 / Spin 13.0\") e não publica controle — por isso os três índices aqui vêm da Megaspin, que tem os três na mesma régua."
     },
     "nittaku-violin-classineta": {
       "confianca": "revendedor",

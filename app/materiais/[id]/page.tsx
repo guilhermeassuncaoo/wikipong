@@ -396,10 +396,19 @@ export default async function PaginaDetalhe({ params }: { params: Promise<{ id: 
                 "estimativa" um dado que tem URL e data. O modo Simples da mesma
                 página já dizia o certo — "na régua da Megaspin, nela uma
                 borracha passa de 100" —, então a página se contradizia sozinha. */}
-            {m.origemSpecs === 'comunidade' && sinal ? (
+            {/* A condição era `comunidade && sinal`, e o `&& sinal` derrubava 38
+                materiais no ramo de baixo: a tela dizia "estimativa" sobre
+                número que o modo Simples da MESMA página atribui a 7, 19 ou 30
+                jogadores do Revspin. O sinal registrado é outro dado — a nota
+                GERAL, com piso de amostra próprio — e faltar ele não torna os
+                índices menos da comunidade. Agora ele só decide se a frase
+                consegue dizer QUANTAS avaliações são. */}
+            {m.origemSpecs === 'comunidade' ? (
               <p className={estilos.subtituloFicha}>
                 Escala 0 a 10 <strong>nossa</strong>, para permitir comparar marcas diferentes. Estes
-                números são a <strong>média de {sinal.avaliacoes} avaliações</strong> da comunidade do {sinal.fonte}, não chute nosso nem o número que a marca usa pra vender (que está logo abaixo, com a fonte).
+                números vêm da <strong>comunidade{sinal ? ` do ${sinal.fonte}` : ''}</strong>
+                {sinal ? <> — são a <strong>média de {sinal.avaliacoes} avaliações</strong></> : ''}, não chute
+                nosso nem o número que a marca usa pra vender (que está logo abaixo, com a fonte).
               </p>
             ) : m.origemSpecs === 'loja' ? (
               <p className={estilos.subtituloFicha}>

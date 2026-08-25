@@ -3142,6 +3142,37 @@ for (const mat of MATERIAIS.filter((x) => temDesempenho(x) && x.origemSpecs === 
   );
 }
 
+/* ───── numero da comunidade nao pode ser chamado de estimativa ─────
+   A tela condicionava a frase da comunidade a `origemSpecs === 'comunidade' &&
+   sinal`. O `&& sinal` derrubava 38 materiais no ramo de baixo, onde a pagina
+   dizia "os numeros abaixo sao ESTIMATIVA" sobre indices que o modo Simples da
+   MESMA pagina atribui a 7, 19 ou 30 jogadores do Revspin. O sinal registrado
+   e' outro dado — a nota GERAL, com piso proprio — e faltar ele nao torna os
+   indices menos da comunidade.
+
+   Cinco notas iam mais longe e diziam "O Revspin nao registra este modelo" numa
+   ficha cujos numeros vieram do Revspin. */
+for (const mat of MATERIAIS.filter((x) => x.origemSpecs === 'comunidade')) {
+  const nota = fabricantePorId(mat.id)?.nota ?? '';
+  afirma(
+    !/Revspin não registra|não tem amostra suficiente na comunidade/i.test(nota),
+    `${mat.id}: usa numero da comunidade e a nota diz que a comunidade nao tem esse material`,
+  );
+}
+
+/* Comunidade tem que ter amostra: o piso do projeto e' 5, e a frase do modo
+   Simples cita o numero de jogadores. Sem specs, nao ha o que rotular. */
+for (const mat of MATERIAIS.filter((x) => x.origemSpecs === 'comunidade')) {
+  afirma(
+    temDesempenho(mat),
+    `${mat.id}: marcado como comunidade e sem velocidade/controle — rotulo sem numero pra rotular`,
+  );
+  afirma(
+    (mat.specs as { regua?: string }).regua === undefined,
+    `${mat.id}: numero da comunidade com regua de terceiro declarada — a comunidade usa a escala 0 a 10`,
+  );
+}
+
 console.log(`\n✔ ${ok} asserções passaram`);
 if (falhas.length) {
   console.error(`✘ ${falhas.length} falharam:`);
