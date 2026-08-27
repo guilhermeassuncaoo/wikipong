@@ -3242,6 +3242,26 @@ for (const mat of MATERIAIS.filter((x) => x.origemSpecs === 'comunidade')) {
   }
 }
 
+/* ───── a home mostra tudo o que o site tem ─────
+   A home ficou meses linkando duas rotas (catalogo e quiz) enquanto o site
+   crescia pra 25. Quem cai na porta de entrada nao descobre o que existe atras
+   dela, e nao ha erro nenhum pra um teste pegar: cada pagina funciona.
+
+   A regra: toda rota que esta no sitemap tem que aparecer na home. Se uma
+   pagina merece ser achada pelo Google, merece ser achada por quem ja esta no
+   site. Rota nova sem lugar na porta de entrada derruba esta asercao. */
+{
+  const home = readFileSync('app/page.tsx', 'utf8');
+  const noMapa = [...readFileSync('app/sitemap.ts', 'utf8').matchAll(/url\('(\/[^']+)'\)/g)]
+    .map((m) => m[1]);
+  for (const rota of noMapa) {
+    afirma(
+      home.includes(`'${rota}/'`) || home.includes(`"${rota}/"`),
+      `a home nao leva a ${rota}: rota que entra no sitemap tem que caber na porta de entrada`,
+    );
+  }
+}
+
 console.log(`\n✔ ${ok} asserções passaram`);
 if (falhas.length) {
   console.error(`✘ ${falhas.length} falharam:`);

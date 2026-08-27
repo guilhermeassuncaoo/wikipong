@@ -547,3 +547,92 @@
   color: var(--cor-sobre-mesa-suave);
   letter-spacing: 0.04em;
 }
+
+/* ── A COMUNIDADE ────────────────────────────────────────────────────────────
+   Fecha a página antes do CTA. Usa a superfície 2 (a mesma do manifesto) em vez
+   do verde-mesa: as duas bandas escuras da página já são a "verdade" e a
+   "prova", e uma terceira faria a página piscar de escuro em escuro.
+
+   Os dois números são o argumento. Ganham a fonte mono e o degrau de display
+   porque são dado, e é a Regra da Voz de Dados. */
+.comunidade {
+  background: var(--cor-superficie-2);
+  padding-block: clamp(3rem, 7vw, 4.5rem);
+  border-block: 1px solid var(--cor-linha);
+}
+.comunidadeInterna {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.85rem;
+}
+.comunidadeRotulo {
+  color: var(--cor-texto-acento);
+  font-size: var(--texto-micro);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 0;
+}
+.comunidade h2 {
+  font-size: var(--titulo-2);
+  margin: 0;
+  max-width: 20ch;
+  text-wrap: balance;
+}
+.comunidadeTexto {
+  color: var(--cor-tinta-suave);
+  max-width: 62ch;
+  margin: 0;
+  line-height: 1.65;
+  text-wrap: pretty;
+}
+
+.comunidadeNumeros {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+  gap: 1.1rem;
+  margin: 0.9rem 0;
+  width: 100%;
+}
+.comunidadeNumeros > div {
+  background: var(--cor-superficie);
+  border: 1px solid var(--cor-linha);
+  border-radius: var(--raio-md);
+  padding: 1.15rem 1.25rem;
+  box-shadow: var(--sombra-cartao);
+}
+.comunidadeValor {
+  font-size: clamp(2rem, 5vw, 2.6rem);
+  font-weight: 700;
+  line-height: 1.05;
+  color: var(--cor-texto-acento);
+  font-feature-settings: 'tnum' 1;
+}
+.comunidadeNumeros dd {
+  margin: 0.4rem 0 0;
+  color: var(--cor-tinta-suave);
+  font-size: var(--texto-menor);
+  line-height: 1.5;
+  text-wrap: pretty;
+}
+
+.comunidadeAcoes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1.4rem;
+  margin-top: 0.5rem;
+}
+.comunidadeBotao {
+  display: inline-flex;
+}
+.comunidadeLink {
+  color: var(--cor-texto-acento);
+  font-weight: 600;
+  text-underline-offset: 3px;
+}
+.comunidadeMicro {
+  color: var(--cor-tinta-suave);
+  font-size: var(--texto-micro);
+  margin: 0.35rem 0 0;
+}

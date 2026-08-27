@@ -20,6 +20,7 @@ import { PrateleiraIniciantes } from '@/componentes/PrateleiraIniciantes';
 import { ConjuntosParaComecar } from '@/componentes/ConjuntosParaComecar';
 import { CarrosselHero } from '@/componentes/CarrosselHero';
 import { MATERIAIS } from '@/componentes/dados-materiais';
+import { sinalDaComunidade } from '@/componentes/dados-comunidade';
 import { brl } from '@/componentes/formato';
 import {
   custoMensalPorClasse,
@@ -92,9 +93,15 @@ const FEATURES_ATIVAS = [
     destaque: false,
   },
   {
-    titulo: 'Guias e glossário',
-    texto: 'Do que a dureza muda no seu jogo até cada termo do esporte em português claro.',
+    titulo: 'Guias',
+    texto: 'O que a dureza muda no seu jogo, madeira contra carbono, e o que é a TRA da CBTM.',
     href: '/aprender/',
+    destaque: false,
+  },
+  {
+    titulo: 'Glossário',
+    texto: 'Cada termo do esporte em português claro, do topspin ao efeito catapulta.',
+    href: '/glossario/',
     destaque: false,
   },
   {
@@ -103,10 +110,49 @@ const FEATURES_ATIVAS = [
     href: '/noticias/',
     destaque: false,
   },
+  {
+    titulo: 'Top 5 por família',
+    texto:
+      'As chinesas, híbridas e tensoras que mais aparecem no levantamento de uso, com a régua de cada número.',
+    href: '/top-borrachas/',
+    destaque: false,
+  },
+  {
+    titulo: 'Discussões',
+    texto: 'Pergunte, responda e marque o que resolveu. Escrever não exige conta.',
+    href: '/comunidade/discussoes/',
+    destaque: false,
+  },
+  {
+    titulo: 'Montar sua raquete',
+    texto: 'Escolha lâmina e as duas borrachas e veja o preço somado antes de comprar.',
+    href: '/montar/',
+    destaque: false,
+  },
+  {
+    titulo: 'Competições do ano',
+    texto: 'O calendário nacional da CBTM com data, cidade e tipo de cada etapa.',
+    href: '/competicoes/',
+    destaque: false,
+  },
+  {
+    titulo: 'Tradutor de durezas',
+    texto: '40° chinês não é 40° europeu. Aqui você converte entre as réguas das marcas.',
+    href: '/escalas/',
+    destaque: false,
+  },
+  {
+    titulo: 'Marcas',
+    texto: 'O que cada fabricante faz, de que país vem e o que ele tem no catálogo.',
+    href: '/marcas/',
+    destaque: false,
+  },
 ] as const;
 
 /* Vaporware não ocupa card: vira uma linha de texto, sem peso visual (D-16). */
-const EM_BREVE = ['Videoaulas', 'Avaliações da comunidade', 'Assistente IA'] as const;
+/* Saiu daqui em 2026-08-25: as avaliações da comunidade foram ao ar com a
+   D-19 e ficaram meses prometidas numa página que já as tinha. */
+const EM_BREVE = ['Videoaulas', 'Assistente IA'] as const;
 
 function Verificado() {
   return (
@@ -129,6 +175,15 @@ export default function Home() {
   const totalMateriais = MATERIAIS.length;
   const totalMarcas = new Set(MATERIAIS.map((m) => m.marca)).size;
   const comparacoesPossiveis = (totalMateriais * (totalMateriais - 1)) / 2;
+
+  /* A comunidade em número, e não em adjetivo. Os dois saem dos dados no build:
+     quantas fichas já mostram índice vindo de jogador em vez do número que a
+     marca usa para vender, e quantas avaliações sustentam esses índices. */
+  const materiaisComComunidade = MATERIAIS.filter((m) => m.origemSpecs === 'comunidade').length;
+  const avaliacoesQueSustentam = MATERIAIS.reduce(
+    (soma, m) => soma + (sinalDaComunidade(m.id)?.avaliacoes ?? 0),
+    0,
+  );
 
   // Prova ao vivo: linhas computadas pela lógica pura (renderer Técnico + Simples).
   const velocidades = AMOSTRAS.map((a) => a.specs.velocidade);
@@ -376,6 +431,65 @@ export default function Home() {
             <strong>só um fato, não uma nota</strong>: maior não quer dizer melhor, depende do seu jogo. Custo/mês não
             recebe destaque porque, nele, maior é pior.
           </p>
+          </div>
+        </section>
+
+        {/* ── A COMUNIDADE ────────────────────────────────────────────────
+            Pedido do fundador (2026-08-25): dizer que a comunidade é um dos
+            pilares da WikiPong, e que é ela quem alimenta o site.
+
+            O jeito de dizer isso sem virar autoelogio é com NÚMERO, e os dois
+            saem dos dados no build. Também separa as duas metades sem
+            confundi-las: o que jogador de fora já pôs aqui (Revspin, com fonte
+            e amostra na ficha) e o que só cresce se quem lê escrever. */}
+        <section className={styles.comunidade}>
+          <div className={`container ${styles.comunidadeInterna}`}>
+            <p className={`mono ${styles.comunidadeRotulo}`}>Comunidade</p>
+            <h2>Quem alimenta este site é quem joga</h2>
+
+            <p className={styles.comunidadeTexto}>
+              O WikiPong não é uma vitrine escrita por uma pessoa só. Boa parte do que você lê
+              nas fichas veio de gente que usou o material e contou como foi.
+            </p>
+
+            <dl className={styles.comunidadeNumeros}>
+              <div>
+                <dt className={`mono ${styles.comunidadeValor}`}>{materiaisComComunidade}</dt>
+                <dd>
+                  dos {totalMateriais} materiais já mostram velocidade, efeito e controle vindos
+                  de jogadores, e não do número que a marca usa para vender
+                </dd>
+              </div>
+              <div>
+                <dt className={`mono ${styles.comunidadeValor}`}>
+                  {avaliacoesQueSustentam.toLocaleString('pt-BR')}
+                </dt>
+                <dd>
+                  avaliações sustentam esses índices, com a fonte e o tamanho da amostra à vista
+                  em cada ficha
+                </dd>
+              </div>
+            </dl>
+
+            <p className={styles.comunidadeTexto}>
+              Essa é a parte que já existe. A outra depende de você: cada avaliação que escreve,
+              cada material que marca como já usou e cada dúvida que responde nas discussões
+              entra no site e melhora a página que a próxima pessoa vai abrir. É assim que uma
+              enciclopédia fica completa, e não há outro jeito.
+            </p>
+
+            <div className={styles.comunidadeAcoes}>
+              <Link href="/comunidade/" className={`botao-primario ${styles.comunidadeBotao}`}>
+                Conhecer a comunidade →
+              </Link>
+              <Link href="/comunidade/discussoes/" className={styles.comunidadeLink}>
+                Ver as discussões
+              </Link>
+            </div>
+
+            <p className={`mono ${styles.comunidadeMicro}`}>
+              escrever não exige conta · tudo passa por leitura antes de aparecer
+            </p>
           </div>
         </section>
 
