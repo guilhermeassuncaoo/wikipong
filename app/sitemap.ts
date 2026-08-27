@@ -80,6 +80,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: url('/profissionais'), lastModified: profissionais },
     { url: url('/noticias'), lastModified: noticias },
     { url: url('/competicoes'), lastModified: new Date(CONSULTADO_EM_CALENDARIO) },
+    /* A família /comunidade é quase toda tela de CONTA — entrar, perfil,
+       boas-vindas — e essas ficam fora por serem noindex. Estas duas não: são
+       conteúdo público, com h1 e texto, e estavam fora do mapa por descuido. */
+    { url: url('/comunidade') },
+    { url: url('/comunidade/discussoes') },
   ];
 
   return [...fixas, ...materiais, ...marcas, ...guias];

@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   description:
     'Seu estilo de jogo, seu nível e a sua raquete montada. O estilo vira a tag que ' +
     'aparece embaixo do seu nome nas avaliações.',
+  /* "Meu perfil" só tem conteúdo pra quem está logado; pra quem chega da
+     busca é uma casca. Fora do índice. */
+  robots: { index: false, follow: false },
 };
 
 export default function PaginaPerfil() {

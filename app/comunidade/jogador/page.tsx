@@ -20,6 +20,10 @@ export const metadata: Metadata = {
   title: 'Perfil de jogador · WikiPong',
   description:
     'Estilo, equipamento e contribuições de quem participa da comunidade da WikiPong.',
+  /* O jogador vem da query string e o conteúdo é montado no cliente: o HTML
+     estático desta rota não tem nem h1. Indexar isso seria pôr uma casca
+     vazia no índice em nome de um perfil que ela não contém. */
+  robots: { index: false, follow: false },
 };
 
 export default function PaginaJogador() {

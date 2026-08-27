@@ -3200,6 +3200,48 @@ for (const mat of MATERIAIS.filter((x) => x.origemSpecs === 'comunidade')) {
     '404: falta o titulo em portugues — sem ele a tela nao se explica a quem chegou');
 }
 
+/* ───── toda rota: ou esta no sitemap, ou esta fora do indice ─────
+   Auditoria de 2026-08-23 achou os DOIS lados do mesmo descuido:
+
+     · /comunidade e /comunidade/discussoes sao conteudo publico, com h1 e
+       texto, e estavam FORA do sitemap. Ninguem as acha pela busca.
+     · /comunidade/entrar, /perfil, /jogador e /boas-vindas estavam ABERTAS ao
+       indice. O Google poria no ar um formulario de login, uma tela chamada
+       "Meu perfil" e duas cascas que nem h1 tem no HTML estatico.
+
+   Nenhuma das duas coisas quebra nada, e por isso nenhum teste apontava. A
+   regra que faltava e' esta: uma rota ou merece ser achada — e ai entra no mapa
+   — ou nao merece — e ai se declara noindex. Ficar no meio e' o descuido. */
+{
+  /* Le a FONTE do sitemap, nao o modulo: `app/sitemap.ts` importa os guias, que
+     importam um CSS module, e o runner de teste nao carrega CSS. As rotas fixas
+     estao ali como `url('/caminho')` — as dinamicas vem de MATERIAIS, MARCAS e
+     GUIAS, e por isso saem pela excecao abaixo. */
+  const fonteSitemap = readFileSync('app/sitemap.ts', 'utf8');
+  const rotasDoSitemap = new Set(
+    [...fonteSitemap.matchAll(/url\('(\/[^']*)'\)/g)].map((m) => m[1].replace(/\/$/, '') || '/'),
+  );
+  /* Rotas dinamicas entram no mapa pelo conteudo (MATERIAIS, MARCAS, GUIAS),
+     nao pelo caminho do arquivo — a pasta [id] nunca aparece como rota. */
+  const DINAMICAS = ['app/materiais', 'app/marcas', 'app/aprender'];
+
+  for (const rota of rotasComPagina('app')) {
+    if (rota === 'app/ir') continue; // interstitial de saida, ja documentado
+    const caminho = rota.replace(/^app/, '') || '/';
+    const fonte = readFileSync(`${rota}/page.tsx`, 'utf8');
+    const foraDoIndice = /index:\s*false/.test(fonte);
+    const noMapa = rotasDoSitemap.has(caminho);
+    const ehPaiDeDinamica = DINAMICAS.includes(rota);
+
+    if (foraDoIndice) {
+      afirma(!noMapa, `${caminho}: declarada noindex E listada no sitemap — o mapa contradiz a pagina`);
+    } else {
+      afirma(noMapa || ehPaiDeDinamica,
+        `${caminho}: indexavel e fora do sitemap — ou entra no mapa, ou se declara noindex`);
+    }
+  }
+}
+
 console.log(`\n✔ ${ok} asserções passaram`);
 if (falhas.length) {
   console.error(`✘ ${falhas.length} falharam:`);

@@ -17,6 +17,11 @@ export const metadata: Metadata = {
   title: 'Entrar ou criar conta · WikiPong',
   description:
     'Crie sua conta na WikiPong com e-mail e senha, ou entre por link no e-mail. A conta guarda seu perfil de jogador, sua estante e suas avaliações.',
+  /* Formulário de login não é resposta de busca. Fora do índice pelo mesmo
+     motivo da /moderacao: não gastar rastreamento numa tela sem valor de
+     busca. Não é segurança — no export estático a página é pública como
+     qualquer outra. */
+  robots: { index: false, follow: false },
 };
 
 export default function PaginaEntrar() {
