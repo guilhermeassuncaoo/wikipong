@@ -65,7 +65,7 @@ export function ConjuntosParaComecar() {
         </h2>
         <p className={estilos.lede}>
           Uma raquete de verdade são <strong>três compras</strong>: a lâmina e uma borracha para
-          cada lado. Estas três montagens já estão fechadas — com o motivo de cada escolha e o
+          cada lado. Estas três montagens já estão fechadas, com o motivo de cada escolha e o
           preço somado, sem letra miúda.
         </p>
       </div>

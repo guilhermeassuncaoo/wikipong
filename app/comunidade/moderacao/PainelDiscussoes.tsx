@@ -75,7 +75,7 @@ export function PainelDiscussoes({
 
       <p className={estilos.nota}>
         {esperandoTopicos + esperandoRespostas === 0
-          ? 'Nada esperando decisão — o que está abaixo já foi decidido.'
+          ? 'Nada esperando decisão. O que está abaixo já foi decidido.'
           : `${esperandoTopicos} ${esperandoTopicos === 1 ? 'tópico' : 'tópicos'} e ` +
             `${esperandoRespostas} ${esperandoRespostas === 1 ? 'resposta' : 'respostas'} esperando.`}{' '}
         Tópico e resposta se decidem <strong>separadamente</strong>: aprovar a pergunta não

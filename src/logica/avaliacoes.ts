@@ -130,14 +130,14 @@ export function validar(rascunho: Partial<Avaliacao>): ProblemaCampo[] {
   if (texto.length < TEXTO_MINIMO) {
     problemas.push({
       campo: 'texto',
-      mensagem: `Conte um pouco mais — pelo menos ${TEXTO_MINIMO} caracteres.`,
+      mensagem: `Conte um pouco mais: pelo menos ${TEXTO_MINIMO} caracteres.`,
     });
   } else if (texto.length > TEXTO_MAXIMO) {
     problemas.push({ campo: 'texto', mensagem: `Passou de ${TEXTO_MAXIMO} caracteres.` });
   }
 
   if (!rascunho.nivel || !NIVEIS.includes(rascunho.nivel)) {
-    problemas.push({ campo: 'nivel', mensagem: 'Diga seu nível — é o que dá sentido à nota.' });
+    problemas.push({ campo: 'nivel', mensagem: 'Diga seu nível: é o que dá sentido à nota.' });
   }
   if (!rascunho.tempoDeUso || !TEMPOS_DE_USO.includes(rascunho.tempoDeUso)) {
     problemas.push({ campo: 'tempoDeUso', mensagem: 'Há quanto tempo você usa este material?' });

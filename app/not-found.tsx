@@ -50,7 +50,7 @@ const SAIDAS = [
   {
     href: '/glossario/',
     titulo: 'Glossário',
-    texto: 'Se você veio atrás de uma palavra — catapulta, tensor, ALC — ela está explicada aqui.',
+    texto: 'Se você veio atrás de uma palavra (catapulta, tensor, ALC), ela está explicada aqui.',
   },
   {
     href: '/quiz/',
@@ -70,7 +70,7 @@ export default function NaoEncontrada() {
         O endereço que você abriu não corresponde a nada no WikiPong. Quase sempre é uma letra
         a mais no link, um endereço colado pela metade, ou a página de um material que mudou de
         lugar. O catálogo tem <strong>{MATERIAIS.length} materiais</strong> e uma busca por
-        nome — é o caminho mais curto para achar o que você procurava.
+        nome. É o caminho mais curto para achar o que você procurava.
       </p>
 
       <Link href="/catalogo/" className={`botao-primario ${estilos.acao}`}>
@@ -92,7 +92,7 @@ export default function NaoEncontrada() {
           pessoa precisa saber que dizer isso serve pra alguma coisa. */}
       <p className={estilos.rodape}>
         Chegou aqui clicando em algo <em>dentro</em> do WikiPong? Então o link quebrado é nosso,
-        não seu — e vale avisar pela{' '}
+        não seu, e vale avisar pela{' '}
         <Link href="/comunidade/">página da comunidade</Link>, para que ele seja consertado.
       </p>
     </Pagina>

@@ -52,7 +52,7 @@ export function NoticiasAprovadas() {
             <p className={estilos.resumo}>
               {n.resumo}
               {n.origemResumo === 'fonte' && (
-                <span className={estilos.deQuem}> — linha fina da {n.fonte}</span>
+                <span className={estilos.deQuem}>, linha fina da {n.fonte}</span>
               )}
             </p>
             <p className={`mono ${estilos.fonte}`}>

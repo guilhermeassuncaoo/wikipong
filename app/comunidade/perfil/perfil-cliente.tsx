@@ -200,7 +200,7 @@ export function PerfilCliente() {
             <span>
               {disponivel
                 ? 'Sem conta. O que você preencher fica só neste navegador.'
-                : 'O servidor não está ligado — tudo aqui fica neste navegador.'}
+                : 'O servidor não está ligado, e tudo aqui fica neste navegador.'}
             </span>
           )
         }
@@ -246,14 +246,14 @@ export function PerfilCliente() {
                 vale guardá-los neste navegador.
               </p>
               <p className={estilos.explica}>
-                O resto do perfil só existe pra <strong>ser lido por outra pessoa</strong> — e
+                O resto do perfil só existe pra <strong>ser lido por outra pessoa</strong>, e
                 sem conta não há página onde alguém leia:
               </p>
               <ul className={estilos.listaAbre}>
                 <li>seu endereço público, pra mandar pra alguém</li>
                 <li>a estante do que você já usou, e por quê</li>
                 <li>desde quando joga, quanto joga, clube e cidade</li>
-                <li>suas avaliações assinadas — dá pra corrigir e apagar depois</li>
+                <li>suas avaliações assinadas, que dá pra corrigir e apagar depois</li>
               </ul>
               <p className={estilos.explica}>
                 <strong>Não é obrigatório.</strong> O site inteiro funciona sem entrar.
@@ -275,7 +275,7 @@ export function PerfilCliente() {
             <p className={estilos.explica}>
               O estilo e o nível viram a <strong>tag embaixo do seu nome</strong> em cada
               avaliação que você escrever. É o que faz a sua nota significar alguma coisa pra
-              quem lê — “rápida demais” de um defensor não quer dizer o mesmo que de um
+              quem lê: “rápida demais” de um defensor não quer dizer o mesmo que de um
               atacante.
             </p>
 
@@ -345,7 +345,7 @@ export function PerfilCliente() {
               <h2 id="g-jogo" className={estilos.tituloGrupo}>Como você joga</h2>
               <p className={estilos.explica}>
                 Isto é o contexto de tudo o que você escreve. Quem joga todo dia gasta uma
-                borracha em três meses; quem joga aos sábados leva dois anos — e os dois vão
+                borracha em três meses; quem joga aos sábados leva dois anos, e os dois vão
                 dizer “durou pouco”.
               </p>
 
@@ -425,7 +425,7 @@ export function PerfilCliente() {
             <section className={estilos.grupo} aria-labelledby="g-onde">
               <h2 id="g-onde" className={estilos.tituloGrupo}>Onde você joga</h2>
               <p className={estilos.explica}>
-                O clube é o único campo do perfil que liga você a outra pessoa de verdade — é
+                O clube é o único campo do perfil que liga você a outra pessoa de verdade: é
                 por ele que alguém descobre que joga no mesmo lugar que você.
               </p>
 

@@ -193,13 +193,13 @@ export function oQueFalta(p: Perfil, temConta: boolean): AindaPorContar[] {
       pronto: temEquipamento(p) },
 
     { campo: 'jogaDesde', rotulo: 'Desde quando você joga', soComConta: true,
-      serve: 'vira "N anos de raquete" — o contexto de tudo o que você escreve',
+      serve: 'vira "N anos de raquete", o contexto de tudo o que você escreve',
       pronto: Boolean(p.jogaDesde) },
     { campo: 'frequencia', rotulo: 'Quanto você joga', soComConta: true,
       serve: 'diz quanto peso dar quando você falar que uma borracha durou pouco',
       pronto: Boolean(p.frequencia) },
     { campo: 'mao', rotulo: 'Mão e empunhadura', soComConta: true,
-      serve: 'muda a recomendação inteira — caneta e clássica não pedem a mesma borracha',
+      serve: 'muda a recomendação inteira: caneta e clássica não pedem a mesma borracha',
       pronto: Boolean(p.mao) },
     { campo: 'clube', rotulo: 'Onde você joga', soComConta: true,
       serve: 'é o único campo do perfil que liga você a outra pessoa de verdade',
@@ -279,11 +279,11 @@ export function porQueNaoGravouPerfil(status: number, codigo: string, mensagem: 
   if (/PGRST204/i.test(tudo) || /could not find the .* column|does not exist/i.test(tudo)) {
     return (
       'O banco ainda não tem uma das colunas deste formulário. Falta rodar a migração mais ' +
-      'recente em supabase/ — enquanto isso, nada aqui está sendo guardado.'
+      'recente em supabase/. Enquanto isso, nada aqui está sendo guardado.'
     );
   }
   if (status === 401 || status === 403 || /row-level security|permission denied/i.test(tudo)) {
-    return 'O servidor recusou a gravação. Sua sessão pode ter expirado — entre de novo.';
+    return 'O servidor recusou a gravação. Sua sessão pode ter expirado. Entre de novo.';
   }
   if (/violates check constraint|23514/i.test(tudo)) {
     return 'Um dos valores não foi aceito pelo banco. Confira o ano e os campos de texto mais longos.';

@@ -14,7 +14,7 @@ import { CascaFerramenta } from '@/componentes/CascaFerramenta';
 export const metadata: Metadata = {
   title: 'Comparar materiais',
   description:
-    'Dois materiais do mesmo tipo lado a lado: radar sobreposto, tabela de números e a ficha do fabricante traduzida em português claro. Sem vencedor decretado — maior não quer dizer melhor.',
+    'Dois materiais do mesmo tipo lado a lado: radar sobreposto, tabela de números e a ficha do fabricante traduzida em português claro. Sem vencedor decretado: maior não quer dizer melhor.',
 };
 
 export default function PaginaComparar() {
@@ -23,7 +23,7 @@ export default function PaginaComparar() {
       fallback={
         <CascaFerramenta
           titulo="Comparar materiais"
-          descricao="Escolha dois materiais do mesmo tipo — borracha com borracha, lâmina com lâmina — e veja os números lado a lado, com a ficha do fabricante traduzida. O comparador precisa de JavaScript para montar; enquanto ele carrega, o catálogo já responde."
+          descricao="Escolha dois materiais do mesmo tipo (borracha com borracha, lâmina com lâmina) e veja os números lado a lado, com a ficha do fabricante traduzida. O comparador precisa de JavaScript para montar; enquanto ele carrega, o catálogo já responde."
           saidaHref="/catalogo/"
           saidaTexto="Ver o catálogo completo →"
         />

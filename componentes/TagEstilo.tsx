@@ -50,7 +50,7 @@ export function TagEstilo({
     <Link
       href="/aprender/estilos-de-jogo/"
       className={`mono ${estilos.tag} ${estilos.link} ${estilos[estilo]}`}
-      title={`${ROTULO_ESTILO[estilo]} — ver o que significa`}
+      title={`${ROTULO_ESTILO[estilo]}: ver o que significa`}
     >
       {conteudo}
     </Link>

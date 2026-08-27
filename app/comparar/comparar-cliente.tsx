@@ -358,7 +358,7 @@ function Comparacao({ par, modo }: { par: [MaterialComparavel, MaterialComparave
                         que usa a régua que vai até 100. */}
                     {!naNossaRegua(m.specs?.regua) && (
                       <span className={estilos.reguaDaColuna}>
-                        {NOME_DA_REGUA[m.specs!.regua!]} — não é a escala 0 a 10 do site
+                        {NOME_DA_REGUA[m.specs!.regua!]}, que não é a escala 0 a 10 do site
                       </span>
                     )}
                   </th>
@@ -435,7 +435,7 @@ function Comparacao({ par, modo }: { par: [MaterialComparavel, MaterialComparave
                   <ul className={estilos.claroTracos}>
                     {leitura.tracos.map((t) => (
                       <li key={t.rotulo}>
-                        <b>{t.rotulo}</b> — {t.significa}
+                        <b>{t.rotulo}</b>: {t.significa}
                       </li>
                     ))}
                   </ul>
@@ -470,7 +470,7 @@ function Comparacao({ par, modo }: { par: [MaterialComparavel, MaterialComparave
         {metricas.length === 0 && (
           <p className={estilos.claroSemNumero}>
             Nenhum dos dois tem perfil de desempenho medido, então a tabela acima traz só o preço.
-            A comparação aqui é pela ficha do fabricante — que é como se compara{' '}
+            A comparação aqui é pela ficha do fabricante, que é como se compara{' '}
             {a.tipo.toLowerCase()} na loja.
           </p>
         )}

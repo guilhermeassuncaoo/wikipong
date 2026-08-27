@@ -225,7 +225,7 @@ export function ModeracaoCliente() {
         <p className={estilos.impedidaTitulo}>Você entrou, mas esta conta não modera.</p>
         <p>
           O banco é quem decide isso, não o site: só quem está na tabela{' '}
-          <span className="mono">admins</span> enxerga a fila. Foi de propósito — se o navegador
+          <span className="mono">admins</span> enxerga a fila. Foi de propósito: se o navegador
           pudesse se declarar moderador, qualquer visitante aprovaria as próprias avaliações.
         </p>
         <p className={estilos.enquantoIsso}>
@@ -391,7 +391,7 @@ export function ModeracaoCliente() {
             <>Nada escrito neste navegador ainda. </>
           ) : (
             <>
-              <strong>Fila vazia.</strong> Nenhuma avaliação esperando aprovação — e isso é
+              <strong>Fila vazia.</strong> Nenhuma avaliação esperando aprovação, e isso é
               notícia boa, não erro.{' '}
             </>
           )}

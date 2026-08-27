@@ -105,7 +105,7 @@ export function AvaliacoesMaterial({
               tipo: 'ok',
               texto:
                 'Avaliação enviada. Ela fica esperando aprovação antes de aparecer para os ' +
-                'outros — é assim com toda avaliação, inclusive a sua.',
+                'outros. É assim com toda avaliação, inclusive a sua.',
             },
       );
     } catch (err) {
@@ -113,9 +113,9 @@ export function AvaliacoesMaterial({
       setAviso({
         tipo: 'erro',
         texto: jaAvaliou
-          ? 'Você já avaliou este material. Cada pessoa escreve uma avaliação por material — ' +
+          ? 'Você já avaliou este material. Cada pessoa escreve uma avaliação por material, e ' +
             'se ela ainda não apareceu, é porque está esperando aprovação.'
-          : 'Não deu pra enviar agora. Confira a conexão e tente de novo — o que você escreveu ' +
+          : 'Não deu pra enviar agora. Confira a conexão e tente de novo. O que você escreveu ' +
             'continua aí.',
       });
     }
@@ -146,7 +146,7 @@ export function AvaliacoesMaterial({
       ) : visiveis.length === 0 ? (
         <p className={estilos.vazio}>
           Ninguém avaliou <strong>{nomeMaterial}</strong> ainda. Se você usa, a sua é a primeira
-          — e a ficha técnica acima continua valendo do mesmo jeito.
+          e a ficha técnica acima continua valendo do mesmo jeito.
         </p>
       ) : (
         <p className={estilos.vazio}>

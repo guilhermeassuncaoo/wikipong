@@ -366,7 +366,7 @@ export const TELAS: Record<string, Tela> = {
     perfil: {
       id: 'topspin-meia-distancia',
       nome: 'Topspin de meia-distância',
-      descricao: 'Girar a bola um passo atrás da mesa, com arco. Pede tempo de contato — em lâmina, é o território da fibra interna.',
+      descricao: 'Girar a bola um passo atrás da mesa, com arco. Pede tempo de contato, e em lâmina isso é o território da fibra interna.',
       presetURL: '/catalogo?intencao=atacar&ordenar=spin',
     },
   },

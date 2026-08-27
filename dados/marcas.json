@@ -1,9 +1,9 @@
 {
-  "aviso": "MARCAS — a página de cada marca é majoritariamente DERIVADA dos dados que o site já tem (materiais do catálogo, faixa de preço real, escala de dureza declarada nas fichas, quais profissionais usam). O texto abaixo é EDITORIAL curto e restrito a fatos amplamente documentados (país de origem, linha pela qual a marca é conhecida). Não inventamos história de marca, faturamento nem superlativo de marketing (D-02/D-16). `site` é o endereço oficial que consultamos ao colher specs e imagens. LINKS CONFERIDOS EM 2026-08-16. Quatro estavam errados, e os quatro so apareceram quando a busca passou a ser em CHINES e nao em ingles: a Friendship 729 e 天津七二九体育 (729sports.com), a Yinhe e 河北银河体育 (yinhe1986.cn, e nao \"yinhe-tt\"), a Sanwei mudou para sanweisport.com e a DHS institucional e o 红双喜集团 (dhs-group.com). Os dominios que tinhamos eram nomes em ingles que nunca existiram ou sairam do ar. A Sanwei mudou para sanweisport.com. A Tibhar apontava para tibhar.com.br, que e a LOJA brasileira e nao o fabricante: passou para tibhar.info, o site institucional da TIBHAR Tibor Harangozo GmbH.",
+  "aviso": "MARCAS: a página de cada marca é majoritariamente DERIVADA dos dados que o site já tem (materiais do catálogo, faixa de preço real, escala de dureza declarada nas fichas, quais profissionais usam). O texto abaixo é EDITORIAL curto e restrito a fatos amplamente documentados (país de origem, linha pela qual a marca é conhecida). Não inventamos história de marca, faturamento nem superlativo de marketing (D-02/D-16). `site` é o endereço oficial que consultamos ao colher specs e imagens. LINKS CONFERIDOS EM 2026-08-16. Quatro estavam errados, e os quatro so apareceram quando a busca passou a ser em CHINES e nao em ingles: a Friendship 729 e 天津七二九体育 (729sports.com), a Yinhe e 河北银河体育 (yinhe1986.cn, e nao \"yinhe-tt\"), a Sanwei mudou para sanweisport.com e a DHS institucional e o 红双喜集团 (dhs-group.com). Os dominios que tinhamos eram nomes em ingles que nunca existiram ou sairam do ar. A Sanwei mudou para sanweisport.com. A Tibhar apontava para tibhar.com.br, que e a LOJA brasileira e nao o fabricante: passou para tibhar.info, o site institucional da TIBHAR Tibor Harangozo GmbH.",
   "marcas": {
     "Andro": {
       "pais": "Alemanha",
-      "descricao": "Marca alemã de Hamburgo, conhecida pela linha Rasanter de borrachas — a R47 e a R42 são as mais avaliadas dela no catálogo. Divide bem entre os dois lados da raquete: 32 borrachas e 27 lâminas aqui, incluindo a linha Synteliac.",
+      "descricao": "Marca alemã de Hamburgo, conhecida pela linha Rasanter de borrachas, e a R47 e a R42 são as mais avaliadas dela no catálogo. Divide bem entre os dois lados da raquete: 32 borrachas e 27 lâminas aqui, incluindo a linha Synteliac.",
       "site": "https://www.andro.de/"
     },
     "Butterfly": {
@@ -23,17 +23,17 @@
     },
     "Friendship 729": {
       "pais": "China",
-      "descricao": "Uma das marcas chinesas mais antigas, especializada em borrachas aderentes — as dez peças dela no catálogo são todas borracha, nenhuma lâmina. A linha Battle é a mais avaliada.",
+      "descricao": "Uma das marcas chinesas mais antigas, especializada em borrachas aderentes. As dez peças dela no catálogo são todas borracha, nenhuma lâmina. A linha Battle é a mais avaliada.",
       "site": "http://www.729sports.com/"
     },
     "Gewo": {
       "pais": "Alemanha",
-      "descricao": "Marca alemã de Henstedt-Ulzburg, conhecida pela linha Nexxus de borrachas — a maior dela aqui, com 11 itens. Patrocina o nigeriano Quadri Aruna, e a linha de assinatura dele no catálogo são seis LÂMINAS, não borrachas. São 88 materiais da marca no site, e nenhum deles tem avaliação da comunidade ainda: por isso as fichas aparecem sem nota de quem jogou.",
+      "descricao": "Marca alemã de Henstedt-Ulzburg, conhecida pela linha Nexxus de borrachas, a maior dela aqui, com 11 itens. Patrocina o nigeriano Quadri Aruna, e a linha de assinatura dele no catálogo são seis LÂMINAS, não borrachas. São 88 materiais da marca no site, e nenhum deles tem avaliação da comunidade ainda: por isso as fichas aparecem sem nota de quem jogou.",
       "site": "https://www.gewo-tt.com/"
     },
     "Joola": {
       "pais": "Alemanha",
-      "descricao": "Marca alemã com forte presença em mesas e equipamento de evento. Desde 2026 é a patrocinadora de Hugo Calderano, e a linha de assinatura dele — as borrachas Trinity e a lâmina ARY-C — está no catálogo.",
+      "descricao": "Marca alemã com forte presença em mesas e equipamento de evento. Desde 2026 é a patrocinadora de Hugo Calderano, e a linha de assinatura dele, com as borrachas Trinity e a lâmina ARY-C, está no catálogo.",
       "site": "https://www.joola.de/"
     },
     "Nittaku": {
@@ -48,12 +48,12 @@
     },
     "Sanwei": {
       "pais": "China",
-      "descricao": "Chinesa de preço baixo, forte em lâminas de carbono acessíveis — 14 das 23 peças dela aqui são madeiras. A partir de R$ 90, é uma das portas de entrada mais baratas do catálogo.",
+      "descricao": "Chinesa de preço baixo, forte em lâminas de carbono acessíveis: 14 das 23 peças dela aqui são madeiras. A partir de R$ 90, é uma das portas de entrada mais baratas do catálogo.",
       "site": "https://sanweisport.com/en/"
     },
     "Stiga": {
       "pais": "Suécia",
-      "descricao": "Fabrica lâminas em Eskilstuna, na Suécia, desde 1944 — a Allround Classic é de 1967 e segue em linha. Marca associada ao jogo europeu clássico, de madeira pura e controle.",
+      "descricao": "Fabrica lâminas em Eskilstuna, na Suécia, desde 1944. A Allround Classic é de 1967 e segue em linha. Marca associada ao jogo europeu clássico, de madeira pura e controle.",
       "site": "https://www.stigasports.com/"
     },
     "Tibhar": {
@@ -63,7 +63,7 @@
     },
     "Victas": {
       "pais": "Japão",
-      "descricao": "Japonesa, nascida dentro da TSP e que absorveu a marca-mãe em 2021 — por isso produtos que eram TSP aparecem hoje sob o nome Victas. São 75 materiais aqui, com a linha V e a lâmina de assinatura de Koki Niwa entre os mais avaliados.",
+      "descricao": "Japonesa, nascida dentro da TSP e que absorveu a marca-mãe em 2021, e por isso produtos que eram TSP aparecem hoje sob o nome Victas. São 75 materiais aqui, com a linha V e a lâmina de assinatura de Koki Niwa entre os mais avaliados.",
       "site": "https://victas.com/"
     },
     "Xiom": {
@@ -73,7 +73,7 @@
     },
     "Yasaka": {
       "pais": "Japão",
-      "descricao": "A Mark V, lançada em 1969, é provavelmente a borracha mais vendida da história do esporte — e continua sendo recomendada para quem está formando técnica.",
+      "descricao": "A Mark V, lançada em 1969, é provavelmente a borracha mais vendida da história do esporte, e continua sendo recomendada para quem está formando técnica.",
       "site": "https://yasakatabletennis.com/"
     },
     "Yinhe": {

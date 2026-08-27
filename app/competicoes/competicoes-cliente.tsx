@@ -176,7 +176,7 @@ export function CompeticoesCliente() {
             {partes.vem.length === 0 ? (
               <p className={estilos.vazio}>
                 Acabou o calendário deste ano. A CBTM costuma publicar o do ano seguinte entre
-                dezembro e janeiro — quando sair, esta página é atualizada.
+                dezembro e janeiro. Quando sair, esta página é atualizada.
               </p>
             ) : (
               <Meses competicoes={partes.vem} hoje={hoje} destaque />
@@ -189,7 +189,7 @@ export function CompeticoesCliente() {
                 O que já aconteceu
               </h2>
               <p className={estilos.grupoNota}>
-                Da mais recente para a mais antiga — arquivo se lê de trás pra frente.
+                Da mais recente para a mais antiga: arquivo se lê de trás pra frente.
               </p>
               <Meses competicoes={partes.passou} hoje={hoje} />
             </section>

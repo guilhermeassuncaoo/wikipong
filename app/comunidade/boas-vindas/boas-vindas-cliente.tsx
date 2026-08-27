@@ -126,7 +126,7 @@ export function BoasVindasCliente() {
       await repo.gravar(novo);
       setErro(null);
     } catch {
-      setErro('Não consegui guardar agora. O que você digitou continua na tela — tente avançar de novo.');
+      setErro('Não consegui guardar agora. O que você digitou continua na tela. Tente avançar de novo.');
     } finally {
       setGravando(false);
     }
@@ -298,7 +298,7 @@ export function BoasVindasCliente() {
               aoEscolher={(id) => salvar({ equipamento: { ...perfil.equipamento, bh: id } })}
             />
             <p className={estilos.dica}>
-              Não sabe o que você tem? <Link href="/catalogo/">Procure no catálogo</Link> — dá pra
+              Não sabe o que você tem? <Link href="/catalogo/">Procure no catálogo</Link>. Dá pra
               voltar aqui depois.
             </p>
           </>
@@ -377,7 +377,7 @@ function EscolhaDeMaterial({
         opcoes={lista}
         valor={escolhido}
         aoEscolher={(id) => aoEscolher(id)}
-        placeholder="buscar por nome ou marca — ou deixar em branco"
+        placeholder="buscar por nome ou marca, ou deixar em branco"
       />
       {escolhido && (
         <button type="button" className={estilos.pular} onClick={() => aoEscolher(undefined)}>

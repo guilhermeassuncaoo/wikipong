@@ -70,7 +70,7 @@ export function PainelPedidos({
 
       <p className={estilos.nota}>
         {esperando === 0
-          ? 'Nenhum pedido esperando — os de baixo já foram decididos.'
+          ? 'Nenhum pedido esperando. Os de baixo já foram decididos.'
           : `${esperando} ${esperando === 1 ? 'pedido espera' : 'pedidos esperam'} sua decisão.`}{' '}
         <strong>Publicar</strong> faz o pedido aparecer no fim da página Aprender. Escolher o guia
         é o que avisa quem pediu que foi atendido.

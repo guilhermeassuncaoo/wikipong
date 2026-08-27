@@ -1,5 +1,5 @@
 {
-  "aviso": "O QUE OS PROFISSIONAIS USAM — dado curado, com FONTE e DATA em cada jogador (D-14/D-16). Três verdades incômodas ficam ditas em vez de escondidas: (1) setup de profissional MUDA — troca de patrocínio, ajuste de temporada; por isso cada ficha tem a data da checagem; (2) quase todo pro usa versão 'National/Personal' feita sob medida, que NÃO é a de prateleira — quando linkamos para uma ficha nossa, é o equivalente COMERCIAL mais próximo, não a peça exata dele; (3) copiar o equipamento de um pro raramente melhora o jogo de quem está começando — a técnica vem primeiro. Nunca inventamos um setup nem linkamos a uma ficha que não seja honestamente equivalente.",
+  "aviso": "O QUE OS PROFISSIONAIS USAM: dado curado, com FONTE e DATA em cada jogador (D-14/D-16). Três verdades incômodas ficam ditas em vez de escondidas: (1) setup de profissional MUDA, seja por troca de patrocínio, ajuste de temporada; por isso cada ficha tem a data da checagem; (2) quase todo pro usa versão 'National/Personal' feita sob medida, que NÃO é a de prateleira. Quando linkamos para uma ficha nossa, é o equivalente COMERCIAL mais próximo, não a peça exata dele; (3) copiar o equipamento de um pro raramente melhora o jogo de quem está começando: a técnica vem primeiro. Nunca inventamos um setup nem linkamos a uma ficha que não seja honestamente equivalente.",
   "profissionais": [
     {
       "id": "hugo-calderano",
@@ -23,7 +23,7 @@
       },
       "fonte": "https://tabletennis-reference.com/player/detail/134",
       "consultadoEm": "2026-07-23",
-      "nota": "Trocou a XIOM pela JOOLA em 2026 e hoje joga a linha de assinatura dele. A raquete inteira está no catálogo — a lâmina ARY-C entra com preço em dólar porque não é vendida no Brasil: por aqui a loja tem a AW-7, a KL-C Inner e a Infinity Carbon da mesma linha, que são outras madeiras. Antes da JOOLA, jogou anos com equipamento XIOM."
+      "nota": "Trocou a XIOM pela JOOLA em 2026 e hoje joga a linha de assinatura dele. A raquete inteira está no catálogo, e a lâmina ARY-C entra com preço em dólar porque não é vendida no Brasil: por aqui a loja tem a AW-7, a KL-C Inner e a Infinity Carbon da mesma linha, que são outras madeiras. Antes da JOOLA, jogou anos com equipamento XIOM."
     },
     {
       "id": "bruna-takahashi",
@@ -47,7 +47,7 @@
       },
       "fonte": "https://pingsunday.com/bruna-takahashi-equipment/",
       "consultadoEm": "2026-07-23",
-      "nota": "A raquete inteira dela está no catálogo desde que a Andro entrou: a lâmina Synteliac VCI e a NUZN 55 dos dois lados. Usar a mesma borracha em forehand e backhand é escolha, não economia — dá resposta idêntica dos dois lados."
+      "nota": "A raquete inteira dela está no catálogo desde que a Andro entrou: a lâmina Synteliac VCI e a NUZN 55 dos dois lados. Usar a mesma borracha em forehand e backhand é escolha, não economia: dá resposta idêntica dos dois lados."
     },
     {
       "id": "ma-long",
@@ -55,7 +55,7 @@
       "pais": "China",
       "bandeira": "🇨🇳",
       "mao": "Destro",
-      "estilo": "Ofensivo completo — considerado o jogo mais equilibrado da história",
+      "estilo": "Ofensivo completo, considerado o jogo mais equilibrado da história",
       "destaque": "Bicampeão olímpico de simples e o jogador mais vitorioso de todos os tempos.",
       "lamina": {
         "nome": "DHS W968 Hurricane Long 5 National",
@@ -71,7 +71,7 @@
       },
       "fonte": "https://pingsunday.com/ma-long-equipment/",
       "consultadoEm": "2026-07-23",
-      "nota": "A W968 é a lâmina de seleção — no catálogo com preço em dólar, porque não se vende no Brasil. A Hurricane 3 dele também é National, feita sob medida; a nossa ficha é da Hurricane 3 Neo, a prima de varejo mais próxima."
+      "nota": "A W968 é a lâmina de seleção, e está no catálogo com preço em dólar, porque não se vende no Brasil. A Hurricane 3 dele também é National, feita sob medida; a nossa ficha é da Hurricane 3 Neo, a prima de varejo mais próxima."
     },
     {
       "id": "fan-zhendong",
@@ -95,7 +95,7 @@
       },
       "fonte": "https://pingsunday.com/fan-zhendong-equipment/",
       "consultadoEm": "2026-07-23",
-      "nota": "A lâmina de assinatura dele é justamente uma das nossas fichas. Em 2025–2026 foi visto alternando os lados das borrachas conforme a mesa e a bola do torneio — setup em ajuste."
+      "nota": "A lâmina de assinatura dele é justamente uma das nossas fichas. Em 2025–2026 foi visto alternando os lados das borrachas conforme a mesa e a bola do torneio: setup em ajuste."
     },
     {
       "id": "tomokazu-harimoto",
@@ -119,7 +119,7 @@
       },
       "fonte": "https://pingsunday.com/tomokazu-harimoto-equipment/",
       "consultadoEm": "2026-07-23",
-      "nota": "Duas das borrachas dele estão no nosso catálogo. Fontes recentes indicam que ele pode ter passado a usar Dignics 05 também no backhand — vale reconferir na fonte."
+      "nota": "Duas das borrachas dele estão no nosso catálogo. Fontes recentes indicam que ele pode ter passado a usar Dignics 05 também no backhand, e vale reconferir na fonte."
     }
   ]
 }

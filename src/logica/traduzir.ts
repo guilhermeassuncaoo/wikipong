@@ -101,7 +101,7 @@ export const LAMINA: Record<FamiliaLamina, { resumo: string; traco: Traco }> = {
     resumo:
       'Lâmina com a fibra logo abaixo da folha de fora. A bola encontra o carbono quase na hora ' +
       'do impacto: a saída é seca, rápida e direta, com arco mais baixo. É a escolha de quem joga ' +
-      'colado na mesa, bloqueando e devolvendo forte — e a que menos avisa quando o gesto sai errado.',
+      'colado na mesa, bloqueando e devolvendo forte, e a que menos avisa quando o gesto sai errado.',
     traco: { rotulo: 'Fibra externa', significa: 'saída seca e rápida, arco baixo, perto da mesa' },
   },
   'fibra-interna': {
@@ -114,7 +114,7 @@ export const LAMINA: Record<FamiliaLamina, { resumo: string; traco: Traco }> = {
   'com-fibra': {
     resumo:
       'Lâmina com uma camada de fibra dentro da madeira. A fibra devolve a bola mais rápido e ' +
-      'tira vibração: ganha velocidade e perde perdão. Pede gesto já formado — no erro, ela ' +
+      'tira vibração: ganha velocidade e perde perdão. Pede gesto já formado, e no erro ela ' +
       'não segura a bola dentro da mesa.',
     traco: { rotulo: 'Tem fibra', significa: 'mais rápida e menos perdoada no erro' },
   },
@@ -146,7 +146,7 @@ export const BORRACHA: Record<FamiliaBorracha, { resumo: string; traco: Traco }>
   aderente: {
     resumo:
       'Superfície aderente, do estilo chinês: a bola gruda mais na borracha e sai com muito ' +
-      'giro. Em compensação exige gesto completo — quem bate curto sente a bola morrer na mesa.',
+      'giro. Em compensação exige gesto completo: quem bate curto sente a bola morrer na mesa.',
     traco: { rotulo: 'Aderente', significa: 'muito giro, mas exige gesto completo' },
   },
   hibrida: {
@@ -159,7 +159,7 @@ export const BORRACHA: Record<FamiliaBorracha, { resumo: string; traco: Traco }>
   classica: {
     resumo:
       'Borracha lisa clássica, sem tensionamento. Mais lenta e mais previsível que as ' +
-      'modernas — é a que menos castiga erro de gesto, e a que mais dura.',
+      'modernas, e é a que menos castiga erro de gesto, e a que mais dura.',
     traco: { rotulo: 'Clássica', significa: 'lenta, previsível e de vida longa' },
   },
 };
@@ -186,7 +186,7 @@ export const BOLA = {
     'em peso, quique e formato.',
   tresEstrelas: {
     rotulo: 'Três estrelas',
-    significa: 'a categoria de competição — bola de treino tem uma ou duas',
+    significa: 'a categoria de competição: bola de treino tem uma ou duas',
   },
   ittf: { rotulo: 'Aprovada pela ITTF', significa: 'pode ser usada em torneio oficial' },
 } as const;

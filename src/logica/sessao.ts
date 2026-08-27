@@ -146,7 +146,7 @@ export function mensagemDeErro(f: FalhaDoServidor): string {
     return 'E-mail ou senha não conferem. Se você criou a conta pelo link no e-mail, ela ainda não tem senha — use "esqueci minha senha" pra definir uma.';
   }
   if (codigo.includes('email_not_confirmed')) {
-    return 'Falta confirmar seu e-mail. Procure a mensagem que enviamos e clique no link dela — depois a senha funciona.';
+    return 'Falta confirmar seu e-mail. Procure a mensagem que enviamos e clique no link dela. Depois a senha funciona.';
   }
   if (codigo.includes('weak_password')) {
     /* O número vem da MENSAGEM do servidor, não daqui: quem manda na regra é o
@@ -174,7 +174,7 @@ export function mensagemDeErro(f: FalhaDoServidor): string {
   if (status === 429 || codigo.includes('rate_limit')) {
     return (
       'O servidor de e-mail manda poucas mensagens por hora, e a cota acabou. ' +
-      'Espere uns minutos e peça de novo — não é problema no seu e-mail.'
+      'Espere uns minutos e peça de novo. Não é problema no seu e-mail.'
     );
   }
 

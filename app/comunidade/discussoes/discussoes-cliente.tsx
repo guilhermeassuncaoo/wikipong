@@ -112,7 +112,7 @@ export function DiscussoesCliente() {
         ) : (
           <>
             Todo tópico e toda resposta passam por leitura antes de aparecer aqui. Escrever não
-            exige conta — <strong>entrar</strong> serve pra você poder marcar depois qual resposta
+            exige conta. <strong>Entrar</strong> serve pra você poder marcar depois qual resposta
             resolveu a sua dúvida.
           </>
         )}
@@ -195,7 +195,7 @@ export function DiscussoesCliente() {
             setAviso(
               repo.somenteLocal
                 ? null
-                : 'Tópico enviado. Ele aparece aqui depois de lido — por isso não está na lista ainda.',
+                : 'Tópico enviado. Ele aparece aqui depois de lido, por isso não está na lista ainda.',
             );
           }}
         />

@@ -71,7 +71,7 @@ export default function PaginaNoticias() {
             Como esta página funciona
           </h2>
           <p>
-            A WikiPong não é um jornal, é uma enciclopédia. Aqui a gente faz um{' '}
+            A WikiPong é uma enciclopédia, não um jornal. Aqui a gente faz um{' '}
             <strong>resumo curto</strong> de cada notícia e <strong>credita e linka</strong> a fonte
             que apurou. Não copiamos o texto nem as imagens de ninguém: quem quiser a matéria
             inteira, clica e vai pra origem.

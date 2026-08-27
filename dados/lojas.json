@@ -1,5 +1,5 @@
 {
-  "aviso": "DIRETÓRIO de lojas brasileiras de tênis de mesa — endereços verificados em 21/07/2026. ATENÇÃO ao que isto NÃO é: não verificamos estoque nem preço destas lojas para cada material específico. É a lista de onde procurar, não uma oferta conferida. Oferta com preço e data vive em ofertas.json e aparece separada, acima desta lista. Nenhuma destas lojas é parceira comercial hoje — quando alguma for, ganhará a tag PARCEIRO e a divulgação exigida (D-06/D-13).",
+  "aviso": "DIRETÓRIO de lojas brasileiras de tênis de mesa, endereços verificados em 21/07/2026. ATENÇÃO ao que isto NÃO é: não verificamos estoque nem preço destas lojas para cada material específico. É a lista de onde procurar, não uma oferta conferida. Oferta com preço e data vive em ofertas.json e aparece separada, acima desta lista. Nenhuma destas lojas é parceira comercial hoje. Quando alguma for, ganhará a tag PARCEIRO e a divulgação exigida (D-06/D-13).",
   "lojas": [
     {
       "id": "drivett",
@@ -30,7 +30,7 @@
       "nome": "Mercado Livre",
       "url": "https://www.mercadolivre.com.br/",
       "buscaTemplate": "https://lista.mercadolivre.com.br/{q}",
-      "nota": "Marketplace: cada vendedor tem preço e procedência próprios — confira a reputação."
+      "nota": "Marketplace: cada vendedor tem preço e procedência próprios. Confira a reputação."
     }
   ]
 }

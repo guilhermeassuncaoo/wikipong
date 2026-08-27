@@ -55,7 +55,7 @@ export function validarPedido(p: Partial<PedidoDePauta>): ProblemaPedido[] {
   if (tema.length < TEMA_MINIMO) {
     problemas.push({
       campo: 'tema',
-      mensagem: `Diga o tema em pelo menos ${TEMA_MINIMO} caracteres — "cola" não dá pra transformar em guia.`,
+      mensagem: `Diga o tema em pelo menos ${TEMA_MINIMO} caracteres, porque "cola" não dá pra transformar em guia.`,
     });
   } else if (tema.length > TEMA_MAXIMO) {
     problemas.push({

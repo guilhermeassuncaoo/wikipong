@@ -16,8 +16,8 @@ import { TextoComGlossario } from '@/componentes/TextoComGlossario';
 export const metadata: Metadata = {
   title: 'Glossário',
   description:
-    'Os termos técnicos do tênis de mesa — do topspin ao efeito catapulta, da pegajosidade ' +
-    'ao ponto de fundo — explicados de forma direta, em português claro.',
+    'Os termos técnicos do tênis de mesa, do topspin ao efeito catapulta e da pegajosidade ' +
+    'ao ponto de fundo, explicados de forma direta, em português claro.',
 };
 
 /* A ordem segue o caminho de quem aprende, não o alfabeto: primeiro o que a bola

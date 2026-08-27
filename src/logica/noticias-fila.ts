@@ -152,7 +152,7 @@ export function repositorioNoticiasSupabase(url: string, chave: string): Reposit
       /* A recusa é aqui e não só na tela: quem chamar esta função de outro lugar
          continua impedido de publicar manchete sem resumo. */
       if (resumo.trim().length < RESUMO_MINIMO) {
-        throw new Error(`O resumo precisa de pelo menos ${RESUMO_MINIMO} caracteres — é ele que a pessoa lê.`);
+        throw new Error(`O resumo precisa de pelo menos ${RESUMO_MINIMO} caracteres, porque é ele que a pessoa lê.`);
       }
       /* O ponto final é garantido AQUI, e não só no formulário — mesma razão da
          recusa acima: quem chamar esta função de outro lugar publica com a

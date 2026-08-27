@@ -1,5 +1,5 @@
 {
-  "aviso": "HISTÓRICO DE PREÇOS — gerado por scripts/historico-precos.mjs a partir do histórico do git de dados/ofertas.json. Não editar à mão: é derivado. Cada ponto é uma checagem em que o preço MUDOU (o primeiro sempre entra); repetir o mesmo valor não vira ponto novo, para não simular acompanhamento que não houve (D-16).",
+  "aviso": "HISTÓRICO DE PREÇOS: gerado por scripts/historico-precos.mjs a partir do histórico do git de dados/ofertas.json. Não editar à mão: é derivado. Cada ponto é uma checagem em que o preço MUDOU (o primeiro sempre entra); repetir o mesmo valor não vira ponto novo, para não simular acompanhamento que não houve (D-16).",
   "geradoEm": "2026-07-26",
   "materiais": {
     "tenergy05": [

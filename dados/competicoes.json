@@ -1,12 +1,12 @@
 {
-  "aviso": "CALENDÁRIO NACIONAL DA CBTM, temporada 2026 — transcrito do calendário oficial em 2026-08-16. Cada linha é o que a CBTM publica; nada aqui é estimado. O que a fonte não diz, esta base não diz: não há horário de jogo, ginásio, taxa de inscrição nem prazo de inscrição, porque a página de calendário não publica nada disso — e inventar seria pior que faltar. POR QUE A PRATA TEM 9 E NÃO AS 10 ANUNCIADAS: a etapa de Brasília/DF foi CANCELADA (informado pelo fundador em 2026-08-16, e a página dela na CBTM — /evento/detalhe/63204 — hoje responde 404, o que é consistente com a remoção). A CBTM não publica um aviso de cancelamento que dê para citar, então isto fica registrado AQUI, para quem mantiver a base, e NÃO vira ressalva na tela: 9 é o número certo, e a tela não precisa explicar uma dúvida que não existe mais. DATA MANDA MAIS QUE A LISTA: competição muda de data e de sede, e o site tem que mandar a pessoa conferir na CBTM antes de viajar.",
+  "aviso": "CALENDÁRIO NACIONAL DA CBTM, temporada 2026, transcrito do calendário oficial em 2026-08-16. Cada linha é o que a CBTM publica; nada aqui é estimado. O que a fonte não diz, esta base não diz: não há horário de jogo, ginásio, taxa de inscrição nem prazo de inscrição, porque a página de calendário não publica nada disso, e inventar seria pior que faltar. POR QUE A PRATA TEM 9 E NÃO AS 10 ANUNCIADAS: a etapa de Brasília/DF foi CANCELADA (informado pelo fundador em 2026-08-16, e a página dela na CBTM, /evento/detalhe/63204, hoje responde 404, o que é consistente com a remoção). A CBTM não publica um aviso de cancelamento que dê para citar, então isto fica registrado AQUI, para quem mantiver a base, e NÃO vira ressalva na tela: 9 é o número certo, e a tela não precisa explicar uma dúvida que não existe mais. DATA MANDA MAIS QUE A LISTA: competição muda de data e de sede, e o site tem que mandar a pessoa conferir na CBTM antes de viajar.",
   "fonte": "https://www.cbtm.org.br/evento/categoria/2",
   "temporada": 2026,
   "consultadoEm": "2026-08-16",
   "etapasAnunciadas": {
     "ouro": 10,
     "prata": 10,
-    "nota": "Número anunciado pela CBTM em https://www.cbtm.org.br/noticia/detalhe/102871/copa-brasil-estreia-novo-formato-com-series-ouro-e-prata-em-2026 (05/03/2026). A Prata ficou em 9 porque a etapa de Brasília foi cancelada — ver o aviso acima. Guardado para a asserção que impede listarmos MAIS etapas do que foram anunciadas."
+    "nota": "Número anunciado pela CBTM em https://www.cbtm.org.br/noticia/detalhe/102871/copa-brasil-estreia-novo-formato-com-series-ouro-e-prata-em-2026 (05/03/2026). A Prata ficou em 9 porque a etapa de Brasília foi cancelada. Ver o aviso acima. Guardado para a asserção que impede listarmos MAIS etapas do que foram anunciadas."
   },
   "eventos": [
     {
@@ -120,7 +120,7 @@
       "cidade": "Campo Grande",
       "uf": "MS",
       "tipo": "outro",
-      "nota": "Organizado pela AECNB, não pela CBTM — entra por estar no calendário nacional dela."
+      "nota": "Organizado pela AECNB, não pela CBTM. Entra por estar no calendário nacional dela."
     },
     {
       "nome": "Copa Brasil Ouro · Jaraguá do Sul",

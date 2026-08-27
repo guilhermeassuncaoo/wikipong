@@ -323,7 +323,7 @@ export function MontarCliente() {
                       Comparado com o que você declarou na comunidade
                       {perfil.estilo ? `: ${ROTULO_ESTILO[perfil.estilo]}` : ''}
                       {perfil.nivel ? `, nível ${perfil.nivel}` : ''}. É ponto de partida, não
-                      sentença — montar contra o próprio estilo é escolha legítima.
+                      sentença: montar contra o próprio estilo é escolha legítima.
                     </p>
                     <ul className={estilos.perfilLista}>
                       {vereditos.map((v) => (
@@ -339,7 +339,7 @@ export function MontarCliente() {
                             aria-hidden="true"
                           />
                           <span>
-                            <b>{ROTULO_PAPEL[v.papel]}</b> — {v.peca.nome}
+                            <b>{ROTULO_PAPEL[v.papel]}</b>: {v.peca.nome}
                             {v.texto ? `: ${v.texto}.` : ' não tem nada que destoe do seu perfil.'}
                           </span>
                         </li>

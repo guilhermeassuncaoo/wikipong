@@ -82,7 +82,7 @@ export function validarTopico(r: Partial<Topico>): ProblemaTopico[] {
     });
   }
   if ((r.texto ?? '').trim().length < TEXTO_MINIMO) {
-    p.push({ campo: 'texto', mensagem: `Conte o caso — pelo menos ${TEXTO_MINIMO} caracteres.` });
+    p.push({ campo: 'texto', mensagem: `Conte o caso: pelo menos ${TEXTO_MINIMO} caracteres.` });
   }
   return p;
 }

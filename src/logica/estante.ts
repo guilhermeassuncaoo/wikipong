@@ -71,7 +71,7 @@ export function problemasDaEntrada(e: EntradaDeEstante): string[] {
       problemas.push(`O motivo precisa de pelo menos ${MOTIVO_MINIMO} caracteres.`);
     }
     if (t.length > MOTIVO_MAXIMO) {
-      problemas.push(`O motivo passa de ${MOTIVO_MAXIMO} caracteres — isso já é uma avaliação.`);
+      problemas.push(`O motivo passa de ${MOTIVO_MAXIMO} caracteres, e isso já é uma avaliação.`);
     }
   }
   return problemas;

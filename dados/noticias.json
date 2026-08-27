@@ -1,5 +1,5 @@
 {
-  "aviso": "NOTÍCIAS — digest curado (D-19, feature 3). Cada item é um resumo CURTO na voz da WikiPong + atribuição à fonte + link pro original + data REAL da publicação (D-14/D-16). NÃO republicamos o artigo nem a imagem de terceiros: resumimos, creditamos e linkamos. Só entra notícia verificável (evento real, link real, data real). Fontes que não conseguimos ler automaticamente (Instagram etc.) entram por curadoria do fundador, no mesmo padrão. Notícia envelhece: a data é sempre visível e a lista é ordenada da mais nova pra mais antiga.",
+  "aviso": "NOTÍCIAS: digest curado (D-19, feature 3). Cada item é um resumo CURTO na voz da WikiPong + atribuição à fonte + link pro original + data REAL da publicação (D-14/D-16). NÃO republicamos o artigo nem a imagem de terceiros: resumimos, creditamos e linkamos. Só entra notícia verificável (evento real, link real, data real). Fontes que não conseguimos ler automaticamente (Instagram etc.) entram por curadoria do fundador, no mesmo padrão. Notícia envelhece: a data é sempre visível e a lista é ordenada da mais nova pra mais antiga.",
   "noticias": [
     {
       "id": "calderano-celebra-titulo-forca-mental",
@@ -31,7 +31,7 @@
     {
       "id": "calderano-takahashi-seguem-star-contender",
       "titulo": "Calderano e Takahashi avançam juntos no Star Contender",
-      "resumo": "Os dois principais nomes do Brasil seguiram vivos no torneio de São José dos Campos — a caminho do título dele e da prata dos dois nas duplas mistas.",
+      "resumo": "Os dois principais nomes do Brasil seguiram vivos no torneio de São José dos Campos, a caminho do título dele e da prata dos dois nas duplas mistas.",
       "fonte": "CBTM",
       "url": "https://www.cbtm.org.br/noticia/detalhe/103172/hugo-calderano-e-bruna-takahashi-seguem-na-disputa-do-wtt-star-contender-sao-jose-dos-campos",
       "publicadoEm": "2026-07-24",
@@ -85,7 +85,7 @@
     {
       "id": "wtt-star-contender-sao-jose-dos-campos-2026-comeca",
       "titulo": "O circuito mundial desembarca no Brasil: começa o Star Contender",
-      "resumo": "O WTT Star Contender de São José dos Campos (SP) — etapa do circuito mundial em solo brasileiro — começou nesta semana, reunindo parte da elite do tênis de mesa.",
+      "resumo": "O WTT Star Contender de São José dos Campos (SP), etapa do circuito mundial em solo brasileiro, começou nesta semana, reunindo parte da elite do tênis de mesa.",
       "fonte": "CBTM",
       "url": "https://www.cbtm.org.br/noticia/detalhe/103156/wtt-star-contender-sao-jose-dos-campos-2026-comeca-nesta-terca-feira-21",
       "publicadoEm": "2026-07-20",

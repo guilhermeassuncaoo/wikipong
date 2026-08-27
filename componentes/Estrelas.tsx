@@ -93,7 +93,7 @@ export function EstrelasEntrada({
             <span className={estilos.visual}>
               <Estrela preenchida={mostrando !== undefined && n <= mostrando} />
             </span>
-            <span className="apenas-leitor">{`${n} — ${SENTIDO[n]}`}</span>
+            <span className="apenas-leitor">{`${n}, ${SENTIDO[n]}`}</span>
           </label>
         ))}
       </div>

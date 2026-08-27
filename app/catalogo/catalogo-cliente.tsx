@@ -558,7 +558,7 @@ function CartaoMaterial({
               grade, e é a que estava errada. */}
           {comSpecs && !naNossaRegua(m.specs?.regua) && (
             <p className={estilos.reguaAlheia}>
-              Números na {NOME_DA_REGUA[m.specs!.regua!]} — não se comparam com os dos outros cartões.
+              Números na {NOME_DA_REGUA[m.specs!.regua!]}. Não se comparam com os dos outros cartões.
             </p>
           )}
           {leitura && leitura.resumo && (
@@ -576,7 +576,7 @@ function CartaoMaterial({
             <ul className={estilos.tracos}>
               {leitura.tracos.map((t) => (
                 <li key={t.rotulo}>
-                  <b>{t.rotulo}</b> — {t.significa}
+                  <b>{t.rotulo}</b>: {t.significa}
                 </li>
               ))}
             </ul>

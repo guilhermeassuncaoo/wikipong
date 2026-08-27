@@ -98,7 +98,7 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
  */
 const O_QUE_MEDE: Record<'velocidade' | 'spin' | 'controle' | 'durabilidade', string> = {
   velocidade:
-    'Quanto a peça devolve a bola por conta própria. Mais velocidade pede gesto mais curto e preciso — sobra menos tempo para corrigir.',
+    'Quanto a peça devolve a bola por conta própria. Mais velocidade pede gesto mais curto e preciso, e sobra menos tempo para corrigir.',
   spin:
     'Quanta rotação a superfície consegue imprimir. É o que faz o topspin curvar e o saque enganar; quem tem muito efeito também sofre mais para devolver o efeito do outro.',
   controle:
@@ -140,7 +140,7 @@ function LinhaDeDureza({ m }: { m: MaterialCatalogo }) {
           {m.origemDureza === 'fabricante' && m.durezaFabricante
             ? `convertida de ${m.durezaFabricante.grau}° ${m.durezaFabricante.escala.toUpperCase()}`
             : m.grauSemRegua
-              ? `${m.durezaUnificada !== undefined ? 'estimativa nossa — ' : ''}a ${m.marca} publica ${String(m.grauSemRegua.grau).replace('.', ',')}° ${
+              ? `${m.durezaUnificada !== undefined ? 'estimativa nossa, ' : ''}a ${m.marca} publica ${String(m.grauSemRegua.grau).replace('.', ',')}° ${
                   m.grauSemRegua.regua
                     ? `na régua ${m.grauSemRegua.regua}, que este site ainda não converte`
                     : 'e não diz em que régua'
@@ -407,13 +407,13 @@ export default async function PaginaDetalhe({ params }: { params: Promise<{ id: 
               <p className={estilos.subtituloFicha}>
                 Escala 0 a 10 <strong>nossa</strong>, para permitir comparar marcas diferentes. Estes
                 números vêm da <strong>comunidade{sinal ? ` do ${sinal.fonte}` : ''}</strong>
-                {sinal ? <> — são a <strong>média de {sinal.avaliacoes} avaliações</strong></> : ''}, não chute
+                {sinal ? <>, com <strong>média de {sinal.avaliacoes} avaliações</strong></> : ''}, não chute
                 nosso nem o número que a marca usa pra vender (que está logo abaixo, com a fonte).
               </p>
             ) : m.origemSpecs === 'loja' ? (
               <p className={estilos.subtituloFicha}>
                 Estes números são da <strong>{NOME_DA_REGUA[m.specs.regua!]}</strong>, não da escala
-                0 a 10 deste site — nela uma peça passa de 100. Eles são o que a loja publica, com
+                0 a 10 deste site: nela uma peça passa de 100. Eles são o que a loja publica, com
                 fonte e data logo abaixo, e por isso <strong>não se comparam</strong> com os dos
                 materiais que usam a nossa escala. Também não recebem a tradução em português claro:
                 traduzir um número de outra régua com a nossa tabela diria &ldquo;muito rápida&rdquo;
@@ -521,7 +521,7 @@ export default async function PaginaDetalhe({ params }: { params: Promise<{ id: 
             <h2 id="titulo-dureza">Dureza da esponja</h2>
             <p className={estilos.subtituloFicha}>
               Este material não tem velocidade, efeito e controle publicados por fonte que
-              possamos citar — mas tem dureza, e ela vale sozinha: é o que mais muda a
+              possamos citar, mas tem dureza, e ela vale sozinha: é o que mais muda a
               sensação na mão.
             </p>
             <table className={estilos.tabela}>
@@ -658,7 +658,7 @@ export default async function PaginaDetalhe({ params }: { params: Promise<{ id: 
             <ul className={estilos.tracos}>
               {leitura.tracos.map((t) => (
                 <li key={t.rotulo}>
-                  <b>{t.rotulo}</b> — {t.significa}
+                  <b>{t.rotulo}</b>: {t.significa}
                 </li>
               ))}
             </ul>

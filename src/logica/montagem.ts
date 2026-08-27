@@ -147,7 +147,7 @@ export function observacoes(m: Montagem): Observacao[] {
       obs.push({
         tipo: 'atencao',
         titulo: 'Conjunto exigente dos dois lados',
-        texto: `Controle ${cFH.toFixed(1)} no forehand e ${cBH.toFixed(1)} no backhand — os dois abaixo de ${CONTROLE_EXIGENTE.toFixed(1)}, que é onde a nossa régua passa a chamar de "difícil de domar". Erro de toque vira erro de bola nos dois lados. É montagem pra quem já tem consistência.`,
+        texto: `Controle ${cFH.toFixed(1)} no forehand e ${cBH.toFixed(1)} no backhand, os dois abaixo de ${CONTROLE_EXIGENTE.toFixed(1)}, que é onde a nossa régua passa a chamar de "difícil de domar". Erro de toque vira erro de bola nos dois lados. É montagem pra quem já tem consistência.`,
       });
     }
   }
@@ -314,7 +314,7 @@ export function resumoDaMontagem(
   if (tFH && tBH) {
     paragrafos.push(
       familias.fh === familias.bh
-        ? `Os dois lados usam borracha ${tFH} — montagem simétrica, em que forehand e backhand respondem parecido e a adaptação é mais rápida.`
+        ? `Os dois lados usam borracha ${tFH}: montagem simétrica, em que forehand e backhand respondem parecido e a adaptação é mais rápida.`
         : `O forehand usa borracha ${tFH}. O backhand usa borracha ${tBH}. Lados diferentes são escolha comum: um abre o ponto, o outro segura a troca — mas exigem gesto diferente de cada lado.`,
     );
   }
@@ -327,7 +327,7 @@ export function resumoDaMontagem(
     maisExigente.ordem >= 3
       ? 'Pede técnica formada: a peça mais exigente do conjunto é de nível avançado, e numa raquete é ela que puxa o resto.'
       : maisExigente.ordem === 2
-        ? 'Serve a quem já joga com alguma consistência — o conjunto todo fica no nível intermediário ou abaixo.'
+        ? 'Serve a quem já joga com alguma consistência, e o conjunto todo fica no nível intermediário ou abaixo.'
         : 'Está inteiro na faixa de iniciante: é conjunto para aprender o gesto sem brigar com o material.';
 
   // 4) A quem serve, pela intenção declarada das peças (nunca por nota).
@@ -338,7 +338,7 @@ export function resumoDaMontagem(
       ? 'Conjunto voltado a atacar: a maioria das peças é de ataque.'
       : conta('controlar') >= 2
         ? 'Conjunto voltado a controlar: a maioria das peças é de controle.'
-        : 'Conjunto sem um lado dominante — as peças não convergem para um estilo só, o que costuma ser exatamente o que quem joga all-round procura.';
+        : 'Conjunto sem um lado dominante: as peças não convergem para um estilo só, o que costuma ser exatamente o que quem joga all-round procura.';
 
   const titulo =
     conta('atacar') >= 2

@@ -322,7 +322,7 @@ export default function Home() {
             <p>
               A nota que o fabricante dá é a régua dele, feita pra vender: o 9,0 de uma marca não é o
               9,0 da outra. Aqui, cada material mostra o dado técnico e a tradução em
-              português claro, lado a lado — incluindo quanto a peça dura, que muda a
+              português claro, lado a lado, incluindo quanto a peça dura, que muda a
               conta de qual é cara e quase nenhum catálogo mostra.
             </p>
           </div>

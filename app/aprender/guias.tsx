@@ -180,7 +180,7 @@ export const GUIAS: Guia[] = [
         <p>
           Os guias de <Link href="/aprender/como-escolher-borracha/">como escolher</Link> e de{' '}
           <Link href="/aprender/dureza-da-esponja/">dureza da esponja</Link> respondem o que
-          comprar. Este explica <em>como a peça funciona</em> — o que é útil quando você lê uma
+          comprar. Este explica <em>como a peça funciona</em>. É o que ajuda quando você lê uma
           ficha e ela diz “lisa aderente híbrida, esponja 47,5°” e você quer saber o que isso
           significa na mão.
         </p>
@@ -201,7 +201,7 @@ export const GUIAS: Guia[] = [
         <p>
           Quase toda a confusão sobre borracha some quando essa divisão fica clara. “Dureza” quase
           sempre se refere à esponja. “Aderência” é sempre da capa. Uma borracha pode ter capa
-          muito aderente sobre esponja dura, ou o contrário — e são peças completamente diferentes
+          muito aderente sobre esponja dura, ou o contrário, e são peças completamente diferentes
           de jogar.
         </p>
 
@@ -213,13 +213,13 @@ export const GUIAS: Guia[] = [
           <strong>Tensionada (o caminho europeu e japonês)</strong>: a borracha sai de fábrica com
           a capa já esticada sobre a esponja, como um trampolim armado. No impacto, essa tensão
           devolve energia sozinha. Você consegue velocidade e efeito <em>sem</em> precisar de um
-          gesto perfeito — é o que tornou o jogo moderno acessível. Foi o que substituiu a cola
+          gesto perfeito, e foi isso que tornou o jogo moderno acessível. Substituiu a cola
           rápida quando ela foi proibida.
         </p>
         <p>
           <strong>Aderente (o caminho chinês)</strong>: a capa é pegajosa, quase gruda no dedo. O
           efeito vem do atrito bruto, não da tensão. Rende um giro muito pesado, mas exige gesto
-          completo e acelerado — quem bate curto sente a bola simplesmente morrer na mesa, porque
+          completo e acelerado. Quem bate curto sente a bola simplesmente morrer na mesa, porque
           não há trampolim nenhum ajudando.
         </p>
         <p>
@@ -239,7 +239,7 @@ export const GUIAS: Guia[] = [
         </p>
         <p>
           Para quem está começando, 1,8 mm ou 2,0 mm é conselho antigo e bom. Vale saber que{' '}
-          <strong>a diferença entre 1,8 e 2,0 é sutil</strong> — bem menor do que a diferença
+          <strong>a diferença entre 1,8 e 2,0 é sutil</strong>, bem menor do que a diferença
           entre uma esponja macia e uma dura. Não é onde compensa agonizar.
         </p>
 
@@ -247,7 +247,7 @@ export const GUIAS: Guia[] = [
         <p>
           Esponja macia afunda mais, segura a bola por mais tempo e perdoa; esponja dura rende
           mais na batida forte e castiga o toque leve. Cada material do catálogo mostra isso
-          traduzido quando o fabricante declara o grau — e o{' '}
+          traduzido quando o fabricante declara o grau, e o{' '}
           <Link href="/aprender/dureza-da-esponja/">guia da dureza</Link> explica a pegadinha das
           réguas, que é séria: 40° de uma marca não é 40° de outra.
         </p>
@@ -264,7 +264,7 @@ export const GUIAS: Guia[] = [
         </p>
         <p>
           Para quem joga umas três vezes por semana, a conta de referência que o WikiPong usa é
-          esta — e ela aparece no custo por mês de cada material:
+          esta, e ela aparece no custo por mês de cada material:
         </p>
         <p>
           <strong>Tensionada</strong>: cerca de 4 meses. É a que mais perde performance, porque a
@@ -281,7 +281,7 @@ export const GUIAS: Guia[] = [
         <p>
           A superfície vem da ficha do fabricante em todas as borrachas do catálogo, e é dela que
           sai a leitura em português claro. A dureza aparece quando a marca declara o grau e a
-          régua — e aí o número é <strong>convertido</strong> para uma escala única, porque
+          régua. Aí o número é <strong>convertido</strong> para uma escala única, porque
           comparar grau de marcas diferentes sem converter é comparar coisa nenhuma.
         </p>
         <p>
@@ -294,14 +294,14 @@ export const GUIAS: Guia[] = [
     slug: 'fisica-do-impacto',
     titulo: 'O que acontece nos 5 milésimos em que a bola toca a raquete',
     resumo:
-      'Tempo de contato, janela de ativação, ponto de fundo, linearidade e catapulta — por que duas borrachas de "velocidade 10" jogam diferente.',
+      'Tempo de contato, janela de ativação, ponto de fundo, linearidade e catapulta: por que duas borrachas de "velocidade 10" jogam diferente.',
     minutos: 8,
     corpo: (
       <>
         <p>
           A bola fica em contato com a raquete entre <strong>3 e 8 milésimos de segundo</strong>.
           Tudo o que a borracha e a lâmina fazem, fazem nesse intervalo. Este guia é sobre o que
-          acontece ali dentro — e é o que explica a coisa mais confusa do equipamento: por que{' '}
+          acontece ali dentro, e é o que explica a coisa mais confusa do equipamento: por que{' '}
           <strong>duas borrachas com nota 10 em velocidade se comportam de formas opostas</strong>.
         </p>
 
@@ -313,7 +313,7 @@ export const GUIAS: Guia[] = [
         <p>
           Uma borracha pode ser rápida <em>em bola fraca perto da mesa</em>, porque a esponja
           devolve energia sozinha. Outra pode ser rápida <em>só quando você acelera de verdade</em>.
-          As duas recebem 10. Na mão, uma parece um foguete e a outra parece morta — e quem comprou
+          As duas recebem 10. Na mão, uma parece um foguete e a outra parece morta. Quem comprou
           a segunda acha que errou de produto, quando na verdade errou de <em>gesto</em>.
         </p>
 
@@ -323,13 +323,13 @@ export const GUIAS: Guia[] = [
           esponja nem chega a comprimir: você bate e a bola sai devagar, sem giro, sem sensação.
         </p>
         <p>
-          Borrachas duras e muito tensionadas têm janela alta — foram feitas para quem já acelera o
+          Borrachas duras e muito tensionadas têm janela alta: foram feitas para quem já acelera o
           braço. É a razão número um pela qual um iniciante compra a borracha do profissional e joga
           pior do que jogava antes. Não é a borracha que é ruim, nem a pessoa: é que{' '}
           <strong>ela nunca sai do lugar</strong>.
         </p>
         <p>
-          Do outro lado, esponja macia acorda com pouco — o que é ótimo para aprender e vira
+          Do outro lado, esponja macia acorda com pouco, o que é ótimo para aprender e vira
           limitação quando o gesto cresce.
         </p>
 
@@ -353,7 +353,7 @@ export const GUIAS: Guia[] = [
         <p>
           Borracha <strong>não-linear</strong> tem um ponto em que dispara: até certa força ela
           responde pouco, e depois solta tudo de uma vez. Rende bolas espetaculares e erros
-          espetaculares. Quase todo tensor moderno é um pouco não-linear — é isso que dá a sensação
+          espetaculares. Quase todo tensor moderno é um pouco não-linear, e é isso que dá a sensação
           de "explosão" que se vê em vídeo.
         </p>
 
@@ -371,7 +371,7 @@ export const GUIAS: Guia[] = [
         <h2>Sensibilidade ao efeito do outro</h2>
         <p>
           A mesma aderência que faz você imprimir giro faz a borracha <em>ler</em> o giro que chega.
-          Quem tem muito efeito sofre mais para devolver saque carregado — a bola agarra e vai para
+          Quem tem muito efeito sofre mais para devolver saque carregado: a bola agarra e vai para
           onde o efeito do adversário mandou, não para onde você apontou.
         </p>
         <p>
@@ -381,7 +381,7 @@ export const GUIAS: Guia[] = [
 
         <h2>E a lâmina, no mesmo intervalo</h2>
         <p>
-          A lâmina responde no mesmo milésimo. Madeira flexível afunda e devolve depois — mais tempo
+          A lâmina responde no mesmo milésimo. Madeira flexível afunda e devolve depois, o que dá mais tempo
           de contato, mais chance de a borracha agarrar. Fibra rígida devolve quase na hora.
         </p>
         <p>
@@ -392,7 +392,7 @@ export const GUIAS: Guia[] = [
 
         <h2>O que fazer com tudo isso</h2>
         <p>
-          Nada disso vem publicado como número — nenhum fabricante mede catapulta ou linearidade numa
+          Nada disso vem publicado como número. Nenhum fabricante mede catapulta ou linearidade numa
           escala comparável, e por isso <strong>você não vai ver esses valores na ficha de nenhum
           material do WikiPong</strong>. Colocar um número ali seria inventar.
         </p>
@@ -545,14 +545,14 @@ export const GUIAS: Guia[] = [
     slug: 'anatomia-da-lamina',
     titulo: 'Anatomia da lâmina: onde a fibra fica, e as letras do cabo',
     resumo:
-      'Tempo de contato, fibra interna × externa, ponto doce, balanço, vibração — e o que FL, ST, AN e CS querem dizer.',
+      'Tempo de contato, fibra interna × externa, ponto doce, balanço, vibração, e o que FL, ST, AN e CS querem dizer.',
     minutos: 8,
     corpo: (
       <>
         <p>
           O guia <Link href="/aprender/madeira-vs-carbono/">madeira vs carbono</Link> responde a
           primeira pergunta: <em>tem fibra ou não?</em> Este responde as seguintes, que aparecem
-          na hora de escolher uma lâmina específica e quase nunca são explicadas — inclusive as
+          na hora de escolher uma lâmina específica e quase nunca são explicadas, inclusive as
           quatro letras que a loja pede pra você escolher no cabo.
         </p>
 
@@ -562,15 +562,15 @@ export const GUIAS: Guia[] = [
           coisa que mais muda o que você consegue fazer.
         </p>
         <p>
-          Lâminas flexíveis — em geral 5 camadas de madeira pura — <strong>afundam</strong> um
+          Lâminas flexíveis (em geral 5 camadas de madeira pura) <strong>afundam</strong> um
           pouco no impacto. A bola fica ali mais tempo, e nesse intervalo duas coisas acontecem:
           a borracha tem mais tempo pra <em>agarrar</em> a bola e gerar efeito, e você tem mais
           tempo pra corrigir a direção. Lâminas rígidas devolvem quase na hora: mais velocidade,
           menos tempo pra qualquer ajuste.
         </p>
         <p>
-          É por isso que a lâmina, sozinha, não cria efeito — quem cria é a{' '}
-          <Link href="/aprender/como-escolher-borracha/">borracha</Link> — mas ela{' '}
+          É por isso que a lâmina, sozinha, não cria efeito. Quem cria é a{' '}
+          <Link href="/aprender/como-escolher-borracha/">borracha</Link>, mas ela{' '}
           <strong>define o teto</strong> do efeito que você consegue tirar.
         </p>
 
@@ -590,7 +590,7 @@ export const GUIAS: Guia[] = [
           <strong>Fibra interna</strong> (a Innerforce é o exemplo clássico): o carbono fica sobre
           o núcleo, coberto por duas camadas de madeira. Em bola lenta você sente madeira, com o
           controle que vem disso; a fibra só entra quando você bate forte. O tempo de contato
-          chega a ser <strong>15% a 20% maior</strong> que na versão externa da mesma linha — e é
+          chega a ser <strong>15% a 20% maior</strong> que na versão externa da mesma linha, e é
           isso que faz o topspin sair mais fácil e o erro de centro doer menos.
         </p>
         <p>
@@ -601,7 +601,7 @@ export const GUIAS: Guia[] = [
         <h2>Ponto doce: por que a bola perde força perto da borda</h2>
         <p>
           É a região da raquete onde a batida sai limpa. Fora dela, parte da energia vira
-          vibração e a bola sai mais fraca — aquela sensação de “peguei torto”.
+          vibração e a bola sai mais fraca, aquela sensação de “peguei torto”.
         </p>
         <p>
           Madeira pura tem ponto doce <strong>menor</strong>: bater um pouco fora do centro
@@ -623,7 +623,7 @@ export const GUIAS: Guia[] = [
 
         <h2>Vibração: a lâmina conversando com você</h2>
         <p>
-          O tremor que sobe pela lâmina até a mão depois do impacto não é defeito — é{' '}
+          O tremor que sobe pela lâmina até a mão depois do impacto não é defeito. É{' '}
           <strong>informação</strong>. É por ele que você sente se pegou a bola no lugar certo.
         </p>
         <p>
@@ -643,7 +643,7 @@ export const GUIAS: Guia[] = [
         </p>
         <p>
           <strong>Peso no cabo</strong>: perto da mão. A raquete parece mais leve do que é e
-          troca de lado mais rápido — bom pra quem alterna forehand e backhand na mesa.
+          troca de lado mais rápido, bom pra quem alterna forehand e backhand na mesa.
         </p>
 
         <h2>As letras do cabo: FL, ST, AN e CS</h2>
@@ -652,21 +652,21 @@ export const GUIAS: Guia[] = [
           formato certo: há o que combina com a sua mão e com o seu jogo.
         </p>
         <p>
-          <strong>FL — côncavo (flared)</strong>: mais estreito no pescoço e mais largo na base.
+          <strong>FL, côncavo (flared)</strong>: mais estreito no pescoço e mais largo na base.
           A mão “trava” sozinha e a raquete não escorrega. É o mais usado, com folga, e o padrão
           seguro pra quem está começando ou não tem como experimentar antes.
         </p>
         <p>
-          <strong>ST — reto (straight)</strong>: mesma largura do começo ao fim. Deixa você
+          <strong>ST, reto (straight)</strong>: mesma largura do começo ao fim. Deixa você
           girar levemente o cabo na mão durante o ponto, mudando o ângulo entre um golpe e outro.
           Comum em quem defende e em quem usa muito o backhand.
         </p>
         <p>
-          <strong>AN — anatômico</strong>: tem uma ondulação no meio que preenche a palma.
-          Máxima firmeza, sempre na mesma posição — o oposto exato da proposta do reto.
+          <strong>AN, anatômico</strong>: tem uma ondulação no meio que preenche a palma.
+          Máxima firmeza, sempre na mesma posição, o oposto exato da proposta do reto.
         </p>
         <p>
-          <strong>CS — caneta chinesa</strong>: cabo curto e cônico, pra quem segura a raquete
+          <strong>CS, caneta chinesa</strong>: cabo curto e cônico, pra quem segura a raquete
           como se fosse um lápis. Não é variação de pegada: é outra empunhadura, e só faz sentido
           se você já joga assim.
         </p>
@@ -679,7 +679,7 @@ export const GUIAS: Guia[] = [
         <p>
           Boa parte do que está acima <strong>o fabricante não declara</strong> na ficha, e nós
           não inventamos: balanço, vibração e ponto doce quase nunca vêm publicados. Onde a marca
-          diz — construção, número de camadas, posição da fibra, classe — a ficha do material
+          diz (construção, número de camadas, posição da fibra, classe), a ficha do material
           mostra, com a fonte e a data da consulta. Onde não diz, fica em branco, e o branco é
           honesto.
         </p>
@@ -824,13 +824,13 @@ export const GUIAS: Guia[] = [
         <p>
           Se você já pensou em disputar um torneio, provavelmente esbarrou na sigla{' '}
           <strong>TRA</strong> e ninguém explicou. Ela aparece na inscrição, no sistema da
-          federação e na conversa do clube como se todo mundo já soubesse — e é a primeira
+          federação e na conversa do clube como se todo mundo já soubesse, e é a primeira
           porteira entre treinar e competir.
         </p>
         <p>
           <strong>TRA é a Taxa de Registro Anual da CBTM.</strong> É o que registra você no
           sistema da Confederação por um ano. Sem ela, você joga na academia e no clube à
-          vontade — mas não entra numa competição oficial, porque não existe no sistema onde a
+          vontade, mas não entra numa competição oficial, porque não existe no sistema onde a
           inscrição acontece.
         </p>
 
@@ -838,7 +838,7 @@ export const GUIAS: Guia[] = [
         <p>
           É o mal-entendido mais comum. A CBTM registra pela TRA{' '}
           <strong>atletas, técnicos, árbitros, psicólogos, médicos, fisioterapeutas e alunos
-          de cursos</strong> — quem trabalha no esporte também precisa estar no sistema para
+          de cursos</strong>. Quem trabalha no esporte também precisa estar no sistema para
           assinar uma súmula ou constar como técnico de uma equipe.
         </p>
 
@@ -852,7 +852,7 @@ export const GUIAS: Guia[] = [
         <h3>Membro Iniciante</h3>
         <p>
           A CBTM é direta: <em>&ldquo;praticantes até 11 anos ficam isentos de cobrança de TRA,
-          mas devem estar devidamente registrados&rdquo;</em>. Guarde as duas metades da frase —
+          mas devem estar devidamente registrados&rdquo;</em>. Guarde as duas metades da frase:
           quem tem até 11 anos <strong>não paga</strong>, e mesmo assim <strong>precisa estar
           registrado</strong>. O registro é o que coloca a criança no sistema; sem ele, a
           isenção não serve de nada na hora de inscrever numa etapa.
@@ -868,7 +868,7 @@ export const GUIAS: Guia[] = [
         <h3>Membro Prata</h3>
         <p>
           Habilita a jogar <em>&ldquo;as etapas de competições de Liga Regional e da Federação
-          Estadual&rdquo;</em>. É o degrau de quem passou a disputar o estadual — a maioria dos
+          Estadual&rdquo;</em>. É o degrau de quem passou a disputar o estadual. A maioria dos
           jogadores de clube para aqui.
         </p>
 
@@ -876,7 +876,7 @@ export const GUIAS: Guia[] = [
         <p>
           Habilita a jogar <em>&ldquo;quaisquer competições oficiais, incluindo liberação para a
           participação em competições internacionais&rdquo;</em>. É a categoria de quem vai
-          disputar <Link href="/competicoes/">Copa Brasil, Brasileirão e as seletivas</Link> —
+          disputar <Link href="/competicoes/">Copa Brasil, Brasileirão e as seletivas</Link>,
           e a única que abre o caminho para fora do país.
         </p>
         <p>
@@ -905,7 +905,7 @@ export const GUIAS: Guia[] = [
         <ol>
           <li>
             <strong>Esteja ligado a um clube.</strong> Para competir oficialmente é preciso
-            estar associado a um clube — é ele quem aparece do seu lado na inscrição, e a
+            estar associado a um clube: é ele quem aparece do seu lado na inscrição, e a
             filiação começa por aí.
           </li>
           <li>
@@ -922,14 +922,14 @@ export const GUIAS: Guia[] = [
           </li>
           <li>
             <strong>Pague e confira se você aparece no sistema.</strong> A compensação bancária
-            leva alguns dias, e é o registro no sistema — não o comprovante no seu bolso — que
+            leva alguns dias, e é o registro no sistema, e não o comprovante no seu bolso, que
             libera a inscrição na competição.
           </li>
         </ol>
         <p>
           <strong>Pague cedo.</strong> A CBTM trabalha com uma data de corte no começo do ano:
           quem paga até o prazo paga menos, e quem paga depois paga mais. O valor muda todo ano,
-          então a data e o preço vigentes se confirmam na federação ou no site da CBTM — mas a
+          então a data e o preço vigentes se confirmam na federação ou no site da CBTM. Mas a
           regra de que existe um desconto por antecedência vale a pena ter na cabeça em janeiro,
           não em maio.
         </p>
@@ -943,7 +943,7 @@ export const GUIAS: Guia[] = [
         <h2>Quanto custa</h2>
         <p>
           <strong>Não publicamos os valores aqui, de propósito.</strong> Eles mudam de ano para
-          ano e por categoria, e um número velho nesta página seria pior que número nenhum —
+          ano e por categoria, e um número velho nesta página seria pior que número nenhum:
           alguém programaria o orçamento por ele. O valor vigente está no{' '}
           <a href="https://www.cbtm.org.br" target="_blank" rel="noopener noreferrer">
             site da CBTM
@@ -956,7 +956,7 @@ export const GUIAS: Guia[] = [
         <ul>
           <li>
             Se a sua <strong>categoria cobre o calendário</strong> que você pretende jogar no
-            ano — subir de Bronze para Prata no meio da temporada costuma sair mais caro que
+            ano. Subir de Bronze para Prata no meio da temporada costuma sair mais caro que
             começar certo.
           </li>
           <li>
@@ -965,7 +965,7 @@ export const GUIAS: Guia[] = [
             Membro Iniciante.
           </li>
           <li>
-            <strong>Qual é a data de corte deste ano</strong> — é ela que separa o preço menor
+            <strong>Qual é a data de corte deste ano</strong>: é ela que separa o preço menor
             do maior.
           </li>
         </ul>

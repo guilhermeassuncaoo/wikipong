@@ -178,7 +178,7 @@ export function EstanteEditor({
             })}
           </ul>
           <p className={estilos.aviso}>
-            Não existe botão editar de propósito: pra mudar o motivo, remova e escreva de novo —
+            Não existe botão editar de propósito: pra mudar o motivo, remova e escreva de novo:
             texto novo passa pela moderação outra vez.
           </p>
         </>
@@ -187,7 +187,7 @@ export function EstanteEditor({
       <div className={estilos.form}>
         <p className={estilos.explica}>
           Material e período aparecem na hora. O motivo, se você escrever, passa por revisão antes
-          de ficar público pra outras pessoas — você continua vendo o que escreveu enquanto isso
+          de ficar público pra outras pessoas, e você continua vendo o que escreveu enquanto isso
           espera.
         </p>
 

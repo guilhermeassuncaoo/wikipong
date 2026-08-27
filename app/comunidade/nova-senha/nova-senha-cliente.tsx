@@ -52,7 +52,7 @@ export function NovaSenhaCliente() {
     if (!desc) return;
     setRecusaDoLink(
       /expired/i.test(desc)
-        ? 'Este link já venceu. Eles valem por pouco tempo, de propósito — peça outro e use assim que chegar.'
+        ? 'Este link já venceu. Eles valem por pouco tempo, de propósito. Peça outro e use assim que chegar.'
         : 'Este link não vale mais. Links de recuperação funcionam uma vez só; se você já clicou nele antes, peça outro.',
     );
     window.history.replaceState(null, '', window.location.pathname);
@@ -85,7 +85,7 @@ export function NovaSenhaCliente() {
         <h1 className={estilos.titulo}>Este link não abre mais</h1>
         <p className={estilos.explica}>
           {recusaDoLink ||
-            'Não encontrei uma sessão válida nesta página. Ou o link já venceu, ou ele já foi usado — em qualquer dos casos, pedir outro resolve.'}
+            'Não encontrei uma sessão válida nesta página. Ou o link já venceu, ou ele já foi usado. Em qualquer dos casos, pedir outro resolve.'}
         </p>
         <Link href="/comunidade/entrar/?modo=esqueci" className="botao-primario">
           Pedir outro link
@@ -100,7 +100,7 @@ export function NovaSenhaCliente() {
         <h1 className={estilos.titulo}>Senha trocada.</h1>
         <p className={estilos.explica}>
           A partir de agora é essa que vale para <strong>{usuario.email}</strong>. Você continua
-          entrado neste aparelho — não precisa entrar de novo.
+          entrado neste aparelho, não precisa entrar de novo.
         </p>
         <div className={estilos.acoes}>
           <button
@@ -174,7 +174,7 @@ export function NovaSenhaCliente() {
             </button>
           </span>
           <span className={estilos.regra}>
-            Pelo menos {SENHA_MINIMA} caracteres. Não há outra exigência — nada de símbolo
+            Pelo menos {SENHA_MINIMA} caracteres. Não há outra exigência: nada de símbolo
             obrigatório nem de letra maiúscula. Se o servidor pedir mais, ele diz quanto.
           </span>
         </label>

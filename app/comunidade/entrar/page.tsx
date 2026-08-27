@@ -32,7 +32,7 @@ export default function PaginaEntrar() {
           <div style={{ maxWidth: '34rem', margin: '2rem auto' }}>
             <h1>Sua conta no WikiPong</h1>
             <p>
-              A conta guarda o seu perfil, a sua estante e as suas avaliações — e leva tudo pra
+              A conta guarda o seu perfil, a sua estante e as suas avaliações, e leva tudo pra
               qualquer aparelho. Não é obrigatória: o site inteiro funciona sem entrar.
             </p>
           </div>

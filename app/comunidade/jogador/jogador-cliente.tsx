@@ -178,7 +178,7 @@ export function JogadorCliente() {
         <h1 className={estilos.tituloVazio}>Esse jogador não existe</h1>
         <p className={estilos.vazioTexto}>
           O endereço pode estar errado, ou o perfil pode ter sido apagado. Perfis só existem
-          depois que a pessoa escolhe um nome — quem entrou e ainda não preencheu nada não
+          depois que a pessoa escolhe um nome. Quem entrou e ainda não preencheu nada não
           tem página.
         </p>
         <Link href="/comunidade/" className="botao-secundario">
@@ -223,7 +223,7 @@ export function JogadorCliente() {
          faz duvidar dos números. */
       rotulo:
         borrachas > 0 && laminas > 0
-          ? `materiais — ${borrachas} borracha${borrachas > 1 ? 's' : ''}, ${laminas} lâmina${laminas > 1 ? 's' : ''}`
+          ? `materiais: ${borrachas} borracha${borrachas > 1 ? 's' : ''}, ${laminas} lâmina${laminas > 1 ? 's' : ''}`
           : materiaisDistintos === 1
             ? 'material diferente'
             : 'materiais diferentes',
@@ -290,7 +290,7 @@ export function JogadorCliente() {
           <p className={estilos.explica}>
             Daqui pra frente ele cresce sozinho: cada material que você marcar como já usado,
             cada avaliação que escrever e cada dúvida que resolver aparece nesta página. Não há
-            nada a preencher aqui — só a usar o site.
+            nada a preencher aqui, só a usar o site.
           </p>
           <div className={estilos.comecandoAcoes}>
             <Link href="/comunidade/perfil/" className="botao-primario">
@@ -337,7 +337,7 @@ export function JogadorCliente() {
                 {nomeComMarca(companheiro.marca, companheiro.nome)}
               </Link>{' '}
               desde{' '}
-              <span className="mono">{retrato.companheiroMaisAntigo.desde}</span> — é a peça
+              <span className="mono">{retrato.companheiroMaisAntigo.desde}</span>. É a peça
               que ficou mais tempo na raquete.
             </p>
           )}

@@ -89,7 +89,7 @@ export function PedidosDePauta() {
         tipo: 'ok',
         texto: repo.somenteLocal
           ? 'Pedido guardado neste navegador. Como o site ainda não está ligado ao servidor, ele não saiu daqui.'
-          : 'Pedido recebido. Ele aparece na lista depois de lido — e se virar guia, o link volta pra cá.',
+          : 'Pedido recebido. Ele aparece na lista depois de lido, e se virar guia, o link volta pra cá.',
       });
       /* Recarrega em vez de inserir na mão: o pedido nasce pendente e NÃO deve
          aparecer na lista pública. Fingir que apareceu seria a tela mentindo
@@ -114,7 +114,7 @@ export function PedidosDePauta() {
           Falta um guia sobre o quê?
         </h2>
         <p className={estilos.lede}>
-          Os guias daqui nascem de dúvida real. Diga o tema que você queria ver explicado — em
+          Os guias daqui nascem de dúvida real. Diga o tema que você queria ver explicado, em
           português, do jeito que você perguntaria pra um amigo.
         </p>
       </div>
@@ -175,7 +175,7 @@ export function PedidosDePauta() {
                     {p.tema}
                     {p.guiaSlug && tituloDoGuia(p.guiaSlug) && (
                       <>
-                        {' — '}
+                        {', '}
                         <Link href={`/aprender/${p.guiaSlug}/`}>já virou guia</Link>
                       </>
                     )}

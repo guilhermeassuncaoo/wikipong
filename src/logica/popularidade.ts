@@ -119,7 +119,7 @@ export const ROTULO_FAMILIA: Readonly<Record<Familia, string>> = {
 export const SUBTITULO_FAMILIA: Readonly<Record<Familia, string>> = {
   aderente: 'capa pegajosa, esponja dura',
   hibrida: 'capa aderente, esponja tensionada',
-  tensora: 'capa lisa, esponja tensionada — europeias e japonesas',
+  tensora: 'capa lisa, esponja tensionada: europeias e japonesas',
 };
 
 export const EXPLICA_FAMILIA: Readonly<Record<Familia, string>> = {

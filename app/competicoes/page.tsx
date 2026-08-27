@@ -10,7 +10,7 @@ import { Pagina } from '@/componentes/Pagina';
 export const metadata: Metadata = {
   title: `Competições nacionais de tênis de mesa ${TEMPORADA} · WikiPong`,
   description:
-    `Calendário das competições nacionais de tênis de mesa em ${TEMPORADA}: Copa Brasil Ouro e Prata, Brasileirão Interclubes e Seletiva Nacional, com datas, cidade e tipo — transcrito do calendário oficial da CBTM.`,
+    `Calendário das competições nacionais de tênis de mesa em ${TEMPORADA}: Copa Brasil Ouro e Prata, Brasileirão Interclubes e Seletiva Nacional, com datas, cidade e tipo, transcrito do calendário oficial da CBTM.`,
 };
 
 const dataBR = (iso: string) => iso.split('-').reverse().join('/');
@@ -31,7 +31,7 @@ export default function PaginaCompeticoes() {
             <a href={FONTE_CALENDARIO} target="_blank" rel="noopener noreferrer">
               calendário oficial da CBTM
             </a>{' '}
-            em {dataBR(CONSULTADO_EM_CALENDARIO)}. Cada linha é o que eles publicam — nada aqui
+            em {dataBR(CONSULTADO_EM_CALENDARIO)}. Cada linha é o que eles publicam. Nada aqui
             é estimado.
           </p>
           {/* Dizer o que NÃO se sabe vale mais que uma coluna vazia (D-16): quem

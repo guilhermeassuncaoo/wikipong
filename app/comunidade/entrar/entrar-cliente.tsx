@@ -90,7 +90,7 @@ export function EntrarCliente() {
         <h1 className={estilos.titulo}>Conta</h1>
         <p className={estilos.explica}>
           O login depende do servidor, que ainda não está ligado. Enquanto isso o site funciona
-          inteiro sem conta — o que você preencher fica guardado neste navegador.
+          inteiro sem conta, e o que você preencher fica guardado neste navegador.
         </p>
         <Link href="/comunidade/perfil/" className="botao-secundario">
           Ir para o perfil
@@ -124,7 +124,7 @@ export function EntrarCliente() {
         <p className={estilos.explica}>{texto}</p>
         <p className={estilos.explica}>
           Enviamos para <strong>{email}</strong>. Se não aparecer em alguns minutos, confira o
-          spam — e confira se o endereço está escrito certo.
+          spam, e confira se o endereço está escrito certo.
         </p>
         <div className={estilos.acoes}>
           <button type="button" className="botao-secundario" onClick={() => irPara(modo)}>
@@ -193,7 +193,7 @@ export function EntrarCliente() {
           <h1 className={estilos.titulo}>Definir uma senha nova</h1>
           <p className={estilos.explica}>
             Digite seu e-mail e mandamos um link pra você escolher outra senha. Serve também
-            pra quem sempre entrou pelo link e agora quer ter senha — a conta é a mesma.
+            pra quem sempre entrou pelo link e agora quer ter senha: a conta é a mesma.
           </p>
         </>
       ) : modo === 'link' ? (
@@ -208,7 +208,7 @@ export function EntrarCliente() {
         <>
           <h1 className={estilos.titulo}>Sua conta no WikiPong</h1>
           <p className={estilos.explica}>
-            A conta guarda o seu perfil, a sua estante e as suas avaliações — e leva tudo pra
+            A conta guarda o seu perfil, a sua estante e as suas avaliações, e leva tudo pra
             qualquer aparelho. <strong>Não é obrigatória:</strong> o site inteiro funciona sem
             entrar, só que o que você preencher fica preso neste navegador.
           </p>
@@ -277,7 +277,7 @@ export function EntrarCliente() {
             </span>
             {modo === 'criar' && (
               <span className={estilos.regra}>
-                Pelo menos {SENHA_MINIMA} caracteres. Não há outra exigência — nada de símbolo
+                Pelo menos {SENHA_MINIMA} caracteres. Não há outra exigência: nada de símbolo
                 obrigatório nem de letra maiúscula. Se o servidor pedir mais, ele diz quanto.
               </span>
             )}
@@ -330,7 +330,7 @@ export function EntrarCliente() {
 
       <p className={estilos.rodape}>
         Guardamos o seu e-mail pra identificar a conta e nada além disso. Sem conta, o site
-        continua inteiro — <Link href="/comunidade/perfil/">dá pra preencher o perfil sem
+        continua inteiro. <Link href="/comunidade/perfil/">dá pra preencher o perfil sem
         entrar</Link>, ele só não te acompanha.
       </p>
     </div>

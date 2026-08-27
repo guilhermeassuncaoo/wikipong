@@ -61,7 +61,7 @@ export function PainelEstante({
         <p className={estilos.vazio}>
           <strong>Nada na fila.</strong> Quando alguém escrever o motivo de uma troca em{' '}
           <Link href="/comunidade/perfil/">O que você já usou</Link>, o texto cai aqui esperando
-          você — material e período já estão no ar, só o motivo espera.
+          você. Material e período já estão no ar, só o motivo espera.
         </p>
       </>
     );
@@ -77,7 +77,7 @@ export function PainelEstante({
         {esperando === 0
           ? 'Nada esperando você.'
           : `${esperando} ${esperando === 1 ? 'motivo espera' : 'motivos esperam'} sua leitura.`}{' '}
-        É texto de terceiro sobre um material — a mesma régua das avaliações.
+        É texto de terceiro sobre um material, na mesma régua das avaliações.
       </p>
 
       <ul className={estilos.lista}>

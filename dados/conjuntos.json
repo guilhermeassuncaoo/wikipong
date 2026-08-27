@@ -1,5 +1,5 @@
 {
-  "aviso": "Montagens curadas: 1 lâmina + 2 borrachas. Os itens são REFERÊNCIAS por id aos materiais do catálogo — nenhuma spec é duplicada aqui, então corrigir a ficha de um material corrige todos os conjuntos que o usam. O preço total é derivado (soma real dos três). NÃO existe nota de desempenho combinada: a lâmina e as duas borrachas interagem, e cada lado faz um trabalho diferente — qualquer fórmula de 'velocidade do conjunto' seria invenção, e este site não publica número que não pode defender (D-16). O campo 'porque' é recomendação editorial explicada (D-02), não medição.",
+  "aviso": "Montagens curadas: 1 lâmina + 2 borrachas. Os itens são REFERÊNCIAS por id aos materiais do catálogo. Nenhuma spec é duplicada aqui, então corrigir a ficha de um material corrige todos os conjuntos que o usam. O preço total é derivado (soma real dos três). NÃO existe nota de desempenho combinada: a lâmina e as duas borrachas interagem, e cada lado faz um trabalho diferente, e qualquer fórmula de 'velocidade do conjunto' seria invenção, e este site não publica número que não pode defender (D-16). O campo 'porque' é recomendação editorial explicada (D-02), não medição.",
   "conjuntos": [
     {
       "id": "orcamento-curto",
@@ -10,7 +10,7 @@
       "lamina": "sanwei-accumulator-s",
       "borrachaFH": "yinhe-mercury-ii",
       "borrachaBH": "yinhe-mercury-ii",
-      "porque": "Por R$ 330 você monta uma raquete montável — com borracha homologada, lâmina avulsa e a possibilidade de trocar só a peça gasta. É o mesmo dinheiro de uma raquete pronta de loja de departamento, que vem colada, não se conserta e não ensina nada. A Accumulator S é lenta e leve, do jeito que uma primeira lâmina tem de ser. A Mercury II dos dois lados é aderente de estilo chinês: segura a bola em vez de cuspi-la, e é a diferença entre errar e entender por que errou. Se o esporte não virar hábito, você perdeu pouco. Se virar, troca as borrachas e a lâmina continua servindo."
+      "porque": "Por R$ 330 você monta uma raquete montável, com borracha homologada, lâmina avulsa e a possibilidade de trocar só a peça gasta. É o mesmo dinheiro de uma raquete pronta de loja de departamento, que vem colada, não se conserta e não ensina nada. A Accumulator S é lenta e leve, do jeito que uma primeira lâmina tem de ser. A Mercury II dos dois lados é aderente de estilo chinês: segura a bola em vez de cuspi-la, e é a diferença entre errar e entender por que errou. Se o esporte não virar hábito, você perdeu pouco. Se virar, troca as borrachas e a lâmina continua servindo."
     },
     {
       "id": "controle-total",
@@ -21,7 +21,7 @@
       "lamina": "yasaka-sweden-extra",
       "borrachaFH": "xiom-vega-intro",
       "borrachaBH": "sanwei-ultra-spin",
-      "porque": "A Sweden Extra é madeira pura sueca: devolve a bola devagar o bastante para você sentir o que fez de errado, que é a única forma de corrigir. A Vega Intro no forehand é tensionada e macia — dá efeito sem exigir aceleração de braço. A Ultra Spin no backhand custa a metade e é aderente: o lado de trás é onde o iniciante mais erra, e uma borracha que segura a bola ensina mais rápido que uma que a cospe. É a montagem para quem quer sentir o toque antes de pensar em velocidade."
+      "porque": "A Sweden Extra é madeira pura sueca: devolve a bola devagar o bastante para você sentir o que fez de errado, que é a única forma de corrigir. A Vega Intro no forehand é tensionada e macia: dá efeito sem exigir aceleração de braço. A Ultra Spin no backhand custa a metade e é aderente: o lado de trás é onde o iniciante mais erra, e uma borracha que segura a bola ensina mais rápido que uma que a cospe. É a montagem para quem quer sentir o toque antes de pensar em velocidade."
     },
     {
       "id": "rotina-de-treino",
@@ -32,7 +32,7 @@
       "lamina": "gewo-allround-basic",
       "borrachaFH": "nittaku-fastarc-g1",
       "borrachaBH": "xiom-vega-intro",
-      "porque": "A GEWO ALLround Basic custa R$ 204 e é madeira pura: não empurra a bola por conta própria, então o erro continua sendo seu e dá pra corrigir. A Fastarc G1 no forehand é o salto desta montagem — é uma borracha de linha, com bem mais efeito que as de entrada, e é ali que o ganho aparece primeiro em quem treina. No backhand fica a Vega Intro, macia e barata: o lado de trás ainda está se formando, e gastar o dobro nele agora seria comprar teto que você não usa. A troca natural daqui a um ano é só o backhand."
+      "porque": "A GEWO ALLround Basic custa R$ 204 e é madeira pura: não empurra a bola por conta própria, então o erro continua sendo seu e dá pra corrigir. A Fastarc G1 no forehand é o salto desta montagem: é uma borracha de linha, com bem mais efeito que as de entrada, e é ali que o ganho aparece primeiro em quem treina. No backhand fica a Vega Intro, macia e barata: o lado de trás ainda está se formando, e gastar o dobro nele agora seria comprar teto que você não usa. A troca natural daqui a um ano é só o backhand."
     },
     {
       "id": "primeiros-meses",
@@ -54,7 +54,7 @@
       "lamina": "stiga-allround",
       "borrachaFH": "markv",
       "borrachaBH": "markv",
-      "porque": "A lâmina de 1967 com a borracha de 1969 — e as duas continuam em catálogo porque continuam fazendo sentido. Controle alto dos dois lados, efeito consistente e uma tolerância que deixa a técnica crescer. É a montagem que você não precisa trocar quando evoluir do básico: ela acompanha."
+      "porque": "A lâmina de 1967 com a borracha de 1969, e as duas continuam em catálogo porque continuam fazendo sentido. Controle alto dos dois lados, efeito consistente e uma tolerância que deixa a técnica crescer. É a montagem que você não precisa trocar quando evoluir do básico: ela acompanha."
     },
     {
       "id": "dando-o-passo",
@@ -76,7 +76,7 @@
       "lamina": "donic-appelgren",
       "borrachaFH": "mxp",
       "borrachaBH": "rozena",
-      "porque": "O forehand recebe uma esponja bem mais dura (perto de 47°), que só compensa quando o golpe já tem aceleração — é exatamente o momento de subir. O backhand segue macio para não perder o bloqueio e a troca curta. A lâmina continua allwood de propósito: dá pra ganhar bastante velocidade pela borracha antes de precisar de fibra."
+      "porque": "O forehand recebe uma esponja bem mais dura (perto de 47°), que só compensa quando o golpe já tem aceleração, e é exatamente o momento de subir. O backhand segue macio para não perder o bloqueio e a troca curta. A lâmina continua allwood de propósito: dá pra ganhar bastante velocidade pela borracha antes de precisar de fibra."
     }
   ]
 }

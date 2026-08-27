@@ -39,7 +39,7 @@ import { Pagina } from '@/componentes/Pagina';
 export const metadata: Metadata = {
   title: 'Top 5 de borrachas por família · WikiPong',
   description:
-    'As cinco borrachas chinesas, híbridas e tensoras que mais aparecem no levantamento de uso de agosto de 2026 e que a comunidade melhor avaliou — com a régua e a fonte de cada número declaradas.',
+    'As cinco borrachas chinesas, híbridas e tensoras que mais aparecem no levantamento de uso de agosto de 2026 e que a comunidade melhor avaliou, com a régua e a fonte de cada número declaradas.',
 };
 
 const MES = new Date(`${PERIODO_DO_USO}-01T12:00:00Z`).toLocaleDateString('pt-BR', {
@@ -71,11 +71,11 @@ export default function PaginaTopBorrachas() {
             <a href={FONTE_USO_FH} target="_blank" rel="noopener noreferrer">forehand</a> e{' '}
             <a href={FONTE_USO_BH} target="_blank" rel="noopener noreferrer">backhand</a>). Eles
             publicam os pontos e <strong>não explicam como os calculam</strong>. Por isso aqui
-            está escrito “aparece no levantamento”, e nunca “mais vendida” — venda é outra coisa,
+            está escrito “aparece no levantamento”, e nunca “mais vendida”. Venda é outra coisa,
             e ninguém aqui tem esse número.
           </p>
           <p>
-            As notas vêm das avaliações da comunidade no Revspin, na escala 0–10 convertida para
+            As notas vêm das avaliações da comunidade no Revspin, na escala 0 a 10 convertida para
             estrelas, e são <strong>puxadas em direção à média do catálogo quando a amostra é
             pequena</strong>: sem isso, uma borracha com três avaliações entusiasmadas passaria
             na frente de uma com duzentas.
@@ -184,7 +184,7 @@ export default function PaginaTopBorrachas() {
         <h2 className={estilos.rodapeTitulo}>O que esta lista não é</h2>
         <p>
           Não é ranking de vendas, não é o que é melhor <em>pra você</em>, e não é opinião da
-          WikiPong. Borracha boa é a que combina com a sua lâmina, o seu nível e o seu jogo — e
+          WikiPong. Borracha boa é a que combina com a sua lâmina, o seu nível e o seu jogo, e
           isso nenhuma lista resolve.{' '}
           <Link href="/quiz/">O teste de perfil</Link> chega mais perto disso que qualquer top 5,
           e o <Link href="/catalogo/?tipo=borracha">catálogo inteiro</Link> tem 400 borrachas,
