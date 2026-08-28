@@ -3288,6 +3288,43 @@ for (const mat of MATERIAIS.filter((x) => x.origemSpecs === 'comunidade')) {
     'llms.txt: sumiu o exemplo das duas reguas, que e o erro mais caro de quem cita sem ler');
 }
 
+/* ───── o robots nao pode esconder o CSS nem o JS ─────
+   O arquivo bloqueava `/_next/` achando que escondia "assets internos". E' ali
+   que moram os 25 CSS e os 60 JS do site. O Google RENDERIZA a pagina pra
+   avalia-la: sem folha de estilo ele ve um site sem layout, e sem script ele
+   nao ve nada que o cliente monte — o catalogo, cuja lista completa so' entra
+   com JS, e' exatamente esse caso.
+
+   E a outra metade da regra: DISALLOW NAO E NOINDEX. Tela de conta que se
+   declara noindex nao pode ser bloqueada aqui, senao o robo nunca busca a
+   pagina e portanto nunca le o noindex — e URL bloqueada ainda aparece no
+   resultado, so' que sem titulo nem resumo. Ou um, ou outro. */
+{
+  const fonteRobots = readFileSync('app/robots.ts', 'utf8');
+  const bloqueios = /disallow:\s*\[([^\]]*)\]/.exec(fonteRobots)?.[1] ?? '';
+
+  afirma(!/_next/.test(bloqueios),
+    'robots: /_next/ voltou pra lista de bloqueio, e e la que moram o CSS e o JS que o Google precisa renderizar');
+
+  /* Rota noindex bloqueada no robots e' o tiro no pe descrito acima — com UMA
+     excecao, e ela tem numero: `/ir` e' o interstitial de saida, e 669 paginas
+     linkam pra ele com uma query string diferente cada uma. Sem o bloqueio o
+     robo rastrearia 669 variantes da MESMA pagina de redirecionamento. Aqui o
+     orcamento de rastreio pesa mais que o noindex nao lido, e por isso os dois
+     convivem de proposito. */
+  const INTERSTICIAIS = ['/ir'];
+  for (const rota of rotasComPagina('app')) {
+    const caminho = rota.replace(/^app/, '');
+    if (INTERSTICIAIS.includes(caminho)) continue;
+    const fonte = readFileSync(`${rota}/page.tsx`, 'utf8');
+    if (!/index:\s*false/.test(fonte)) continue;
+    afirma(
+      !bloqueios.includes(`'${caminho}/'`),
+      `robots: ${caminho} e noindex E bloqueado — bloqueado, o robo nunca le o noindex`,
+    );
+  }
+}
+
 console.log(`\n✔ ${ok} asserções passaram`);
 if (falhas.length) {
   console.error(`✘ ${falhas.length} falharam:`);
