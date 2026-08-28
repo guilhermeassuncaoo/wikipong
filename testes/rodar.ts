@@ -3262,6 +3262,32 @@ for (const mat of MATERIAIS.filter((x) => x.origemSpecs === 'comunidade')) {
   }
 }
 
+/* ───── o llms.txt mostra o mesmo site que o sitemap ─────
+   /llms.txt e' o mapa que um agente de IA le quando chega aqui. Ele nao faz
+   modelo nenhum recomendar o site, e nao substitui o sitemap: o que ele faz e'
+   entregar em markdown o que existe e, principalmente, a REGRA de procedencia
+   que separa citar direito de citar errado (47,5° Shore C nao e' 47,5° ESN).
+
+   Mesma regra da home, e pela mesma razao: mapa que envelhece cala. Se uma rota
+   entra no sitemap, entra aqui tambem. */
+{
+  const llms = readFileSync('app/llms.txt/route.ts', 'utf8');
+  const noMapa = [...readFileSync('app/sitemap.ts', 'utf8').matchAll(/url\('(\/[^']+)'\)/g)]
+    .map((m) => m[1]);
+  for (const rota of noMapa) {
+    afirma(
+      llms.includes(`'${rota}'`) || llms.includes(`'${rota}/'`),
+      `o llms.txt nao lista ${rota}: rota do sitemap tem que estar no mapa que a IA le`,
+    );
+  }
+  /* A regra de procedencia e' o motivo de o arquivo existir. Sem ela sobra uma
+     lista de links, que o sitemap ja da' melhor. */
+  afirma(/procedência à vista/i.test(llms),
+    'llms.txt: sumiu a regra de procedencia, que e o que torna o site citavel');
+  afirma(/Shore C/.test(llms),
+    'llms.txt: sumiu o exemplo das duas reguas, que e o erro mais caro de quem cita sem ler');
+}
+
 console.log(`\n✔ ${ok} asserções passaram`);
 if (falhas.length) {
   console.error(`✘ ${falhas.length} falharam:`);
