@@ -44,10 +44,12 @@ import {
   type NoticiaRecebida,
 } from '@/src/logica/noticias-fila';
 import { PainelEstante } from './PainelEstante';
+import { PainelLojas } from './PainelLojas';
+import { repositorioCliques, type Clique } from '@/src/logica/cliques';
 import { repositorioModeracaoEstante, type MotivoParaModerar } from '@/src/logica/estante';
 import estilos from './moderacao.module.css';
 
-type Aba = 'avaliacoes' | 'discussoes' | 'pedidos' | 'noticias' | 'estante';
+type Aba = 'avaliacoes' | 'discussoes' | 'pedidos' | 'noticias' | 'estante' | 'lojas';
 
 const ROTULO_STATUS: Record<Avaliacao['status'], string> = {
   pendente: 'esperando',
@@ -106,6 +108,23 @@ export function ModeracaoCliente() {
       setErroPedidos('O banco recusou a mudança. Confira se esta conta está na tabela admins.');
     }
   }
+
+  /* As saídas para as lojas. Não é fila de moderação: não há nada a decidir,
+     e por isso a aba nunca mostra contagem de "esperando". Mora aqui porque
+     esta é a única tela do site protegida por `admins`. */
+  const repoCliques = useMemo(() => repositorioCliques(), []);
+  const [cliques, setCliques] = useState<Clique[] | null>(null);
+  const [erroCliques, setErroCliques] = useState<string | null>(null);
+
+  const recarregarCliques = useCallback(
+    () => repoCliques.listar()
+      .then((cs) => { setCliques(cs); setErroCliques(null); })
+      .catch(() => {
+        setCliques([]);
+        setErroCliques('Não consegui ler as saídas. Se a migração 017 ainda não rodou, a tabela não existe.');
+      }),
+    [repoCliques],
+  );
 
   const repoNoticias = useMemo(() => repositorioNoticias(), []);
   const [noticias, setNoticias] = useState<NoticiaRecebida[] | null>(null);
@@ -196,7 +215,9 @@ export function ModeracaoCliente() {
     recarregarDiscussoes();
     recarregarNoticias();
     recarregarEstante();
-  }, [repo, admin, recarregarPedidos, recarregarDiscussoes, recarregarNoticias, recarregarEstante]);
+    recarregarCliques();
+  }, [repo, admin, recarregarPedidos, recarregarDiscussoes, recarregarNoticias, recarregarEstante,
+      recarregarCliques]);
 
   async function mudar(id: string, status: Avaliacao['status']) {
     await repo.moderar(id, status);
@@ -280,6 +301,7 @@ export function ModeracaoCliente() {
         ['pedidos', 'Pedidos de guia', esperandoPedidos],
         ['noticias', 'Notícias', noticiasEsperando(noticias ?? []).length],
         ['estante', 'Estante', (motivosEstante ?? []).filter((m) => m.status === 'pendente').length],
+        ['lojas', 'Saídas para lojas', 0],
       ] as const).map(([id, rotulo, esperando]) => (
         <button
           key={id}
@@ -348,6 +370,20 @@ export function ModeracaoCliente() {
           semServidor={!repoEstante.disponivel}
           aoAprovar={(id) => agirNaEstante(() => repoEstante.moderar(id, 'aprovada'))}
           aoDescartar={(id) => agirNaEstante(() => repoEstante.moderar(id, 'descartada'))}
+        />
+      </>
+    );
+  }
+
+  if (aba === 'lojas') {
+    return (
+      <>
+        {barra}
+        {abas}
+        <PainelLojas
+          cliques={cliques}
+          erro={erroCliques}
+          somenteLocal={repoCliques.somenteLocal}
         />
       </>
     );

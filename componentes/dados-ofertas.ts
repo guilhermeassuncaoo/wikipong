@@ -23,6 +23,8 @@ export interface Oferta {
   atualizadoEm: string;
   /** Loja com acordo comercial: exige tag PARCEIRO visível. */
   parceiro?: boolean;
+  /** Cupom de desconto do acordo. Só existe junto com `parceiro`. Hoje: nenhum. */
+  cupom?: string;
   /** Ressalva da checagem (variante, origem do preço, pegadinha de modelo). */
   nota?: string;
 }
@@ -35,6 +37,9 @@ export interface Loja {
   /** Template de busca com {q} — só onde o padrão é confiável. */
   buscaTemplate?: string;
   nota?: string;
+  /** Mesma dupla da oferta: loja do diretório também pode virar parceira. */
+  parceiro?: boolean;
+  cupom?: string;
 }
 
 export const LOJAS = dadosLojas.lojas as Loja[];
@@ -87,6 +92,87 @@ export const TODAS_AS_OFERTAS: Oferta[] = OFERTAS;
 
 export const ofertaPorId = (id: string): Oferta | undefined =>
   OFERTAS.find((o) => idDaOferta(o) === id);
+
+
+/* ───────────────────── Onde comprar: uma lista só, sem preço ─────────────────
+   MUDANÇA DE 2026-09-12, a pedido do fundador. Antes esta seção eram DUAS
+   listas: as ofertas conferidas, em ordem de preço e com o valor em destaque, e
+   embaixo o diretório de lojas. O preço saiu e as duas viraram uma.
+
+   POR QUE O PREÇO SAIU DAQUI. Preço em destaque transforma a seção num ranking,
+   e ranking dá destaque à loja mais barata do dia da checagem — que pode ter
+   mudado ontem. O site não é comparador de preço: é enciclopédia. A pergunta que
+   esta seção responde é "onde eu acho isto à venda", não "onde está mais
+   barato". O preço não sumiu do site: ele continua no alto da ficha, como preço
+   MÉDIO das ofertas, que é orientação de quanto custa a peça e não recomendação
+   de loja.
+
+   A ORDEM, e ela precisa ser dizível numa frase: primeiro quem tem link direto
+   para o produto, depois quem só tem o site; em ordem alfabética dentro de cada
+   grupo. Não é por preço, não é por parceria, não é pela ordem do JSON. É por
+   utilidade para quem lê, e está escrita na tela embaixo da lista.
+
+   O DIA DA PARCERIA já cabe aqui: `parceiro` e `cupom` atravessam do dado até o
+   cartão. Hoje são 0 de 669 ofertas e 0 de 5 lojas, então não renderizam nada —
+   e nenhuma copy promete um programa que não existe (D-16). Quando a primeira
+   parceria entrar no JSON, o selo e o cupom aparecem sozinhos. */
+
+/** Um cartão da seção "Onde comprar" — loja, não oferta, e sem preço nenhum. */
+export interface CartaoDeLoja {
+  /** Chave estável: serve de `key` no React e de rótulo na medição de saídas. */
+  id: string;
+  nome: string;
+  /** Sempre uma saída do NOSSO domínio (/ir/), nunca o link da loja direto.
+   *  É o que permite contar quanta gente o site manda para cada loja. */
+  href: string;
+  /** O que este link é, dito sem enfeite. A tela mostra literalmente. */
+  tipo: 'produto' | 'busca' | 'site';
+  parceiro: boolean;
+  cupom?: string;
+}
+
+const semAcento = (t: string): string =>
+  t.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '');
+
+/**
+ * Todas as lojas onde procurar um material, numa lista só.
+ *
+ * Loja que aparece nas duas fontes entra UMA vez, pela oferta: o link direto
+ * para o produto é sempre melhor que a página inicial da mesma loja.
+ */
+export function lojasOndeComprar(materialId: string, termoDeBusca: string): CartaoDeLoja[] {
+  const ofertas = ofertasDoMaterial(materialId);
+  const jaListadas = new Set(ofertas.map((o) => semAcento(o.loja)));
+
+  const deOferta: CartaoDeLoja[] = ofertas.map((o) => ({
+    id: idDaOferta(o),
+    nome: o.loja,
+    href: `/ir/?o=${idDaOferta(o)}`,
+    tipo: 'produto',
+    parceiro: o.parceiro === true,
+    cupom: o.cupom,
+  }));
+
+  const doDiretorio: CartaoDeLoja[] = LOJAS.filter((l) => !jaListadas.has(semAcento(l.nome))).map(
+    (l) => ({
+      id: l.id,
+      nome: l.nome,
+      href: `/ir/?loja=${encodeURIComponent(l.id)}&m=${encodeURIComponent(materialId)}`,
+      /* Só é "busca" quando a loja tem um padrão de URL de busca confiável.
+         As outras caem na página inicial, e dizer "buscar" ali seria prometer
+         uma busca que não vai acontecer. */
+      tipo: l.buscaTemplate ? 'busca' : 'site',
+      parceiro: l.parceiro === true,
+      cupom: l.cupom,
+    }),
+  );
+
+  const alfabetica = (a: CartaoDeLoja, b: CartaoDeLoja) => a.nome.localeCompare(b.nome, 'pt-BR');
+  return [...deOferta.sort(alfabetica), ...doDiretorio.sort(alfabetica)];
+}
+
+/** O termo que vira busca na loja: é o nome do produto, do jeito que se procura. */
+export const termoDeBusca = (marca: string, nome: string): string => `${marca} ${nome}`;
 
 /** Data legível pt-BR a partir do ISO. */
 export function dataLegivel(iso: string): string {

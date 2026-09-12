@@ -42,11 +42,11 @@ import {
 } from '@/componentes/dados-fabricante';
 import {
   ofertasDoMaterial,
+  lojasOndeComprar,
+  termoDeBusca,
+  type CartaoDeLoja,
   precoMedio,
-  idDaOferta,
   dataLegivel,
-  LOJAS,
-  urlDeBusca,
 } from '@/componentes/dados-ofertas';
 import { profissionaisQueUsam } from '@/componentes/dados-profissionais';
 import { sinalDaComunidade, ehFavoritoDaComunidade } from '@/componentes/dados-comunidade';
@@ -61,7 +61,6 @@ import {
   sensacao,
 } from '@/src/logica/escalas';
 import { slug, temDesempenho } from '@/src/logica/filtros';
-import { variacao, dataCurta } from '@/componentes/dados-historico';
 import estilos from './detalhe.module.css';
 import { TextoComGlossario } from '@/componentes/TextoComGlossario';
 
@@ -151,6 +150,15 @@ function LinhaDeDureza({ m }: { m: MaterialCatalogo }) {
     </tr>
   );
 }
+
+/* O que cada link É, dito na cara. "Buscar" só onde a loja tem padrão de URL de
+   busca confiável (hoje, 1 das 5): nas outras o link cai na página inicial, e
+   escrever "buscar" ali prometeria uma busca que não vai acontecer (D-16). */
+const ROTULO_DO_LINK: Readonly<Record<CartaoDeLoja['tipo'], string>> = {
+  produto: 'link direto para este produto',
+  busca: 'busca por este material na loja',
+  site: 'site da loja, para procurar lá dentro',
+};
 
 export default async function PaginaDetalhe({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
@@ -299,6 +307,11 @@ export default async function PaginaDetalhe({ params }: { params: Promise<{ id: 
   // Ofertas reais (D-13). Preço médio é DERIVADO delas; sem oferta, o valor da
   // semente é exibido como estimativa — nunca como preço apurado (D-16).
   const ofertas = ofertasDoMaterial(m.id);
+  /* Uma lista só de lojas, sem preço (ver o comentário longo na seção "Onde
+     comprar"). `ofertas` continua vivo aqui em cima porque o preço MÉDIO da
+     ficha é derivado delas — o que saiu foi o preço por loja, não o dado. */
+  const lojas = lojasOndeComprar(m.id, termoDeBusca(m.marca, m.nome));
+  const comLinkDireto = lojas.filter((l) => l.tipo === 'produto').length;
   const medio = precoMedio(m.id);
 
   // Uso reverso (D-18/TTD): quais profissionais usam este material — link p/ /profissionais
@@ -793,122 +806,70 @@ export default async function PaginaDetalhe({ params }: { params: Promise<{ id: 
           </section>
         )}
 
-        {/* ── 3. Onde comprar (AÇÃO — D-14) — ordenado por PREÇO, nunca por parceiro ── */}
+        {/* ── 3. Onde comprar (AÇÃO — D-14) — LOJAS, e não preços ──
+               REESCRITA EM 2026-09-12, a pedido do fundador. Antes eram duas
+               listas: as ofertas conferidas, ordenadas por preço e com o valor
+               em destaque, e embaixo o diretório de lojas.
+
+               O PREÇO SAIU. Preço em destaque transforma a seção num ranking, e
+               ranking dá destaque à loja mais barata no dia da checagem — que
+               pode ter mudado ontem. A pergunta que esta seção responde é "onde
+               eu acho isto à venda", não "onde está mais barato": o site é
+               enciclopédia, não comparador. O preço não sumiu da ficha, continua
+               lá em cima como preço MÉDIO, que orienta quanto custa a peça sem
+               apontar loja.
+
+               FOI JUNTO com o preço, e vale saber onde procurar se um dia
+               voltar: a variação de preço por loja (▲ 12% desde março) e as
+               notas de checagem, que citam valores em texto corrido — mantê-las
+               seria tirar o preço da coluna e devolvê-lo na prosa.
+
+               A ordem está dita na tela, embaixo da lista, e é a única regra: 
+               link direto primeiro, alfabética dentro de cada grupo. */}
         <section className={estilos.ondeComprar} aria-labelledby="titulo-comprar">
           <h2 id="titulo-comprar">Onde comprar</h2>
 
-          {ofertas.length > 0 ? (
-            <>
-              <ol className={estilos.ofertas}>
-                {ofertas.map((o) => (
-                  <li key={idDaOferta(o)} className={estilos.oferta}>
-                    <span className={estilos.ofertaLoja}>
-                      {o.loja}
-                      {o.parceiro && <span className={`mono ${estilos.tagParceiro}`}>Parceiro</span>}
-                    </span>
-                    <span className={`mono ${estilos.ofertaPreco}`}>
-                      {o.preco !== undefined ? brl(o.preco) : '—'}
-                    </span>
-                    <span className={`mono ${estilos.ofertaData}`}>
-                      {o.preco !== undefined
-                        ? `checado em ${dataLegivel(o.atualizadoEm)}`
-                        : 'preço na loja'}
-                    </span>
-                    {/* Histórico do git (D-13): uma checagem NÃO é acompanhamento,
-                        e a copy distingue os dois casos em vez de insinuar série. */}
-                    {(() => {
-                      const v = variacao(m.id, o.loja);
-                      if (!v) return null;
-                      if (v.observacoes === 1)
-                        return (
-                          <span className={estilos.historicoUnico}>
-                            primeira checagem, ainda sem variação registrada
-                          </span>
-                        );
-                      const subiu = v.delta > 0;
-                      return (
-                        <span className={estilos.historico}>
-                          <span className={subiu ? estilos.historicoAlta : estilos.historicoBaixa}>
-                            {subiu ? '▲' : '▼'} {Math.abs(v.percentual)}%
-                          </span>{' '}
-                          desde {dataCurta(v.primeiro.data)} (era {brl(v.primeiro.preco)}) ·{' '}
-                          {v.observacoes} checagens
-                        </span>
-                      );
-                    })()}
-                    <a
-                      href={`/ir/?o=${idDaOferta(o)}`}
-                      className={`botao-secundario ${estilos.ofertaBotao}`}
-                      rel="nofollow sponsored"
-                    >
-                      Ver na loja ↗
-                    </a>
-                    {o.nota && <span className={estilos.ofertaNota}>{o.nota}</span>}
-                  </li>
-                ))}
-              </ol>
-              {/* A REGRA DE PARCERIA SÓ APARECE QUANDO HÁ PARCEIRO NA LISTA.
-                  Antes ela aparecia sempre — e como não existe nenhum parceiro
-                  (0 em 669 ofertas), a tela gastava quatro linhas explicando as
-                  regras de um programa que não existe. O fundador cortou em
-                  2026-08-16, e o corte é certo: aviso sobre coisa que não está
-                  acontecendo ensina o leitor a pular aviso.
+          <ul className={estilos.lojasLista}>
+            {lojas.map((l) => (
+              <li key={l.id}>
+                {/* Toda saída passa pelo /ir/ — inclusive as do diretório, que
+                    antes iam direto. Um caminho só, e é ele que torna possível
+                    contar quanta gente o site manda para cada loja. */}
+                <a href={l.href} className={estilos.loja} rel="nofollow sponsored">
+                  <span className={estilos.lojaNome}>
+                    {l.nome} ↗
+                    {l.parceiro && <span className={`mono ${estilos.tagParceiro}`}>Parceira</span>}
+                  </span>
+                  <span className={estilos.lojaTipo}>{ROTULO_DO_LINK[l.tipo]}</span>
+                  {l.cupom && (
+                    <span className={`mono ${estilos.lojaCupom}`}>cupom {l.cupom}</span>
+                  )}
+                </a>
+              </li>
+            ))}
+          </ul>
 
-                  Condicional, e não apagada, porque o D-13 exige a divulgação no
-                  dia em que houver parceiro. Assim ela volta sozinha, junto com
-                  a primeira tag, em vez de depender de alguém lembrar. */}
-              <p className={estilos.ofertasNota}>
-                Ordenado <strong>pelo preço</strong>, sempre.{' '}
-                {ofertas.some((o) => o.parceiro) && (
-                  <>
-                    Nunca por quem é parceiro: as lojas marcadas como <em>Parceiro</em> nos pagam
-                    comissão se você comprar, e isso{' '}
-                    <strong>não muda a ordem desta lista</strong> nem o que escrevemos na ficha
-                    técnica.{' '}
-                  </>
-                )}
-                As datas são reais: se um preço está velho, ele aparece velho.
-              </p>
-            </>
-          ) : (
-            <p className={estilos.semOferta}>
-              Ainda não conferimos preço deste material em nenhuma loja. Quando conferirmos, cada
-              preço aparecerá aqui com a loja e a <strong>data real</strong> da checagem, ordenado pelo preço. Até lá, o valor no topo desta página é uma{' '}
-              <strong>estimativa</strong>, não um preço conferido.
-            </p>
-          )}
-
-          {/* Diretório: onde PROCURAR. Não afirma estoque nem preço deste item. */}
-          <div className={estilos.lojas}>
-            <p className={`mono ${estilos.lojasTitulo}`}>Lojas de tênis de mesa no Brasil</p>
-            <ul className={estilos.lojasLista}>
-              {LOJAS.map((loja) => (
-                <li key={loja.id}>
-                  <a
-                    href={urlDeBusca(loja, `${m.marca} ${m.nome}`)}
-                    target="_blank"
-                    rel="noopener noreferrer nofollow"
-                    className={estilos.loja}
-                  >
-                    <span className={estilos.lojaNome}>{loja.nome} ↗</span>
-                    {loja.nota && <span className={estilos.lojaNota}>{loja.nota}</span>}
-                  </a>
-                </li>
-              ))}
-            </ul>
-            {/* O que ficou é o que o leitor precisa: isto é um diretório, não
-                uma lista de preços conferidos. As duas frases sobre parceria
-                saíram porque não há parceria nenhuma — e prometer como ela
-                SERIA divulgada, num site que ainda não tem, é ocupar a tela com
-                futuro hipotético. */}
-            <p className={estilos.lojasAviso}>
-              Este é um <strong>diretório de onde procurar</strong>, não uma lista de ofertas
-              conferidas: não verificamos se estas lojas têm este material em estoque nem por
-              quanto.
-            </p>
-          </div>
+          <p className={estilos.ofertasNota}>
+            A ordem é por <strong>utilidade</strong>: primeiro as lojas com link direto para este
+            produto, depois as que só têm o site, em ordem alfabética dentro de cada grupo.{' '}
+            <strong>Nunca por preço</strong> e nunca por parceria.{' '}
+            {comLinkDireto === 0 && (
+              <>
+                Ainda não conferimos link direto deste material em nenhuma loja, então aqui só há
+                onde procurar.{' '}
+              </>
+            )}
+            {lojas.some((l) => l.parceiro) && (
+              <>
+                As lojas marcadas como <em>Parceira</em> nos pagam comissão se você comprar, e isso{' '}
+                <strong>não muda a ordem desta lista</strong> nem o que está escrito na ficha
+                técnica.{' '}
+              </>
+            )}
+            Esta lista diz <strong>onde procurar</strong>: não verificamos se a loja tem a peça em
+            estoque hoje nem por quanto. Quem responde isso é a loja.
+          </p>
         </section>
-
 
         {/* ── 3. Comunidade (OPINIÃO, rotulada, por último — D-14) ──
                Duas vozes DIFERENTES, e a tela nunca as soma:

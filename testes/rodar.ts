@@ -57,6 +57,9 @@ import {
 import { familiaDaLamina, familiaDaBorracha } from '../src/logica/traduzir.js';
 import { filtrarPorTexto } from '../src/logica/busca-material.js';
 import {
+  saidaValida, porLoja, totalDeSaidas, noPeriodo, diasAtras, chaveDoClique,
+} from '../src/logica/cliques.js';
+import {
   validarPedido, parecidos, ordenarPedidos, atendidos, aprovados, type PedidoDePauta,
 } from '../src/logica/pedidos-pauta.js';
 import { MATERIAIS, materialPorId } from '../componentes/dados-materiais.js';
@@ -2534,17 +2537,31 @@ afirma(/logoDaMarca\(/.test(monograma),
 const fichaMaterial = readFileSync('app/materiais/[id]/page.tsx', 'utf8');
 const fichaSemComentario = semComentarios(fichaMaterial);
 
-/* 1. A tag continua saindo em toda oferta de parceiro. */
-afirma(/o\.parceiro && <span[^>]*>[\s\S]{0,60}Parceiro/.test(fichaSemComentario),
-  'ficha: sumiu a tag Parceiro da oferta — acordo comercial sem etiqueta visivel viola o D-13');
+/* 1. A tag continua saindo em todo cartao de loja parceira.
+      MUDOU DE FORMA em 2026-09-12, quando o preco saiu e as duas listas viraram
+      uma: era `o.parceiro` (so' oferta) e virou `l.parceiro` (o cartao, que pode
+      vir de oferta OU do diretorio). A regra e a mesma e passou a cobrir MAIS —
+      antes uma loja do diretorio nao tinha como ser marcada como parceira. */
+afirma(/\bl\.parceiro && <span[^>]*>[\s\S]{0,80}Parceira/.test(fichaSemComentario),
+  'ficha: sumiu a tag Parceira do cartao de loja — acordo comercial sem etiqueta visivel viola o D-13');
 
 /* 2. O texto que explica a regra continua existindo, guardado por condicao —
       nao apagado. Se alguem "limpar" isso, o primeiro parceiro entra sem
       divulgacao nenhuma e ninguem percebe. */
-afirma(/ofertas\.some\(\(o\) => o\.parceiro\)/.test(fichaSemComentario),
+afirma(/lojas\.some\(\(l\) => l\.parceiro\)/.test(fichaSemComentario),
   'ficha: a explicacao de parceria deixou de ser condicional — ou some pra sempre, ou volta a aparecer sem parceiro');
 afirma(/não muda a ordem desta lista/.test(fichaSemComentario),
   'ficha: o texto que explica que comissao NAO muda a ordem foi apagado — no dia do primeiro parceiro nao ha o que mostrar');
+
+/* 2b. O CUPOM, pedido do fundador em 2026-09-12 junto com o selo: "quando
+      fizermos uma parceria, a interface seria parecida com o que e' hoje, so'
+      mostrando que aquela loja e' parceira, tem cupom de desconto". Ele nao
+      renderiza nada hoje (0 parceiros), e por isso mesmo precisa de guarda: o
+      que nao aparece na tela e' o que some na primeira limpeza. */
+afirma(/\bl\.cupom &&/.test(fichaSemComentario),
+  'ficha: sumiu o cupom do cartao de loja — no dia da parceria nao havera onde mostrar o desconto');
+afirma(/cupom\?: string/.test(readFileSync('componentes/dados-ofertas.ts', 'utf8')),
+  'dados-ofertas: sumiu o campo cupom, e o selo de parceira ficaria sem o desconto que o acompanha');
 
 /* 3. E a promessa vazia nao pode voltar: enquanto nao ha parceiro, a tela nao
       fala de parceria. */
@@ -3076,7 +3093,7 @@ for (const mat of MATERIAIS) {
   const texto = ficha.map((l) => `${l.rotulo} ${l.valor}`).join(' ').toLowerCase();
   if (mat.tipo === 'Borracha') {
     afirma(
-      !/camadas|lâminas de madeira|all-wood|ply/.test(texto),
+      !/camadas|lâminas de madeira|all-wood|\bply\b/.test(texto),
       `${mat.id}: marcado como Borracha e a ficha descreve madeira ("${texto.slice(0, 70)}…") — tipo trocado?`,
     );
   }
@@ -3323,6 +3340,184 @@ for (const mat of MATERIAIS.filter((x) => x.origemSpecs === 'comunidade')) {
       `robots: ${caminho} e noindex E bloqueado — bloqueado, o robo nunca le o noindex`,
     );
   }
+}
+
+/* ───── saídas para as lojas: a conta, e o que a torna defensável ─────
+   Foi o pedido do fundador em 2026-09-12: medir quanta gente o site manda pra
+   cada loja, pra ter numero na mesa quando for falar de parceria.
+
+   O que estes testes protegem nao e' so' a soma. E' a AFIRMACAO que o numero
+   carrega. Se a unidade escorregar de "saida encaminhada" pra "usuario", ou se
+   a contagem virar editavel pelo navegador, o numero para de valer numa
+   conversa — e ninguem percebe, porque continua somando. */
+{
+  const c = (loja: string, materialId: string, sessao: string, dia: string,
+             origem: 'oferta' | 'diretorio' = 'oferta') =>
+    ({ loja, materialId, sessao, dia, origem });
+
+  /* ── a validacao, que e' a mesma do `with check` da migracao 017 ── */
+  afirma(saidaValida({ loja: 'OperaTT', materialId: 'tenergy05', origem: 'oferta' }),
+    'cliques: saida normal tem que passar');
+  afirma(!saidaValida({ loja: '  ', materialId: 'tenergy05', origem: 'oferta' }),
+    'cliques: loja em branco nao pode virar linha');
+  afirma(!saidaValida({ loja: 'OperaTT', materialId: '', origem: 'oferta' }),
+    'cliques: saida sem material nao diz de onde a pessoa saiu, e nao serve pra nada');
+  afirma(!saidaValida({ loja: 'x'.repeat(61), materialId: 'a', origem: 'oferta' }),
+    'cliques: loja acima de 60 caracteres seria recusada pelo banco, recuse antes');
+  afirma(!saidaValida({ loja: 'OperaTT', materialId: 'a', origem: 'clique' as never }),
+    'cliques: origem inventada nao pode entrar');
+
+  /* ── a agregacao ── */
+  const amostra = [
+    c('OperaTT', 'tenergy05', 's1', '2026-09-01'),
+    c('OperaTT', 'tenergy05', 's2', '2026-09-01'),
+    c('OperaTT', 'rakza7', 's1', '2026-09-02', 'diretorio'),
+    c('DriveTT', 'tenergy05', 's3', '2026-09-05', 'diretorio'),
+  ];
+  const agregado = porLoja(amostra);
+  afirma(agregado.length === 2, 'cliques: duas lojas na amostra, duas linhas no relatorio');
+  afirma(agregado[0].loja === 'OperaTT', 'cliques: quem tem mais saidas vem primeiro');
+  afirma(agregado[0].saidas === 3, 'cliques: a OperaTT tem 3 saidas');
+  afirma(agregado[0].deOferta === 2 && agregado[0].deDiretorio === 1,
+    'cliques: link direto e diretorio somam separado, e a diferenca importa');
+  afirma(agregado[0].materiais === 2, 'cliques: dois materiais distintos levaram gente a OperaTT');
+  afirma(agregado[0].dias === 2, 'cliques: dois dias com saida separam constante de pico');
+  afirma(agregado[0].primeiroDia === '2026-09-01' && agregado[0].ultimoDia === '2026-09-02',
+    'cliques: o periodo da loja sai dos dados, nao do filtro da tela');
+  afirma(agregado[0].topMateriais[0].materialId === 'tenergy05'
+      && agregado[0].topMateriais[0].saidas === 2,
+    'cliques: o material que mais leva gente a loja vem primeiro, e a frase pra loja depende disso');
+
+  /* Desempate pelo NOME, nunca pela ordem de chegada no banco. Relatorio que
+     troca de ordem sozinho entre duas cargas e' relatorio que nao da' pra
+     conferir, e conferir e' a unica razao de o numero valer alguma coisa. */
+  const empate = porLoja([
+    c('Zeta', 'm1', 's1', '2026-09-01'),
+    c('Alfa', 'm1', 's2', '2026-09-01'),
+  ]);
+  afirma(empate[0].loja === 'Alfa' && empate[1].loja === 'Zeta',
+    'cliques: empate desempata em ordem alfabetica, nunca pela ordem do banco');
+
+  /* ── o recorte de periodo: fechado nas DUAS pontas ── */
+  afirma(noPeriodo(amostra, '2026-09-01', '2026-09-01').length === 2,
+    'cliques: o primeiro dia do periodo entra (intervalo fechado)');
+  afirma(noPeriodo(amostra, '2026-09-02', '2026-09-05').length === 2,
+    'cliques: o ultimo dia do periodo entra');
+  afirma(noPeriodo(amostra, '2026-10-01', '2026-10-31').length === 0,
+    'cliques: periodo sem saida nao inventa linha');
+  afirma(totalDeSaidas(amostra) === 4, 'cliques: o total e a contagem de linhas, sem esperteza');
+
+  /* Virada de mes e de ano, que e' onde conta de data quebra calada. */
+  afirma(diasAtras(1, new Date('2026-03-01T10:00:00Z')) === '2026-02-28',
+    'cliques: 1 dia antes de 1o de marco de 2026 e 28 de fevereiro');
+  afirma(diasAtras(30, new Date('2026-01-15T10:00:00Z')) === '2025-12-16',
+    'cliques: 30 dias atras atravessa a virada do ano');
+
+  /* A chave de dedupe TEM que ser a mesma tupla do indice unico da 017. Se as
+     duas discordarem, a tela local e a de producao mostram numeros diferentes
+     pro mesmo comportamento. */
+  const k1 = chaveDoClique(c('OperaTT', 'tenergy05', 's1', '2026-09-01'));
+  const k2 = chaveDoClique(c('OperaTT', 'tenergy05', 's1', '2026-09-01', 'diretorio'));
+  afirma(k1 === k2,
+    'cliques: a origem NAO entra na chave, a mesma aba no mesmo produto no mesmo dia e uma saida so');
+  afirma(k1 !== chaveDoClique(c('OperaTT', 'tenergy05', 's2', '2026-09-01')),
+    'cliques: sessoes diferentes sao saidas diferentes');
+  afirma(k1 !== chaveDoClique(c('OperaTT', 'tenergy05', 's1', '2026-09-02')),
+    'cliques: dias diferentes sao saidas diferentes');
+}
+
+/* ───── "Onde comprar": lojas, e nao precos ─────
+   Pedido do fundador em 2026-09-12: nenhuma loja em destaque por causa de
+   preco. Preco na secao transforma a lista num ranking, e o ranking aponta a
+   loja mais barata no dia da checagem, que pode ter mudado ontem.
+
+   Estes guardas existem porque a secao e' exatamente o lugar onde preco volta
+   sem querer: basta alguem "melhorar" um cartao mostrando o valor. */
+{
+  const ficha = readFileSync('app/materiais/[id]/page.tsx', 'utf8');
+  const i = ficha.indexOf('id="titulo-comprar"');
+  afirma(i > 0, 'a ficha perdeu a secao Onde comprar');
+  const secao = ficha.slice(i, ficha.indexOf('</section>', i));
+
+  afirma(!/\bbrl\(/.test(secao),
+    'Onde comprar: voltou a formatar dinheiro na secao, e nenhuma loja pode ganhar destaque por preco');
+  afirma(!/\.preco\b/.test(secao), 'Onde comprar: voltou a ler preco na secao');
+  afirma(!/R\$/.test(secao), 'Onde comprar: apareceu R$ na secao');
+  /* A nota de oferta cita valores em texto corrido ("Preco atual R$ 154,85").
+     Mostra-la seria tirar o preco da coluna e devolve-lo na prosa. */
+  afirma(!/\.nota\b/.test(secao),
+    'Onde comprar: voltou a mostrar a nota da oferta, e 669 delas citam preco em texto corrido');
+}
+
+/* ───── toda saida passa pelo /ir/, senao nao ha o que medir ─────
+   O diretorio de lojas linkava DIRETO pro site da loja. Enquanto foi assim,
+   metade das saidas nunca foi contada. Um caminho so' significa uma medicao so',
+   e este guarda e' o que impede alguem de "simplificar" um cartao pondo o link
+   da loja de volta. */
+{
+  const fonte = readFileSync('componentes/dados-ofertas.ts', 'utf8');
+  const i = fonte.indexOf('export function lojasOndeComprar');
+  afirma(i > 0, 'sumiu lojasOndeComprar, que e quem monta a secao Onde comprar');
+  const fn = fonte.slice(i, fonte.indexOf('\n}', i));
+
+  const hrefs = [...fn.matchAll(/href: `([^`]*)`/g)].map((m) => m[1]);
+  afirma(hrefs.length >= 2, 'lojasOndeComprar: esperava um href por tipo de cartao');
+  for (const h of hrefs) {
+    afirma(h.startsWith('/ir/'),
+      `lojasOndeComprar: o href "${h}" sai do site sem passar pelo /ir/, e saida que nao passa por la nao e contada`);
+  }
+}
+
+/* ───── a contagem tem que ser defensavel, senao nao serve pra negociar ─────
+   Um relatorio que o interessado pode editar e' um relatorio que o outro lado
+   nao tem por que acreditar. Estas asercoes leem a migracao 017 como TEXTO,
+   porque e' o SQL publicado que vale, nao a intencao de quem escreveu. */
+{
+  const sql = readFileSync('supabase/017-cliques-de-saida.sql', 'utf8').toLowerCase();
+
+  afirma(/create table if not exists public\.cliques_loja/.test(sql),
+    'migracao 017: sumiu a tabela cliques_loja');
+  afirma(/create unique index[\s\S]*?\(sessao, loja, material_id, dia\)/.test(sql),
+    'migracao 017: sumiu o indice unico, que e QUEM DEFINE a unidade "uma saida por aba, produto e dia"');
+  afirma(/alter table public\.cliques_loja enable row level security/.test(sql),
+    'migracao 017: a RLS tem que estar ligada');
+
+  /* As duas politicas que NAO podem existir. Sem elas, nem o dono do site
+     reescreve a contagem pelo navegador, e e' isso que a loja precisa saber. */
+  afirma(!/for update/.test(sql),
+    'migracao 017: apareceu politica de UPDATE, e contagem editavel pelo navegador nao convence loja nenhuma');
+  afirma(!/for delete/.test(sql), 'migracao 017: apareceu politica de DELETE, mesmo problema');
+
+  /* O grant e' por COLUNA de proposito: `dia` e `criado_em` ficam de fora pra
+     so' o default do banco poder carimba-los. Data vinda do cliente e' data que
+     o cliente escolhe, e com ela da' pra forjar um mes inteiro de saidas. */
+  const grant = /grant insert \(([^)]*)\) on public\.cliques_loja/.exec(sql)?.[1] ?? '';
+  afirma(grant.length > 0,
+    'migracao 017: o grant de insert tem que ser por coluna, nao na tabela toda');
+  afirma(!/\bdia\b/.test(grant),
+    'migracao 017: `dia` entrou no grant, e o cliente passaria a escolher a data da propria saida');
+  afirma(!/criado_em/.test(grant), 'migracao 017: `criado_em` entrou no grant');
+
+  /* Ler e' so' do admin: o numero de saidas e' a carta na mesa de negociacao. */
+  afirma(/for select to authenticated[\s\S]{0,160}eh_admin\(\)/.test(sql),
+    'migracao 017: a leitura tem que exigir eh_admin()');
+  afirma(!/for select to anon/.test(sql), 'migracao 017: apareceu leitura publica das saidas');
+
+  /* Sem SELECT pro anon, o INSERT so' funciona com return=minimal: com
+     `representation` (o padrao do PostgREST) o banco teria que devolver uma
+     linha que quem escreveu nao pode ler, e recusaria. O acoplamento e' real e
+     silencioso: quebra em producao, nunca no build. */
+  const repo = readFileSync('src/logica/cliques.ts', 'utf8');
+  afirma(/return=minimal/.test(repo),
+    'cliques: o insert precisa de Prefer: return=minimal, senao o grant por coluna o derruba');
+  afirma(/ignore-duplicates/.test(repo),
+    'cliques: sem resolution=ignore-duplicates o indice unico devolve 409 na segunda saida');
+  afirma(/keepalive/.test(repo),
+    'cliques: sem keepalive o registro e cancelado quando a pagina sai, e some justo o clique que importa');
+
+  const corpo = repo.slice(repo.indexOf('body: JSON.stringify'), repo.indexOf('body: JSON.stringify') + 320);
+  afirma(!/\bdia:/.test(corpo),
+    'cliques: o cliente voltou a mandar `dia`, e quem carimba a data e o banco');
 }
 
 console.log(`\n✔ ${ok} asserções passaram`);

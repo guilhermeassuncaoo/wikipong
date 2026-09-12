@@ -702,3 +702,66 @@ VISUAL; a conta de custo por mês e o grafo do quiz nunca foram visual.
 encerra a metade "piso, não teto" da **D-18** — não há mais piso externo, há o site.
 
 **Status:** ativa.
+
+---
+
+## D-22 · "Onde comprar" mostra lojas, não preços — e conta as saídas (ATIVA)
+
+**Decisão do fundador, 2026-09-12:** *"Na parte de 'Onde comprar', no material, não dê
+destaque para nenhuma das lojas por conta do preço. Não deve haver preço, deixe apenas as
+lojas uma do lado da outra, indicando onde tem pra comprar. (…) preciso que você faça algum
+programa ou funcionalidade, que faça a medição de quantos usuários entraram no site daquela
+loja por meio do meu site, para podermos mostrar para as lojas e fazermos parceria depois."*
+
+São duas decisões que se sustentam uma na outra.
+
+### 1. O preço sai da seção
+
+A seção eram duas listas: as ofertas conferidas, **ordenadas por preço** e com o valor em
+destaque, e embaixo o diretório de lojas. Vira **uma grade de cartões de loja**, sem preço
+nenhum, ordenada por utilidade: primeiro quem tem link direto para o produto, depois quem só
+tem o site, alfabética dentro de cada grupo — e a regra está escrita na tela.
+
+**Porquê:** preço em destaque transforma a lista num ranking, e o ranking aponta a loja mais
+barata **no dia da checagem**, que pode ter mudado ontem. A pergunta que a seção responde é
+*onde eu acho isto à venda*, não *onde está mais barato*: o WikiPong é enciclopédia, não
+comparador de preço. Dar destaque a uma loja por um número velho é o tipo de afirmação que o
+site inteiro existe para não fazer.
+
+**O preço não sumiu da ficha.** Continua no alto, como preço **médio** das ofertas — que
+orienta quanto custa a peça sem apontar loja. Saíram junto, porque só existiam dentro da
+lista de ofertas: a variação por loja (▲ 12% desde março) e as notas de checagem, que citam
+valores em texto corrido e devolveriam o preço pela prosa. O dado continua todo em
+`dados/ofertas.json` e `dados/historico-precos.json`.
+
+**O dia da parceria já cabe:** `parceiro` e `cupom` atravessam do JSON até o cartão. Hoje são
+0 de 669 ofertas e 0 de 5 lojas, então não renderizam nada, e nenhuma copy promete um programa
+que não existe (D-16). Quando a primeira parceria entrar no dado, o selo e o cupom aparecem
+sozinhos.
+
+### 2. Toda saída passa pelo `/ir/`, e é contada
+
+Os links do diretório iam **direto** para o site da loja. Enquanto foi assim, metade das
+saídas do site nunca foi contada. Agora há um caminho só — e um caminho só significa uma
+medição só.
+
+**A unidade é "saída encaminhada", nunca "usuário único".** A chave de deduplicação é
+(sessão, loja, material, dia), e ela mora no **índice único do banco**, não no código:
+a mesma aba, no mesmo produto, no mesmo dia conta uma vez por mais que se atualize a página.
+Chamar isso de "usuários" inflaria o número por escolha de palavra, que é exatamente o erro
+que o site passa o dia evitando nos números de fabricante.
+
+**O que a medição não guarda:** nome, e-mail, conta, IP, cookie, nem nada que atravesse para
+outro site. A sessão é um número aleatório que nasce quando a aba abre e morre quando ela
+fecha. E a pessoa que está saindo **é avisada disso na própria tela de saída** — contar às
+escondidas, num site que cobra procedência dos outros, seria estranho.
+
+**Por que o número é defensável**, que é o ponto todo: a migração `017` não concede política
+de `UPDATE` nem de `DELETE`. Nem o dono do site reescreve a contagem pelo navegador. Os
+`grant` são por **coluna**, deixando `dia` e `criado_em` de fora, para só o banco carimbar a
+data. Ler é só de quem está em `admins`. Um relatório que o interessado pode editar é um
+relatório que o outro lado não tem por que acreditar — e o outro lado, aqui, é a loja com
+quem se quer fechar parceria.
+
+O relatório vive na aba **Saídas para lojas** da moderação, e entrega uma frase pronta por
+loja, com os números e o método dentro dela, para ser copiada e enviada.

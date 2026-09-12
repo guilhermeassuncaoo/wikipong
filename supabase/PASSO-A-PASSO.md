@@ -58,6 +58,31 @@ No menu da esquerda, abra o **SQL Editor** (ícone de terminal).
 12. Repita com **`supabase/009-pedidos-de-pauta.sql`**.
 13. Repita com **`supabase/010-resposta-que-resolveu.sql`**.
 14. Repita com **`supabase/011-endurece-a-funcao.sql`**.
+15. Repita com **`supabase/012-noticias-recebidas.sql`**.
+16. Repita com **`supabase/013-de-quem-e-o-resumo.sql`**.
+17. Repita com **`supabase/014-perfil-publico.sql`**.
+18. Repita com **`supabase/015-estante.sql`**.
+19. Repita com **`supabase/016-jogador-detalhado.sql`**.
+20. Repita com **`supabase/017-cliques-de-saida.sql`**.
+
+> **A lista parava no `011` e estava desatualizada** — do `012` ao `016` já
+> existiam no projeto e nunca tinham entrado aqui. Entraram em 2026-09-12, junto
+> com o `017`.
+
+> **O `017` é o que conta as saídas para as lojas.** Sem ele o site funciona
+> inteiro e só a aba *Saídas para lojas*, na moderação, fica vazia dizendo que a
+> tabela não existe. Duas coisas que valem saber antes de rodar:
+>
+> · **A contagem começa do zero no dia em que ele sobe.** Não há como recuperar
+>   clique que aconteceu antes — o site nunca guardou isso. Quanto antes rodar,
+>   mais cedo começa a série que você vai mostrar para a loja.
+>
+> · **Ele não cria política de UPDATE nem de DELETE, de propósito.** Nem você
+>   apaga uma linha pelo site. Pelo painel do Supabase dá (a `service_role`
+>   ignora RLS, e tem que ignorar, para dar para consertar erro), mas pelo
+>   navegador não — e é isso que faz o número valer alguma coisa numa conversa
+>   com a loja. Relatório que o interessado edita é relatório que o outro lado
+>   não tem por que acreditar.
 
 > **O `010` é obrigatório para as Discussões.** As tabelas do fórum já existiam
 > desde o `001`, mas o site só passou a falar com elas agora. O `010` acrescenta
@@ -99,7 +124,7 @@ No menu da esquerda, abra o **SQL Editor** (ícone de terminal).
 > A ordem importa.
 
 Para conferir: abra **Table Editor** no menu. Devem estar lá `avaliacoes`,
-`topicos`, `respostas`, `perfis` e `admins`, todas vazias.
+`topicos`, `respostas`, `perfis`, `admins` e `cliques_loja`, todas vazias.
 
 ---
 

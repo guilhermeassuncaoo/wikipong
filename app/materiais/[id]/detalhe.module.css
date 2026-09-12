@@ -485,94 +485,11 @@
   font-size: var(--titulo-3);
   margin-bottom: 0.9rem;
 }
-.ofertas {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.6rem;
-}
-.oferta {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  align-items: center;
-  gap: 0.4rem 1rem;
-  background: var(--cor-superficie);
-  border: 1px solid var(--cor-linha);
-  border-radius: var(--raio-md);
-  padding: 0.9rem 1.1rem;
-}
-@media (min-width: 640px) {
-  .oferta {
-    grid-template-columns: 1fr auto auto auto;
-    gap: 1.25rem;
-  }
-}
-.ofertaLoja {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-weight: 600;
-}
-.tagParceiro {
-  font-size: var(--texto-micro);
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--cor-texto-acento);
-  background: var(--cor-acento-suave);
-  border: 1px solid var(--cor-linha-forte);
-  border-radius: 999px;
-  padding: 0.15rem 0.55rem;
-}
-.ofertaPreco {
-  font-size: var(--texto-maior);
-  font-weight: 600;
-  font-feature-settings: 'tnum' 1;
-}
-.ofertaData {
-  font-size: var(--texto-micro);
-  color: var(--cor-mudo);
-}
-.ofertaBotao {
-  justify-self: end;
-}
-.ofertaNota {
-  grid-column: 1 / -1;
-  font-size: var(--texto-mini);
-  color: var(--cor-tinta-suave);
-  line-height: var(--altura-corpo);
-  max-width: 66ch;
-}
-.ofertasNota,
-.semOferta {
-  margin: 1.1rem 0 0;
-  font-size: var(--texto-mini);
-  color: var(--cor-tinta-suave);
-  max-width: 68ch;
-  line-height: var(--altura-leitura);
-  text-wrap: pretty;
-}
-.semOferta {
-  background: var(--cor-superficie-2);
-  border-radius: var(--raio-md);
-  padding: 1rem 1.15rem;
-  font-size: var(--texto-menor);
-}
 
-/* Diretório de lojas — onde procurar (não afirma estoque nem preço) */
-.lojas {
-  margin-top: 1.5rem;
-  padding-top: 1.25rem;
-  border-top: 2px dashed var(--cor-linha-forte);
-}
-.lojasTitulo {
-  font-size: var(--texto-micro);
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--cor-tinta-suave);
-  margin: 0 0 0.75rem;
-}
+/* Uma grade de lojas, todas do mesmo tamanho e sem destaque entre si.
+   Os cartões eram do diretório e viraram a seção inteira quando o preço saiu
+   (2026-09-12). A largura mínima de 14rem é o que cabe "JJ Yamada" com o selo
+   de parceira ao lado sem quebrar a linha. */
 .lojasLista {
   list-style: none;
   margin: 0;
@@ -584,29 +501,65 @@
 .loja {
   display: flex;
   flex-direction: column;
-  gap: 0.15rem;
+  gap: 0.2rem;
   height: 100%;
   color: inherit;
   text-decoration: none;
   background: var(--cor-superficie);
   border: 1px solid var(--cor-linha);
   border-radius: var(--raio-md);
-  padding: 0.75rem 0.9rem;
+  padding: 0.8rem 0.95rem;
   transition: border-color 160ms ease, transform 160ms ease;
 }
 .loja:hover {
   border-color: var(--cor-acento);
   transform: translateY(-2px);
 }
+/* Quem pediu menos movimento não recebe o salto do hover — só a borda muda. */
+@media (prefers-reduced-motion: reduce) {
+  .loja {
+    transition: border-color 160ms ease;
+  }
+  .loja:hover {
+    transform: none;
+  }
+}
 .lojaNome {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-wrap: wrap;
   font-weight: 600;
 }
-.lojaNota {
+/* O que o link é. Cinza e pequeno de propósito: é etiqueta, não manchete. */
+.lojaTipo {
   font-size: var(--texto-mini);
   color: var(--cor-tinta-suave);
+  line-height: var(--altura-corpo);
 }
-.lojasAviso {
-  margin: 1rem 0 0;
+/* Só aparece com parceria de verdade no dado. Hoje: nenhuma. */
+.lojaCupom {
+  align-self: flex-start;
+  margin-top: 0.15rem;
+  font-size: var(--texto-micro);
+  letter-spacing: 0.04em;
+  color: var(--cor-texto-acento);
+  background: var(--cor-acento-suave);
+  border-radius: var(--raio-sm, 6px);
+  padding: 0.1rem 0.45rem;
+}
+.tagParceiro {
+  font-size: var(--texto-micro);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--cor-texto-acento);
+  background: var(--cor-acento-suave);
+  border: 1px solid var(--cor-linha-forte);
+  border-radius: 999px;
+  padding: 0.15rem 0.55rem;
+}
+.ofertasNota {
+  margin: 1.1rem 0 0;
   font-size: var(--texto-mini);
   color: var(--cor-tinta-suave);
   max-width: 68ch;
@@ -809,26 +762,10 @@
 }
 
 /* ── Histórico de preço (série vinda do git — D-13) ── */
-.historicoUnico,
-.historico {
-  grid-column: 1 / -1;
-  font-size: var(--texto-mini);
-  color: var(--cor-mudo);
-}
-.historico {
-  color: var(--cor-tinta-suave);
-}
-.historicoAlta,
-.historicoBaixa {
-  font-family: var(--fonte-mono);
-  font-weight: 600;
-}
-.historicoAlta {
-  color: var(--cor-tinta);
-}
-.historicoBaixa {
-  color: var(--cor-texto-acento);
-}
+/* O histórico de preço por loja (▲ 12% desde março) saiu junto com o preço
+   da seção "Onde comprar", em 2026-09-12: ele só existia dentro daquela
+   lista. Os dados continuam em dados/historico-precos.json e o módulo
+   componentes/dados-historico.ts continua de pé. */
 
 /* Divide as DUAS vozes da secao Comunidade: a de fora e a daqui. Peso menor
    que o h2, porque as duas sao subordinadas a "O que a comunidade acha". */

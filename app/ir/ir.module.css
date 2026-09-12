@@ -45,6 +45,18 @@
   max-width: 62ch;
   line-height: var(--altura-leitura);
 }
+/* A frase que conta que a saída é contada. Discreta de propósito: é informação
+   devida, não aviso de cookie — não deve competir com o botão de ir à loja. */
+.medicao {
+  margin: 1.25rem 0 0;
+  padding-top: 1rem;
+  border-top: 1px dashed var(--cor-linha);
+  font-size: var(--texto-mini);
+  color: var(--cor-mudo);
+  max-width: 62ch;
+  line-height: var(--altura-leitura);
+  text-wrap: pretty;
+}
 .voltar {
   margin: 1.5rem 0 0;
   font-size: var(--texto-menor);
